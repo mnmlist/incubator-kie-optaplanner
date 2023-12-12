@@ -6,11 +6,11 @@
     <parent>
         <groupId>org.optaplanner</groupId>
         <artifactId>optaplanner-parent</artifactId>
-        <version>8.8.0.Final</version>
+        <version>8.8.0.Final-v1</version>
     </parent>
 
     <artifactId>optaplanner-core</artifactId>
-    <version>8.8.0.Final-v2</version>
+    <version>8.8.0.Final-v1</version>
 
     <name>OptaPlanner core</name>
     <description>

@@ -13,7 +13,7 @@
     <groupId>org.optaplanner</groupId>
     <artifactId>optaplanner-parent</artifactId>
     <packaging>pom</packaging>
-    <version>8.8.0.Final</version>
+    <version>8.8.0.Final-v1</version>
 
     <name>OptaPlanner multiproject parent</name>
     <description>
@@ -122,244 +122,244 @@
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-core</artifactId>
-                <version>8.8.0.Final-v2</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-core</artifactId>
-                <version>8.8.0.Final-v2</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-core</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final-v2</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-core</artifactId>
-                <version>8.8.0.Final-v2</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-common</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-common</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-common</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-common</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-xstream</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-xstream</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-xstream</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-xstream</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jaxb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jaxb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jaxb</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jaxb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jackson</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jackson</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jackson</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jackson</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jsonb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jsonb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jsonb</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jsonb</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jpa</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jpa</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jpa</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-persistence-jpa</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-benchmark</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-benchmark</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-benchmark</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-benchmark</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-test</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-test</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-test</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-test</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>javadoc</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-examples</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-examples</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-examples</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <!-- spring-integration -->
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
                 <type>test-jar</type>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
             </dependency>
             <dependency>
                 <groupId>org.optaplanner</groupId>
