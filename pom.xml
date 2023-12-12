@@ -127,7 +127,7 @@
             <dependency>
                 <groupId>org.optaplanner</groupId>
                 <artifactId>optaplanner-core</artifactId>
-                <version>8.8.0.Final</version>
+                <version>8.8.0.Final-v1</version>
                 <classifier>sources</classifier>
             </dependency>
             <dependency>
@@ -868,30 +868,23 @@
                         </execution>
                     </executions>
                 </plugin>
-                <plugin>
-                    <groupId>net.revelc.code.formatter</groupId>
-                    <artifactId>formatter-maven-plugin</artifactId>
-                    <version>2.11.0</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.optaplanner</groupId>
-                            <artifactId>optaplanner-ide-config</artifactId>
-                            <version>${project.version}</version>
-                        </dependency>
-                    </dependencies>
-                    <configuration>
-                        <configFile>eclipse-format.xml</configFile>
-                        <lineEnding>LF</lineEnding>
-                        <skip>${formatter.skip}</skip>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>${formatter.goal}</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
+<!--                <plugin>-->
+<!--                    <groupId>net.revelc.code.formatter</groupId>-->
+<!--                    <artifactId>formatter-maven-plugin</artifactId>-->
+<!--                    <version>2.11.0</version>-->
+<!--                    <configuration>-->
+<!--                        <configFile>eclipse-format.xml</configFile>-->
+<!--                        <lineEnding>LF</lineEnding>-->
+<!--                        <skip>${formatter.skip}</skip>-->
+<!--                    </configuration>-->
+<!--                    <executions>-->
+<!--                        <execution>-->
+<!--                            <goals>-->
+<!--                                <goal>${formatter.goal}</goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
+<!--                    </executions>-->
+<!--                </plugin>-->
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>jaxb2-maven-plugin</artifactId>
@@ -926,10 +919,10 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>net.revelc.code.formatter</groupId>
-                <artifactId>formatter-maven-plugin</artifactId>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>net.revelc.code.formatter</groupId>-->
+<!--                <artifactId>formatter-maven-plugin</artifactId>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
