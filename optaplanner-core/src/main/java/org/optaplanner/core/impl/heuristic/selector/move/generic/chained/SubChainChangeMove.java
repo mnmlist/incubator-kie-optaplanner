@@ -48,6 +48,7 @@ public class SubChainChangeMove<Solution_> extends AbstractMove<Solution_> {
         oldTrailingLastEntity = inverseVariableSupply.getInverseSingleton(subChain.getLastEntity());
         newTrailingEntity = toPlanningValue == null ? null
                 : inverseVariableSupply.getInverseSingleton(toPlanningValue);
+        this.moveName = "SubChainChangeMove";
     }
 
     public SubChainChangeMove(SubChain subChain, GenuineVariableDescriptor<Solution_> variableDescriptor,
@@ -57,6 +58,7 @@ public class SubChainChangeMove<Solution_> extends AbstractMove<Solution_> {
         this.toPlanningValue = toPlanningValue;
         this.oldTrailingLastEntity = oldTrailingLastEntity;
         this.newTrailingEntity = newTrailingEntity;
+        this.moveName = "SubChainChangeMove";
     }
 
     public String getVariableName() {

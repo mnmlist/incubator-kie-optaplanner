@@ -30,6 +30,7 @@ import org.optaplanner.core.api.score.director.ScoreDirector;
  */
 public abstract class AbstractMove<Solution_> implements Move<Solution_> {
 
+
     @Override
     public final AbstractMove<Solution_> doMove(ScoreDirector<Solution_> scoreDirector) {
         AbstractMove<Solution_> undoMove = createUndoMove(scoreDirector);
@@ -37,6 +38,12 @@ public abstract class AbstractMove<Solution_> implements Move<Solution_> {
         scoreDirector.triggerVariableListeners();
         return undoMove;
     }
+
+    public String getMoveName() {
+        return moveName;
+    }
+
+    protected String moveName = "";
 
     /**
      * Called before the move is done, so the move can be evaluated and then be undone

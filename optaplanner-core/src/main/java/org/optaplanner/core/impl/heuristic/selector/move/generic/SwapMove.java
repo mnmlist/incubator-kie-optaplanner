@@ -44,6 +44,7 @@ public class SwapMove<Solution_> extends AbstractMove<Solution_> {
         this.variableDescriptorList = variableDescriptorList;
         this.leftEntity = leftEntity;
         this.rightEntity = rightEntity;
+        this.moveName = "SwapMove";
     }
 
     public List<String> getVariableNameList() {

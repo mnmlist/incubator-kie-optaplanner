@@ -17,6 +17,7 @@
 package org.optaplanner.core.impl.localsearch;
 
 import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import org.optaplanner.core.impl.heuristic.move.AbstractMove;
 import org.optaplanner.core.impl.heuristic.move.Move;
 import org.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
 import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
@@ -26,6 +27,9 @@ import org.optaplanner.core.impl.phase.AbstractPhase;
 import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
 import org.optaplanner.core.impl.solver.scope.SolverScope;
 import org.optaplanner.core.impl.solver.termination.Termination;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Default implementation of {@link LocalSearchPhase}.
@@ -117,6 +121,7 @@ public class DefaultLocalSearchPhase<Solution_> extends AbstractPhase<Solution_>
         decider.phaseStarted(phaseScope);
         // TODO maybe this restriction should be lifted to allow LocalSearch to initialize a solution too?
         assertWorkingSolutionInitialized(phaseScope);
+        moveCountMap = new HashMap<>();
     }
 
     @Override
@@ -125,23 +130,40 @@ public class DefaultLocalSearchPhase<Solution_> extends AbstractPhase<Solution_>
         decider.stepStarted(stepScope);
     }
 
+    private static final String STEP_END_LOG_FORMAT = "{}LS step:{}, score:{},"
+        + " move:{}, picked:{}";
+
     @Override
     public void stepEnded(LocalSearchStepScope<Solution_> stepScope) {
         super.stepEnded(stepScope);
         decider.stepEnded(stepScope);
-        LocalSearchPhaseScope<Solution_> phaseScope = stepScope.getPhaseScope();
-        if (logger.isDebugEnabled()) {
-            logger.debug("{}    LS step ({}), time spent ({}), score ({}), {} best score ({})," +
-                    " accepted/selected move count ({}/{}), picked move ({}).",
-                    logIndentation,
-                    stepScope.getStepIndex(),
-                    phaseScope.calculateSolverTimeMillisSpentUpToNow(),
-                    stepScope.getScore(),
-                    (stepScope.getBestScoreImproved() ? "new" : "   "), phaseScope.getBestScore(),
-                    stepScope.getAcceptedMoveCount(),
-                    stepScope.getSelectedMoveCount(),
-                    stepScope.getStepString());
+
+        if (stepScope.getBestScoreImproved()) {
+            AbstractMove move = (AbstractMove)stepScope.getStep();
+            String moveName = move.getMoveName();
+            logger.info(STEP_END_LOG_FORMAT,
+                logIndentation,
+                stepScope.getStepIndex(),
+                stepScope.getScore(),
+                stepScope.getSelectedMoveCount(),
+                move.getMoveName());
+            moveCountMap.put(moveName, moveCountMap.getOrDefault(moveName, 0) + 1);
         }
+
+//        LocalSearchPhaseScope<Solution_> phaseScope = stepScope.getPhaseScope();
+
+//        if (logger.isDebugEnabled()) {
+//            logger.info("{}LS step ({}), time spent ({}), score ({}), {} best score ({})," +
+//                    " accepted/selected move count ({}/{}), picked move ({}).",
+//                    logIndentation,
+//                    stepScope.getStepIndex(),
+//                    phaseScope.calculateSolverTimeMillisSpentUpToNow(),
+//                    stepScope.getScore(),
+//                    (stepScope.getBestScoreImproved() ? "new" : "   "), phaseScope.getBestScore(),
+//                    stepScope.getAcceptedMoveCount(),
+//                    stepScope.getSelectedMoveCount(),
+//                    stepScope.getStepString());
+//        }
     }
 
     @Override
@@ -157,6 +179,12 @@ public class DefaultLocalSearchPhase<Solution_> extends AbstractPhase<Solution_>
                 phaseScope.getBestScore(),
                 phaseScope.getPhaseScoreCalculationSpeed(),
                 phaseScope.getNextStepIndex());
+        logger.info("Phase statistics, LS index:{}, 各种Move的有效性统计如下:", phaseIndex);
+        Integer totalWinMoveCount = moveCountMap.values().stream().reduce(Integer::sum).orElse(0);
+        for (Map.Entry<String, Integer> entry : moveCountMap.entrySet()) {
+            logger.info("Move statistics: moveType:{}, winMoveCount:{}, winPercent:{}", entry.getKey(), entry.getValue(), entry.getValue() * 1.0 / totalWinMoveCount.doubleValue());
+        }
+        logger.info("Phase statistics, LS index:{}, 有效Step总计:{}, 有效Step占比:{}", phaseIndex, totalWinMoveCount, totalWinMoveCount * 1.0 / phaseScope.getNextStepIndex());
     }
 
     @Override

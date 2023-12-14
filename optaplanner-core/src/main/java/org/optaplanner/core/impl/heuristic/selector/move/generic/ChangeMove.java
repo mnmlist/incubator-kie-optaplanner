@@ -40,6 +40,7 @@ public class ChangeMove<Solution_> extends AbstractMove<Solution_> {
         this.entity = entity;
         this.variableDescriptor = variableDescriptor;
         this.toPlanningValue = toPlanningValue;
+        this.moveName = "ChangeMove";
     }
 
     public Object getEntity() {

@@ -39,6 +39,7 @@ public class ChainedChangeMove<Solution_> extends ChangeMove<Solution_> {
         oldTrailingEntity = inverseVariableSupply.getInverseSingleton(entity);
         newTrailingEntity = toPlanningValue == null ? null
                 : inverseVariableSupply.getInverseSingleton(toPlanningValue);
+        this.moveName = "ChainedChangeMove";
     }
 
     public ChainedChangeMove(Object entity, GenuineVariableDescriptor<Solution_> variableDescriptor, Object toPlanningValue,
@@ -46,6 +47,7 @@ public class ChainedChangeMove<Solution_> extends ChangeMove<Solution_> {
         super(entity, variableDescriptor, toPlanningValue);
         this.oldTrailingEntity = oldTrailingEntity;
         this.newTrailingEntity = newTrailingEntity;
+        this.moveName = "ChainedChangeMove";
     }
 
     // ************************************************************************

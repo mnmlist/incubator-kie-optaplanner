@@ -45,6 +45,7 @@ public class ChainedSwapMove<Solution_> extends SwapMove<Solution_> {
             oldLeftTrailingEntityList.add(hasSupply ? inverseVariableSupply.getInverseSingleton(leftEntity) : null);
             oldRightTrailingEntityList.add(hasSupply ? inverseVariableSupply.getInverseSingleton(rightEntity) : null);
         }
+        this.moveName = "ChainedSwapMove";
     }
 
     public ChainedSwapMove(List<GenuineVariableDescriptor<Solution_>> genuineVariableDescriptors,
@@ -53,6 +54,7 @@ public class ChainedSwapMove<Solution_> extends SwapMove<Solution_> {
         super(genuineVariableDescriptors, leftEntity, rightEntity);
         this.oldLeftTrailingEntityList = oldLeftTrailingEntityList;
         this.oldRightTrailingEntityList = oldRightTrailingEntityList;
+        this.moveName = "ChainedSwapMove";
     }
 
     // ************************************************************************

@@ -52,6 +52,7 @@ public class SubChainSwapMove<Solution_> extends AbstractMove<Solution_> {
         leftTrailingLastEntity = inverseVariableSupply.getInverseSingleton(leftSubChain.getLastEntity());
         this.rightSubChain = rightSubChain;
         rightTrailingLastEntity = inverseVariableSupply.getInverseSingleton(rightSubChain.getLastEntity());
+        this.moveName = "SubChainSwapMove";
     }
 
     public SubChainSwapMove(GenuineVariableDescriptor<Solution_> variableDescriptor,
@@ -62,6 +63,7 @@ public class SubChainSwapMove<Solution_> extends AbstractMove<Solution_> {
         this.rightSubChain = rightSubChain;
         this.leftTrailingLastEntity = leftTrailingLastEntity;
         this.rightTrailingLastEntity = rightTrailingLastEntity;
+        this.moveName = "SubChainSwapMove";
     }
 
     public String getVariableName() {

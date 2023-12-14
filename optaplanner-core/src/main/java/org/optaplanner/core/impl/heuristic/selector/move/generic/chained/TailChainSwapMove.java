@@ -86,6 +86,7 @@ public class TailChainSwapMove<Solution_> extends AbstractMove<Solution_> {
                 entityAfterAnchor = null;
             }
         }
+        this.moveName = "TailChainSwapMove";
     }
 
     // TODO Workaround until https://issues.redhat.com/browse/PLANNER-1250 is fixed
@@ -105,6 +106,7 @@ public class TailChainSwapMove<Solution_> extends AbstractMove<Solution_> {
         this.reverseAnchorSide = false;
         this.lastEntityInChain = null;
         this.entityAfterAnchor = null;
+        this.moveName = "TailChainSwapMove";
     }
 
     // TODO Workaround until https://issues.redhat.com/browse/PLANNER-1250 is fixed
@@ -125,6 +127,7 @@ public class TailChainSwapMove<Solution_> extends AbstractMove<Solution_> {
         this.reverseAnchorSide = false;
         this.lastEntityInChain = null;
         this.entityAfterAnchor = null;
+        this.moveName = "TailChainSwapMove";
     }
 
     // TODO Workaround until https://issues.redhat.com/browse/PLANNER-1250 is fixed
@@ -145,6 +148,7 @@ public class TailChainSwapMove<Solution_> extends AbstractMove<Solution_> {
         this.reverseAnchorSide = true;
         this.lastEntityInChain = lastEntityInChain;
         this.entityAfterAnchor = entityAfterAnchor;
+        this.moveName = "TailChainSwapMove";
     }
 
     private Object findLastEntityInChainOrLeftEntity(SingletonInverseVariableSupply inverseVariableSupply) {

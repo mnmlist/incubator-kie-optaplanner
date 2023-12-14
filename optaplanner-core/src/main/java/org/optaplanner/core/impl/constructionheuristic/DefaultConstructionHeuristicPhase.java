@@ -22,11 +22,15 @@ import org.optaplanner.core.impl.constructionheuristic.placer.EntityPlacer;
 import org.optaplanner.core.impl.constructionheuristic.placer.Placement;
 import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
 import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import org.optaplanner.core.impl.heuristic.move.AbstractMove;
 import org.optaplanner.core.impl.heuristic.move.Move;
 import org.optaplanner.core.impl.phase.AbstractPhase;
 import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
 import org.optaplanner.core.impl.solver.scope.SolverScope;
 import org.optaplanner.core.impl.solver.termination.Termination;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Default implementation of {@link ConstructionHeuristicPhase}.
@@ -128,6 +132,7 @@ public class DefaultConstructionHeuristicPhase<Solution_> extends AbstractPhase<
         super.phaseStarted(phaseScope);
         entityPlacer.phaseStarted(phaseScope);
         decider.phaseStarted(phaseScope);
+        moveCountMap = new HashMap<>();
     }
 
     public void stepStarted(ConstructionHeuristicStepScope<Solution_> stepScope) {
@@ -136,20 +141,35 @@ public class DefaultConstructionHeuristicPhase<Solution_> extends AbstractPhase<
         decider.stepStarted(stepScope);
     }
 
+    private static final String STEP_END_LOG_FORMAT = "{}CH step:{}, score:{},"
+        + " move:{}, picked:{}";
+
     public void stepEnded(ConstructionHeuristicStepScope<Solution_> stepScope) {
         super.stepEnded(stepScope);
         entityPlacer.stepEnded(stepScope);
         decider.stepEnded(stepScope);
-        if (logger.isDebugEnabled()) {
-            long timeMillisSpent = stepScope.getPhaseScope().calculateSolverTimeMillisSpentUpToNow();
-            logger.debug("{}    CH step ({}), time spent ({}), score ({}), selected move count ({}),"
-                    + " picked move ({}).",
-                    logIndentation,
-                    stepScope.getStepIndex(), timeMillisSpent,
-                    stepScope.getScore(),
-                    stepScope.getSelectedMoveCount(),
-                    stepScope.getStepString());
+
+        if (stepScope.getBestScoreImproved()) {
+            AbstractMove move = (AbstractMove)stepScope.getStep();
+            String moveName = move.getMoveName();
+            logger.info(STEP_END_LOG_FORMAT,
+                logIndentation,
+                stepScope.getStepIndex(),
+                stepScope.getScore(),
+                stepScope.getSelectedMoveCount(),
+                move.getMoveName());
+            moveCountMap.put(moveName, moveCountMap.getOrDefault(moveName, 0) + 1);
         }
+//        if (logger.isDebugEnabled()) {
+//            long timeMillisSpent = stepScope.getPhaseScope().calculateSolverTimeMillisSpentUpToNow();
+//            logger.debug("{}    CH step ({}), time spent ({}), score ({}), selected move count ({}),"
+//                    + " picked move ({}).",
+//                    logIndentation,
+//                    stepScope.getStepIndex(), timeMillisSpent,
+//                    stepScope.getScore(),
+//                    stepScope.getSelectedMoveCount(),
+//                    stepScope.getStepString());
+//        }
     }
 
     public void phaseEnded(ConstructionHeuristicPhaseScope<Solution_> phaseScope) {
@@ -168,6 +188,12 @@ public class DefaultConstructionHeuristicPhase<Solution_> extends AbstractPhase<
                 phaseScope.getBestScore(),
                 phaseScope.getPhaseScoreCalculationSpeed(),
                 phaseScope.getNextStepIndex());
+        logger.info("Phase statistics, CH index:{}, 各种Move的有效性统计如下:", phaseIndex);
+        Integer totalWinMoveCount = moveCountMap.values().stream().reduce(Integer::sum).orElse(0);
+        for (Map.Entry<String, Integer> entry : moveCountMap.entrySet()) {
+            logger.info("Move statistics: moveType:{}, winMoveCount:{}, winPercent:{}", entry.getKey(), entry.getValue(), entry.getValue() * 1.0 / totalWinMoveCount.doubleValue());
+        }
+        logger.info("Phase statistics, CH index:{}, 有效Step总计:{}, 有效Step占比:{}", phaseIndex, totalWinMoveCount, totalWinMoveCount * 1.0 / phaseScope.getNextStepIndex());
     }
 
     @Override

@@ -16,7 +16,9 @@
 
 package org.optaplanner.core.impl.phase;
 
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import org.optaplanner.core.api.domain.solution.PlanningSolution;
 import org.optaplanner.core.api.score.Score;
@@ -48,6 +50,8 @@ public abstract class AbstractPhase<Solution_> implements Phase<Solution_> {
     protected final String logIndentation;
     protected final BestSolutionRecaller<Solution_> bestSolutionRecaller;
     protected final Termination<Solution_> termination;
+
+    protected Map<String, Integer> moveCountMap = new HashMap<>();
 
     /** Used for {@link DefaultSolver#addPhaseLifecycleListener(PhaseLifecycleListener)}. */
     protected PhaseLifecycleSupport<Solution_> solverPhaseLifecycleSupport;

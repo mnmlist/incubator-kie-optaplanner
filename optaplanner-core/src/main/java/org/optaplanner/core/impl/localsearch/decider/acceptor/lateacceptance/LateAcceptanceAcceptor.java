@@ -65,7 +65,14 @@ public class LateAcceptanceAcceptor<Solution_> extends AbstractAcceptor<Solution
     public boolean isAccepted(LocalSearchMoveScope<Solution_> moveScope) {
         Score moveScore = moveScope.getScore();
         Score lateScore = previousScores[lateScoreIndex];
-        if (moveScore.compareTo(lateScore) >= 0) {
+//        if (moveScore.compareTo(lateScore) >= 0) {
+//            return true;
+//        }
+        int cmpValue = moveScore.compareTo(lateScore);
+        if (cmpValue > 0) {
+            return true;
+        }
+        if (cmpValue >= 0 && moveScope.getMoveIndex() > 300) {
             return true;
         }
         if (hillClimbingEnabled) {
