@@ -46,7 +46,7 @@ import java.util.Set;
 
 public class CloudBalancingPanel extends SolutionPanel<CloudBalance> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/cloudbalancing/swingui/cloudBalancingLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/cloudbalancing/swingui/cloudBalancingLogo.png";
 
     private final ImageIcon cloudComputerIcon;
     private final ImageIcon addCloudComputerIcon;

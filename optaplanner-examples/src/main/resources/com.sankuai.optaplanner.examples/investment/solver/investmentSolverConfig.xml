@@ -13,7 +13,7 @@
     <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentConstraintProvider</constraintProviderClass>-->
-    <scoreDrl>org/optaplanner/examples/investment/solver/investmentConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/investment/solver/investmentConstraints.drl</scoreDrl>
     <initializingScoreTrend>ONLY_DOWN/ANY</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
     <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->

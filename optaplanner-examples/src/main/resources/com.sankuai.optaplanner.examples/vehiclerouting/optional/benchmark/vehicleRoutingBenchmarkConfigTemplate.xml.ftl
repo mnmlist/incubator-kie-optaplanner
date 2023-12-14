@@ -108,7 +108,7 @@
 
       <scoreDirectorFactory>
         <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
-        <!--<scoreDrl>org/optaplanner/examples/vehiclerouting/solver/vehicleRoutingConstraints.drl</scoreDrl>-->
+        <!--<scoreDrl>com/sankuai/optaplanner/examples/vehiclerouting/solver/vehicleRoutingConstraints.drl</scoreDrl>-->
       </scoreDirectorFactory>
 
       <termination>

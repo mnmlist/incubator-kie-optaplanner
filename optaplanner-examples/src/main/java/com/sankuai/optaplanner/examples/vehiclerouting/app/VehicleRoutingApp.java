@@ -26,7 +26,7 @@ import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFi
 
 public class VehicleRoutingApp extends CommonApp<VehicleRoutingSolution> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/vehiclerouting/solver/vehicleRoutingSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/vehiclerouting/solver/vehicleRoutingSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "vehiclerouting";
 

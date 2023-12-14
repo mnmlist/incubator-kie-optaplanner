@@ -10,7 +10,7 @@ import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.TalkType;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.test.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 

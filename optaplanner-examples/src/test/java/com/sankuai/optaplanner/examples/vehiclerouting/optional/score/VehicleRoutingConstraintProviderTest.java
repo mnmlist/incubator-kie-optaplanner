@@ -25,7 +25,7 @@ import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.AirLocati
 import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
 import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
 import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 public class VehicleRoutingConstraintProviderTest {

@@ -21,7 +21,7 @@ import com.sankuai.optaplanner.examples.tennis.domain.Team;
 import com.sankuai.optaplanner.examples.tennis.domain.TeamAssignment;
 import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
 import com.sankuai.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 public class TennisConstraintProviderTest {

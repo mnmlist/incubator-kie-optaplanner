@@ -19,7 +19,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
       <constructionHeuristic>
@@ -80,7 +80,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <constructionHeuristic>
         <constructionHeuristicType>FIRST_FIT_DECREASING</constructionHeuristicType>
@@ -114,7 +114,7 @@
       <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
       <entityClass>com.sankuai.optaplanner.examples.examination.domain.FollowingExam</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <constructionHeuristic>
         <queuedEntityPlacer>
@@ -187,7 +187,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <constructionHeuristic>
         <constructionHeuristicType>WEAKEST_FIT</constructionHeuristicType>
@@ -245,7 +245,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.travelingtournament.domain.Match</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <localSearch>
         <unionMoveSelector>

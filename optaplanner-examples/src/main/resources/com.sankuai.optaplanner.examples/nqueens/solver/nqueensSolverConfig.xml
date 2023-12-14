@@ -13,7 +13,7 @@
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.nqueens.optional.score.NQueensConstraintProvider</constraintProviderClass>-->
     <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.nqueens.optional.score.NQueensBasicIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
     <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.nqueens.optional.score.NQueensAdvancedIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
-    <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
       <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.nqueens.optional.score.NQueensEasyScoreCalculator</easyScoreCalculatorClass>-->

@@ -14,7 +14,7 @@
   <scoreDirectorFactory>
     <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score.CoachShuttleGatheringEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score.CoachShuttleGatheringIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
-    <scoreDrl>org/optaplanner/examples/coachshuttlegathering/solver/coachShuttleGatheringConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/coachshuttlegathering/solver/coachShuttleGatheringConstraints.drl</scoreDrl>
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score.CoachShuttleGatheringConstraintProvider</constraintProviderClass>-->
     <!--<assertionScoreDirectorFactory>-->
       <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score.CoachShuttleGatheringEasyScoreCalculator</easyScoreCalculatorClass>-->

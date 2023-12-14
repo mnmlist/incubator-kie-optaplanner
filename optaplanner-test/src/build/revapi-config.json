@@ -20,8 +20,8 @@
       "ignore": [
         {
           "code": "java.method.parameterTypeChanged",
-          "old": "parameter com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier<ConstraintProvider_, Solution_> com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier<ConstraintProvider_ extends com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider, Solution_>::withDroolsAlphaNetworkCompilationEnabled(===boolean===)",
-          "new": "parameter com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier<ConstraintProvider_, Solution_> com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier<ConstraintProvider_ extends com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider, Solution_>::withDroolsAlphaNetworkCompilationEnabled(===java.lang.Boolean===)",
+          "old": "parameter com.sankuai.optaplanner.test.stream.ConstraintVerifier<ConstraintProvider_, Solution_> com.sankuai.optaplanner.test.stream.ConstraintVerifier<ConstraintProvider_ extends com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider, Solution_>::withDroolsAlphaNetworkCompilationEnabled(===boolean===)",
+          "new": "parameter com.sankuai.optaplanner.test.stream.ConstraintVerifier<ConstraintProvider_, Solution_> com.sankuai.optaplanner.test.stream.ConstraintVerifier<ConstraintProvider_ extends com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider, Solution_>::withDroolsAlphaNetworkCompilationEnabled(===java.lang.Boolean===)",
           "oldType": "boolean",
           "newType": "java.lang.Boolean",
           "package": "com.sankuai.optaplanner.test.api.score.stream",

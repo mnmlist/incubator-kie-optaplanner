@@ -42,7 +42,7 @@ import static com.sankuai.optaplanner.examples.taskassigning.persistence.TaskAss
 
 public class TaskAssigningPanel extends SolutionPanel<TaskAssigningSolution> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/taskassigning/swingui/taskAssigningLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/taskassigning/swingui/taskAssigningLogo.png";
 
     private final TaskOverviewPanel taskOverviewPanel;
 

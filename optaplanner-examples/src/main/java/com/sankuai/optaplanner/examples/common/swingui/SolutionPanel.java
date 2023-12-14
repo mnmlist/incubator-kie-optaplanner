@@ -40,7 +40,7 @@ import java.util.List;
 public abstract class SolutionPanel<Solution_> extends JPanel implements Scrollable {
 
     protected static final String USAGE_EXPLANATION_PATH =
-            "/org/optaplanner/examples/common/swingui/exampleUsageExplanation.png";
+            "/com/sankuai/optaplanner/examples/common/swingui/exampleUsageExplanation.png";
     // Size fits into screen resolution 1024*768
     public static final Dimension PREFERRED_SCROLLABLE_VIEWPORT_SIZE = new Dimension(800, 600);
 

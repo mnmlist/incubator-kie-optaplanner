@@ -32,7 +32,7 @@ import java.io.IOException;
 
 public class RockTourPanel extends SolutionPanel<RockTourSolution> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/rocktour/swingui/rockTourLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/rocktour/swingui/rockTourLogo.png";
 
     private RockTourWorldPanel rockTourWorldPanel;
 

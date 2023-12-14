@@ -31,7 +31,7 @@ import java.util.Set;
 
 public class PatientAdmissionScheduleApp extends CommonApp<PatientAdmissionSchedule> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/pas/solver/patientAdmissionScheduleSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/pas/solver/patientAdmissionScheduleSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "pas";
 

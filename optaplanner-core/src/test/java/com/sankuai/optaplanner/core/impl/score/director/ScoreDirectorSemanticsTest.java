@@ -151,8 +151,8 @@ public class ScoreDirectorSemanticsTest {
         INCREMENTAL(new ScoreDirectorFactoryConfig()
                 .withIncrementalScoreCalculatorClass(TestdataConstraintWeighIncrementalScoreCalculator.class)),
         DRL(new ScoreDirectorFactoryConfig()
-                .withScoreDrls("org/optaplanner/core/impl/score/director/scoreDirectorSemanticsDroolsConstraints.drl",
-                        "org/optaplanner/core/impl/score/director/scoreDirectorSemanticsDroolsConstraints2.drl"));
+                .withScoreDrls("com/sankuai/optaplanner/core/impl/score/director/scoreDirectorSemanticsDroolsConstraints.drl",
+                        "com/sankuai/optaplanner/core/impl/score/director/scoreDirectorSemanticsDroolsConstraints2.drl"));
 
         private final ScoreDirectorFactoryConfig scoreDirectorFactoryConfig;
 

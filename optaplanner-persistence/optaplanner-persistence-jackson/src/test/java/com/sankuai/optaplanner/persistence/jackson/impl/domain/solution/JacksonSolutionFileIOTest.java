@@ -20,6 +20,7 @@ import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
 import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataEntity;
 import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataSolution;
 import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataValue;
+import com.sankuai.optaplanner.persistence.jackson.solution.JacksonSolutionFileIO;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

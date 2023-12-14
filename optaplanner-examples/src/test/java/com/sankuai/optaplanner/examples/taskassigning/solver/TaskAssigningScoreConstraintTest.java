@@ -26,7 +26,7 @@ import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
 import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
 import com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
 import com.sankuai.optaplanner.examples.taskassigning.domain.TaskType;
-import com.sankuai.optaplanner.test.impl.score.buildin.bendable.BendableScoreVerifier;
+import com.sankuai.optaplanner.test.score.buildin.bendable.BendableScoreVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

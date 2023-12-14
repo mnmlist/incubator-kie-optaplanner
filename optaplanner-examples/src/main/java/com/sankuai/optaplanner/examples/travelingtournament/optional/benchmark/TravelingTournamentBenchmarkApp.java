@@ -27,9 +27,9 @@ public class TravelingTournamentBenchmarkApp extends CommonBenchmarkApp {
     public TravelingTournamentBenchmarkApp() {
         super(
                 new ArgOption("default",
-                        "org/optaplanner/examples/travelingtournament/optional/benchmark/travelingTournamentBenchmarkConfig.xml"),
+                        "com/sankuai/optaplanner/examples/travelingtournament/optional/benchmark/travelingTournamentBenchmarkConfig.xml"),
                 new ArgOption("stepLimit",
-                        "org/optaplanner/examples/travelingtournament/optional/benchmark/travelingTournamentStepLimitBenchmarkConfig.xml"));
+                        "com/sankuai/optaplanner/examples/travelingtournament/optional/benchmark/travelingTournamentStepLimitBenchmarkConfig.xml"));
     }
 
 }

@@ -25,7 +25,7 @@ import com.sankuai.optaplanner.examples.meetingscheduling.domain.PreferredAttend
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

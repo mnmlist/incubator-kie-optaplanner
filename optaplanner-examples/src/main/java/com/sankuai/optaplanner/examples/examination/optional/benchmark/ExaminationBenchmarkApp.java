@@ -27,9 +27,9 @@ public class ExaminationBenchmarkApp extends CommonBenchmarkApp {
     public ExaminationBenchmarkApp() {
         super(
                 new ArgOption("default",
-                        "org/optaplanner/examples/examination/optional/benchmark/examinationBenchmarkConfig.xml"),
+                        "com/sankuai/optaplanner/examples/examination/optional/benchmark/examinationBenchmarkConfig.xml"),
                 new ArgOption("stepLimit",
-                        "org/optaplanner/examples/examination/optional/benchmark/examinationStepLimitBenchmarkConfig.xml"));
+                        "com/sankuai/optaplanner/examples/examination/optional/benchmark/examinationStepLimitBenchmarkConfig.xml"));
     }
 
 }

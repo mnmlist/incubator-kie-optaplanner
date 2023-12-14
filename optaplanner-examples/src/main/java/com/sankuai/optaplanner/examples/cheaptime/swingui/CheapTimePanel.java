@@ -58,7 +58,7 @@ import static java.util.function.Function.identity;
 
 public class CheapTimePanel extends SolutionPanel<CheapTimeSolution> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/cheaptime/swingui/cheapTimeLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/cheaptime/swingui/cheapTimeLogo.png";
     private static final Comparator<TaskAssignment> STABLE_COMPARATOR = comparing(
             (TaskAssignment a) -> a.getTask().getStartPeriodRangeFrom())
                     .thenComparingInt(a -> a.getTask().getStartPeriodRangeTo())

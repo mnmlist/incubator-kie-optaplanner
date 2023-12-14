@@ -32,7 +32,7 @@ import java.util.Set;
 public class MachineReassignmentApp extends CommonApp<MachineReassignment> {
 
     public static final String SOLVER_CONFIG =
-            "org/optaplanner/examples/machinereassignment/solver/machineReassignmentSolverConfig.xml";
+            "com/sankuai/optaplanner/examples/machinereassignment/solver/machineReassignmentSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "machinereassignment";
 

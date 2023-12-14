@@ -27,7 +27,7 @@ import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFi
  */
 public class CloudBalancingApp extends CommonApp<CloudBalance> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "cloudbalancing";
 

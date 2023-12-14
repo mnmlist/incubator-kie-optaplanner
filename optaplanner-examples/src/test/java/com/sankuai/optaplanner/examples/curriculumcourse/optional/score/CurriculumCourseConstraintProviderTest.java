@@ -27,7 +27,7 @@ import com.sankuai.optaplanner.examples.curriculumcourse.domain.Teacher;
 import com.sankuai.optaplanner.examples.curriculumcourse.domain.Timeslot;
 import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
 import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.CourseConflict;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 public class CurriculumCourseConstraintProviderTest {

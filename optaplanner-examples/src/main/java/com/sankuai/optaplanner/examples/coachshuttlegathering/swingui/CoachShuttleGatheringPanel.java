@@ -25,7 +25,7 @@ import java.awt.BorderLayout;
 public class CoachShuttleGatheringPanel extends SolutionPanel<CoachShuttleGatheringSolution> {
 
     public static final String LOGO_PATH =
-            "/org/optaplanner/examples/coachshuttlegathering/swingui/coachShuttleGatheringLogo.png";
+            "/com/sankuai/optaplanner/examples/coachshuttlegathering/swingui/coachShuttleGatheringLogo.png";
 
     private CoachShuttleGatheringWorldPanel coachShuttleGatheringWorldPanel;
 

@@ -9,7 +9,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
     </solver>

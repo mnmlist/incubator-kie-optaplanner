@@ -19,7 +19,7 @@ package com.sankuai.optaplanner.examples.cloudbalancing.optional.score;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 public class CloudBalancingConstraintProviderTest {

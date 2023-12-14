@@ -11,7 +11,7 @@
     <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.tsp.optional.score.TspEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.tsp.optional.score.TspConstraintProvider</constraintProviderClass>-->
     <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.tsp.optional.score.TspIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
-    <scoreDrl>org/optaplanner/examples/tsp/solver/tspConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/tsp/solver/tspConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
       <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.tsp.optional.score.TspEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--</assertionScoreDirectorFactory>-->

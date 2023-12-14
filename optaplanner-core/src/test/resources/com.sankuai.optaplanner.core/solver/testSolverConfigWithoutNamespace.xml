@@ -9,8 +9,8 @@
     <easyScoreCalculatorClass>com.sankuai.optaplanner.core.config.solver.SolverConfigTest$DummyEasyScoreCalculator</easyScoreCalculatorClass>
     <constraintProviderClass>com.sankuai.optaplanner.core.config.solver.SolverConfigTest$DummyConstraintProvider</constraintProviderClass>
     <incrementalScoreCalculatorClass>com.sankuai.optaplanner.core.config.solver.SolverConfigTest$DummyIncrementalScoreCalculator</incrementalScoreCalculatorClass>
-    <scoreDrl>org/optaplanner/config/firstNonExistingConstraints.drl</scoreDrl>
-    <scoreDrl>org/optaplanner/config/secondNonExistingConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/config/firstNonExistingConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/config/secondNonExistingConstraints.drl</scoreDrl>
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
   </scoreDirectorFactory>
   <constructionHeuristic>

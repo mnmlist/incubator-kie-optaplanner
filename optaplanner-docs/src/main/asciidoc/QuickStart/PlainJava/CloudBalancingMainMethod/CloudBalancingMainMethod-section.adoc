@@ -19,7 +19,7 @@ public class CloudBalancingHelloWorld {
     public static void main(String[] args) {
         // Build the Solver
         SolverFactory<CloudBalance> solverFactory = SolverFactory.createFromXmlResource(
-                "org/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
+                "com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
         Solver<CloudBalance> solver = solverFactory.buildSolver();
 
         // Load a problem with 400 computers and 1200 processes
@@ -46,7 +46,7 @@ which can come from <<solverConfigurationByXML,an XML file>> as classpath resour
 [source,java,options="nowrap"]
 ----
         SolverFactory<CloudBalance> solverFactory = SolverFactory.createFromXmlResource(
-                "org/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
+                "com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
         Solver<CloudBalance> solver = solverFactory.buildSolver();
 ----
 +

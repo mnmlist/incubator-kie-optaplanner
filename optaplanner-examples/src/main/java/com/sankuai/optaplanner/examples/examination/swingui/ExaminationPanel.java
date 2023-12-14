@@ -53,7 +53,7 @@ import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTabl
 
 public class ExaminationPanel extends SolutionPanel<Examination> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/examination/swingui/examinationLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/examination/swingui/examinationLogo.png";
 
     private final TimeTablePanel<Room, Period> roomsPanel;
 

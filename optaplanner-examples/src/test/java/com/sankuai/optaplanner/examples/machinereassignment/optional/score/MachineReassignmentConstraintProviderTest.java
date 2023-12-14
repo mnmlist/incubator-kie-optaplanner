@@ -31,7 +31,7 @@ import com.sankuai.optaplanner.examples.machinereassignment.domain.MrResource;
 import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
 import com.sankuai.optaplanner.examples.machinereassignment.domain.solver.MrServiceDependency;
 import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

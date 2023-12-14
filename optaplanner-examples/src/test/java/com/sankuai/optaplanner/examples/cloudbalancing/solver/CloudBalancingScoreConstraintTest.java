@@ -21,7 +21,7 @@ import com.sankuai.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
 import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import com.sankuai.optaplanner.test.impl.score.buildin.hardsoft.HardSoftScoreVerifier;
+import com.sankuai.optaplanner.test.score.buildin.hardsoft.HardSoftScoreVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

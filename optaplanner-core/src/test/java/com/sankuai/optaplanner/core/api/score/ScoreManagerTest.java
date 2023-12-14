@@ -37,7 +37,7 @@ class ScoreManagerTest {
     @Test
     public void updateScore() {
         SolverFactory<TestdataSolution> solverFactory =
-                SolverFactory.createFromXmlResource("org/optaplanner/core/api/solver/testdataSolverConfig.xml");
+                SolverFactory.createFromXmlResource("com/sankuai/optaplanner/core/api/solver/testdataSolverConfig.xml");
         ScoreManager<TestdataSolution, ?> scoreManager = ScoreManager.create(solverFactory);
         assertThat(scoreManager).isNotNull();
         TestdataSolution solution = TestdataSolution.generateSolution();
@@ -49,7 +49,7 @@ class ScoreManagerTest {
     @Test
     public void explainScore() {
         SolverFactory<TestdataSolution> solverFactory =
-                SolverFactory.createFromXmlResource("org/optaplanner/core/api/solver/testdataSolverConfig.xml");
+                SolverFactory.createFromXmlResource("com/sankuai/optaplanner/core/api/solver/testdataSolverConfig.xml");
         ScoreManager<TestdataSolution, ?> scoreManager = ScoreManager.create(solverFactory);
         assertThat(scoreManager).isNotNull();
         TestdataSolution solution = TestdataSolution.generateSolution();

@@ -45,7 +45,7 @@ import java.util.List;
  */
 public class NQueensApp extends CommonApp<NQueens> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/nqueens/solver/nqueensSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/nqueens/solver/nqueensSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "nqueens";
 
@@ -91,7 +91,7 @@ public class NQueensApp extends CommonApp<NQueens> {
 
         ScoreDirectorFactoryConfig scoreDirectorFactoryConfig = new ScoreDirectorFactoryConfig();
         scoreDirectorFactoryConfig.setScoreDrlList(
-                Arrays.asList("org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl"));
+                Arrays.asList("com/sankuai/optaplanner/examples/nqueens/solver/nQueensConstraints.drl"));
         solverConfig.setScoreDirectorFactoryConfig(scoreDirectorFactoryConfig);
 
         solverConfig.setTerminationConfig(new TerminationConfig().withBestScoreLimit("0"));

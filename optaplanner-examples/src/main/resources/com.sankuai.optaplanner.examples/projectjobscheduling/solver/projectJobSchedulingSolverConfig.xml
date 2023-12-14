@@ -9,7 +9,7 @@
 
   <scoreDirectorFactory>
     <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.projectjobscheduling.score.ProjectJobSchedulingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
-    <!--<scoreDrl>org/optaplanner/examples/projectjobscheduling/solver/projectJobSchedulingConstraints.drl</scoreDrl>-->
+    <!--<scoreDrl>com/sankuai/optaplanner/examples/projectjobscheduling/solver/projectJobSchedulingConstraints.drl</scoreDrl>-->
   </scoreDirectorFactory>
   <termination>
     <minutesSpentLimit>5</minutesSpentLimit>

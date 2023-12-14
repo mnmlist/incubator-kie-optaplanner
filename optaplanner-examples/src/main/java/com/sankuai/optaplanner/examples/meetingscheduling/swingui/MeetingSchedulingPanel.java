@@ -59,7 +59,7 @@ import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
 public class MeetingSchedulingPanel extends SolutionPanel<MeetingSchedule> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/meetingscheduling/swingui/meetingSchedulingLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/meetingscheduling/swingui/meetingSchedulingLogo.png";
 
     private final TimeTablePanel<TimeGrain, Room> roomsPanel;
     private final TimeTablePanel<TimeGrain, Pair<Person, Boolean>> personsPanel;

@@ -21,6 +21,7 @@ import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 import com.sankuai.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdEntity;
 import com.sankuai.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdSolution;
 import com.sankuai.optaplanner.test.api.score.stream.testdata.TestdataConstraintProvider;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThatCode;

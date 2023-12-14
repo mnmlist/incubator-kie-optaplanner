@@ -34,7 +34,7 @@ import java.util.Set;
 
 public class TspApp extends CommonApp<TspSolution> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/tsp/solver/tspSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/tsp/solver/tspSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "tsp";
 

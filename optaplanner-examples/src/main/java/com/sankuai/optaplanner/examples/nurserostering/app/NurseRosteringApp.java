@@ -31,7 +31,7 @@ import java.util.Set;
 
 public class NurseRosteringApp extends CommonApp<NurseRoster> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/nurserostering/solver/nurseRosteringSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/nurserostering/solver/nurseRosteringSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "nurserostering";
 

@@ -12,7 +12,7 @@
 
       <scoreDirectorFactory>
         <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
-        <!--<scoreDrl>org/optaplanner/examples/machinereassignment/solver/machineReassignmentConstraints.drl</scoreDrl>-->
+        <!--<scoreDrl>com/sankuai/optaplanner/examples/machinereassignment/solver/machineReassignmentConstraints.drl</scoreDrl>-->
       </scoreDirectorFactory>
     </solver>
     <problemBenchmarks>

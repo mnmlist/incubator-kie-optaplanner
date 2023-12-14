@@ -11,7 +11,7 @@
       <entityClass>com.sankuai.optaplanner.examples.taskassigning.domain.Task</entityClass>
       <scoreDirectorFactory>
         <!--<constraintProviderClass>com.sankuai.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>-->
-        <scoreDrl>org/optaplanner/examples/taskassigning/solver/taskAssigningConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/taskassigning/solver/taskAssigningConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <termination>
         <minutesSpentLimit>5</minutesSpentLimit>

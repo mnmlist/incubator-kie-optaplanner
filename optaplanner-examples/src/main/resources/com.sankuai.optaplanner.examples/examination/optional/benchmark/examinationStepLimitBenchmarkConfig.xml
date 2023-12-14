@@ -11,7 +11,7 @@
       <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
       <entityClass>com.sankuai.optaplanner.examples.examination.domain.FollowingExam</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
     </solver>
     <problemBenchmarks>

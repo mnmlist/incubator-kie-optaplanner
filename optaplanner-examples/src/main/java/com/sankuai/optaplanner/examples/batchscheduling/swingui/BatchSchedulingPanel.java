@@ -36,7 +36,7 @@ import java.util.List;
 public class BatchSchedulingPanel extends SolutionPanel<BatchSchedule> {
     private static final long serialVersionUID = 1L;
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/batchscheduling/swingui/batchSchedulingLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/batchscheduling/swingui/batchSchedulingLogo.png";
 
     public BatchSchedulingPanel() {
         setLayout(new BorderLayout());

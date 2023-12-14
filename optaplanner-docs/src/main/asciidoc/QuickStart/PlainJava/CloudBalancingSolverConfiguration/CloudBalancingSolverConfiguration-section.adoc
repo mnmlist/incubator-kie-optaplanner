@@ -19,7 +19,7 @@ The file is named `cloudBalancingSolverConfig.xml`.
   <!-- Score configuration -->
   <scoreDirectorFactory>
     <easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>
-    <!--<scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>-->
+    <!--<scoreDrl>com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>-->
   </scoreDirectorFactory>
 
   <!-- Optimization algorithms configuration -->
@@ -53,7 +53,7 @@ Further down, we will look into two alternatives to calculate the score: using a
 ----
   <scoreDirectorFactory>
     <easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>
-    <!--<scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>-->
+    <!--<scoreDrl>com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>-->
   </scoreDirectorFactory>
 ----
 

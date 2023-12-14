@@ -12,7 +12,7 @@
   <scoreDirectorFactory>
     <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->
     <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeIncrementalScoreCalculator</incrementalScoreCalculatorClass>
-    <!--<scoreDrl>org/optaplanner/examples/cheaptime/solver/cheapTimeConstraints.drl</scoreDrl>-->
+    <!--<scoreDrl>com/sankuai/optaplanner/examples/cheaptime/solver/cheapTimeConstraints.drl</scoreDrl>-->
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
       <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->

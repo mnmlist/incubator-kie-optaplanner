@@ -26,7 +26,7 @@ import java.io.OutputStream;
 
 public class WebsiteResourceUtils {
 
-    private static final String RESOURCE_NAMESPACE = "/org/optaplanner/benchmark/impl/report/";
+    private static final String RESOURCE_NAMESPACE = "/com/sankuai/optaplanner/benchmark/impl/report/";
 
     public static void copyResourcesTo(File benchmarkReportDirectory) {
         // Twitter Bootstrap

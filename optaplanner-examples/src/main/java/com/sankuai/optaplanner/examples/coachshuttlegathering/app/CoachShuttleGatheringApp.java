@@ -32,7 +32,7 @@ import java.util.Set;
 public class CoachShuttleGatheringApp extends CommonApp<CoachShuttleGatheringSolution> {
 
     public static final String SOLVER_CONFIG =
-            "org/optaplanner/examples/coachshuttlegathering/solver/coachShuttleGatheringSolverConfig.xml";
+            "com/sankuai/optaplanner/examples/coachshuttlegathering/solver/coachShuttleGatheringSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "coachshuttlegathering";
 

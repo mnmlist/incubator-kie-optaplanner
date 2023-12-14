@@ -31,7 +31,7 @@ import java.util.Set;
 
 public class CheapTimeApp extends CommonApp<CheapTimeSolution> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/cheaptime/solver/cheapTimeSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/cheaptime/solver/cheapTimeSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "cheaptime";
 

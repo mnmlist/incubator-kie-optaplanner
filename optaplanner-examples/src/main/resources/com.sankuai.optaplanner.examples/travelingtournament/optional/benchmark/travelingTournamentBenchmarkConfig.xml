@@ -9,7 +9,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.travelingtournament.domain.Match</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <termination>
         <hoursSpentLimit>2</hoursSpentLimit>

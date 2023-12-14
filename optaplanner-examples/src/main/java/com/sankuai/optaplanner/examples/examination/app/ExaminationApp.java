@@ -36,7 +36,7 @@ import java.util.Set;
  */
 public class ExaminationApp extends CommonApp<Examination> {
 
-    public static final String SOLVER_CONFIG = "org/optaplanner/examples/examination/solver/examinationSolverConfig.xml";
+    public static final String SOLVER_CONFIG = "com/sankuai/optaplanner/examples/examination/solver/examinationSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "examination";
 

@@ -583,7 +583,7 @@ but too heavyweight for frequent redeployments (especially over a slow network c
 The remedy is to use deliver the optaplanner jars in a JBoss module to WildFly and create a skinny war.
 Let's create a module called __com.sankuai.optaplanner__:
 
-. Navigate to the directory ``${WILDFLY_HOME}/modules/system/layers/base/``. This directory contains the JBoss modules of WildFly. Create directory structure `org/optaplanner/main` for our new module.
+. Navigate to the directory ``${WILDFLY_HOME}/modules/system/layers/base/``. This directory contains the JBoss modules of WildFly. Create directory structure `com/sankuai/optaplanner/main` for our new module.
 .. Copy `optaplanner-core-${version}.jar` and all its direct and transitive dependency jars into that new directory. Use "mvn dependency:tree" on each optaplanner artifact to discover all dependencies.
 .. Create the file `module.xml` in that new directory. Give it this content:
 +

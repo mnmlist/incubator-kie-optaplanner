@@ -26,7 +26,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <termination>
           <minutesSpentLimit>5</minutesSpentLimit>

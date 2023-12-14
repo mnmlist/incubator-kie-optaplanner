@@ -27,7 +27,7 @@ import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFi
 public class ProjectJobSchedulingApp extends CommonApp<Schedule> {
 
     public static final String SOLVER_CONFIG =
-            "org/optaplanner/examples/projectjobscheduling/solver/projectJobSchedulingSolverConfig.xml";
+            "com/sankuai/optaplanner/examples/projectjobscheduling/solver/projectJobSchedulingSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "projectjobscheduling";
 

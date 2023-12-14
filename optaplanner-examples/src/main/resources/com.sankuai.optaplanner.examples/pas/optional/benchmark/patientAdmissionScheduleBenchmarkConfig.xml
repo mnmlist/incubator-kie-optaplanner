@@ -9,7 +9,7 @@
       <solutionClass>com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.pas.domain.BedDesignation</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/pas/solver/patientAdmissionScheduleConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/pas/solver/patientAdmissionScheduleConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
       <termination>
         <secondsSpentLimit>300</secondsSpentLimit>

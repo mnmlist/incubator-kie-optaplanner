@@ -28,7 +28,7 @@ import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
 import com.sankuai.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
-import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.test.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;

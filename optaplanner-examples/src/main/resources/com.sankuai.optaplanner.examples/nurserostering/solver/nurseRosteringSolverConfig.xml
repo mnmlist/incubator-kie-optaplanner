@@ -8,7 +8,7 @@
   <entityClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
 
   <scoreDirectorFactory>
-    <scoreDrl>org/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.nurserostering.optional.score.NurseRosteringConstraintProvider</constraintProviderClass>-->
   </scoreDirectorFactory>
 

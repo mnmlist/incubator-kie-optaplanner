@@ -29,7 +29,7 @@ import com.sankuai.optaplanner.examples.examination.domain.RoomPenaltyType;
 import com.sankuai.optaplanner.examples.examination.domain.Student;
 import com.sankuai.optaplanner.examples.examination.domain.Topic;
 import com.sankuai.optaplanner.examples.examination.domain.solver.TopicConflict;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 public class ExaminationConstraintProviderTest {

@@ -39,7 +39,7 @@ import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequ
 import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
 import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
 import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 import org.junit.jupiter.api.BeforeEach;

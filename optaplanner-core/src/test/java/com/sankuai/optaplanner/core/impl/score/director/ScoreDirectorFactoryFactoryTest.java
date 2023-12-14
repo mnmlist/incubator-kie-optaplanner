@@ -163,7 +163,7 @@ class ScoreDirectorFactoryFactoryTest {
     @Test
     void invalidDrlResource_throwsException() {
         ScoreDirectorFactoryConfig config = new ScoreDirectorFactoryConfig()
-                .withScoreDrls("org/optaplanner/core/impl/score/director/invalidDroolsConstraints.drl");
+                .withScoreDrls("com/sankuai/optaplanner/core/impl/score/director/invalidDroolsConstraints.drl");
         assertThatExceptionOfType(IllegalStateException.class)
                 .isThrownBy(() -> buildTestdataScoreDirectoryFactory(config))
                 .withMessageContaining("scoreDrl")

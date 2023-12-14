@@ -22,7 +22,7 @@ import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
 import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;

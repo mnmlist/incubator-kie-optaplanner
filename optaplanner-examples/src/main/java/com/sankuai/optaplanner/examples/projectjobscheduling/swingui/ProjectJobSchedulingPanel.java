@@ -38,7 +38,7 @@ import java.util.Map;
 public class ProjectJobSchedulingPanel extends SolutionPanel<Schedule> {
 
     public static final String LOGO_PATH =
-            "/org/optaplanner/examples/projectjobscheduling/swingui/projectJobSchedulingLogo.png";
+            "/com/sankuai/optaplanner/examples/projectjobscheduling/swingui/projectJobSchedulingLogo.png";
 
     public ProjectJobSchedulingPanel() {
         setLayout(new BorderLayout());

@@ -22,7 +22,7 @@ import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
 import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
 import com.sankuai.optaplanner.examples.nqueens.domain.Row;
 import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

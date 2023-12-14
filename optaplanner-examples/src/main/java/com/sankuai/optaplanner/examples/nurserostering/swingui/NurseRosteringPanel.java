@@ -46,7 +46,7 @@ import java.util.Set;
 
 public class NurseRosteringPanel extends SolutionPanel<NurseRoster> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/nurserostering/swingui/nurseRosteringLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/nurserostering/swingui/nurseRosteringLogo.png";
 
     private final ImageIcon employeeIcon;
     private final ImageIcon deleteEmployeeIcon;

@@ -10,7 +10,7 @@
 
   <scoreDirectorFactory>
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.flightcrewscheduling.optional.score.FlightCrewSchedulingConstraintProvider</constraintProviderClass>-->
-    <scoreDrl>org/optaplanner/examples/flightcrewscheduling/solver/flightCrewSchedulingConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/flightcrewscheduling/solver/flightCrewSchedulingConstraints.drl</scoreDrl>
   </scoreDirectorFactory>
 
   <!--<termination>-->

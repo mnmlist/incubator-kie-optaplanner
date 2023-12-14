@@ -33,7 +33,7 @@ import java.util.Random;
 
 public class VehicleRoutingPanel extends SolutionPanel<VehicleRoutingSolution> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/vehiclerouting/swingui/vehicleRoutingLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/vehiclerouting/swingui/vehicleRoutingLogo.png";
 
     private VehicleRoutingWorldPanel vehicleRoutingWorldPanel;
 

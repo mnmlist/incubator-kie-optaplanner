@@ -47,7 +47,7 @@ import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTabl
 
 public class TravelingTournamentPanel extends SolutionPanel<TravelingTournament> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/travelingtournament/swingui/travelingTournamentLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/travelingtournament/swingui/travelingTournamentLogo.png";
 
     private ImageIcon awayMatchIcon;
 

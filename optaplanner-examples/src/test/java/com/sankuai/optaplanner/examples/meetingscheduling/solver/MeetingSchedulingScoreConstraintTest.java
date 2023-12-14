@@ -28,7 +28,7 @@ import com.sankuai.optaplanner.examples.meetingscheduling.domain.Person;
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
 import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
-import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.test.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

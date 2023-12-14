@@ -34,7 +34,7 @@ import java.io.IOException;
 public class ConferenceSchedulingPanel extends SolutionPanel<ConferenceSolution> {
 
     public static final String LOGO_PATH =
-            "/org/optaplanner/examples/conferencescheduling/swingui/conferenceSchedulingLogo.png";
+            "/com/sankuai/optaplanner/examples/conferencescheduling/swingui/conferenceSchedulingLogo.png";
 
     public ConferenceSchedulingPanel() {
         JButton publishButton = new JButton("Publish");

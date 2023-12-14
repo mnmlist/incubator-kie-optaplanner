@@ -32,7 +32,7 @@ import java.util.Set;
 public class CurriculumCourseApp extends CommonApp<CourseSchedule> {
 
     public static final String SOLVER_CONFIG =
-            "org/optaplanner/examples/curriculumcourse/solver/curriculumCourseSolverConfig.xml";
+            "com/sankuai/optaplanner/examples/curriculumcourse/solver/curriculumCourseSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "curriculumcourse";
 

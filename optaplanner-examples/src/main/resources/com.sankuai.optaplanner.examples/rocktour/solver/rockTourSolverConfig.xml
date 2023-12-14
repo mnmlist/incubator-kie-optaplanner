@@ -10,7 +10,7 @@
 
   <scoreDirectorFactory>
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.rocktour.optional.score.RockTourConstraintProvider</constraintProviderClass>-->
-    <scoreDrl>org/optaplanner/examples/rocktour/solver/rockTourConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/rocktour/solver/rockTourConstraints.drl</scoreDrl>
   </scoreDirectorFactory>
 
   <!--<termination>-->

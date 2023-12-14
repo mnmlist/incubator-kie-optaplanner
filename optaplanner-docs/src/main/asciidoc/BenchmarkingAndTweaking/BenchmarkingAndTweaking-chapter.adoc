@@ -56,7 +56,7 @@ load a few datasets and benchmark them. For example, with 3 datasets:
 [source,java,options="nowrap"]
 ----
 PlannerBenchmarkFactory benchmarkFactory = PlannerBenchmarkFactory.createFromSolverConfigXmlResource(
-        "org/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
+        "com/sankuai/optaplanner/examples/cloudbalancing/solver/cloudBalancingSolverConfig.xml");
 
 CloudBalance dataset1 = ...;
 CloudBalance dataset2 = ...;
@@ -83,7 +83,7 @@ Configure it with a benchmark configuration XML file, provided as a classpath re
 [source,java,options="nowrap"]
 ----
 PlannerBenchmarkFactory benchmarkFactory = PlannerBenchmarkFactory.createFromXmlResource(
-        "org/optaplanner/examples/cloudbalancing/benchmark/cloudBalancingBenchmarkConfig.xml");
+        "com/sankuai/optaplanner/examples/cloudbalancing/benchmark/cloudBalancingBenchmarkConfig.xml");
 PlannerBenchmark benchmark = benchmarkFactory.buildPlannerBenchmark();
 benchmark.benchmarkAndShowReportInBrowser();
 ----
@@ -382,7 +382,7 @@ To quickly configure and run a benchmark for typical solver configs, use a `solv
       <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
       <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
       <scoreDirectorFactory>
-        <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
+        <scoreDrl>com/sankuai/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
       <termination>
@@ -1140,7 +1140,7 @@ And build it with the class ``PlannerBenchmarkFactory``:
 [source,java,options="nowrap"]
 ----
         PlannerBenchmarkFactory benchmarkFactory = PlannerBenchmarkFactory.createFromFreemarkerXmlResource(
-                "org/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfigTemplate.xml.ftl");
+                "com/sankuai/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfigTemplate.xml.ftl");
         PlannerBenchmark benchmark = benchmarkFactory.buildPlannerBenchmark();
 ----
 
@@ -1169,7 +1169,7 @@ To display that UI, provide a benchmark config to the `BenchmarkAggregatorFrame`
 ----
     public static void main(String[] args) {
         BenchmarkAggregatorFrame.createAndDisplayFromXmlResource(
-                "org/optaplanner/examples/cloudbalancing/benchmark/cloudBalancingBenchmarkConfig.xml");
+                "com/sankuai/optaplanner/examples/cloudbalancing/benchmark/cloudBalancingBenchmarkConfig.xml");
     }
 ----
 

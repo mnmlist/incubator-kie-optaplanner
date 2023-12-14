@@ -27,13 +27,13 @@ public class CloudBalancingBenchmarkApp extends CommonBenchmarkApp {
     public CloudBalancingBenchmarkApp() {
         super(
                 new ArgOption("default",
-                        "org/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfig.xml"),
+                        "com/sankuai/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfig.xml"),
                 new ArgOption("stepLimit",
-                        "org/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingStepLimitBenchmarkConfig.xml"),
+                        "com/sankuai/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingStepLimitBenchmarkConfig.xml"),
                 new ArgOption("scoreDirector",
-                        "org/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingScoreDirectorBenchmarkConfig.xml"),
+                        "com/sankuai/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingScoreDirectorBenchmarkConfig.xml"),
                 new ArgOption("template",
-                        "org/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfigTemplate.xml.ftl",
+                        "com/sankuai/optaplanner/examples/cloudbalancing/optional/benchmark/cloudBalancingBenchmarkConfigTemplate.xml.ftl",
                         true));
     }
 

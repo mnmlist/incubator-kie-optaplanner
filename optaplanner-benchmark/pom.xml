@@ -164,7 +164,7 @@
         <artifactId>jaxb2-maven-plugin</artifactId>
         <configuration>
           <sources>
-            <source>${project.build.sourceDirectory}/org/optaplanner/benchmark/config</source>
+            <source>${project.build.sourceDirectory}/com/sankuai/optaplanner/benchmark/config</source>
           </sources>
         </configuration>
       </plugin>

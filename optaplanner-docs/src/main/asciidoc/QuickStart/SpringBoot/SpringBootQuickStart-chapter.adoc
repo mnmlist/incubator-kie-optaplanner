@@ -897,7 +897,7 @@ import com.example.domain.Room;
 import com.example.domain.TimeTable;
 import com.example.domain.Timeslot;
 import org.junit.jupiter.api.Test;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

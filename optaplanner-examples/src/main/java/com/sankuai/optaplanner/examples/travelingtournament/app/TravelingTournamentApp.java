@@ -35,7 +35,7 @@ import java.util.Set;
 public class TravelingTournamentApp extends CommonApp<TravelingTournament> {
 
     public static final String SOLVER_CONFIG =
-            "org/optaplanner/examples/travelingtournament/solver/travelingTournamentSolverConfig.xml";
+            "com/sankuai/optaplanner/examples/travelingtournament/solver/travelingTournamentSolverConfig.xml";
 
     public static final String DATA_DIR_NAME = "travelingtournament";
 

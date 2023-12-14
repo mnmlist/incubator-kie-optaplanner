@@ -33,7 +33,7 @@ import java.io.IOException;
 public class FlightCrewSchedulingPanel extends SolutionPanel<FlightCrewSolution> {
 
     public static final String LOGO_PATH =
-            "/org/optaplanner/examples/flightcrewscheduling/swingui/flightCrewSchedulingLogo.png";
+            "/com/sankuai/optaplanner/examples/flightcrewscheduling/swingui/flightCrewSchedulingLogo.png";
 
     private FlightCrewSchedulingWorldPanel flightCrewSchedulingWorldPanel;
 

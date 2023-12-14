@@ -35,7 +35,7 @@ import com.sankuai.optaplanner.examples.pas.domain.Room;
 import com.sankuai.optaplanner.examples.pas.domain.RoomEquipment;
 import com.sankuai.optaplanner.examples.pas.domain.RoomSpecialism;
 import com.sankuai.optaplanner.examples.pas.domain.Specialism;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

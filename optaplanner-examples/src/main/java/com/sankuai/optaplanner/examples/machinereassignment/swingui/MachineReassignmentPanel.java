@@ -41,7 +41,7 @@ import java.util.Set;
 
 public class MachineReassignmentPanel extends SolutionPanel<MachineReassignment> {
 
-    public static final String LOGO_PATH = "/org/optaplanner/examples/machinereassignment/swingui/machineReassignmentLogo.png";
+    public static final String LOGO_PATH = "/com/sankuai/optaplanner/examples/machinereassignment/swingui/machineReassignmentLogo.png";
 
     private JPanel machineListPanel;
 

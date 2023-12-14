@@ -9,9 +9,9 @@
 
   <scoreDirectorFactory>
     <!--<constraintProviderClass>com.sankuai.optaplanner.examples.curriculumcourse.optional.score.CurriculumCourseConstraintProvider</constraintProviderClass>-->
-    <scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
+    <scoreDrl>com/sankuai/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
-      <!--<scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>-->
+      <!--<scoreDrl>com/sankuai/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>-->
     <!--</assertionScoreDirectorFactory>-->
   </scoreDirectorFactory>
 

@@ -40,8 +40,8 @@ import com.sankuai.optaplanner.spring.boot.autoconfigure.normal.NormalSpringTest
 import com.sankuai.optaplanner.spring.boot.autoconfigure.normal.constraints.TestdataSpringConstraintProvider;
 import com.sankuai.optaplanner.spring.boot.autoconfigure.normal.domain.TestdataSpringEntity;
 import com.sankuai.optaplanner.spring.boot.autoconfigure.normal.domain.TestdataSpringSolution;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
-import com.sankuai.optaplanner.test.impl.score.stream.DefaultConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.score.stream.DefaultConstraintVerifier;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.AutoConfigurations;
@@ -157,7 +157,7 @@ public class OptaPlannerAutoConfigurationTest {
         contextRunner
                 .withClassLoader(defaultConstraintsDrlFilteredClassLoader)
                 .withPropertyValues(
-                        "optaplanner.solver-config-xml=org/optaplanner/spring/boot/autoconfigure/customSpringBootSolverConfig.xml")
+                        "optaplanner.solver-config-xml=com/sankuai/optaplanner/spring/boot/autoconfigure/customSpringBootSolverConfig.xml")
                 .run(context -> {
                     SolverConfig solverConfig = context.getBean(SolverConfig.class);
                     assertThat(solverConfig).isNotNull();
@@ -329,7 +329,7 @@ public class OptaPlannerAutoConfigurationTest {
         contextRunner
                 .withClassLoader(testFilteredClassLoader)
                 .withPropertyValues(
-                        "optaplanner.solver-config-xml=org/optaplanner/spring/boot/autoconfigure/bavetSolverConfig.xml")
+                        "optaplanner.solver-config-xml=com/sankuai/optaplanner/spring/boot/autoconfigure/bavetSolverConfig.xml")
                 .run(context -> {
                     ConstraintVerifier<TestdataSpringConstraintProvider, TestdataSpringSolution> constraintVerifier =
                             context.getBean(ConstraintVerifier.class);
@@ -355,7 +355,7 @@ public class OptaPlannerAutoConfigurationTest {
 
     @Test
     public void constraintVerifierOnDrl() {
-        String constraintsUrl = "org/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
+        String constraintsUrl = "com/sankuai/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
         noConstraintsContextRunner
                 .withPropertyValues(OptaPlannerProperties.SCORE_DRL_PROPERTY + "=" + constraintsUrl)
                 .withClassLoader(testFilteredClassLoader)
@@ -390,7 +390,7 @@ public class OptaPlannerAutoConfigurationTest {
 
     @Test
     void constraintsDrlProperty() {
-        String constraintsUrl = "org/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
+        String constraintsUrl = "com/sankuai/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
         noConstraintsContextRunner
                 .withPropertyValues(OptaPlannerProperties.SCORE_DRL_PROPERTY + "=" + constraintsUrl)
                 .run(context -> {
@@ -416,7 +416,7 @@ public class OptaPlannerAutoConfigurationTest {
 
     @Test
     void constraintsDrlProperty_conflictWithConstraintProvider() {
-        String constraintsUrl = "org/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
+        String constraintsUrl = "com/sankuai/optaplanner/spring/boot/autoconfigure/customConstraints.drl";
         contextRunner
                 .withPropertyValues(OptaPlannerProperties.SCORE_DRL_PROPERTY + "=" + constraintsUrl)
                 .run(context -> {
@@ -477,7 +477,7 @@ public class OptaPlannerAutoConfigurationTest {
             gizmoContextRunner
                     .withClassLoader(noGizmoFilteredClassLoader)
                     .withPropertyValues(
-                            "optaplanner.solver-config-xml=org/optaplanner/spring/boot/autoconfigure/gizmoSpringBootSolverConfig.xml")
+                            "optaplanner.solver-config-xml=com/sankuai/optaplanner/spring/boot/autoconfigure/gizmoSpringBootSolverConfig.xml")
                     .run(context -> {
                         context.getBean(SolverFactory.class);
                     });

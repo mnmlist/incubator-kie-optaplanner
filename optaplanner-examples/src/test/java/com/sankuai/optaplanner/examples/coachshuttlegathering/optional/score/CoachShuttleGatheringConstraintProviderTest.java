@@ -25,7 +25,7 @@ import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
 import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
 import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
 import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocationArc;
-import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.stream.ConstraintVerifier;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
