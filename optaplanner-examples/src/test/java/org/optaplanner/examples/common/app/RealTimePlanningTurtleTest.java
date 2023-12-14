@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import java.util.Random;
 import java.util.concurrent.ExecutionException;
@@ -22,13 +22,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.examples.common.TurtleTest;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.examples.common.TurtleTest;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

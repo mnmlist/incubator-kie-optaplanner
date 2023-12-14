@@ -4,11 +4,11 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.pas.domain.PatientAdmissionSchedule</solutionClass>
-  <entityClass>org.optaplanner.examples.pas.domain.BedDesignation</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.pas.domain.BedDesignation</entityClass>
 
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.pas.optional.score.PatientAdmissionScheduleConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.pas.optional.score.PatientAdmissionScheduleConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/pas/solver/patientAdmissionScheduleConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
       <!--<scoreDrl>org/optaplanner/examples/pas/solver/patientAdmissionScheduleConstraints.drl</scoreDrl>-->
@@ -27,7 +27,7 @@
       <!--<swapMoveSelector/>-->
       <!--<pillarSwapMoveSelector/>-->
       <moveListFactory>
-        <moveListFactoryClass>org.optaplanner.examples.pas.solver.move.factory.BedDesignationPillarPartSwapMoveFactory</moveListFactoryClass>
+        <moveListFactoryClass>com.sankuai.optaplanner.examples.pas.solver.move.factory.BedDesignationPillarPartSwapMoveFactory</moveListFactoryClass>
       </moveListFactory>
     </unionMoveSelector>
     <acceptor>

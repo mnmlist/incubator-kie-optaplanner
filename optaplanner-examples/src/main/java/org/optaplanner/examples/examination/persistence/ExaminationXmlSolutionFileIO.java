@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.persistence;
+package com.sankuai.optaplanner.examples.examination.persistence;
 
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class ExaminationXmlSolutionFileIO extends XStreamSolutionFileIO<Examination> {
 

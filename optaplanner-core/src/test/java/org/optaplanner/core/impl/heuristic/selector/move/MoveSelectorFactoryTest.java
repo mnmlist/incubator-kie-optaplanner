@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -23,21 +23,21 @@ import java.util.Comparator;
 import java.util.function.Consumer;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.move.DummyMove;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.ProbabilityMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.ShufflingMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.SortingMoveSelector;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.move.DummyMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.ProbabilityMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.ShufflingMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.SortingMoveSelector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 class MoveSelectorFactoryTest extends AbstractSelectorFactoryTest {
 

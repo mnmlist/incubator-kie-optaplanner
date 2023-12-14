@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.partitionedsearch;
+package com.sankuai.optaplanner.core.impl.partitionedsearch;
 
-import static org.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig.ACTIVE_THREAD_COUNT_AUTO;
-import static org.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig.ACTIVE_THREAD_COUNT_UNLIMITED;
+import static com.sankuai.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig.ACTIVE_THREAD_COUNT_AUTO;
+import static com.sankuai.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig.ACTIVE_THREAD_COUNT_UNLIMITED;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ThreadFactory;
 
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
-import org.optaplanner.core.impl.phase.AbstractPhaseFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhaseFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

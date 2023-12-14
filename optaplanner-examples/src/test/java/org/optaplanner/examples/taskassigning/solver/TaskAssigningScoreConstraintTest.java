@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.solver;
+package com.sankuai.optaplanner.examples.taskassigning.solver;
 
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.taskassigning.app.TaskAssigningApp;
-import org.optaplanner.examples.taskassigning.domain.Customer;
-import org.optaplanner.examples.taskassigning.domain.Employee;
-import org.optaplanner.examples.taskassigning.domain.Priority;
-import org.optaplanner.examples.taskassigning.domain.Skill;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
-import org.optaplanner.examples.taskassigning.domain.TaskType;
-import org.optaplanner.test.impl.score.buildin.bendable.BendableScoreVerifier;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.examples.taskassigning.app.TaskAssigningApp;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Customer;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Employee;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Priority;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Skill;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskType;
+import com.sankuai.optaplanner.test.impl.score.buildin.bendable.BendableScoreVerifier;
 
 public class TaskAssigningScoreConstraintTest {
 

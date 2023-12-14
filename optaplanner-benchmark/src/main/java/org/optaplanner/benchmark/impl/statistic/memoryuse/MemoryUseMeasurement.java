@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.memoryuse;
+package com.sankuai.optaplanner.benchmark.impl.statistic.memoryuse;
 
 public class MemoryUseMeasurement {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api;
+package com.sankuai.optaplanner.persistence.jsonb.api;
 
 import javax.json.bind.Jsonb;
 import javax.json.bind.JsonbBuilder;

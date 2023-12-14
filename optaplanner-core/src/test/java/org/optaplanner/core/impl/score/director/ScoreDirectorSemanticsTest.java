@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director;
+package com.sankuai.optaplanner.core.impl.score.director;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfiguration;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfigurationSolution;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeighIncrementalScoreCalculator;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeightConstraintProvider;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeightEasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfiguration;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfigurationSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeighIncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeightConstraintProvider;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintWeightEasyScoreCalculator;
 
 public class ScoreDirectorSemanticsTest {
 

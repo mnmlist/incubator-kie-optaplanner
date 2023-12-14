@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import java.util.Collections;
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.domain.variable.supply.SupplyManager;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.GenericMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChain;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.SupplyManager;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.GenericMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChain;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class SubChainChangeMoveSelector<Solution_> extends GenericMoveSelector<Solution_> {
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.app;
+package com.sankuai.optaplanner.examples.cheaptime.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
 
 public class CheapTimePerformanceTest extends SolverPerformanceTest<CheapTimeSolution> {
 

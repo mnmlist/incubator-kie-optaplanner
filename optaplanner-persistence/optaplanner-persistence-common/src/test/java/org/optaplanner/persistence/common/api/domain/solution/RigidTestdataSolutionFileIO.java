@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.common.api.domain.solution;
+package com.sankuai.optaplanner.persistence.common.api.domain.solution;
 
 import java.io.File;
 import java.util.Arrays;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 public class RigidTestdataSolutionFileIO implements SolutionFileIO<TestdataSolution> {
 

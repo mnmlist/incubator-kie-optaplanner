@@ -6,9 +6,9 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution</solutionClass>
-      <entityClass>org.optaplanner.examples.taskassigning.domain.TaskOrEmployee</entityClass>
-      <entityClass>org.optaplanner.examples.taskassigning.domain.Task</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.taskassigning.domain.Task</entityClass>
       <termination>
         <minutesSpentLimit>5</minutesSpentLimit>
       </termination>
@@ -16,7 +16,7 @@
       <localSearch/>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.taskassigning.persistence.TaskAssigningXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.taskassigning.persistence.TaskAssigningXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/taskassigning/unsolved/24tasks-8employees.xml</inputSolutionFile>
       <inputSolutionFile>data/taskassigning/unsolved/50tasks-5employees.xml</inputSolutionFile>
       <inputSolutionFile>data/taskassigning/unsolved/100tasks-5employees.xml</inputSolutionFile>
@@ -28,7 +28,7 @@
     <name>ConstraintStreams (Drools)</name>
     <solver>
       <scoreDirectorFactory>
-        <constraintProviderClass>org.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>
+        <constraintProviderClass>com.sankuai.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>
@@ -36,7 +36,7 @@
     <name>ConstraintStreams (Bavet)</name>
     <solver>
       <scoreDirectorFactory>
-        <constraintProviderClass>org.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>
+        <constraintProviderClass>com.sankuai.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>
         <constraintStreamImplType>BAVET</constraintStreamImplType>
       </scoreDirectorFactory>
     </solver>

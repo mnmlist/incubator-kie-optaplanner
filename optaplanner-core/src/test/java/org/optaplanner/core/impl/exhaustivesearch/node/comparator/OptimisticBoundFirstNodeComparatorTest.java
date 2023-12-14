@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.node.comparator;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator;
 
 import org.junit.jupiter.api.Test;
 

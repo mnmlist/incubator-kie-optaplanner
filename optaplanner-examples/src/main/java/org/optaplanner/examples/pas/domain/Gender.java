@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.domain;
+package com.sankuai.optaplanner.examples.pas.domain;
 
 public enum Gender {
     MALE("M"),

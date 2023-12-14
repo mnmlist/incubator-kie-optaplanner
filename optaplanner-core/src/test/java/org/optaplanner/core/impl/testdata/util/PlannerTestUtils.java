@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.util;
+package com.sankuai.optaplanner.core.impl.testdata.util;
 
 import static java.util.Arrays.stream;
 import static org.mockito.Mockito.any;
@@ -37,24 +37,24 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.mockito.AdditionalAnswers;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.DummySimpleScoreEasyScoreCalculator;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.easy.EasyScoreDirectorFactory;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.DummySimpleScoreEasyScoreCalculator;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.easy.EasyScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 /**
  * @see PlannerAssert

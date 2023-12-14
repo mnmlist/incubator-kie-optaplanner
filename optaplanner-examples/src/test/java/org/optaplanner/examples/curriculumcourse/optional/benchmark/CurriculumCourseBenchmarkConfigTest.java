@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.optional.benchmark;
+package com.sankuai.optaplanner.examples.curriculumcourse.optional.benchmark;
 
-import org.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
-import org.optaplanner.examples.common.app.CommonBenchmarkApp;
+import com.sankuai.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
+import com.sankuai.optaplanner.examples.common.app.CommonBenchmarkApp;
 
 public class CurriculumCourseBenchmarkConfigTest extends AbstractBenchmarkConfigTest {
 

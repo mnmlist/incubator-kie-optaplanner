@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import java.lang.reflect.Array;
 import java.math.BigDecimal;
@@ -45,22 +45,22 @@ import java.util.function.ToLongFunction;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.ToIntQuadFunction;
-import org.optaplanner.core.api.function.ToIntTriFunction;
-import org.optaplanner.core.api.function.ToLongQuadFunction;
-import org.optaplanner.core.api.function.ToLongTriFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
-import org.optaplanner.core.impl.score.stream.quad.DefaultQuadConstraintCollector;
-import org.optaplanner.core.impl.score.stream.tri.DefaultTriConstraintCollector;
-import org.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToIntQuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToIntTriFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongQuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongTriFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.DefaultQuadConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.DefaultTriConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
 
 /**
  * Creates an {@link UniConstraintCollector}, {@link BiConstraintCollector}, ... instance

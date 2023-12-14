@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.swingui;
+package com.sankuai.optaplanner.examples.taskassigning.swingui;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -42,15 +42,15 @@ import javax.swing.JViewport;
 import javax.swing.Scrollable;
 import javax.swing.SwingConstants;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.taskassigning.domain.Employee;
-import org.optaplanner.examples.taskassigning.domain.Skill;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Employee;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Skill;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class TaskOverviewPanel extends JPanel implements Scrollable {
 

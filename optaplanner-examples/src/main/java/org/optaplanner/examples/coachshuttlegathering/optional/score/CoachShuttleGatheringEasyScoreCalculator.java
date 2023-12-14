@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.optional.score;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.Coach;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
-import org.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Coach;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
 
 public class CoachShuttleGatheringEasyScoreCalculator
         implements EasyScoreCalculator<CoachShuttleGatheringSolution, HardSoftLongScore> {

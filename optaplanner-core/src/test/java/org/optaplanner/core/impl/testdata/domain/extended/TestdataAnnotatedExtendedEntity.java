@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.extended;
+package com.sankuai.optaplanner.core.impl.testdata.domain.extended;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 @PlanningEntity
 public class TestdataAnnotatedExtendedEntity extends TestdataEntity {

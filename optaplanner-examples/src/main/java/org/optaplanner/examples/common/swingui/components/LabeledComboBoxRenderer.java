@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui.components;
+package com.sankuai.optaplanner.examples.common.swingui.components;
 
 import java.awt.Component;
 

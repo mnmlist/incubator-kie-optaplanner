@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.projectjobscheduling.domain.solver.DelayStrengthComparator;
-import org.optaplanner.examples.projectjobscheduling.domain.solver.ExecutionModeStrengthWeightFactory;
-import org.optaplanner.examples.projectjobscheduling.domain.solver.NotSourceOrSinkAllocationFilter;
-import org.optaplanner.examples.projectjobscheduling.domain.solver.PredecessorsDoneDateUpdatingVariableListener;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver.DelayStrengthComparator;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver.ExecutionModeStrengthWeightFactory;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver.NotSourceOrSinkAllocationFilter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver.PredecessorsDoneDateUpdatingVariableListener;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver;
+package com.sankuai.optaplanner.core.config.solver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -35,26 +35,26 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.Mockito;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.impl.heuristic.move.DummyMove;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
-import org.optaplanner.core.impl.io.jaxb.SolverConfigIO;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
-import org.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedEntity;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.move.DummyMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.io.jaxb.SolverConfigIO;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedSolution;
 
 public class SolverConfigTest {
 
@@ -106,7 +106,7 @@ public class SolverConfigTest {
 
     @Test
     void whiteCharsInClassName() {
-        String solutionClassName = "org.optaplanner.core.impl.testdata.domain.TestdataSolution";
+        String solutionClassName = "com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution";
         String xmlFragment = String.format("<solver xmlns=\"https://www.optaplanner.org/xsd/solver\">%n"
                 + "  <solutionClass>  %s  %n" // Intentionally included white chars around the class name.
                 + "  </solutionClass>%n"

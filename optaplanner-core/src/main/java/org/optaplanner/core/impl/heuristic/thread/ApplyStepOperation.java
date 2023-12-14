@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.thread;
+package com.sankuai.optaplanner.core.impl.heuristic.thread;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 public class ApplyStepOperation<Solution_, Score_ extends Score<Score_>> extends MoveThreadOperation<Solution_> {
 

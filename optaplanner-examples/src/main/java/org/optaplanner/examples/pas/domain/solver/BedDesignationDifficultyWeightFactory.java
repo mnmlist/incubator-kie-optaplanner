@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.domain.solver;
+package com.sankuai.optaplanner.examples.pas.domain.solver;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingInt;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.domain.Room;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.domain.Room;
 
 public class BedDesignationDifficultyWeightFactory
         implements SelectionSorterWeightFactory<PatientAdmissionSchedule, BedDesignation> {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream.quad;
+package com.sankuai.optaplanner.core.api.score.stream.quad;
 
 import static java.util.Arrays.asList;
 import static java.util.Collections.singleton;
@@ -22,40 +22,40 @@ import static java.util.Collections.singletonList;
 import static java.util.function.Function.identity;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countDistinct;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countQuad;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.max;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.min;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.toSet;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countDistinct;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countQuad;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.max;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.min;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.toSet;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 import java.util.function.Function;
 
 import org.junit.jupiter.api.TestTemplate;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.api.score.stream.AbstractConstraintStreamTest;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintStreamFunctionalTest;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataSimpleBigDecimalScoreSolution;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishExtra;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValueGroup;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.AbstractConstraintStreamTest;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamFunctionalTest;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataSimpleBigDecimalScoreSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishExtra;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValueGroup;
 
 public class QuadConstraintStreamTest extends AbstractConstraintStreamTest implements ConstraintStreamFunctionalTest {
 

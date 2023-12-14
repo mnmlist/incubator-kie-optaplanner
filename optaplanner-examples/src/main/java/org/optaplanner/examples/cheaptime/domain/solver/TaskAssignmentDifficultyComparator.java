@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.domain.solver;
+package com.sankuai.optaplanner.examples.cheaptime.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
 
 public class TaskAssignmentDifficultyComparator implements Comparator<TaskAssignment> {
 

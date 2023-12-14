@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import java.io.File;
 import java.util.List;
 
 import org.kie.api.KieBase;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
 
 public class TestGenDroolsScoreDirectorFactory<Solution_, Score_ extends Score<Score_>>
         extends DroolsScoreDirectorFactory<Solution_, Score_> {

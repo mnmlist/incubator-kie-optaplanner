@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.termination;
+package com.sankuai.optaplanner.core.impl.solver.termination;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class BasicPlumbingTerminationTest {
 

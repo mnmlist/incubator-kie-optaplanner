@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.app;
+package com.sankuai.optaplanner.examples.meetingscheduling.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
 
 public class MeetingSchedulingSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<MeetingSchedule> {
 

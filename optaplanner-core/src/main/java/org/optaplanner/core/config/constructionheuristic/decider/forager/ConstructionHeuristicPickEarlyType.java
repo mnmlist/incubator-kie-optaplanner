@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.constructionheuristic.decider.forager;
+package com.sankuai.optaplanner.core.config.constructionheuristic.decider.forager;
 
 import javax.xml.bind.annotation.XmlEnum;
 

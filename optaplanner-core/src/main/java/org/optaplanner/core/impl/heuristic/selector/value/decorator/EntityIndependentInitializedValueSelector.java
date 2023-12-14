@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
 
 public class EntityIndependentInitializedValueSelector<Solution_> extends InitializedValueSelector<Solution_>
         implements EntityIndependentValueSelector<Solution_> {

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
 
 public class PillarSwapMoveSelectorFactory<Solution_>
         extends AbstractMoveSelectorFactory<Solution_, PillarSwapMoveSelectorConfig> {

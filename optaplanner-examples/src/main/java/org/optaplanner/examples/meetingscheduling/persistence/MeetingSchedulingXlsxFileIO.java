@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.persistence;
+package com.sankuai.optaplanner.examples.meetingscheduling.persistence;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ASSIGN_LARGER_ROOMS_FIRST;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.DONT_GO_IN_OVERTIME;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.DO_ALL_MEETINGS_AS_SOON_AS_POSSIBLE;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ONE_TIME_GRAIN_BREAK_BETWEEN_TWO_CONSECUTIVE_MEETINGS;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.OVERLAPPING_MEETINGS;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.PREFERRED_ATTENDANCE_CONFLICT;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_AND_PREFERRED_ATTENDANCE_CONFLICT;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_ATTENDANCE_CONFLICT;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_ROOM_CAPACITY;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ROOM_CONFLICT;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ROOM_STABILITY;
-import static org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.START_AND_END_ON_SAME_DAY;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ASSIGN_LARGER_ROOMS_FIRST;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.DONT_GO_IN_OVERTIME;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.DO_ALL_MEETINGS_AS_SOON_AS_POSSIBLE;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ONE_TIME_GRAIN_BREAK_BETWEEN_TWO_CONSECUTIVE_MEETINGS;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.OVERLAPPING_MEETINGS;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.PREFERRED_ATTENDANCE_CONFLICT;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_AND_PREFERRED_ATTENDANCE_CONFLICT;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_ATTENDANCE_CONFLICT;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.REQUIRED_ROOM_CAPACITY;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ROOM_CONFLICT;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.ROOM_STABILITY;
+import static com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration.START_AND_END_ON_SAME_DAY;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -62,22 +62,22 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
-import org.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
-import org.optaplanner.examples.meetingscheduling.domain.Attendance;
-import org.optaplanner.examples.meetingscheduling.domain.Day;
-import org.optaplanner.examples.meetingscheduling.domain.Meeting;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
-import org.optaplanner.examples.meetingscheduling.domain.Person;
-import org.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.Room;
-import org.optaplanner.examples.meetingscheduling.domain.TimeGrain;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
+import com.sankuai.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Attendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Day;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Meeting;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Person;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
 
 public class MeetingSchedulingXlsxFileIO extends AbstractXlsxSolutionFileIO<MeetingSchedule> {
 

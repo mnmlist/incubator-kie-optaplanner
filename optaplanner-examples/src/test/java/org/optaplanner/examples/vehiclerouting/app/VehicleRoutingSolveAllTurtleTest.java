@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.app;
+package com.sankuai.optaplanner.examples.vehiclerouting.app;
 
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.ImportDirSolveAllTurtleTest;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.ImportDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator;
 
 public class VehicleRoutingSolveAllTurtleTest extends ImportDirSolveAllTurtleTest<VehicleRoutingSolution> {
 

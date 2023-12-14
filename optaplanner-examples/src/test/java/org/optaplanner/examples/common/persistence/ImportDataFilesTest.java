@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
@@ -31,10 +31,10 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingTest;
-import org.optaplanner.examples.common.business.ProblemFileComparator;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingTest;
+import com.sankuai.optaplanner.examples.common.business.ProblemFileComparator;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

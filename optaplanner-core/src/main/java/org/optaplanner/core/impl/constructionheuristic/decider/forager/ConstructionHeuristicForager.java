@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.decider.forager;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager;
 
-import org.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListener;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
 
 /**
  * @see AbstractConstructionHeuristicForager

@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain;
+package com.sankuai.optaplanner.examples.tsp.domain;
 
 import java.text.NumberFormat;
 import java.util.Collections;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.solution.ProblemFactProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.tsp.domain.location.DistanceType;
-import org.optaplanner.examples.tsp.domain.location.Location;
-import org.optaplanner.persistence.xstream.api.score.buildin.simplelong.SimpleLongScoreXStreamConverter;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.tsp.domain.location.DistanceType;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.simplelong.SimpleLongScoreXStreamConverter;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;

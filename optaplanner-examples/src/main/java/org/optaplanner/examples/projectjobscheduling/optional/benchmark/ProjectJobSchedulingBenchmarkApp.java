@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.optional.benchmark;
+package com.sankuai.optaplanner.examples.projectjobscheduling.optional.benchmark;
 
-import org.optaplanner.examples.common.app.CommonBenchmarkApp;
+import com.sankuai.optaplanner.examples.common.app.CommonBenchmarkApp;
 
 public class ProjectJobSchedulingBenchmarkApp extends CommonBenchmarkApp {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.persistence;
+package com.sankuai.optaplanner.examples.conferencescheduling.persistence;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -32,19 +32,19 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.generator.StringDataGenerator;
-import org.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.domain.Room;
-import org.optaplanner.examples.conferencescheduling.domain.Speaker;
-import org.optaplanner.examples.conferencescheduling.domain.Talk;
-import org.optaplanner.examples.conferencescheduling.domain.TalkType;
-import org.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.generator.StringDataGenerator;
+import com.sankuai.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.TalkType;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class ConferenceSchedulingGenerator extends LoggingMain {
 

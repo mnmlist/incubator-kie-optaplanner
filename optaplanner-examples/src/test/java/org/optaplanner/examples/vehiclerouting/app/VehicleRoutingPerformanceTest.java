@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.app;
+package com.sankuai.optaplanner.examples.vehiclerouting.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
 
 public class VehicleRoutingPerformanceTest extends SolverPerformanceTest<VehicleRoutingSolution> {
 

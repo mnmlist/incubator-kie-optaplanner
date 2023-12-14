@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.swingui;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.swingui;
 
 import java.awt.BorderLayout;
 
 import javax.swing.JTabbedPane;
 
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
 
 public class CoachShuttleGatheringPanel extends SolutionPanel<CoachShuttleGatheringSolution> {
 

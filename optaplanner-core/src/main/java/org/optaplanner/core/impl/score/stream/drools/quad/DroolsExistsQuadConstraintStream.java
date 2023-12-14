@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.quad;
 
-import org.optaplanner.core.api.score.stream.penta.PentaJoiner;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.QuadLeftHandSide;
+import com.sankuai.optaplanner.core.api.score.stream.penta.PentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.QuadLeftHandSide;
 
 public final class DroolsExistsQuadConstraintStream<Solution_, A, B, C, D>
         extends DroolsAbstractQuadConstraintStream<Solution_, A, B, C, D> {

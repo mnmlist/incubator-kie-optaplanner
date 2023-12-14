@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.common;
+package com.sankuai.optaplanner.core.impl.score.stream.common;
 
 public enum ScoreImpactType {
 

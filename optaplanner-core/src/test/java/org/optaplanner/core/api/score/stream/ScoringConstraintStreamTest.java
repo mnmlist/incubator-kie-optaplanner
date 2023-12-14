@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import static java.util.function.Function.identity;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
 
 import java.math.BigDecimal;
 
 import org.junit.jupiter.api.TestTemplate;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataSimpleBigDecimalScoreSolution;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataSimpleBigDecimalScoreSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
 
 public class ScoringConstraintStreamTest extends AbstractConstraintStreamTest {
 

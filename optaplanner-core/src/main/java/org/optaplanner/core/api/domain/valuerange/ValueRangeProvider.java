@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.valuerange;
+package com.sankuai.optaplanner.core.api.domain.valuerange;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
@@ -24,8 +24,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import java.util.Collection;
 
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
 
 /**
  * Provides the planning values that can be used for a {@link PlanningVariable}.

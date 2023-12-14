@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.decider.forager;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicPickEarlyType;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicPickEarlyType;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
 
 public class DefaultConstructionHeuristicForagerTest<Solution_> {
 

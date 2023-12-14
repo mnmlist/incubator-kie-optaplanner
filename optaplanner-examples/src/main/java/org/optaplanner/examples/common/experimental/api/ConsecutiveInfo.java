@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.api;
+package com.sankuai.optaplanner.examples.common.experimental.api;
 
 /**
  * Contains info regarding the consecutive sequences and breaks

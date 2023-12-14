@@ -6,8 +6,8 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
-      <entityClass>org.optaplanner.examples.nqueens.domain.Queen</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
@@ -19,7 +19,7 @@
       </termination>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
       <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
       <inputSolutionFile>data/nqueens/unsolved/32queens.xml</inputSolutionFile>
       <inputSolutionFile>data/nqueens/unsolved/64queens.xml</inputSolutionFile>

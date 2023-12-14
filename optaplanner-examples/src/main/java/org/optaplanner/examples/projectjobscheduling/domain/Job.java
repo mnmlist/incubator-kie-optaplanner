@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain;
 
 import java.util.List;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

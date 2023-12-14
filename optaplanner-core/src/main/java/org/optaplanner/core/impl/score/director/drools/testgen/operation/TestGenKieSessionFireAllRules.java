@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.operation;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation;
 
 import org.kie.api.runtime.KieSession;
 import org.slf4j.Logger;

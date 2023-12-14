@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.constraint;
+package com.sankuai.optaplanner.core.api.score.constraint;
 
 import java.util.Set;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreExplanation;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreExplanation;
 
 /**
  * Explains the {@link Score} of a {@link PlanningSolution}, from the opposite side than {@link ConstraintMatchTotal}.

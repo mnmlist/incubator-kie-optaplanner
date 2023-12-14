@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver.random;
+package com.sankuai.optaplanner.core.config.solver.random;
 
 import javax.xml.bind.annotation.XmlEnum;
 

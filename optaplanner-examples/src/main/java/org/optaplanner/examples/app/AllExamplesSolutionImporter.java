@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.app;
+package com.sankuai.optaplanner.examples.app;
 
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseImporter;
-import org.optaplanner.examples.examination.persistence.ExaminationImporter;
-import org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentImporter;
-import org.optaplanner.examples.nqueens.persistence.NQueensGenerator;
-import org.optaplanner.examples.nurserostering.persistence.NurseRosteringImporter;
-import org.optaplanner.examples.pas.persistence.PatientAdmissionScheduleImporter;
-import org.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingImporter;
-import org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentImporter;
-import org.optaplanner.examples.tsp.persistence.TspImporter;
-import org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseImporter;
+import com.sankuai.optaplanner.examples.examination.persistence.ExaminationImporter;
+import com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentImporter;
+import com.sankuai.optaplanner.examples.nqueens.persistence.NQueensGenerator;
+import com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosteringImporter;
+import com.sankuai.optaplanner.examples.pas.persistence.PatientAdmissionScheduleImporter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingImporter;
+import com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentImporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.TspImporter;
+import com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
 
 public class AllExamplesSolutionImporter extends LoggingMain {
 

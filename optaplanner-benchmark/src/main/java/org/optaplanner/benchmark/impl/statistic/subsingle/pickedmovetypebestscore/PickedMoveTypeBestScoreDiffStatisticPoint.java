@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypebestscore;
+package com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypebestscore;
 
-import org.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 public class PickedMoveTypeBestScoreDiffStatisticPoint extends StatisticPoint {
 

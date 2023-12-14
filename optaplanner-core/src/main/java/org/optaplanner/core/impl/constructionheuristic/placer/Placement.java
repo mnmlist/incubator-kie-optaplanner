@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.placer;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.placer;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.persistence;
+package com.sankuai.optaplanner.examples.machinereassignment.persistence;
 
 import java.io.File;
 
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class MachineReassignmentFileIO implements SolutionFileIO<MachineReassignment> {
 

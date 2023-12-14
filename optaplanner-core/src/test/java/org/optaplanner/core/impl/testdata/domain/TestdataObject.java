@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain;
+package com.sankuai.optaplanner.core.impl.testdata.domain;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.impl.testdata.util.CodeAssertable;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.impl.testdata.util.CodeAssertable;
 
 public class TestdataObject implements CodeAssertable {
 

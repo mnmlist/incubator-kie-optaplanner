@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.persistence;
+package com.sankuai.optaplanner.examples.machinereassignment.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
 
 public class MachineReassignmentOpenDataFilesTest extends OpenDataFilesTest<MachineReassignment> {
 

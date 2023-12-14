@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.bendablebigdecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -24,9 +24,9 @@ import java.math.BigDecimal;
 import org.junit.jupiter.api.Test;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScoreHolder;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
 
 public class BendableBigDecimalScoreHolderImplTest extends AbstractScoreHolderTest<BendableBigDecimalScore> {
 

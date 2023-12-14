@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.anchor;
+package com.sankuai.optaplanner.core.impl.domain.variable.anchor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.inOrder;
@@ -24,17 +24,17 @@ import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.InverseRelationShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableListener;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.InverseRelationShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableListener;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
 
 public class AnchorVariableListenerTest {
 

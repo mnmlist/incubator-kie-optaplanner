@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.bendablebigdecimal;
 
 import java.math.BigDecimal;
 
@@ -25,8 +25,8 @@ import org.hibernate.annotations.Columns;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.TypeDef;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
 
 public class BendableBigDecimalScoreHibernateTypeTest extends AbstractScoreJpaTest {
 

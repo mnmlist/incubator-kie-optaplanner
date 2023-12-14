@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
 
 public abstract class BavetAbstractUniTuple<A> extends BavetAbstractTuple {
 

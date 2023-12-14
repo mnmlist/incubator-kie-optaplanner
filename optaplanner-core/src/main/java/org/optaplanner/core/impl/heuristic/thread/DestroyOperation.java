@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.thread;
+package com.sankuai.optaplanner.core.impl.heuristic.thread;
 
 public class DestroyOperation<Solution_> extends MoveThreadOperation<Solution_> {
 

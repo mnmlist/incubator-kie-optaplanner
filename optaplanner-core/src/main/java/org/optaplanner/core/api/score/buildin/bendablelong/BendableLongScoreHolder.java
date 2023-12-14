@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.bendablelong;
+package com.sankuai.optaplanner.core.api.score.buildin.bendablelong;
 
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.holder.ScoreHolder;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.holder.ScoreHolder;
 
 /**
  * @see BendableLongScore

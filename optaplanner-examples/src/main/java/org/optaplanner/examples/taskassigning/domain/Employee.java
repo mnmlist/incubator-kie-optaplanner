@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain;
+package com.sankuai.optaplanner.examples.taskassigning.domain;
 
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

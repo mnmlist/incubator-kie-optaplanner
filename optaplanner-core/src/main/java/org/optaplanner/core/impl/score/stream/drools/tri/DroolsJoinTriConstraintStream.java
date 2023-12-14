@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.tri;
 
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.bi.DroolsAbstractBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.bi.DroolsAbstractBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
 
 public final class DroolsJoinTriConstraintStream<Solution_, A, B, C>
         extends DroolsAbstractTriConstraintStream<Solution_, A, B, C> {

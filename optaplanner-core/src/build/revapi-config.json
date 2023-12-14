@@ -29,9 +29,9 @@
       "ignore": [
         {
            "code": "java.method.numberOfParametersChanged",
-           "old": "method org.optaplanner.core.impl.score.inliner.ScoreInliner<Score_> org.optaplanner.core.impl.score.definition.ScoreDefinition<Score_ extends org.optaplanner.core.api.score.Score<Score_ extends org.optaplanner.core.api.score.Score<Score_>>>::buildScoreInliner(boolean) @ org.optaplanner.core.api.domain.solution.PlanningScore.NullScoreDefinition",
-           "new": "method org.optaplanner.core.impl.score.inliner.ScoreInliner<Score_> org.optaplanner.core.impl.score.definition.ScoreDefinition<Score_ extends org.optaplanner.core.api.score.Score<Score_ extends org.optaplanner.core.api.score.Score<Score_>>>::buildScoreInliner(java.util.Map<org.optaplanner.core.api.score.stream.Constraint, Score_>, boolean) @ org.optaplanner.core.api.domain.solution.PlanningScore.NullScoreDefinition",
-           "package": "org.optaplanner.core.api.domain.solution",
+           "old": "method com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner<Score_> com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition<Score_ extends com.sankuai.optaplanner.core.api.score.Score<Score_ extends com.sankuai.optaplanner.core.api.score.Score<Score_>>>::buildScoreInliner(boolean) @ com.sankuai.optaplanner.core.api.domain.solution.PlanningScore.NullScoreDefinition",
+           "new": "method com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner<Score_> com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition<Score_ extends com.sankuai.optaplanner.core.api.score.Score<Score_ extends com.sankuai.optaplanner.core.api.score.Score<Score_>>>::buildScoreInliner(java.util.Map<com.sankuai.optaplanner.core.api.score.stream.Constraint, Score_>, boolean) @ com.sankuai.optaplanner.core.api.domain.solution.PlanningScore.NullScoreDefinition",
+           "package": "com.sankuai.optaplanner.core.api.domain.solution",
            "classSimpleName": "NullScoreDefinition",
            "methodName": "buildScoreInliner",
            "elementKind": "method",
@@ -39,8 +39,8 @@
          },
          {
            "code": "java.method.addedToInterface",
-           "new": "method <ResultB_> org.optaplanner.core.api.score.stream.bi.BiConstraintStream<A, ResultB_> org.optaplanner.core.api.score.stream.bi.BiConstraintStream<A, B>::flattenLast(java.util.function.Function<B, java.lang.Iterable<ResultB_>>)",
-           "package": "org.optaplanner.core.api.score.stream.bi",
+           "new": "method <ResultB_> com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream<A, ResultB_> com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream<A, B>::flattenLast(java.util.function.Function<B, java.lang.Iterable<ResultB_>>)",
+           "package": "com.sankuai.optaplanner.core.api.score.stream.bi",
            "classSimpleName": "BiConstraintStream",
            "methodName": "flattenLast",
            "elementKind": "method",
@@ -48,8 +48,8 @@
          },
          {
            "code": "java.method.addedToInterface",
-           "new": "method <ResultD_> org.optaplanner.core.api.score.stream.quad.QuadConstraintStream<A, B, C, ResultD_> org.optaplanner.core.api.score.stream.quad.QuadConstraintStream<A, B, C, D>::flattenLast(java.util.function.Function<D, java.lang.Iterable<ResultD_>>)",
-           "package": "org.optaplanner.core.api.score.stream.quad",
+           "new": "method <ResultD_> com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream<A, B, C, ResultD_> com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream<A, B, C, D>::flattenLast(java.util.function.Function<D, java.lang.Iterable<ResultD_>>)",
+           "package": "com.sankuai.optaplanner.core.api.score.stream.quad",
            "classSimpleName": "QuadConstraintStream",
            "methodName": "flattenLast",
            "elementKind": "method",
@@ -57,8 +57,8 @@
          },
          {
            "code": "java.method.addedToInterface",
-           "new": "method <ResultC_> org.optaplanner.core.api.score.stream.tri.TriConstraintStream<A, B, ResultC_> org.optaplanner.core.api.score.stream.tri.TriConstraintStream<A, B, C>::flattenLast(java.util.function.Function<C, java.lang.Iterable<ResultC_>>)",
-           "package": "org.optaplanner.core.api.score.stream.tri",
+           "new": "method <ResultC_> com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream<A, B, ResultC_> com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream<A, B, C>::flattenLast(java.util.function.Function<C, java.lang.Iterable<ResultC_>>)",
+           "package": "com.sankuai.optaplanner.core.api.score.stream.tri",
            "classSimpleName": "TriConstraintStream",
            "methodName": "flattenLast",
            "elementKind": "method",
@@ -66,8 +66,8 @@
          },
          {
            "code": "java.method.addedToInterface",
-           "new": "method <ResultA_> org.optaplanner.core.api.score.stream.uni.UniConstraintStream<ResultA_> org.optaplanner.core.api.score.stream.uni.UniConstraintStream<A>::flattenLast(java.util.function.Function<A, java.lang.Iterable<ResultA_>>)",
-           "package": "org.optaplanner.core.api.score.stream.uni",
+           "new": "method <ResultA_> com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream<ResultA_> com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream<A>::flattenLast(java.util.function.Function<A, java.lang.Iterable<ResultA_>>)",
+           "package": "com.sankuai.optaplanner.core.api.score.stream.uni",
            "classSimpleName": "UniConstraintStream",
            "methodName": "flattenLast",
            "elementKind": "method",

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain.solver;
+package com.sankuai.optaplanner.examples.tsp.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
 
 public class LongitudeVisitDifficultyComparator implements Comparator<Visit> {
 

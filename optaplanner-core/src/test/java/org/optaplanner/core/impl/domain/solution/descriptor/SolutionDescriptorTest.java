@@ -13,50 +13,50 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.solution.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.solution.descriptor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfCollection;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfCollection;
 
 import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedSolution;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedSolution;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedSolution;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
-import org.optaplanner.core.impl.testdata.domain.reflect.generic.TestdataGenericEntity;
-import org.optaplanner.core.impl.testdata.domain.reflect.generic.TestdataGenericSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataNoProblemFactPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataProblemFactPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataReadMethodProblemFactCollectionPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataWildcardSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverFieldOverrideSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverFieldSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverGetterOverrideSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverGetterSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverUnannotatedEntitySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataExtendedAutoDiscoverGetterSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicatePlanningEntityCollectionPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicatePlanningScorePropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicateProblemFactCollectionPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataMissingScorePropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataProblemFactCollectionPropertyWithArgumentSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataProblemFactIsPlanningEntityCollectionPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataUnknownFactTypeSolution;
-import org.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataUnsupportedWildcardSolution;
-import org.optaplanner.core.impl.testdata.util.CodeAssertableArrayList;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataAnnotatedExtendedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.generic.TestdataGenericEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.generic.TestdataGenericSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataNoProblemFactPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataProblemFactPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataReadMethodProblemFactCollectionPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.TestdataWildcardSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverFieldOverrideSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverFieldSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverGetterOverrideSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverGetterSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataAutoDiscoverUnannotatedEntitySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.autodiscover.TestdataExtendedAutoDiscoverGetterSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicatePlanningEntityCollectionPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicatePlanningScorePropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataDuplicateProblemFactCollectionPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataMissingScorePropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataProblemFactCollectionPropertyWithArgumentSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataProblemFactIsPlanningEntityCollectionPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataUnknownFactTypeSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.solutionproperties.invalid.TestdataUnsupportedWildcardSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.CodeAssertableArrayList;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class SolutionDescriptorTest {
 

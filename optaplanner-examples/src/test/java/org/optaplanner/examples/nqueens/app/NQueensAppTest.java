@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.app;
+package com.sankuai.optaplanner.examples.nqueens.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
 
 public class NQueensAppTest {
 

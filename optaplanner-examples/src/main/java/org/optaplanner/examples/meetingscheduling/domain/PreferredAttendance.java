@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.domain;
+package com.sankuai.optaplanner.examples.meetingscheduling.domain;
 
 public class PreferredAttendance extends Attendance {
 

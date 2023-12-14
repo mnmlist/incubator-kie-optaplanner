@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.placer.entity;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.placer.entity;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -24,25 +24,25 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.constructionheuristic.placer.Placement;
-import org.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacer;
-import org.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacerFactory;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.Placement;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacer;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacerFactory;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
 
 public class QueuedEntityPlacerFactoryTest extends AbstractEntityPlacerTest {
 

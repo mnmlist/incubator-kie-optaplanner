@@ -16,7 +16,7 @@
 
 // credits for https://www.cs.mun.ca/java-api-1.5/guide/deployment/deployment-guide/upgrade-guide/article-17.html
 
-package org.optaplanner.examples.conferencescheduling.persistence;
+package com.sankuai.optaplanner.examples.conferencescheduling.persistence;
 
 import java.io.IOException;
 import java.io.InputStream;

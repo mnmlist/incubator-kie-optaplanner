@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.solver.move.factory;
+package com.sankuai.optaplanner.examples.pas.solver.move.factory;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -29,15 +29,15 @@ import java.util.ListIterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.pas.domain.AdmissionPart;
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.Night;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.solver.move.BedChangeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.pas.domain.AdmissionPart;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.Night;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.solver.move.BedChangeMove;
 
 public class BedDesignationPillarPartSwapMoveFactory implements MoveListFactory<PatientAdmissionSchedule> {
 

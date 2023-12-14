@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner.merge;
+import static com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner.merge;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -25,8 +25,8 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
 
 public class CompositeTriJoinerTest {
 

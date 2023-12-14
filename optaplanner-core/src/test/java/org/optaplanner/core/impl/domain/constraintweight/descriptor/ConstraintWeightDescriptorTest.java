@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.constraintweight.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfiguration;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfigurationSolution;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended.TestdataExtendedConstraintConfiguration;
-import org.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended.TestdataExtendedConstraintConfigurationSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfiguration;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.TestdataConstraintConfigurationSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended.TestdataExtendedConstraintConfiguration;
+import com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended.TestdataExtendedConstraintConfigurationSolution;
 
 public class ConstraintWeightDescriptorTest {
 

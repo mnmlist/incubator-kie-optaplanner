@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.loader;
+package com.sankuai.optaplanner.benchmark.impl.loader;
 
 import java.util.Objects;
 
 import javax.xml.bind.annotation.XmlTransient;
 
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 public class InstanceProblemProvider<Solution_> implements ProblemProvider<Solution_> {
 

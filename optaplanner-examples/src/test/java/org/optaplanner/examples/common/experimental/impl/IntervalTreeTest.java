@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.impl;
+package com.sankuai.optaplanner.examples.common.experimental.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -252,8 +252,8 @@ public class IntervalTreeTest {
             int from = random.nextInt(50);
             int to = from + random.nextInt(50);
             Interval interval = intervalToInstanceMap.computeIfAbsent(new Interval(from, to), Function.identity());
-            org.optaplanner.examples.common.experimental.impl.Interval<Interval, Integer> treeInterval =
-                    new org.optaplanner.examples.common.experimental.impl.Interval<>(interval, Interval::getStart,
+            com.sankuai.optaplanner.examples.common.experimental.impl.Interval<Interval, Integer> treeInterval =
+                    new com.sankuai.optaplanner.examples.common.experimental.impl.Interval<>(interval, Interval::getStart,
                             Interval::getEnd);
             splitPoints.add(treeInterval.getStartSplitPoint());
             splitPoints.add(treeInterval.getEndSplitPoint());

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.localsearch;
+package com.sankuai.optaplanner.core.config.localsearch;
 
 import java.util.Arrays;
 

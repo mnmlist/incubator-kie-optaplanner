@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.decorator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
-import org.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public abstract class AbstractCachingEntitySelector<Solution_> extends AbstractEntitySelector<Solution_>
         implements SelectionCacheLifecycleListener<Solution_> {

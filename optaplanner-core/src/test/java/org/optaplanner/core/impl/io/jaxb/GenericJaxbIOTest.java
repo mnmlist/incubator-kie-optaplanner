@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.io.jaxb;
+package com.sankuai.optaplanner.core.impl.io.jaxb;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -30,7 +30,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlValue;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
 
 class GenericJaxbIOTest {
 

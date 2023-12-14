@@ -15,6 +15,6 @@
  */
 
 /**
- * Out of the box {@link org.optaplanner.core.api.score.Score} implementations.
+ * Out of the box {@link com.sankuai.optaplanner.core.api.score.Score} implementations.
  */
-package org.optaplanner.core.api.score.buildin;
+package com.sankuai.optaplanner.core.api.score.buildin;

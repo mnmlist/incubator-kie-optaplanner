@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.persistence;
+package com.sankuai.optaplanner.examples.machinereassignment.persistence;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,21 +27,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
-import org.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
-import org.optaplanner.examples.machinereassignment.domain.MrLocation;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
-import org.optaplanner.examples.machinereassignment.domain.MrNeighborhood;
-import org.optaplanner.examples.machinereassignment.domain.MrProcess;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessRequirement;
-import org.optaplanner.examples.machinereassignment.domain.MrResource;
-import org.optaplanner.examples.machinereassignment.domain.MrService;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrLocation;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrNeighborhood;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcess;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessRequirement;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrResource;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
 
 public class MachineReassignmentImporter extends AbstractTxtSolutionImporter<MachineReassignment> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.swingui;
+package com.sankuai.optaplanner.examples.nurserostering.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -37,13 +37,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
-import org.optaplanner.examples.nurserostering.domain.Shift;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Shift;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
 
 public class NurseRosteringPanel extends SolutionPanel<NurseRoster> {
 

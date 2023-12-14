@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.buildin.bendable;
+package com.sankuai.optaplanner.test.impl.score.buildin.bendable;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.stream.ConstraintStream;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
-import org.optaplanner.test.impl.score.AbstractScoreVerifier;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStream;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.impl.score.AbstractScoreVerifier;
 
 /**
  * To assert the constraints of a {@link SolverFactory}

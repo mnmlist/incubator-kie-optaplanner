@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.bendablebigdecimal;
 
 import java.util.Properties;
 
 import org.hibernate.type.StandardBasicTypes;
 import org.hibernate.usertype.ParameterizedType;
-import org.optaplanner.core.impl.score.buildin.bendablebigdecimal.BendableBigDecimalScoreDefinition;
-import org.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendablebigdecimal.BendableBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
 
 /**
  * {@inheritDoc}

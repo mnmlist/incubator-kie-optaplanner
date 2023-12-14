@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.simple;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
 
 /**
  * {@inheritDoc}

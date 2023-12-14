@@ -1,4 +1,4 @@
-package org.optaplanner.core.impl.domain.common.accessor.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;
@@ -6,13 +6,13 @@ import static org.assertj.core.api.Assertions.assertThatCode;
 import java.lang.reflect.Member;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.entity.PlanningPin;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.gizmo.GizmoTestdataEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningPin;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.gizmo.GizmoTestdataEntity;
 
 public class GizmoMemberAccessorImplementorTest {
 

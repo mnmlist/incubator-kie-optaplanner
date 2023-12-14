@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftbigdecimal;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverter;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverter;
 
 import com.thoughtworks.xstream.converters.MarshallingContext;
 import com.thoughtworks.xstream.converters.UnmarshallingContext;

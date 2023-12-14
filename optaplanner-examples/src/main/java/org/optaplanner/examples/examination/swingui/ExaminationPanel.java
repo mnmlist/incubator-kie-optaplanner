@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.swingui;
+package com.sankuai.optaplanner.examples.examination.swingui;
 
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -40,17 +40,17 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.FollowingExam;
-import org.optaplanner.examples.examination.domain.Period;
-import org.optaplanner.examples.examination.domain.Room;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.FollowingExam;
+import com.sankuai.optaplanner.examples.examination.domain.Period;
+import com.sankuai.optaplanner.examples.examination.domain.Room;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class ExaminationPanel extends SolutionPanel<Examination> {
 

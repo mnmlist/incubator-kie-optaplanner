@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.bendable;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.bendable;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

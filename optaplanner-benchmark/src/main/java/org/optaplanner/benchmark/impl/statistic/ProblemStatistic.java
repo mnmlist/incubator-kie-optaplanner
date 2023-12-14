@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic;
+package com.sankuai.optaplanner.benchmark.impl.statistic;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,19 +26,19 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.jfree.chart.JFreeChart;
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.ReportHelper;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.bestscore.BestScoreProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.bestsolutionmutation.BestSolutionMutationProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.common.GraphSupport;
-import org.optaplanner.benchmark.impl.statistic.memoryuse.MemoryUseProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.movecountperstep.MoveCountPerStepProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.scorecalculationspeed.ScoreCalculationSpeedProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.stepscore.StepScoreProblemStatistic;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.ReportHelper;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.bestscore.BestScoreProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.bestsolutionmutation.BestSolutionMutationProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.common.GraphSupport;
+import com.sankuai.optaplanner.benchmark.impl.statistic.memoryuse.MemoryUseProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.movecountperstep.MoveCountPerStepProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.scorecalculationspeed.ScoreCalculationSpeedProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.stepscore.StepScoreProblemStatistic;
 
 /**
  * 1 statistic of {@link ProblemBenchmarkResult}.

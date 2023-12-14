@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin;
+package com.sankuai.optaplanner.core.api.score.buildin;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public abstract class AbstractScoreTest {
 

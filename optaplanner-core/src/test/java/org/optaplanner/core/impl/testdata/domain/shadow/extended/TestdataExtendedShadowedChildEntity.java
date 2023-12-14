@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.shadow.extended;
+package com.sankuai.optaplanner.core.impl.testdata.domain.shadow.extended;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.testdata.domain.DummyVariableListener;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.DummyVariableListener;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 @PlanningEntity
 public class TestdataExtendedShadowedChildEntity extends TestdataExtendedShadowedParentEntity {

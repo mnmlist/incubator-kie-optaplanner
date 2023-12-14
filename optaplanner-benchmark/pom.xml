@@ -4,9 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.optaplanner</groupId>
+    <groupId>com.sankuai.optaplanner</groupId>
     <artifactId>optaplanner-parent</artifactId>
-    <version>8.8.0.Final-v1</version>
+    <version>8.8.0.Final-v2</version>
   </parent>
 
   <artifactId>optaplanner-benchmark</artifactId>
@@ -22,38 +22,38 @@
   <url>https://www.optaplanner.org</url>
 
   <properties>
-    <java.module.name>org.optaplanner.benchmark</java.module.name>
+    <java.module.name>com.sankuai.optaplanner.benchmark</java.module.name>
   </properties>
 
   <dependencies>
     <!-- Internal dependencies -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-common</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-common</artifactId>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-xstream</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-jaxb</artifactId>
     </dependency>
 
@@ -180,7 +180,7 @@
             </goals>
             <configuration>
               <!-- Merge the first two XSD files to a standalone benchmark XSD file containing XML types from both of them. -->
-              <mainClass>org.optaplanner.benchmark.impl.xsd.XsdAggregator</mainClass>
+              <mainClass>com.sankuai.optaplanner.benchmark.impl.xsd.XsdAggregator</mainClass>
               <arguments>
                 <argument>${project.build.outputDirectory}/${schema.filename.solver}</argument>
                 <argument>${project.build.outputDirectory}/${schema.filename.benchmark}</argument>

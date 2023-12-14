@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import static org.mockito.Mockito.mock;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToEquals;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToEquals;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
 
 public class WorstScoreSolverRankingComparatorTest extends AbstractSolverRankingComparatorTest {
 

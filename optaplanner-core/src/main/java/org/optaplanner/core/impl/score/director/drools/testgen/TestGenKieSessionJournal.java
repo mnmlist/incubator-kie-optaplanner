@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,16 +21,16 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenInlineValue;
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenNullFact;
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenValueFact;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionDelete;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionFireAllRules;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionInsert;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenInlineValue;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenNullFact;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenValueFact;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionDelete;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionFireAllRules;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionInsert;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

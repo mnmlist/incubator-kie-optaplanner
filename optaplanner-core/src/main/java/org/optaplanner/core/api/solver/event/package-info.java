@@ -15,6 +15,6 @@
  */
 
 /**
- * Event listeners for {@link org.optaplanner.core.api.solver.Solver}.
+ * Event listeners for {@link com.sankuai.optaplanner.core.api.solver.Solver}.
  */
-package org.optaplanner.core.api.solver.event;
+package com.sankuai.optaplanner.core.api.solver.event;

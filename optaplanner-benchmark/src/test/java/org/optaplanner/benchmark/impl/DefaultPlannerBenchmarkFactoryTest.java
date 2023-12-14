@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl;
+package com.sankuai.optaplanner.benchmark.impl;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -24,8 +24,8 @@ import java.util.List;
 import java.util.TreeSet;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
 
 class DefaultPlannerBenchmarkFactoryTest {
 

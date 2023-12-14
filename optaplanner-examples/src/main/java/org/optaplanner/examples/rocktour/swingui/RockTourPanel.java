@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.swingui;
+package com.sankuai.optaplanner.examples.rocktour.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -26,10 +26,10 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
-import org.optaplanner.examples.rocktour.persistence.RockTourXlsxFileIO;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.examples.rocktour.persistence.RockTourXlsxFileIO;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class RockTourPanel extends SolutionPanel<RockTourSolution> {
 

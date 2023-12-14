@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.move;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.move;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
-import org.optaplanner.examples.nqueens.domain.Row;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.examples.nqueens.domain.Row;
 
 public class RowChangeMove extends AbstractMove<NQueens> {
 

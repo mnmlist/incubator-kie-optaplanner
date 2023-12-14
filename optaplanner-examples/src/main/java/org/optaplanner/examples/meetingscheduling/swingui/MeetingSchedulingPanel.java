@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.swingui;
+package com.sankuai.optaplanner.examples.meetingscheduling.swingui;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP1;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW_GROUP1;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP1;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW_GROUP1;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -43,20 +43,20 @@ import javax.swing.JTabbedPane;
 import javax.swing.SwingConstants;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.examples.common.swingui.CommonIcons;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
-import org.optaplanner.examples.meetingscheduling.domain.Day;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
-import org.optaplanner.examples.meetingscheduling.domain.Person;
-import org.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.Room;
-import org.optaplanner.examples.meetingscheduling.domain.TimeGrain;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.CommonIcons;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Day;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Person;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class MeetingSchedulingPanel extends SolutionPanel<MeetingSchedule> {
 

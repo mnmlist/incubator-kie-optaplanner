@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.thread;
+package com.sankuai.optaplanner.core.impl.heuristic.thread;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

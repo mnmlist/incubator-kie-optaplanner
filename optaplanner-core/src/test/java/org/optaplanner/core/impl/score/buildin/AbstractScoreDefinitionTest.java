@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin;
+package com.sankuai.optaplanner.core.impl.score.buildin;
 
 public abstract class AbstractScoreDefinitionTest {
 

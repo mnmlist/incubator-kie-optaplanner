@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.exhaustivesearch;
+package com.sankuai.optaplanner.core.config.exhaustivesearch;
 
 import java.util.Comparator;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.BreadthFirstNodeComparator;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.DepthFirstNodeComparator;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.OptimisticBoundFirstNodeComparator;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.OriginalOrderNodeComparator;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.ScoreFirstNodeComparator;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.BreadthFirstNodeComparator;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.DepthFirstNodeComparator;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.OptimisticBoundFirstNodeComparator;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.OriginalOrderNodeComparator;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.ScoreFirstNodeComparator;
 
 @XmlEnum
 public enum NodeExplorationType {

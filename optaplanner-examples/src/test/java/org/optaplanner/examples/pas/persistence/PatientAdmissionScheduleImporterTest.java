@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.persistence;
+package com.sankuai.optaplanner.examples.pas.persistence;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
 
 public class PatientAdmissionScheduleImporterTest extends ImportDataFilesTest<PatientAdmissionSchedule> {
 

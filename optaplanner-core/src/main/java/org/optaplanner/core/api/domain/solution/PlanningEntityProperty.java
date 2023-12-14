@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.solution;
+package com.sankuai.optaplanner.core.api.domain.solution;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
@@ -23,8 +23,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * Specifies that a property (or a field) on a {@link PlanningSolution} class is a planning entity.

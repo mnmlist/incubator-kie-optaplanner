@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.solver.move;
+package com.sankuai.optaplanner.examples.investment.solver.move;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.examples.investment.domain.AssetClassAllocation;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.examples.investment.domain.AssetClassAllocation;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
 
 public class InvestmentQuantityTransferMove extends AbstractMove<InvestmentSolution> {
 

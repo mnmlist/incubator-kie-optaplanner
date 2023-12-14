@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config.blueprint;
+package com.sankuai.optaplanner.benchmark.config.blueprint;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchType;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchType;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 
 @XmlEnum
 public enum SolverBenchmarkBluePrintType {

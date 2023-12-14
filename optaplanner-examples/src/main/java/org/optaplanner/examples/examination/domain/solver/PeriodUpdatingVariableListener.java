@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain.solver;
+package com.sankuai.optaplanner.examples.examination.domain.solver;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.FollowingExam;
-import org.optaplanner.examples.examination.domain.LeadingExam;
-import org.optaplanner.examples.examination.domain.Period;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.FollowingExam;
+import com.sankuai.optaplanner.examples.examination.domain.LeadingExam;
+import com.sankuai.optaplanner.examples.examination.domain.Period;
 
 public class PeriodUpdatingVariableListener implements VariableListener<Examination, LeadingExam> {
 

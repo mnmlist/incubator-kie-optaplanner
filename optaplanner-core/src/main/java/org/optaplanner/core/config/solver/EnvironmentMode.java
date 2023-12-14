@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver;
+package com.sankuai.optaplanner.core.config.solver;
 
 import java.util.Random;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * The environment mode also allows you to detect common bugs in your implementation.

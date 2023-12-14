@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -24,27 +24,27 @@ import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraint;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
-import org.optaplanner.core.impl.score.stream.bavet.common.index.BavetIndexFactory;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
-import org.optaplanner.core.impl.score.stream.uni.InnerUniConstraintStream;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraint;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.index.BavetIndexFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.impl.score.stream.uni.InnerUniConstraintStream;
 
 public abstract class BavetAbstractUniConstraintStream<Solution_, A> extends BavetAbstractConstraintStream<Solution_>
         implements InnerUniConstraintStream<A> {

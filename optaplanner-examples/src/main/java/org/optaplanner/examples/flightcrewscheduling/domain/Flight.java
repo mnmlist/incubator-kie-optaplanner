@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.domain;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.domain;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,7 +22,7 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Comparator;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 public class Flight extends AbstractPersistable implements Comparable<Flight> {
 

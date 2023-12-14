@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl;
+package com.sankuai.optaplanner.benchmark.impl;
 
 import java.util.ArrayList;
 
-import org.optaplanner.benchmark.config.ProblemBenchmarksConfig;
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.benchmark.config.ProblemBenchmarksConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
 
 public class SolverBenchmarkFactory {
     private final SolverBenchmarkConfig config;

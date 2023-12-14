@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -22,32 +22,32 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchType;
-import org.optaplanner.core.config.exhaustivesearch.NodeExplorationType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
-import org.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
-import org.optaplanner.core.impl.exhaustivesearch.node.bounder.TrendBasedScoreBounder;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.entity.mimic.ManualEntityMimicRecorder;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
-import org.optaplanner.core.impl.phase.AbstractPhaseFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchType;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.NodeExplorationType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.bounder.TrendBasedScoreBounder;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic.ManualEntityMimicRecorder;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhaseFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 public class DefaultExhaustiveSearchPhaseFactory<Solution_>
         extends AbstractPhaseFactory<Solution_, ExhaustiveSearchPhaseConfig> {

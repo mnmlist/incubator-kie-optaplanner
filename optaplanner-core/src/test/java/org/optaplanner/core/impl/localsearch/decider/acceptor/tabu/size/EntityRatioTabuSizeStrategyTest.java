@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class EntityRatioTabuSizeStrategyTest {
 

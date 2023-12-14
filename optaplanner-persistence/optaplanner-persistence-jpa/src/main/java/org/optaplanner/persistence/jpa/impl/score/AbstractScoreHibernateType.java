@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score;
+package com.sankuai.optaplanner.persistence.jpa.impl.score;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -33,8 +33,8 @@ import org.hibernate.type.LongType;
 import org.hibernate.type.StandardBasicTypes;
 import org.hibernate.type.Type;
 import org.hibernate.usertype.CompositeUserType;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 /**
  * This class is Hibernate specific, because JPA 2.1's @Converter currently

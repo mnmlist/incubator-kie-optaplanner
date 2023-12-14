@@ -16,6 +16,6 @@
 
 /**
  * Classes to help isolate incremental score calculation bugs
- * during {@link org.optaplanner.core.config.solver.EnvironmentMode#isAsserted()}.
+ * during {@link com.sankuai.optaplanner.core.config.solver.EnvironmentMode#isAsserted()}.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;

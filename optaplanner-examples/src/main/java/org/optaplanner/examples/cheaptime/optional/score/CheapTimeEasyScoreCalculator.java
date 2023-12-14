@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.optional.score;
+package com.sankuai.optaplanner.examples.cheaptime.optional.score;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
-import org.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
 
 public class CheapTimeEasyScoreCalculator implements EasyScoreCalculator<CheapTimeSolution, HardMediumSoftLongScore> {
 

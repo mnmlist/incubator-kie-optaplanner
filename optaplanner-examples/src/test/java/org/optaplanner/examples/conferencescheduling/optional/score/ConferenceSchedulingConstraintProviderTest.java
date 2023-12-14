@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.optional.score;
+package com.sankuai.optaplanner.examples.conferencescheduling.optional.score;
 
 import static java.util.Collections.emptySet;
 import static java.util.Collections.singleton;
@@ -25,13 +25,13 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.domain.Room;
-import org.optaplanner.examples.conferencescheduling.domain.Speaker;
-import org.optaplanner.examples.conferencescheduling.domain.Talk;
-import org.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public class ConferenceSchedulingConstraintProviderTest {
 

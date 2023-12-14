@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score;
+package com.sankuai.optaplanner.core.api.score;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 /**
  * A Score is result of the score function (AKA fitness function) on a single possible solution.

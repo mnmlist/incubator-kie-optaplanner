@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Collections.singletonList;
 import static org.drools.model.DSL.exists;
@@ -38,19 +38,19 @@ import org.drools.model.functions.Function3;
 import org.drools.model.functions.Predicate4;
 import org.drools.model.functions.accumulate.AccumulateFunction;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.function.ToIntTriFunction;
-import org.optaplanner.core.api.function.ToLongTriFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.stream.quad.QuadJoiner;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
-import org.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
-import org.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
-import org.optaplanner.core.impl.score.stream.quad.NoneQuadJoiner;
-import org.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.function.ToIntTriFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongTriFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.NoneQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
 
 /**
  * Represents the left hand side of a Drools rule, the result of which are three variables.

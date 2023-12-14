@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import static java.util.Objects.requireNonNull;
 
 import java.util.Collection;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.score.DefaultScoreExplanation;
-import org.optaplanner.test.api.score.stream.MultiConstraintAssertion;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.score.DefaultScoreExplanation;
+import com.sankuai.optaplanner.test.api.score.stream.MultiConstraintAssertion;
 
 public final class DefaultMultiConstraintAssertion<Solution_, Score_ extends Score<Score_>>
         implements MultiConstraintAssertion {

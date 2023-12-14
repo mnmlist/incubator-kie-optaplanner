@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.benchmark;
+package com.sankuai.optaplanner.examples.nqueens.optional.benchmark;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
@@ -22,14 +22,14 @@ import java.io.File;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkException;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.examples.common.app.PlannerBenchmarkTest;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkException;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.examples.common.app.PlannerBenchmarkTest;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class BrokenNQueensBenchmarkTest extends PlannerBenchmarkTest {
 

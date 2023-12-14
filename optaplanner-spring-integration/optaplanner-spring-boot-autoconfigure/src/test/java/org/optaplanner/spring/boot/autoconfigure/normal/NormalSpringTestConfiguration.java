@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure.normal;
+package com.sankuai.optaplanner.spring.boot.autoconfigure.normal;
 
 import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 import org.springframework.context.annotation.Configuration;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.swingui;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -26,10 +26,10 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
-import org.optaplanner.examples.flightcrewscheduling.persistence.FlightCrewSchedulingXlsxFileIO;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.persistence.FlightCrewSchedulingXlsxFileIO;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class FlightCrewSchedulingPanel extends SolutionPanel<FlightCrewSolution> {
 

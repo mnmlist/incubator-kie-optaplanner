@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.clone.lookup;
+package com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup;
 
 public enum TestdataObjectEnum {
     FIRST_VALUE,

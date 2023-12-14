@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.IterableSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.IterableSelector;
 
 /**
  * Generates {@link Move}s.

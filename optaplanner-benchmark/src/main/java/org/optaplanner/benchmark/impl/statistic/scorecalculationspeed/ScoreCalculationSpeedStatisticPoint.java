@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.scorecalculationspeed;
+package com.sankuai.optaplanner.benchmark.impl.statistic.scorecalculationspeed;
 
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
 
 public class ScoreCalculationSpeedStatisticPoint extends StatisticPoint {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.swingui;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -29,11 +29,11 @@ import java.util.Locale;
 import javax.swing.JPanel;
 
 import org.apache.commons.lang3.StringUtils;
-import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
-import org.optaplanner.examples.flightcrewscheduling.domain.Airport;
-import org.optaplanner.examples.flightcrewscheduling.domain.Flight;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Airport;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Flight;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class FlightCrewSchedulingWorldPanel extends JPanel {
 

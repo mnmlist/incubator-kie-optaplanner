@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.persistence;
+package com.sankuai.optaplanner.examples.tsp.persistence;
 
 import java.io.File;
 
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class TspFileIO implements SolutionFileIO<TspSolution> {
 

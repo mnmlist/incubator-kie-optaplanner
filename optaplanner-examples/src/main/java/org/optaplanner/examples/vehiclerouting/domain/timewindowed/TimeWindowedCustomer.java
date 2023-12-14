@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.timewindowed;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.solver.ArrivalTimeUpdatingVariableListener;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.solver.ArrivalTimeUpdatingVariableListener;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

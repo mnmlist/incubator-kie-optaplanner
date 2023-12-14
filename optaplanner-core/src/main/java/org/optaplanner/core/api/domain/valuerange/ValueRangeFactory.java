@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.valuerange;
+package com.sankuai.optaplanner.core.api.domain.valuerange;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -24,13 +24,13 @@ import java.time.LocalTime;
 import java.time.temporal.Temporal;
 import java.time.temporal.TemporalUnit;
 
-import org.optaplanner.core.impl.domain.valuerange.buildin.bigdecimal.BigDecimalValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.biginteger.BigIntegerValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.primboolean.BooleanValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.primdouble.DoubleValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.primint.IntValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.primlong.LongValueRange;
-import org.optaplanner.core.impl.domain.valuerange.buildin.temporal.TemporalValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.bigdecimal.BigDecimalValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.biginteger.BigIntegerValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primboolean.BooleanValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primdouble.DoubleValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primint.IntValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primlong.LongValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.temporal.TemporalValueRange;
 
 /**
  * Factory for {@link ValueRange}.

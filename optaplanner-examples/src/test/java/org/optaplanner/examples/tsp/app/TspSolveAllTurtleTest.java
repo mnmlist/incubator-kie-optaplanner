@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.app;
+package com.sankuai.optaplanner.examples.tsp.app;
 
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.optional.score.TspEasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.optional.score.TspEasyScoreCalculator;
 
 public class TspSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<TspSolution> {
 

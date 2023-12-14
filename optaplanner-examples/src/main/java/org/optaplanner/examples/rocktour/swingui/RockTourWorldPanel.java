@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.swingui;
+package com.sankuai.optaplanner.examples.rocktour.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -32,12 +32,12 @@ import java.util.Set;
 import javax.swing.JPanel;
 
 import org.apache.commons.lang3.StringUtils;
-import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
-import org.optaplanner.examples.rocktour.domain.RockBus;
-import org.optaplanner.examples.rocktour.domain.RockLocation;
-import org.optaplanner.examples.rocktour.domain.RockShow;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockBus;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockLocation;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockShow;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class RockTourWorldPanel extends JPanel {
 

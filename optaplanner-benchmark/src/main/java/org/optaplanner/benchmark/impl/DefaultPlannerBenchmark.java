@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl;
+package com.sankuai.optaplanner.benchmark.impl;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -31,19 +31,19 @@ import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkException;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.result.BenchmarkResultIO;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkException;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.result.BenchmarkResultIO;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

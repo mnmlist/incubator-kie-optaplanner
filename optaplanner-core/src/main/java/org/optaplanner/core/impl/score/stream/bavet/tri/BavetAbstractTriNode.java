@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.tri;
 
 import java.util.Collections;
 import java.util.List;
 
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractNode;
 
 public abstract class BavetAbstractTriNode<A, B, C> extends BavetAbstractNode {
 

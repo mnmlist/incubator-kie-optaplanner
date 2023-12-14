@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui;
+package com.sankuai.optaplanner.examples.common.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -25,13 +25,13 @@ import javax.swing.JPanel;
 import javax.swing.JViewport;
 import javax.swing.Scrollable;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.examples.common.business.SolutionBusiness;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.examples.common.business.SolutionBusiness;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

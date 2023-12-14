@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.score.capacity;
+package com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity;
 
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
 
 public abstract class ResourceCapacityTracker {
 

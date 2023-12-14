@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.benchmark.impl.aggregator.swingui;
+package com.sankuai.optaplanner.benchmark.impl.aggregator.swingui;
 
-import static org.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.CHECKED;
-import static org.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.MIXED;
-import static org.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.UNCHECKED;
+import static com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.CHECKED;
+import static com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.MIXED;
+import static com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus.UNCHECKED;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -35,7 +35,7 @@ import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
 import javax.swing.tree.TreeSelectionModel;
 
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
 
 public class CheckBoxTree extends JTree {
 

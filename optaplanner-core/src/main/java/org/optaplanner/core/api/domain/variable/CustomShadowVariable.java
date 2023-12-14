@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.variable;
+package com.sankuai.optaplanner.core.api.domain.variable;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
@@ -23,7 +23,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
 
 /**
  * Specifies that a bean property (or a field) is a custom shadow of 1 or more {@link PlanningVariable}'s.

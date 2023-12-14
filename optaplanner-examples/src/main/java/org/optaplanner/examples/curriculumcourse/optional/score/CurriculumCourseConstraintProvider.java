@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.optional.score;
+package com.sankuai.optaplanner.examples.curriculumcourse.optional.score;
 
-import static org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ONE_HARD;
-import static org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ofHard;
-import static org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ofSoft;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countDistinct;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ONE_HARD;
+import static com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ofHard;
+import static com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore.ofSoft;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countDistinct;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
 
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.curriculumcourse.domain.Curriculum;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
-import org.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
-import org.optaplanner.examples.curriculumcourse.domain.solver.CourseConflict;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Curriculum;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.CourseConflict;
 
 public class CurriculumCourseConstraintProvider implements ConstraintProvider {
 

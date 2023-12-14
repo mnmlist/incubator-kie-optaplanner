@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.inliner;
+package com.sankuai.optaplanner.core.impl.score.inliner;
 
 import java.util.List;
 import java.util.function.Supplier;

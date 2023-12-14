@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.persistence;
+package com.sankuai.optaplanner.examples.vehiclerouting.persistence;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -24,22 +24,22 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Depot;
-import org.optaplanner.examples.vehiclerouting.domain.Vehicle;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.location.RoadLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.segmented.HubSegmentLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.segmented.RoadSegmentLocation;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Depot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Vehicle;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented.HubSegmentLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented.RoadSegmentLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
 
 public class VehicleRoutingImporter extends AbstractTxtSolutionImporter<VehicleRoutingSolution> {
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.variable;
+package com.sankuai.optaplanner.core.api.domain.variable;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
 
 /**
  * A reference to a genuine {@link PlanningVariable} or a shadow variable.

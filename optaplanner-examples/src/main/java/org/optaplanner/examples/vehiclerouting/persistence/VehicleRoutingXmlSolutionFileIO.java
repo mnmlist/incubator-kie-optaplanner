@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.persistence;
+package com.sankuai.optaplanner.examples.vehiclerouting.persistence;
 
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class VehicleRoutingXmlSolutionFileIO extends XStreamSolutionFileIO<VehicleRoutingSolution> {
 

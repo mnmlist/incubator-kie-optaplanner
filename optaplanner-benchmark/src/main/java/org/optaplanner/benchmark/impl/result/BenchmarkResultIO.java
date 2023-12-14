@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -31,14 +31,14 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
-import org.optaplanner.core.impl.io.jaxb.ElementNamespaceOverride;
-import org.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.io.jaxb.ElementNamespaceOverride;
+import com.sankuai.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

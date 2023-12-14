@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bi;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.impl.score.stream.common.AbstractJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public abstract class AbstractBiJoiner<A, B> extends AbstractJoiner implements BiJoiner<A, B> {
 

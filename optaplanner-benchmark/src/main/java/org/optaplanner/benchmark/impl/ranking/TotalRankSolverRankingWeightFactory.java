@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 /**
  * This {@link SolverRankingWeightFactory} orders a {@link SolverBenchmarkResult} by how many times each of its

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.app;
+package com.sankuai.optaplanner.examples.vehiclerouting.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,16 +22,16 @@ import java.io.File;
 import java.util.stream.IntStream;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.examples.common.TurtleTest;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.examples.common.TurtleTest;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
 
 /**
  * The idea is to verify one of the basic requirements of Multithreaded Solving - the reproducibility of results. After

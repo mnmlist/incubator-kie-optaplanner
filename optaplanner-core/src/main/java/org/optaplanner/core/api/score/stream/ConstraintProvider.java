@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 /**
  * WARNING: The ConstraintStreams/ConstraintProvider API is TECH PREVIEW.

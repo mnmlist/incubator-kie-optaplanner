@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.hardmediumsoft;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.hardmediumsoft;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
 
 /**
  * {@inheritDoc}

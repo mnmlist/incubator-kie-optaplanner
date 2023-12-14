@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.optional.score;
+package com.sankuai.optaplanner.examples.examination.optional.score;
 
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
-import static org.optaplanner.core.api.score.stream.Joiners.greaterThan;
-import static org.optaplanner.core.api.score.stream.Joiners.lessThan;
-import static org.optaplanner.core.api.score.stream.Joiners.lessThanOrEqual;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.greaterThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.lessThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.lessThanOrEqual;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
-import org.optaplanner.examples.examination.domain.Period;
-import org.optaplanner.examples.examination.domain.PeriodPenalty;
-import org.optaplanner.examples.examination.domain.PeriodPenaltyType;
-import org.optaplanner.examples.examination.domain.Room;
-import org.optaplanner.examples.examination.domain.RoomPenalty;
-import org.optaplanner.examples.examination.domain.RoomPenaltyType;
-import org.optaplanner.examples.examination.domain.solver.TopicConflict;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
+import com.sankuai.optaplanner.examples.examination.domain.Period;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.Room;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.solver.TopicConflict;
 
 // TODO The ExaminationConstraintProvider is unusually slow. For more information, see: https://issues.redhat.com/browse/PLANNER-2011
 public class ExaminationConstraintProvider implements ConstraintProvider {

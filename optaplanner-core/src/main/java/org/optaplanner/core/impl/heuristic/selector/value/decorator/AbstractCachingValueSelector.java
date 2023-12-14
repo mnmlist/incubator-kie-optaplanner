@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
-import org.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public abstract class AbstractCachingValueSelector<Solution_> extends AbstractValueSelector<Solution_>
         implements SelectionCacheLifecycleListener<Solution_> {

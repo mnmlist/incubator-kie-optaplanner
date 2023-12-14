@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor;
 
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListenerAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

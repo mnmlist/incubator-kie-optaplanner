@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 import java.time.OffsetDateTime;
@@ -35,13 +35,13 @@ import javax.xml.bind.annotation.XmlTransient;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -287,7 +287,7 @@ public class PlannerBenchmarkResult {
 
     public void initSystemProperties() {
         availableProcessors = Runtime.getRuntime().availableProcessors();
-        loggingLevelOptaPlannerCore = resolveLoggingLevel("org.optaplanner.core");
+        loggingLevelOptaPlannerCore = resolveLoggingLevel("com.sankuai.optaplanner.core");
         loggingLevelDroolsCore = resolveLoggingLevel("org.drools.core");
         maxMemory = Runtime.getRuntime().maxMemory();
         optaPlannerVersion = SolverFactory.class.getPackage().getImplementationVersion();

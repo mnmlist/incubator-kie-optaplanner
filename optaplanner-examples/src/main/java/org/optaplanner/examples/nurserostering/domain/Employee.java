@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain;
+package com.sankuai.optaplanner.examples.nurserostering.domain;
 
 import java.util.Map;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.common.swingui.components.Labeled;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
-import org.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.app;
+package com.sankuai.optaplanner.examples.app;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -37,30 +37,30 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import org.optaplanner.examples.batchscheduling.app.BatchSchedulingApp;
-import org.optaplanner.examples.cheaptime.app.CheapTimeApp;
-import org.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
-import org.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.swingui.OpenBrowserAction;
-import org.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
-import org.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
-import org.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
-import org.optaplanner.examples.examination.app.ExaminationApp;
-import org.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
-import org.optaplanner.examples.investment.app.InvestmentApp;
-import org.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
-import org.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nurserostering.app.NurseRosteringApp;
-import org.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
-import org.optaplanner.examples.projectjobscheduling.app.ProjectJobSchedulingApp;
-import org.optaplanner.examples.rocktour.app.RockTourApp;
-import org.optaplanner.examples.taskassigning.app.TaskAssigningApp;
-import org.optaplanner.examples.tennis.app.TennisApp;
-import org.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
-import org.optaplanner.examples.tsp.app.TspApp;
-import org.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
+import com.sankuai.optaplanner.examples.batchscheduling.app.BatchSchedulingApp;
+import com.sankuai.optaplanner.examples.cheaptime.app.CheapTimeApp;
+import com.sankuai.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.swingui.OpenBrowserAction;
+import com.sankuai.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
+import com.sankuai.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
+import com.sankuai.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
+import com.sankuai.optaplanner.examples.examination.app.ExaminationApp;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
+import com.sankuai.optaplanner.examples.investment.app.InvestmentApp;
+import com.sankuai.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
+import com.sankuai.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nurserostering.app.NurseRosteringApp;
+import com.sankuai.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
+import com.sankuai.optaplanner.examples.projectjobscheduling.app.ProjectJobSchedulingApp;
+import com.sankuai.optaplanner.examples.rocktour.app.RockTourApp;
+import com.sankuai.optaplanner.examples.taskassigning.app.TaskAssigningApp;
+import com.sankuai.optaplanner.examples.tennis.app.TennisApp;
+import com.sankuai.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
+import com.sankuai.optaplanner.examples.tsp.app.TspApp;
+import com.sankuai.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
 
 public class OptaPlannerExamplesApp extends JFrame {
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.simplelong;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.simplelong;
 
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
 
 /**
  * {@inheritDoc}

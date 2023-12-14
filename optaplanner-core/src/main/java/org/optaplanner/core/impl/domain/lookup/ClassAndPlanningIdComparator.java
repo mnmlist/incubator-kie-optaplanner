@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
 
 public class ClassAndPlanningIdComparator implements Comparator<Object> {
 

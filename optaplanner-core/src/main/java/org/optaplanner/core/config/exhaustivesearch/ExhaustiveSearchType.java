@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.exhaustivesearch;
+package com.sankuai.optaplanner.core.config.exhaustivesearch;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
 
 @XmlEnum
 public enum ExhaustiveSearchType {

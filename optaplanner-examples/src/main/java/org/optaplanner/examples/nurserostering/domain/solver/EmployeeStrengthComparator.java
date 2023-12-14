@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.solver;
+package com.sankuai.optaplanner.examples.nurserostering.domain.solver;
 
 import static java.util.Comparator.comparingInt;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
 
 public class EmployeeStrengthComparator implements Comparator<Employee> {
 

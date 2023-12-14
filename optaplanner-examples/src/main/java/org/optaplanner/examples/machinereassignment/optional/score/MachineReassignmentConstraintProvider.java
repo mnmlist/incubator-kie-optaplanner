@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.optional.score;
+package com.sankuai.optaplanner.examples.machinereassignment.optional.score;
 
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.sumLong;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.sumLong;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
 
 import java.util.function.BiFunction;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
-import org.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
-import org.optaplanner.examples.machinereassignment.domain.MrService;
-import org.optaplanner.examples.machinereassignment.domain.solver.MrServiceDependency;
-import org.optaplanner.examples.machinereassignment.score.MrConstraints;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.solver.MrServiceDependency;
+import com.sankuai.optaplanner.examples.machinereassignment.score.MrConstraints;
 
 public class MachineReassignmentConstraintProvider implements ConstraintProvider {
 

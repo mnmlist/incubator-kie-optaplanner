@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure.gizmo;
+package com.sankuai.optaplanner.spring.boot.autoconfigure.gizmo;
 
-import org.optaplanner.spring.boot.autoconfigure.gizmo.constraints.TestdataGizmoConstraintProvider;
-import org.optaplanner.spring.boot.autoconfigure.gizmo.domain.TestdataGizmoSpringEntity;
-import org.optaplanner.spring.boot.autoconfigure.gizmo.domain.TestdataGizmoSpringSolution;
+import com.sankuai.optaplanner.spring.boot.autoconfigure.gizmo.constraints.TestdataGizmoConstraintProvider;
+import com.sankuai.optaplanner.spring.boot.autoconfigure.gizmo.domain.TestdataGizmoSpringEntity;
+import com.sankuai.optaplanner.spring.boot.autoconfigure.gizmo.domain.TestdataGizmoSpringSolution;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 

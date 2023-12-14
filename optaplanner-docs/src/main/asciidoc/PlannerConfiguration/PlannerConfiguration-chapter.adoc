@@ -65,8 +65,8 @@ A solver configuration XML file looks like this:
 <solver xmlns="https://www.optaplanner.org/xsd/solver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
   <!-- Define the model -->
-  <solutionClass>org.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
-  <entityClass>org.optaplanner.examples.nqueens.domain.Queen</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
 
   <!-- Define the score function -->
   <scoreDirectorFactory>
@@ -116,9 +116,9 @@ For example, to change the running time based on system property, before buildin
 ----
 
 Every element in the solver configuration XML is available as a `$$*$$Config` class
-or a property on a `$$*$$Config` class in the package namespace ``org.optaplanner.core.config``.
+or a property on a `$$*$$Config` class in the package namespace ``com.sankuai.optaplanner.core.config``.
 These `$$*$$Config` classes are the Java representation of the XML format.
-They build the runtime components (of the package namespace ``org.optaplanner.core.impl``)
+They build the runtime components (of the package namespace ``com.sankuai.optaplanner.core.impl``)
 and assemble them into an efficient ``Solver``.
 
 [NOTE]
@@ -376,7 +376,7 @@ The solver configuration needs to declare each planning entity class:
 <solver xmlns="https://www.optaplanner.org/xsd/solver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
   ...
-  <entityClass>org.optaplanner.examples.nqueens.domain.Queen</entityClass>
+  <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
   ...
 </solver>
 ----
@@ -1026,7 +1026,7 @@ The solver configuration needs to declare the planning solution class:
 <solver xmlns="https://www.optaplanner.org/xsd/solver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
   ...
-  <solutionClass>org.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
+  <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
   ...
 </solver>
 ----
@@ -1658,13 +1658,13 @@ If you are not using any logging framework yet, use Logback by adding this Maven
     </dependency>
 ----
 
-Configure the logging level on the `org.optaplanner` package in your `logback.xml` file:
+Configure the logging level on the `com.sankuai.optaplanner` package in your `logback.xml` file:
 
 [source,xml,options="nowrap"]
 ----
 <configuration>
 
-  <logger name="org.optaplanner" level="debug"/>
+  <logger name="com.sankuai.optaplanner" level="debug"/>
 
   ...
 
@@ -1691,13 +1691,13 @@ If instead, you are still using Log4J 1.x (and you do not want to switch to its 
     </dependency>
 ----
 
-And configure the logging level on the package `org.optaplanner` in your `log4j.xml` file:
+And configure the logging level on the package `com.sankuai.optaplanner` in your `log4j.xml` file:
 
 [source,xml,options="nowrap"]
 ----
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
-  <category name="org.optaplanner">
+  <category name="com.sankuai.optaplanner">
     <priority value="debug" />
   </category>
 

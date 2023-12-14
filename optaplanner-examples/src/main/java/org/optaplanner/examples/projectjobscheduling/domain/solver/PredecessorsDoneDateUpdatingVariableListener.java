@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain.solver;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver;
 
 import java.util.ArrayDeque;
 import java.util.Objects;
 import java.util.Queue;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
 
 public class PredecessorsDoneDateUpdatingVariableListener implements VariableListener<Schedule, Allocation> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.optional.score.drools;
+package com.sankuai.optaplanner.examples.machinereassignment.optional.score.drools;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -22,9 +22,9 @@ import static java.util.Comparator.comparingLong;
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
-import org.optaplanner.examples.machinereassignment.domain.MrResource;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrResource;
 
 public class MrMachineUsage implements Comparable<MrMachineUsage> {
 

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.penta;
+package com.sankuai.optaplanner.core.impl.score.stream.penta;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner.merge;
+import static com.sankuai.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner.merge;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.function.Function;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.core.api.score.stream.penta.PentaJoiner;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.api.score.stream.penta.PentaJoiner;
 
 public class CompositePentaJoinerTest {
 

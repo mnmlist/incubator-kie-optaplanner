@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.app;
+package com.sankuai.optaplanner.examples.examination.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.persistence.ExaminationExporter;
-import org.optaplanner.examples.examination.persistence.ExaminationImporter;
-import org.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO;
-import org.optaplanner.examples.examination.swingui.ExaminationPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.persistence.ExaminationExporter;
+import com.sankuai.optaplanner.examples.examination.persistence.ExaminationImporter;
+import com.sankuai.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.examination.swingui.ExaminationPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * Examination is super optimized and a bit complex.

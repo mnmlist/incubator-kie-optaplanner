@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.iterator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 /**
  * This {@link Iterator} does not shuffle and is never ending.

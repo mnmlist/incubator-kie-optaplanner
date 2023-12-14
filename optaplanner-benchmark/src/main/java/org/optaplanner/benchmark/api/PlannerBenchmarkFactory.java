@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.api;
+package com.sankuai.optaplanner.benchmark.api;
 
 import java.io.File;
 import java.util.List;
 
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.benchmark.impl.DefaultPlannerBenchmarkFactory;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.impl.DefaultPlannerBenchmarkFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 
 /**
  * Builds {@link PlannerBenchmark} instances.

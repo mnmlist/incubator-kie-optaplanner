@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.simplelong;
+package com.sankuai.optaplanner.core.impl.score.buildin.simplelong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataSimpleLongScoreSolution;
 
 public class SimpleLongScoreInlinerTest
         extends AbstractScoreInlinerTest<TestdataSimpleLongScoreSolution, SimpleLongScore> {

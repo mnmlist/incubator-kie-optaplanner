@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.collection;
+package com.sankuai.optaplanner.core.impl.testdata.domain.collection;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 @PlanningEntity
 public class TestdataEntityCollectionPropertyEntity extends TestdataObject {

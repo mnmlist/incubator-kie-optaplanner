@@ -5,7 +5,7 @@
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingFileIO</solutionFileIOClass>
       <!-- Belgium datasets -->
       <inputSolutionFile>data/vehiclerouting/import/belgium/basic/air/belgium-n50-k10.vrp</inputSolutionFile>
       <inputSolutionFile>data/vehiclerouting/import/belgium/basic/air/belgium-n100-k10.vrp</inputSolutionFile>
@@ -101,13 +101,13 @@
 
     <solver>
       <!--<environmentMode>FAST_ASSERT</environmentMode>-->
-      <solutionClass>org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
 
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
         <!--<scoreDrl>org/optaplanner/examples/vehiclerouting/solver/vehicleRoutingConstraints.drl</scoreDrl>-->
       </scoreDirectorFactory>
 
@@ -131,7 +131,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector1"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>
@@ -141,7 +141,7 @@
             <secondaryEntitySelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector2"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </secondaryEntitySelector>
@@ -151,7 +151,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector3"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>
@@ -181,7 +181,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector1"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>
@@ -191,7 +191,7 @@
             <secondaryEntitySelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector2"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </secondaryEntitySelector>
@@ -201,7 +201,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector3"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby.CustomerNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>

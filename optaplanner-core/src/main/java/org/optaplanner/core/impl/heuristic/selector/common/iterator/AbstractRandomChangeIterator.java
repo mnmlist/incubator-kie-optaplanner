@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.iterator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
 
 public abstract class AbstractRandomChangeIterator<Solution_, Move_ extends Move<Solution_>>
         extends UpcomingSelectionIterator<Move_> {

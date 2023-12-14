@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.domain.solver;
+package com.sankuai.optaplanner.examples.machinereassignment.domain.solver;
 
-import org.optaplanner.examples.machinereassignment.domain.MrService;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
 
 public class MrServiceDependency {
 

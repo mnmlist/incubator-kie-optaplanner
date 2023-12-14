@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.app;
+package com.sankuai.optaplanner.examples.nqueens.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
 
 public class NQueensConstructionHeuristicTest extends AbstractConstructionHeuristicTest<NQueens> {
 

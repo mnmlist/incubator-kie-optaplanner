@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public final class SingleTriJoiner<A, B, C> extends AbstractTriJoiner<A, B, C> {
 

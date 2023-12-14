@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.impl.score.stream.common.AbstractJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public abstract class AbstractTriJoiner<A, B, C> extends AbstractJoiner implements TriJoiner<A, B, C> {
 

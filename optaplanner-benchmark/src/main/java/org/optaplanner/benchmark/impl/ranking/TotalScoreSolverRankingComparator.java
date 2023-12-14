@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import java.util.Comparator;
 
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 /**
  * This ranking {@link Comparator} orders a {@link SolverBenchmarkResult} by its total {@link Score}.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.domain;
+package com.sankuai.optaplanner.examples.conferencescheduling.domain;
 
 import java.util.Set;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 public class Room extends AbstractPersistable {
 

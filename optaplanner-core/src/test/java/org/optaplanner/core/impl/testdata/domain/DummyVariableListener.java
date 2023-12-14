@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain;
+package com.sankuai.optaplanner.core.impl.testdata.domain;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 public abstract class DummyVariableListener<Solution_, Entity_> implements VariableListener<Solution_, Entity_> {
 

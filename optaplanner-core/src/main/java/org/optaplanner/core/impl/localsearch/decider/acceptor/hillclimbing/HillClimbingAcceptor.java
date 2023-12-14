@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.hillclimbing;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.hillclimbing;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
 
 public class HillClimbingAcceptor<Solution_> extends AbstractAcceptor<Solution_> {
 

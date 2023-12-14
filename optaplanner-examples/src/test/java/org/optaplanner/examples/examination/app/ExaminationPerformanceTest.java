@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.app;
+package com.sankuai.optaplanner.examples.examination.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
 
 public class ExaminationPerformanceTest extends SolverPerformanceTest<Examination> {
 

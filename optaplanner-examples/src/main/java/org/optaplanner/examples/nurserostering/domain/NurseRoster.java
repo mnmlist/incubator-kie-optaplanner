@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain;
+package com.sankuai.optaplanner.examples.nurserostering.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.solution.ProblemFactProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
-import org.optaplanner.examples.nurserostering.domain.pattern.Pattern;
-import org.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardsoft.HardSoftScoreXStreamConverter;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.Pattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardsoft.HardSoftScoreXStreamConverter;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;

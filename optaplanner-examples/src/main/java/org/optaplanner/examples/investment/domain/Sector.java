@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.domain;
+package com.sankuai.optaplanner.examples.investment.domain;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

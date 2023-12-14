@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.app;
+package com.sankuai.optaplanner.examples.tennis.app;
 
 import java.io.File;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.examples.common.app.LoggingTest;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
-import org.optaplanner.examples.tennis.persistence.TennisGenerator;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.examples.common.app.LoggingTest;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.tennis.persistence.TennisGenerator;
 
 public class TennisBenchmarkTest extends LoggingTest {
 

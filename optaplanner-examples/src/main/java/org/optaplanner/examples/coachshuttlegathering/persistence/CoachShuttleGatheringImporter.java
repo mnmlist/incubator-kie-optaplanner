@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.persistence;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.persistence;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -30,17 +30,17 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusHub;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.Coach;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocationArc;
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusHub;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Coach;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocationArc;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
 
 public class CoachShuttleGatheringImporter extends AbstractTxtSolutionImporter<CoachShuttleGatheringSolution> {
 

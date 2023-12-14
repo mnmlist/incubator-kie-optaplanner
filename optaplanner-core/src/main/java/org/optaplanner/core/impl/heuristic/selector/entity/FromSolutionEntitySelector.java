@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * This is the common {@link EntitySelector} implementation.

@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director;
+package com.sankuai.optaplanner.core.impl.score.director;
 
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.supply.SupplyManager;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.SupplyManager;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

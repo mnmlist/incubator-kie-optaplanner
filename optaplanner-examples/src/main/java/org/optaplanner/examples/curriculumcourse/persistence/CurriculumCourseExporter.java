@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.persistence;
+package com.sankuai.optaplanner.examples.curriculumcourse.persistence;
 
 import java.io.IOException;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
 
 public class CurriculumCourseExporter extends AbstractTxtSolutionExporter<CourseSchedule> {
     private static final String OUTPUT_FILE_SUFFIX = "sol";

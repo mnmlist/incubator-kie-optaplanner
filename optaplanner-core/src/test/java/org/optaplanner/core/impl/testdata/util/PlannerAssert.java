@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.util;
+package com.sankuai.optaplanner.core.impl.testdata.util;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
@@ -30,29 +30,29 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListener;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.SwapMove;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChain;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.SwapMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChain;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 /**
  * @see PlannerTestUtils

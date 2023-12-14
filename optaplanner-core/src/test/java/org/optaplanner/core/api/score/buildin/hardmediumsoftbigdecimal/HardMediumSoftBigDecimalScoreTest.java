@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -22,8 +22,8 @@ import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 import java.math.BigDecimal;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.AbstractScoreTest;
-import org.optaplanner.core.impl.testdata.util.PlannerAssert;
+import com.sankuai.optaplanner.core.api.score.buildin.AbstractScoreTest;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert;
 
 public class HardMediumSoftBigDecimalScoreTest extends AbstractScoreTest {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamInclude;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.location.segmented;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,7 +22,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
 
 public class RoadSegmentLocationTest {
 

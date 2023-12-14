@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
 
 public abstract class AbstractTabuSizeStrategy<Solution_> implements TabuSizeStrategy<Solution_> {
 

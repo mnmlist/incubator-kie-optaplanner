@@ -5,18 +5,18 @@
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
   <!-- Domain model configuration -->
-  <solutionClass>org.optaplanner.examples.investment.domain.InvestmentSolution</solutionClass>
-  <entityClass>org.optaplanner.examples.investment.domain.AssetClassAllocation</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.investment.domain.AssetClassAllocation</entityClass>
 
   <!-- Score configuration -->
   <scoreDirectorFactory>
-    <!--<easyScoreCalculatorClass>org.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->
-    <!--<incrementalScoreCalculatorClass>org.optaplanner.examples.investment.optional.score.InvestmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
-    <!--<constraintProviderClass>org.optaplanner.examples.investment.optional.score.InvestmentConstraintProvider</constraintProviderClass>-->
+    <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->
+    <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/investment/solver/investmentConstraints.drl</scoreDrl>
     <initializingScoreTrend>ONLY_DOWN/ANY</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
-    <!--<easyScoreCalculatorClass>org.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->
+    <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.investment.optional.score.InvestmentEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--</assertionScoreDirectorFactory>-->
   </scoreDirectorFactory>
 
@@ -25,15 +25,15 @@
     <minutesSpentLimit>5</minutesSpentLimit>
   </termination>
   <customPhase>
-    <customPhaseCommandClass>org.optaplanner.examples.investment.solver.solution.initializer.InvestmentAllocationSolutionInitializer</customPhaseCommandClass>
+    <customPhaseCommandClass>com.sankuai.optaplanner.examples.investment.solver.solution.initializer.InvestmentAllocationSolutionInitializer</customPhaseCommandClass>
   </customPhase>
   <localSearch>
     <unionMoveSelector>
       <moveIteratorFactory>
-        <moveIteratorFactoryClass>org.optaplanner.examples.investment.solver.move.factory.InvestmentQuantityTransferMoveIteratorFactory</moveIteratorFactoryClass>
+        <moveIteratorFactoryClass>com.sankuai.optaplanner.examples.investment.solver.move.factory.InvestmentQuantityTransferMoveIteratorFactory</moveIteratorFactoryClass>
       </moveIteratorFactory>
       <moveIteratorFactory>
-        <moveIteratorFactoryClass>org.optaplanner.examples.investment.solver.move.factory.InvestmentBiQuantityTransferMoveIteratorFactory</moveIteratorFactoryClass>
+        <moveIteratorFactoryClass>com.sankuai.optaplanner.examples.investment.solver.move.factory.InvestmentBiQuantityTransferMoveIteratorFactory</moveIteratorFactoryClass>
       </moveIteratorFactory>
     </unionMoveSelector>
     <acceptor>

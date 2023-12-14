@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.termination;
+package com.sankuai.optaplanner.core.impl.solver.termination;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.data.Offset.offset;
@@ -24,8 +24,8 @@ import static org.mockito.Mockito.when;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class OrCompositeTerminationTest {
 

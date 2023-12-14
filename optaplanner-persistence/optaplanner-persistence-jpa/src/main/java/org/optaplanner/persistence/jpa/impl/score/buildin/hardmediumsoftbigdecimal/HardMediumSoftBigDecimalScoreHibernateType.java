@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.persistence.jpa.impl.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.hardmediumsoftbigdecimal;
 
 import org.hibernate.type.StandardBasicTypes;
-import org.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreDefinition;
-import org.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
 
 /**
  * {@inheritDoc}

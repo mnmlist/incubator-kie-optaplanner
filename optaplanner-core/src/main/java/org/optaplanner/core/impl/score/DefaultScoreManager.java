@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score;
+package com.sankuai.optaplanner.core.impl.score;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreExplanation;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreExplanation;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

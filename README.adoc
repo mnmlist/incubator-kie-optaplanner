@@ -1,4 +1,4 @@
-:projectKey: org.optaplanner:optaplanner
+:projectKey: com.sankuai.optaplanner:optaplanner
 :sonarBadge: image:https://sonarcloud.io/api/project_badges/measure?project={projectKey}
 :sonarLink: link="https://sonarcloud.io/dashboard?id={projectKey}"
 
@@ -36,7 +36,7 @@ To develop with IntelliJ IDEA, Eclipse or VSCode, open the root `pom.xml` as a n
 and configure a _Run/Debug configuration_ like this:
 
 * Type: Application
-* Main class: `org.optaplanner.examples.app.OptaPlannerExamplesApp`
+* Main class: `com.sankuai.optaplanner.examples.app.OptaPlannerExamplesApp`
 * VM options: `-Xmx2G -server` (memory only needed when using the big datasets in the examples)
 * Program arguments: (none)
 * Working directory: `$MODULE_DIR$` (must resolve to optaplanner-examples directory)

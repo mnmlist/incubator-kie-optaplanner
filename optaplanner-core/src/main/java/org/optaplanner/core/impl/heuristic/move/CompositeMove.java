@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.move;
+package com.sankuai.optaplanner.core.impl.heuristic.move;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -23,8 +23,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * A CompositeMove is composed out of multiple other moves.

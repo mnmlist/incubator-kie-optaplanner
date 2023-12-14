@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
 
 public class CloudBalancingSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<CloudBalance> {
 

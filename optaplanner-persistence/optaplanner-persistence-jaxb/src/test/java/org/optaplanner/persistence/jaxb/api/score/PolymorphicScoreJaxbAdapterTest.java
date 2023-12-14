@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score;
+package com.sankuai.optaplanner.persistence.jaxb.api.score;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,10 +24,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
 
 public class PolymorphicScoreJaxbAdapterTest {
 
@@ -44,7 +44,7 @@ public class PolymorphicScoreJaxbAdapterTest {
     @Test
     public void unmarshall() {
         String xmlString = "<dummy>"
-                + "<score class=\"org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore\">-1hard/-10soft</score>"
+                + "<score class=\"com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore\">-1hard/-10soft</score>"
                 + "</dummy>";
 
         GenericJaxbIO<DummyRootElement> xmlIO = new GenericJaxbIO<>(DummyRootElement.class);

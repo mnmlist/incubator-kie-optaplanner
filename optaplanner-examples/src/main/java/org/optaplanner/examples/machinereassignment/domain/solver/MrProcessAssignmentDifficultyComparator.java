@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.domain.solver;
+package com.sankuai.optaplanner.examples.machinereassignment.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
 
 public class MrProcessAssignmentDifficultyComparator implements Comparator<MrProcessAssignment> {
 

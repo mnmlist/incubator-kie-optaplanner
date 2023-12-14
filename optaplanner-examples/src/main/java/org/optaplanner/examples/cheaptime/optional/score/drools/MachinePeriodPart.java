@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.optional.score.drools;
+package com.sankuai.optaplanner.examples.cheaptime.optional.score.drools;
 
 import static java.util.Comparator.comparing;
 
@@ -23,10 +23,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
 
 public class MachinePeriodPart implements Comparable<MachinePeriodPart> {
 

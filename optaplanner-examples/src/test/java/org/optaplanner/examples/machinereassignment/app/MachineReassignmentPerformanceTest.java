@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.app;
+package com.sankuai.optaplanner.examples.machinereassignment.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
 
 public class MachineReassignmentPerformanceTest extends SolverPerformanceTest<MachineReassignment> {
 

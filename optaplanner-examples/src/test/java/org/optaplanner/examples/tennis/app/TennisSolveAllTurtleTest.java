@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.app;
+package com.sankuai.optaplanner.examples.tennis.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
 
 public class TennisSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<TennisSolution> {
 

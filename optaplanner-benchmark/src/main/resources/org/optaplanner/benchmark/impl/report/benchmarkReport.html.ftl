@@ -1,5 +1,5 @@
-<#-- @ftlvariable name="benchmarkReport" type="org.optaplanner.benchmark.impl.report.BenchmarkReport" -->
-<#-- @ftlvariable name="reportHelper" type="org.optaplanner.benchmark.impl.report.ReportHelper" -->
+<#-- @ftlvariable name="benchmarkReport" type="com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport" -->
+<#-- @ftlvariable name="reportHelper" type="com.sankuai.optaplanner.benchmark.impl.report.ReportHelper" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -776,7 +776,7 @@
                         <td>${benchmarkReport.plannerBenchmarkResult.environmentMode!"Differs"}</td>
                     </tr>
                     <tr>
-                        <th>Logging level org.optaplanner.core</th>
+                        <th>Logging level com.sankuai.optaplanner.core</th>
                         <td>${benchmarkReport.plannerBenchmarkResult.loggingLevelOptaPlannerCore!"Differs"}</td>
                     </tr>
                     <tr>

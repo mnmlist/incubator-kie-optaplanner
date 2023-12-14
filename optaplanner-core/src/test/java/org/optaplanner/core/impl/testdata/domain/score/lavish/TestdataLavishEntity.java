@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.score.lavish;
+package com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 @PlanningEntity
 public class TestdataLavishEntity extends TestdataObject {

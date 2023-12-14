@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -26,17 +26,17 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlTransient;
 
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.StatisticType;
-import org.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalbestscore.ConstraintMatchTotalBestScoreSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalstepscore.ConstraintMatchTotalStepScoreSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypebestscore.PickedMoveTypeBestScoreDiffSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypestepscore.PickedMoveTypeStepScoreDiffSubSingleStatistic;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticType;
+import com.sankuai.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalbestscore.ConstraintMatchTotalBestScoreSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalstepscore.ConstraintMatchTotalStepScoreSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypebestscore.PickedMoveTypeBestScoreDiffSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypestepscore.PickedMoveTypeStepScoreDiffSubSingleStatistic;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

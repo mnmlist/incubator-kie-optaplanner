@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.pinned;
+package com.sankuai.optaplanner.core.impl.testdata.domain.pinned;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
 
 public class TestdataPinningFilter implements PinningFilter<TestdataPinnedSolution, TestdataPinnedEntity> {
 

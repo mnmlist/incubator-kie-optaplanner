@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.swingui;
+package com.sankuai.optaplanner.examples.cloudbalancing.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -36,10 +36,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class CloudComputerPanel extends JPanel {
 

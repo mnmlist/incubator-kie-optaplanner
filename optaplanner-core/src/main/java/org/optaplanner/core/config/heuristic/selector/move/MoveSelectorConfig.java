@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.move;
+package com.sankuai.optaplanner.core.config.heuristic.selector.move;
 
 import java.util.Comparator;
 import java.util.List;
@@ -23,26 +23,26 @@ import java.util.function.Consumer;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.heuristic.selector.SelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.SelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
 
 /**
  * General superclass for {@link ChangeMoveSelectorConfig}, etc.

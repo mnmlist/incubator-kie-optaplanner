@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl;
+package com.sankuai.optaplanner.benchmark.impl;
 
 import java.util.concurrent.Callable;
 
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.solver.DefaultSolver;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;

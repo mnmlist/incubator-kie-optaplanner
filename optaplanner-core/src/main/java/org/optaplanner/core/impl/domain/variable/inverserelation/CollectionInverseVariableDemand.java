@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.inverserelation;
+package com.sankuai.optaplanner.core.impl.domain.variable.inverserelation;
 
 import java.util.Objects;
 
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.supply.Demand;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Demand;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * To get an instance, demand a {@link CollectionInverseVariableDemand} from {@link InnerScoreDirector#getSupplyManager()}.

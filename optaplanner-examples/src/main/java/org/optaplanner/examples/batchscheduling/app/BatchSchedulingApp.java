@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.batchscheduling.app;
+package com.sankuai.optaplanner.examples.batchscheduling.app;
 
-import org.optaplanner.examples.batchscheduling.domain.BatchSchedule;
-import org.optaplanner.examples.batchscheduling.swingui.BatchSchedulingPanel;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.BatchSchedule;
+import com.sankuai.optaplanner.examples.batchscheduling.swingui.BatchSchedulingPanel;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class BatchSchedulingApp extends CommonApp<BatchSchedule> {
 

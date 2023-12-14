@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.termination;
+package com.sankuai.optaplanner.core.impl.solver.termination;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 
 /**
  * Abstract superclass that combines multiple {@link Termination}s.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.solution.cloner;
+package com.sankuai.optaplanner.core.api.domain.solution.cloner;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
@@ -27,8 +27,8 @@ import java.lang.annotation.Target;
 import java.util.Collection;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * Marks a problem fact class as being required to be deep planning cloned.

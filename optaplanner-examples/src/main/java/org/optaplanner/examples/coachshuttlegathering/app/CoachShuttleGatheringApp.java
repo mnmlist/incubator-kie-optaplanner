@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.app;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringExporter;
-import org.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringImporter;
-import org.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringXmlSolutionFileIO;
-import org.optaplanner.examples.coachshuttlegathering.swingui.CoachShuttleGatheringPanel;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringExporter;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringImporter;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.persistence.CoachShuttleGatheringXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.swingui.CoachShuttleGatheringPanel;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class CoachShuttleGatheringApp extends CommonApp<CoachShuttleGatheringSolution> {
 

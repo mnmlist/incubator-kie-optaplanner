@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -23,11 +23,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
 
 public abstract class DroolsAbstractConstraintStream<Solution_> extends AbstractConstraintStream<Solution_> {
 

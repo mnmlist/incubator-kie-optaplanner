@@ -14,36 +14,36 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.PentaPredicate;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.api.score.stream.penta.PentaJoiner;
-import org.optaplanner.core.api.score.stream.quad.QuadJoiner;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.SingleBiJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
-import org.optaplanner.core.impl.score.stream.penta.FilteringPentaJoiner;
-import org.optaplanner.core.impl.score.stream.penta.SinglePentaJoiner;
-import org.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
-import org.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
-import org.optaplanner.core.impl.score.stream.quad.SingleQuadJoiner;
-import org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
-import org.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
-import org.optaplanner.core.impl.score.stream.tri.SingleTriJoiner;
+import com.sankuai.optaplanner.core.api.function.PentaPredicate;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.penta.PentaJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.SingleBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.FilteringPentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.SinglePentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.SingleQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.SingleTriJoiner;
 
 /**
  * Creates an {@link BiJoiner}, {@link TriJoiner}, ... instance

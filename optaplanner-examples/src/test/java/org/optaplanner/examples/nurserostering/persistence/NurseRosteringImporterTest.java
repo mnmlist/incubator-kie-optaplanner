@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.persistence;
+package com.sankuai.optaplanner.examples.nurserostering.persistence;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.nurserostering.app.NurseRosteringApp;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.nurserostering.app.NurseRosteringApp;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
 
 public class NurseRosteringImporterTest extends ImportDataFilesTest<NurseRoster> {
 

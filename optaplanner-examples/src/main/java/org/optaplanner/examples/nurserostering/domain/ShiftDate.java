@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain;
+package com.sankuai.optaplanner.examples.nurserostering.domain;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

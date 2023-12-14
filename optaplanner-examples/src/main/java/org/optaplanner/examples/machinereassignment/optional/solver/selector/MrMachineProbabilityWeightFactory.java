@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.optional.solver.selector;
+package com.sankuai.optaplanner.examples.machinereassignment.optional.solver.selector;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrProcess;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
-import org.optaplanner.examples.machinereassignment.domain.MrResource;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcess;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrResource;
 
 public class MrMachineProbabilityWeightFactory
         implements SelectionProbabilityWeightFactory<MachineReassignment, MrProcessAssignment> {

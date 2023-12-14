@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionFireAllRules;
-import org.optaplanner.core.impl.solver.event.AbstractEventSupport;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionFireAllRules;
+import com.sankuai.optaplanner.core.impl.solver.event.AbstractEventSupport;
 
 public class TestGenKieSessionEventSupport extends AbstractEventSupport<TestGenKieSessionListener>
         implements TestGenKieSessionListener {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.comparator;
+package com.sankuai.optaplanner.core.impl.score.comparator;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 /**
  * Compares 2 {@link HardSoftScore}s based on the calculation of the hard multiplied by a weight, summed with the soft.

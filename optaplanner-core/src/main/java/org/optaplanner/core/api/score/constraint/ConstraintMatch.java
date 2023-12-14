@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.constraint;
+package com.sankuai.optaplanner.core.api.score.constraint;
 
 import static java.util.Objects.requireNonNull;
 
 import java.util.Comparator;
 import java.util.List;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.domain.lookup.ClassAndPlanningIdComparator;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.domain.lookup.ClassAndPlanningIdComparator;
 
 /**
  * Retrievable from {@link ConstraintMatchTotal#getConstraintMatchSet()}

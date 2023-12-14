@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal;
 
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverter;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverter;
 
 import com.thoughtworks.xstream.converters.MarshallingContext;
 import com.thoughtworks.xstream.converters.UnmarshallingContext;

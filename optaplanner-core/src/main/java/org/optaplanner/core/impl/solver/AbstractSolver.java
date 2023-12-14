@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver;
+package com.sankuai.optaplanner.core.impl.solver;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.event.SolverEventListener;
-import org.optaplanner.core.impl.partitionedsearch.PartitionSolver;
-import org.optaplanner.core.impl.phase.Phase;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleSupport;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.event.SolverEventSupport;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.event.SolverEventListener;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.PartitionSolver;
+import com.sankuai.optaplanner.core.impl.phase.Phase;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleSupport;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.event.SolverEventSupport;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

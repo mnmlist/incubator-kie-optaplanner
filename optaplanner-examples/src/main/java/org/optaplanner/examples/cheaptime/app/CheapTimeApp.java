@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.app;
+package com.sankuai.optaplanner.examples.cheaptime.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.persistence.CheapTimeExporter;
-import org.optaplanner.examples.cheaptime.persistence.CheapTimeImporter;
-import org.optaplanner.examples.cheaptime.persistence.CheapTimeXmlSolutionFileIO;
-import org.optaplanner.examples.cheaptime.swingui.CheapTimePanel;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.persistence.CheapTimeExporter;
+import com.sankuai.optaplanner.examples.cheaptime.persistence.CheapTimeImporter;
+import com.sankuai.optaplanner.examples.cheaptime.persistence.CheapTimeXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.cheaptime.swingui.CheapTimePanel;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class CheapTimeApp extends CommonApp<CheapTimeSolution> {
 

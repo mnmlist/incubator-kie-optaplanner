@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.impl.testdata.domain;
+package com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain;
 
-import org.optaplanner.core.impl.testdata.util.CodeAssertable;
+import com.sankuai.optaplanner.core.impl.testdata.util.CodeAssertable;
 
 public abstract class JacksonTestdataObject implements CodeAssertable {
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.pillar;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar;
 
 import java.util.List;
 
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.ListIterableSelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.ListIterableSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
 
 /**
  * A pillar is a {@link List} of entities that have the same planning value for each (or a subset)

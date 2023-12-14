@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.simplebigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.simplebigdecimal;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
 
 @Converter
 public class SimpleBigDecimalScoreConverter implements AttributeConverter<SimpleBigDecimalScore, String> {

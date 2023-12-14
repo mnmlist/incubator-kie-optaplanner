@@ -1,8 +1,8 @@
-package org.optaplanner.core.impl.domain.solution.cloner.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 public final class GizmoSolutionClonerFactory {
     /**

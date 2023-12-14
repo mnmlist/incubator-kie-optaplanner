@@ -1,13 +1,13 @@
-package org.optaplanner.core.impl.testdata.domain.gizmo;
+package com.sankuai.optaplanner.core.impl.testdata.domain.gizmo;
 
 import java.util.Collection;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.entity.PlanningPin;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningPin;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 @PlanningEntity
 public class GizmoTestdataEntity {

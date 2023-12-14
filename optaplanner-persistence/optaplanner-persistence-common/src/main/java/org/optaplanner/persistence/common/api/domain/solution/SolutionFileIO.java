@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.common.api.domain.solution;
+package com.sankuai.optaplanner.persistence.common.api.domain.solution;
 
 import java.io.File;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * Reads or writes a {@link PlanningSolution} from or to a {@link File}.

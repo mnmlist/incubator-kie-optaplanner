@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.domain.solver;
+package com.sankuai.optaplanner.examples.curriculumcourse.domain.solver;
 
 import static java.util.Comparator.comparingInt;
 import static java.util.Comparator.comparingLong;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.curriculumcourse.domain.Course;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
-import org.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Course;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
 
 public class LectureDifficultyWeightFactory implements SelectionSorterWeightFactory<CourseSchedule, Lecture> {
 

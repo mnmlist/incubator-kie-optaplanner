@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.score.director;
+package com.sankuai.optaplanner.core.config.score.director;
 
 import java.io.File;
 import java.util.Arrays;
@@ -29,14 +29,14 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import org.apache.commons.lang3.ObjectUtils;
 import org.drools.core.base.CoreComponentsBuilder;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
-import org.optaplanner.core.impl.score.director.drools.KieRuntimeBuilderWrapper;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
+import com.sankuai.optaplanner.core.impl.score.director.drools.KieRuntimeBuilderWrapper;
 
 @XmlType(propOrder = {
         "easyScoreCalculatorClass",

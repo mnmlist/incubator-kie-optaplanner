@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.constraintweight.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor;
 
 import java.util.Objects;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

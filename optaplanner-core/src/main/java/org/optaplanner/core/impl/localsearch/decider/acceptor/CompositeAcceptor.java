@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * Combines several acceptors into one.

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
 
 public class FilteringValueSelector<Solution_> extends AbstractValueSelector<Solution_> {
 

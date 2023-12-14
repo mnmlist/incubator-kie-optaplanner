@@ -156,7 +156,7 @@ In that case, use the `reward()` and `penalize()` methods of the `ScoreHolder`:
 
 [source,options="nowrap"]
 ----
-package org.optaplanner.examples.nqueens.solver;
+package com.sankuai.optaplanner.examples.nqueens.solver;
 ...
 global SimpleScoreHolder scoreHolder;
 

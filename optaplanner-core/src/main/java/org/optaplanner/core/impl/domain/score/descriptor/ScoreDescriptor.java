@@ -14,44 +14,44 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.score.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.score.descriptor;
 
-import static org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD_WITH_SETTER;
+import static com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD_WITH_SETTER;
 
 import java.lang.reflect.Member;
 
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.score.AbstractBendableScore;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
-import org.optaplanner.core.impl.domain.policy.DescriptorPolicy;
-import org.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.bendablebigdecimal.BendableBigDecimalScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.bendablelong.BendableLongScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.hardsoftlong.HardSoftLongScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.simplebigdecimal.SimpleBigDecimalScoreDefinition;
-import org.optaplanner.core.impl.score.buildin.simplelong.SimpleLongScoreDefinition;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.score.AbstractBendableScore;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
+import com.sankuai.optaplanner.core.impl.domain.policy.DescriptorPolicy;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendablebigdecimal.BendableBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendablelong.BendableLongScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoftlong.HardSoftLongScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.simplebigdecimal.SimpleBigDecimalScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.simplelong.SimpleLongScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 public class ScoreDescriptor {
 

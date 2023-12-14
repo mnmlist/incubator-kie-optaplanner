@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.swingui.realtime;
+package com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime;
 
 import java.util.ArrayList;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
 
 public class DeleteComputerProblemFactChange implements ProblemFactChange<CloudBalance> {
 

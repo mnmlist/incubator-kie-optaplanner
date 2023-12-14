@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.constraintconfiguration;
+package com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration;
 
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
 
 public final class TestdataConstraintWeightConstraintProvider implements ConstraintProvider {
     @Override

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelectorFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelectorFactory;
 
 public class SubChainSwapMoveSelectorFactory<Solution_>
         extends AbstractMoveSelectorFactory<Solution_, SubChainSwapMoveSelectorConfig> {

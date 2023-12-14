@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.report;
+package com.sankuai.optaplanner.benchmark.impl.report;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.mockito.Mockito.mock;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.ranking.SolverRankingType;
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.config.ranking.SolverRankingType;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
 
 class BenchmarkReportFactoryTest {
 

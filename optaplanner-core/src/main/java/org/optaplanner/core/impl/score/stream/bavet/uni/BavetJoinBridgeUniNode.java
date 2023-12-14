@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBiNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetJoinBridgeNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
-import org.optaplanner.core.impl.score.stream.bavet.common.index.BavetIndex;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBiNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetJoinBridgeNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.index.BavetIndex;
 
 public final class BavetJoinBridgeUniNode<A> extends BavetAbstractUniNode<A>
         implements BavetJoinBridgeNode {

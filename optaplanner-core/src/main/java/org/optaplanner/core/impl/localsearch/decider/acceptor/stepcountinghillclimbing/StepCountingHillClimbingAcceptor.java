@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.stepcountinghillclimbing;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.stepcountinghillclimbing;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 
 public class StepCountingHillClimbingAcceptor<Solution_> extends AbstractAcceptor<Solution_> {
 

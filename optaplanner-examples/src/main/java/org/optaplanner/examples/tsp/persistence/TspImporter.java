@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.persistence;
+package com.sankuai.optaplanner.examples.tsp.persistence;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -25,17 +25,17 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.tsp.app.TspApp;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
-import org.optaplanner.examples.tsp.domain.location.AirLocation;
-import org.optaplanner.examples.tsp.domain.location.DistanceType;
-import org.optaplanner.examples.tsp.domain.location.Location;
-import org.optaplanner.examples.tsp.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.tsp.app.TspApp;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.examples.tsp.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.tsp.domain.location.DistanceType;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.examples.tsp.domain.location.RoadLocation;
 
 public class TspImporter extends AbstractTxtSolutionImporter<TspSolution> {
 

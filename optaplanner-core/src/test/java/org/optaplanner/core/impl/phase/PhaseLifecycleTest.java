@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.phase;
+package com.sankuai.optaplanner.core.impl.phase;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.reset;
@@ -22,16 +22,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
-import org.optaplanner.core.impl.solver.DefaultSolver;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.util.PlannerAssert;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class PhaseLifecycleTest {
 

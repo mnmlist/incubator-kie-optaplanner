@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.testdata.domain.clone.lookup;
+package com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup;
 
 public class TestdataObjectEqualsSubclass extends TestdataObjectEquals {
 

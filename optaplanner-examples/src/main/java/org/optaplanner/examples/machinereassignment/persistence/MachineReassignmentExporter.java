@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.persistence;
+package com.sankuai.optaplanner.examples.machinereassignment.persistence;
 
 import java.io.IOException;
 import java.util.List;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
 
 public class MachineReassignmentExporter extends AbstractTxtSolutionExporter<MachineReassignment> {
 

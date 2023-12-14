@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.mockRebasingScoreDirector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.mockRebasingScoreDirector;
 
 import java.util.Collections;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class ChainedSwapMoveTest {
 

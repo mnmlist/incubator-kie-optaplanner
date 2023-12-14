@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools;
+package com.sankuai.optaplanner.core.impl.score.stream.drools;
 
 import static org.drools.model.DSL.declarationOf;
 import static org.drools.model.DSL.from;
@@ -26,8 +26,8 @@ import java.util.function.Function;
 
 import org.drools.model.DSL;
 import org.drools.model.Variable;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
 
 public final class DroolsVariableFactory {
 

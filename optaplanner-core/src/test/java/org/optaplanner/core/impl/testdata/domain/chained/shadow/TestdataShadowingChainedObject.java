@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.chained.shadow;
+package com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
 
 @PlanningEntity
 public interface TestdataShadowingChainedObject {

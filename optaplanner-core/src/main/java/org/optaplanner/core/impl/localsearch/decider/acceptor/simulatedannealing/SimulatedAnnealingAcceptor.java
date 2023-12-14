@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.score.ScoreUtils;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.score.ScoreUtils;
 
 /**
  * The time gradient implementation of simulated annealing.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.persistence;
+package com.sankuai.optaplanner.examples.tsp.persistence;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.tsp.app.TspApp;
-import org.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.tsp.app.TspApp;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
 
 public class TspImporterTest extends ImportDataFilesTest<TspSolution> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -27,17 +27,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
-import org.optaplanner.core.api.solver.event.SolverEventListener;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
-import org.optaplanner.examples.common.app.LoggingTest;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
+import com.sankuai.optaplanner.core.api.solver.event.SolverEventListener;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
+import com.sankuai.optaplanner.examples.common.app.LoggingTest;
 
 public class CloudBalancingDaemonTest extends LoggingTest {
 

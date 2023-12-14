@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.app;
+package com.sankuai.optaplanner.examples.pas.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.persistence.PatientAdmissionScheduleExporter;
-import org.optaplanner.examples.pas.persistence.PatientAdmissionScheduleImporter;
-import org.optaplanner.examples.pas.persistence.PatientAdmissionScheduleXmlSolutionFileIO;
-import org.optaplanner.examples.pas.swingui.PatientAdmissionSchedulePanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.persistence.PatientAdmissionScheduleExporter;
+import com.sankuai.optaplanner.examples.pas.persistence.PatientAdmissionScheduleImporter;
+import com.sankuai.optaplanner.examples.pas.persistence.PatientAdmissionScheduleXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.pas.swingui.PatientAdmissionSchedulePanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class PatientAdmissionScheduleApp extends CommonApp<PatientAdmissionSchedule> {
 

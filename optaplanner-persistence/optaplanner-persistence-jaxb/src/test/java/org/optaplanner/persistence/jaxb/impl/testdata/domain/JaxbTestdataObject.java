@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.impl.testdata.domain;
+package com.sankuai.optaplanner.persistence.jaxb.impl.testdata.domain;
 
 import javax.xml.bind.annotation.XmlID;
 
-import org.optaplanner.core.impl.testdata.util.CodeAssertable;
+import com.sankuai.optaplanner.core.impl.testdata.util.CodeAssertable;
 
 public abstract class JaxbTestdataObject implements CodeAssertable {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.event;
+package com.sankuai.optaplanner.core.impl.solver.event;
 
 import java.util.EventListener;
 import java.util.Set;

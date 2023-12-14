@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver.testutil.corruptedmove;
+package com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 public class TestdataCorruptedEntityUndoMove extends AbstractTestdataMove {
 

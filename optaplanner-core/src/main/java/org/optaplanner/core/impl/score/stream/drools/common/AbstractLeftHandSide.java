@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static org.drools.model.DSL.and;
 
@@ -29,8 +29,8 @@ import org.drools.model.Index;
 import org.drools.model.Variable;
 import org.drools.model.functions.accumulate.AccumulateFunction;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
 
 abstract class AbstractLeftHandSide {
 

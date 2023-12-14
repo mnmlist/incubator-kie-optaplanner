@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.solution;
+package com.sankuai.optaplanner.core.api.domain.solution;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.METHOD;
@@ -23,11 +23,11 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
 
 /**
  * Specifies that a property (or a field) on a {@link PlanningSolution} class is a problem fact.

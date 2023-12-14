@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector;
+package com.sankuai.optaplanner.core.impl.heuristic.selector;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListener;
 
 /**
  * General interface for {@link MoveSelector}, {@link EntitySelector} and {@link ValueSelector}

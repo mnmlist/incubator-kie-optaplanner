@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.tracking;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.tracking;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -25,19 +25,19 @@ import java.util.List;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
-import org.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.solver.DefaultSolver;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.persistence.NQueensGenerator;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.persistence.NQueensGenerator;
 
 public class NQueensLocalSearchTrackingTest extends NQueensAbstractTrackingTest {
 

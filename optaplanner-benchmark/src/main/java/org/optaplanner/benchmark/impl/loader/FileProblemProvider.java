@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.loader;
+package com.sankuai.optaplanner.benchmark.impl.loader;
 
 import java.io.File;
 
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class FileProblemProvider<Solution_> implements ProblemProvider<Solution_> {
 

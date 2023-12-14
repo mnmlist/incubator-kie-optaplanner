@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.backlinked;
+package com.sankuai.optaplanner.core.impl.testdata.domain.backlinked;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 @PlanningEntity
 public class TestdataBacklinkedEntity extends TestdataObject {

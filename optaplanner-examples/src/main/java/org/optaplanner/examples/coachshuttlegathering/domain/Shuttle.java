@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.domain;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
-import org.optaplanner.examples.coachshuttlegathering.domain.solver.DepotAngleBusStopDifficultyWeightFactory;
-import org.optaplanner.examples.coachshuttlegathering.domain.solver.ShuttlePassengerCountTotalUpdatingVariableListener;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.solver.DepotAngleBusStopDifficultyWeightFactory;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.solver.ShuttlePassengerCountTotalUpdatingVariableListener;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

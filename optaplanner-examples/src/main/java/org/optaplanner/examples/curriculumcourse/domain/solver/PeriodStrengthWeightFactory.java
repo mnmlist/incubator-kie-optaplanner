@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.domain.solver;
+package com.sankuai.optaplanner.examples.curriculumcourse.domain.solver;
 
 import static java.util.Collections.reverseOrder;
 import static java.util.Comparator.comparing;
@@ -23,10 +23,10 @@ import static java.util.function.Function.identity;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Period;
-import org.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Period;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
 
 public class PeriodStrengthWeightFactory implements SelectionSorterWeightFactory<CourseSchedule, Period> {
 

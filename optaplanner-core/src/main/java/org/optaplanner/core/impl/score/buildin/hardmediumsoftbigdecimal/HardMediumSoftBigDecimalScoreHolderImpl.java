@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal;
 
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
@@ -21,11 +21,11 @@ import java.util.Map;
 
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreHolder;
-import org.optaplanner.core.impl.score.holder.AbstractScoreHolder;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.holder.AbstractScoreHolder;
 
 /**
  * @see HardMediumSoftBigDecimalScore

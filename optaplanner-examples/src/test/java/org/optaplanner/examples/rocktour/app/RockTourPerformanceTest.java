@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.app;
+package com.sankuai.optaplanner.examples.rocktour.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
 
 public class RockTourPerformanceTest extends SolverPerformanceTest<RockTourSolution> {
 

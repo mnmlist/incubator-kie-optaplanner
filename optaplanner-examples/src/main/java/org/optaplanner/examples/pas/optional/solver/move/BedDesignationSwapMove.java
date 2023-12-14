@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.optional.solver.move;
+package com.sankuai.optaplanner.examples.pas.optional.solver.move;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.solver.move.PatientAdmissionMoveHelper;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.solver.move.PatientAdmissionMoveHelper;
 
 public class BedDesignationSwapMove extends AbstractMove<PatientAdmissionSchedule> {
 

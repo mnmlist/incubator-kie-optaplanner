@@ -14,42 +14,42 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.optional.score;
+package com.sankuai.optaplanner.examples.nurserostering.optional.score;
 
-import static org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd.getDistanceToLastDayOfWeekend;
-import static org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd.isWeekendAndNotLastDayOfWeekend;
-import static org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart.getDistanceToFirstDayOfWeekend;
-import static org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart.isWeekendAndNotFirstDayOfWeekend;
+import static com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd.getDistanceToLastDayOfWeekend;
+import static com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd.isWeekendAndNotLastDayOfWeekend;
+import static com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart.getDistanceToFirstDayOfWeekend;
+import static com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart.isWeekendAndNotFirstDayOfWeekend;
 
 import java.time.DayOfWeek;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.examples.common.experimental.ExperimentalConstraintCollectors;
-import org.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
-import org.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
-import org.optaplanner.examples.nurserostering.domain.SkillProficiency;
-import org.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
-import org.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
-import org.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.examples.common.experimental.ExperimentalConstraintCollectors;
+import com.sankuai.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
+import com.sankuai.optaplanner.examples.nurserostering.domain.SkillProficiency;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
 
 public class NurseRosteringConstraintProvider implements ConstraintProvider {
 

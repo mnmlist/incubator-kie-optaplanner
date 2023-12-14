@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.app;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
 
 public class FlightCrewSchedulingPerformanceTest extends SolverPerformanceTest<FlightCrewSolution> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver;
+package com.sankuai.optaplanner.core.impl.solver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;
@@ -27,28 +27,28 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.phase.custom.NoChangeCustomPhaseCommand;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
-import org.optaplanner.core.impl.util.TestMeterRegistry;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.impl.phase.custom.NoChangeCustomPhaseCommand;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.impl.util.TestMeterRegistry;
 
 import io.micrometer.core.instrument.Metrics;
 

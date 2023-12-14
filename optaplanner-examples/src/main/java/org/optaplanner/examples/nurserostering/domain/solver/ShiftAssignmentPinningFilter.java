@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.solver;
+package com.sankuai.optaplanner.examples.nurserostering.domain.solver;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
 
 public class ShiftAssignmentPinningFilter implements PinningFilter<NurseRoster, ShiftAssignment> {
 

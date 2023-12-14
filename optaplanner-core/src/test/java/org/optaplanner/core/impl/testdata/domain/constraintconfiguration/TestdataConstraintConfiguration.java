@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.constraintconfiguration;
+package com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 @ConstraintConfiguration
 public class TestdataConstraintConfiguration extends TestdataObject {

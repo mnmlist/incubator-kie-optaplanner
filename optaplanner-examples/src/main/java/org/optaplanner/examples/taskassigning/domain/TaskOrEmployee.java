@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain;
+package com.sankuai.optaplanner.examples.taskassigning.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 @PlanningEntity
 public abstract class TaskOrEmployee extends AbstractPersistable {

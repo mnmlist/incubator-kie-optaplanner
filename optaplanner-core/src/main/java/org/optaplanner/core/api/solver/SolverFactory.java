@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
 import java.io.File;
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
 
 /**
  * Creates {@link Solver} instances.

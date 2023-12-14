@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.solver.drools.functions;
+package com.sankuai.optaplanner.examples.common.solver.drools.functions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

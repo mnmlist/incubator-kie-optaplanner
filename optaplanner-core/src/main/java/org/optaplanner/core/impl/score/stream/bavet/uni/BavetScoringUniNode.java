@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
 
 public final class BavetScoringUniNode<A> extends BavetAbstractUniNode<A> implements BavetScoringNode {
 

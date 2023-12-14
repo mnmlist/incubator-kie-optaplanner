@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector;
+package com.sankuai.optaplanner.core.impl.heuristic.selector;
 
-import org.optaplanner.core.config.heuristic.selector.SelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.impl.AbstractFromConfigFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.SelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.impl.AbstractFromConfigFactory;
 
 public abstract class AbstractSelectorFactory<Solution_, SelectorConfig_ extends SelectorConfig<SelectorConfig_>>
         extends AbstractFromConfigFactory<Solution_, SelectorConfig_> {

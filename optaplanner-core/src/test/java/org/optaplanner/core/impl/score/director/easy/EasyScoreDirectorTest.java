@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.easy;
+package com.sankuai.optaplanner.core.impl.score.director.easy;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
@@ -24,13 +24,13 @@ import static org.mockito.Mockito.when;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.shadow.corrupted.TestdataCorruptedShadowedEntity;
-import org.optaplanner.core.impl.testdata.domain.shadow.corrupted.TestdataCorruptedShadowedSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.corrupted.TestdataCorruptedShadowedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.corrupted.TestdataCorruptedShadowedSolution;
 
 public class EasyScoreDirectorTest {
 

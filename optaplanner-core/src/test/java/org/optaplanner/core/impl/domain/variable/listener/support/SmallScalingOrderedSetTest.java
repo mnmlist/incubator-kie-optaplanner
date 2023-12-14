@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener.support;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener.support;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

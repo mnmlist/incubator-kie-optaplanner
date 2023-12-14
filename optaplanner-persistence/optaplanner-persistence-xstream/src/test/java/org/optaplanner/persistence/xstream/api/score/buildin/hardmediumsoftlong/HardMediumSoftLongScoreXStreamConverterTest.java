@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftlong;
+package com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftlong;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
 
 import com.thoughtworks.xstream.annotations.XStreamConverter;
 

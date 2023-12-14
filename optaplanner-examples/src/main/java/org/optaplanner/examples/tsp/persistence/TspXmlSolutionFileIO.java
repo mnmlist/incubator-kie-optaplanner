@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.persistence;
+package com.sankuai.optaplanner.examples.tsp.persistence;
 
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TspXmlSolutionFileIO extends XStreamSolutionFileIO<TspSolution> {
 

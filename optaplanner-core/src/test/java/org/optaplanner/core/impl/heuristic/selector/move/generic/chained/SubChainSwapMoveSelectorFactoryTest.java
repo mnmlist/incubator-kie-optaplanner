@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
 
 class SubChainSwapMoveSelectorFactoryTest {
 

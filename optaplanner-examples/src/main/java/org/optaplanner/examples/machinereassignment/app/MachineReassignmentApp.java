@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.app;
+package com.sankuai.optaplanner.examples.machinereassignment.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentExporter;
-import org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentImporter;
-import org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentXmlSolutionFileIO;
-import org.optaplanner.examples.machinereassignment.swingui.MachineReassignmentPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentExporter;
+import com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentImporter;
+import com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.machinereassignment.swingui.MachineReassignmentPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class MachineReassignmentApp extends CommonApp<MachineReassignment> {
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class SortingValueSelector<Solution_> extends AbstractCachingValueSelector<Solution_>
         implements EntityIndependentValueSelector<Solution_> {

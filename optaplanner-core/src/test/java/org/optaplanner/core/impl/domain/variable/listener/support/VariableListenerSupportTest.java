@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener.support;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener.support;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -23,21 +23,21 @@ import static org.mockito.Mockito.when;
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.ExternalizedSingletonInverseVariableSupply;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableListener;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.domain.variable.supply.SupplyManager;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.ExternalizedSingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableListener;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.SupplyManager;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
 
 public class VariableListenerSupportTest {
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.composite;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.composite;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
 
 public class EmptyValueRange<T> extends AbstractCountableValueRange<T> {
 

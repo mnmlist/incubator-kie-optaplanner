@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import java.util.Objects;
 import java.util.function.BiFunction;
@@ -25,7 +25,7 @@ import org.drools.core.reteoo.SubnetworkTuple;
 import org.drools.core.rule.Declaration;
 import org.drools.core.spi.Tuple;
 import org.drools.model.Variable;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
 
 final class UniAccumulator<A, ResultContainer_, Result_> extends AbstractAccumulator<ResultContainer_, Result_> {
 

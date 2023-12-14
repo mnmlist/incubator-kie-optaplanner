@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.common;
+package com.sankuai.optaplanner.core.impl.domain.common;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Array;

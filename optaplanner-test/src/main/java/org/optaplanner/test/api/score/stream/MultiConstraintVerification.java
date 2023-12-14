@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.api.score.stream;
+package com.sankuai.optaplanner.test.api.score.stream;
 
 public interface MultiConstraintVerification<Solution_> {
 

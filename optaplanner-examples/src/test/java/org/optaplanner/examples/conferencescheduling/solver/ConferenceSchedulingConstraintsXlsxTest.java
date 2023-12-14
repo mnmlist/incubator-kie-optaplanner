@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.solver;
+package com.sankuai.optaplanner.examples.conferencescheduling.solver;
 
-import static org.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO.DAY_FORMATTER;
-import static org.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO.TIME_FORMATTER;
+import static com.sankuai.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO.DAY_FORMATTER;
+import static com.sankuai.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO.TIME_FORMATTER;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -42,19 +42,19 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintWeightDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
-import org.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.domain.Room;
-import org.optaplanner.examples.conferencescheduling.domain.Talk;
-import org.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import org.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
-import org.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintWeightDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
+import com.sankuai.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
+import com.sankuai.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
+import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 
 public class ConferenceSchedulingConstraintsXlsxTest {
 

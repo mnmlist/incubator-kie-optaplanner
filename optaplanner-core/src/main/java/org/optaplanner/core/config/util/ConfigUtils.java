@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.util;
+package com.sankuai.optaplanner.core.config.util;
 
-import static org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_READ_METHOD;
+import static com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_READ_METHOD;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
@@ -41,13 +41,13 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.impl.domain.common.AlphabeticMemberComparator;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.impl.domain.common.AlphabeticMemberComparator;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
 
 public class ConfigUtils {
 

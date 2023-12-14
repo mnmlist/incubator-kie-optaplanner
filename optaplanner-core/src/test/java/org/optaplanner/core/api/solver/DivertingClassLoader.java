@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
 import java.io.IOException;
 import java.io.InputStream;

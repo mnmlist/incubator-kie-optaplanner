@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.persistence;
+package com.sankuai.optaplanner.examples.curriculumcourse.persistence;
 
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class CurriculumCourseXmlSolutionFileIO extends XStreamSolutionFileIO<CourseSchedule> {
 

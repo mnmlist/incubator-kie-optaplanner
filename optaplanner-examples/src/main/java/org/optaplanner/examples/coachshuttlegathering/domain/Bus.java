@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.domain;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.domain;
 
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamInclude;

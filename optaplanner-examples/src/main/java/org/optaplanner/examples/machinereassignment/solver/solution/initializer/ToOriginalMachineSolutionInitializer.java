@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.solver.solution.initializer;
+package com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
 
 public class ToOriginalMachineSolutionInitializer implements CustomPhaseCommand<MachineReassignment> {
 

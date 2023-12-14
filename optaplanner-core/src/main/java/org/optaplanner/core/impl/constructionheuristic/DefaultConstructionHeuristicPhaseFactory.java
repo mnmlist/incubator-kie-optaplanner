@@ -14,38 +14,38 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic;
+package com.sankuai.optaplanner.core.impl.constructionheuristic;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
 import java.util.concurrent.ThreadFactory;
 
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
-import org.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicForagerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.EntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.PooledEntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.QueuedValuePlacerConfig;
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.constructionheuristic.decider.ConstructionHeuristicDecider;
-import org.optaplanner.core.impl.constructionheuristic.decider.MultiThreadedConstructionHeuristicDecider;
-import org.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForager;
-import org.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForagerFactory;
-import org.optaplanner.core.impl.constructionheuristic.placer.EntityPlacer;
-import org.optaplanner.core.impl.constructionheuristic.placer.EntityPlacerFactory;
-import org.optaplanner.core.impl.constructionheuristic.placer.PooledEntityPlacerFactory;
-import org.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacerFactory;
-import org.optaplanner.core.impl.constructionheuristic.placer.QueuedValuePlacerFactory;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.phase.AbstractPhaseFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
+import com.sankuai.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicForagerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.EntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.PooledEntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.QueuedValuePlacerConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.ConstructionHeuristicDecider;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.MultiThreadedConstructionHeuristicDecider;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForager;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForagerFactory;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.EntityPlacer;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.EntityPlacerFactory;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.PooledEntityPlacerFactory;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.QueuedEntityPlacerFactory;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.QueuedValuePlacerFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhaseFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 
 public class DefaultConstructionHeuristicPhaseFactory<Solution_>
         extends AbstractPhaseFactory<Solution_, ConstructionHeuristicPhaseConfig> {

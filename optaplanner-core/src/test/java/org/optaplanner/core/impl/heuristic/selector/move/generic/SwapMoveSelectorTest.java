@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfMoveSelector;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfMoveSelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
 
 public class SwapMoveSelectorTest {
 

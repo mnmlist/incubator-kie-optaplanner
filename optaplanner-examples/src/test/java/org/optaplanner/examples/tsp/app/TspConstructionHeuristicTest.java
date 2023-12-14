@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.app;
+package com.sankuai.optaplanner.examples.tsp.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
 
 public class TspConstructionHeuristicTest extends AbstractConstructionHeuristicTest<TspSolution> {
 

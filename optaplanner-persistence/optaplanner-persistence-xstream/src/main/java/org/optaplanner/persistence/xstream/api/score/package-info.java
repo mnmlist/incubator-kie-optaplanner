@@ -15,6 +15,6 @@
  */
 
 /**
- * XStream bindings for {@link org.optaplanner.core.api.score.Score}.
+ * XStream bindings for {@link com.sankuai.optaplanner.core.api.score.Score}.
  */
-package org.optaplanner.persistence.xstream.api.score;
+package com.sankuai.optaplanner.persistence.xstream.api.score;

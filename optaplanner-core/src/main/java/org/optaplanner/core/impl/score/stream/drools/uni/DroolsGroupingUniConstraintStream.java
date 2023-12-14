@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.uni;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.bi.DroolsAbstractBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.common.UniLeftHandSide;
-import org.optaplanner.core.impl.score.stream.drools.quad.DroolsAbstractQuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.tri.DroolsAbstractTriConstraintStream;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.bi.DroolsAbstractBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.UniLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.quad.DroolsAbstractQuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.tri.DroolsAbstractTriConstraintStream;
 
 public final class DroolsGroupingUniConstraintStream<Solution_, NewA>
         extends DroolsAbstractUniConstraintStream<Solution_, NewA> {

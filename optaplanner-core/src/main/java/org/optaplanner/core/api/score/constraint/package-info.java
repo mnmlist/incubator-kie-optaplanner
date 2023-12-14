@@ -15,8 +15,8 @@
  */
 
 /**
- * Explain a {@link org.optaplanner.core.api.score.Score} with
- * {@link org.optaplanner.core.api.score.constraint.ConstraintMatchTotal} and
- * {@link org.optaplanner.core.api.score.constraint.ConstraintMatch}.
+ * Explain a {@link com.sankuai.optaplanner.core.api.score.Score} with
+ * {@link com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal} and
+ * {@link com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch}.
  */
-package org.optaplanner.core.api.score.constraint;
+package com.sankuai.optaplanner.core.api.score.constraint;

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.optional.score.drools;
+package com.sankuai.optaplanner.examples.projectjobscheduling.optional.score.drools;
 
 import java.util.Objects;
 
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
 
 public class RenewableResourceUsedDay {
 

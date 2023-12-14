@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.impl.aggregator.swingui.BenchmarkAggregatorFrame;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.BenchmarkAggregatorFrame;
 
 public abstract class CommonBenchmarkApp extends LoggingMain {
 

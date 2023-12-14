@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.event;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.event;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
-import org.optaplanner.core.impl.solver.event.SolverLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.impl.solver.event.SolverLifecycleListenerAdapter;
 
 /**
  * An adapter for {@link ConstructionHeuristicPhaseLifecycleListener}.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain.solver;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver;
 
 import java.util.Comparator;
 

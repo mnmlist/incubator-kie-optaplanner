@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.domain.solver;
+package com.sankuai.optaplanner.examples.pas.domain.solver;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingInt;
@@ -23,9 +23,9 @@ import static java.util.Comparator.nullsFirst;
 import java.util.Collections;
 import java.util.Comparator;
 
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.Department;
-import org.optaplanner.examples.pas.domain.Room;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.Department;
+import com.sankuai.optaplanner.examples.pas.domain.Room;
 
 public class BedStrengthComparator implements Comparator<Bed> {
 

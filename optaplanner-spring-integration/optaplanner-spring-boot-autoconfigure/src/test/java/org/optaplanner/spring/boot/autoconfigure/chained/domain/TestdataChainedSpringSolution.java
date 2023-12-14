@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure.chained.domain;
+package com.sankuai.optaplanner.spring.boot.autoconfigure.chained.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
 
 @PlanningSolution
 public class TestdataChainedSpringSolution {

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch;
+package com.sankuai.optaplanner.core.impl.localsearch;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.common.accessor.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
@@ -27,7 +27,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
 
 import io.quarkus.gizmo.ClassCreator;
 import io.quarkus.gizmo.ClassOutput;

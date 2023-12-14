@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.persistence;
+package com.sankuai.optaplanner.examples.cheaptime.persistence;
 
-import org.optaplanner.examples.cheaptime.app.CheapTimeApp;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.cheaptime.app.CheapTimeApp;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
 
 public class CheapTimeImporterTest extends ImportDataFilesTest<CheapTimeSolution> {
 

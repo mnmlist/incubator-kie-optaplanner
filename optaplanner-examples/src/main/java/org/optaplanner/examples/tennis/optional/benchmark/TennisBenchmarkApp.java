@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.optional.benchmark;
+package com.sankuai.optaplanner.examples.tennis.optional.benchmark;
 
 import java.io.File;
 
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.tennis.app.TennisApp;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
-import org.optaplanner.examples.tennis.persistence.TennisGenerator;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.tennis.app.TennisApp;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.tennis.persistence.TennisGenerator;
 
 public class TennisBenchmarkApp extends LoggingMain {
 

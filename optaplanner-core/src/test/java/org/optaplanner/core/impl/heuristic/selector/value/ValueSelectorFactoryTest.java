@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -24,25 +24,25 @@ import static org.mockito.Mockito.when;
 import java.util.Comparator;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.FilteringValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.ProbabilityValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.ShufflingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.SortingValueSelector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.FilteringValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.ProbabilityValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.ShufflingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.SortingValueSelector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 class ValueSelectorFactoryTest extends AbstractSelectorFactoryTest {
 

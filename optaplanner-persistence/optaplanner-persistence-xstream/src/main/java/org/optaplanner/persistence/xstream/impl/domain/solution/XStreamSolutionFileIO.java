@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.xstream.impl.domain.solution;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -27,8 +27,8 @@ import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.XStreamException;

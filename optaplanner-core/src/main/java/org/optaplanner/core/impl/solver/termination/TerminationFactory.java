@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.termination;
+package com.sankuai.optaplanner.core.impl.solver.termination;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,12 +23,12 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.config.solver.termination.TerminationCompositionStyle;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationCompositionStyle;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 public class TerminationFactory<Solution_> {
 

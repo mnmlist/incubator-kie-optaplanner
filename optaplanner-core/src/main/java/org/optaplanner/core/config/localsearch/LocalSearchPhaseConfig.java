@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.localsearch;
+package com.sankuai.optaplanner.core.config.localsearch;
 
 import java.util.function.Consumer;
 
@@ -22,22 +22,22 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 @XmlType(propOrder = {
         "localSearchType",

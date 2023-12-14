@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.app;
+package com.sankuai.optaplanner.examples.tennis.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
-import org.optaplanner.examples.tennis.persistence.TennisXmlSolutionFileIO;
-import org.optaplanner.examples.tennis.swingui.TennisPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.tennis.persistence.TennisXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.tennis.swingui.TennisPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class TennisApp extends CommonApp<TennisSolution> {
 

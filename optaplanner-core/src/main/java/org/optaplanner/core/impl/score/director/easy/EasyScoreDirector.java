@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.easy;
+package com.sankuai.optaplanner.core.impl.score.director.easy;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreExplanation;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.score.director.AbstractScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreExplanation;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.AbstractScoreDirector;
 
 /**
  * Easy java implementation of {@link ScoreDirector}, which recalculates the {@link Score}

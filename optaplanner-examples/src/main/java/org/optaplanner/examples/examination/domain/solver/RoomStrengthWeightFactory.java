@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain.solver;
+package com.sankuai.optaplanner.examples.examination.domain.solver;
 
 import static java.util.Comparator.comparingInt;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.Room;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.Room;
 
 public class RoomStrengthWeightFactory implements SelectionSorterWeightFactory<Examination, Room> {
 

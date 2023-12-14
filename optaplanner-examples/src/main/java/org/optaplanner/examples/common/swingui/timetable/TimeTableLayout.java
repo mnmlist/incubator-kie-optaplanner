@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui.timetable;
+package com.sankuai.optaplanner.examples.common.swingui.timetable;
 
 import java.awt.Component;
 import java.awt.Container;

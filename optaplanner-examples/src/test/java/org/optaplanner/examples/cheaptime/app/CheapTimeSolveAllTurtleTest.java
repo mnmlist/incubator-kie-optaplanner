@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.app;
+package com.sankuai.optaplanner.examples.cheaptime.app;
 
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
 
 public class CheapTimeSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<CheapTimeSolution> {
 

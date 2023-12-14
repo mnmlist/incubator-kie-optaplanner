@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.optional.score;
+package com.sankuai.optaplanner.examples.taskassigning.optional.score;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.examples.taskassigning.domain.Priority;
-import org.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Priority;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
 
 public final class TaskAssigningConstraintProvider implements ConstraintProvider {
 

@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.score;
+package com.sankuai.optaplanner.examples.projectjobscheduling.score;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
-import org.optaplanner.examples.projectjobscheduling.domain.JobType;
-import org.optaplanner.examples.projectjobscheduling.domain.Project;
-import org.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.NonrenewableResourceCapacityTracker;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.RenewableResourceCapacityTracker;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.ResourceCapacityTracker;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.JobType;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Project;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.NonrenewableResourceCapacityTracker;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.RenewableResourceCapacityTracker;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.ResourceCapacityTracker;
 
 public class ProjectJobSchedulingIncrementalScoreCalculator
         implements IncrementalScoreCalculator<Schedule, BendableScore> {

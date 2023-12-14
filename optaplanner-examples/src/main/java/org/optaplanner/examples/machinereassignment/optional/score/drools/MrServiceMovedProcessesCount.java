@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.optional.score.drools;
+package com.sankuai.optaplanner.examples.machinereassignment.optional.score.drools;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -22,7 +22,7 @@ import static java.util.Comparator.comparingLong;
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.machinereassignment.domain.MrService;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
 
 public class MrServiceMovedProcessesCount implements Comparable<MrServiceMovedProcessesCount> {
 

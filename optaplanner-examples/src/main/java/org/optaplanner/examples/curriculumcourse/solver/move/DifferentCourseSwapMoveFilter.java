@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.solver.move;
+package com.sankuai.optaplanner.examples.curriculumcourse.solver.move;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.SwapMove;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.SwapMove;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
 
 public class DifferentCourseSwapMoveFilter implements SelectionFilter<CourseSchedule, SwapMove> {
 

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.tri;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBridgeBiTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetJoinTuple;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetJoinBridgeUniTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetJoinBridgeBiTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetJoinTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetJoinBridgeUniTuple;
 
 public final class BavetJoinTriTuple<A, B, C> extends BavetAbstractTriTuple<A, B, C>
         implements BavetJoinTuple {

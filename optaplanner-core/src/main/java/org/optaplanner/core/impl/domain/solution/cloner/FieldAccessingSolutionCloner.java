@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.solution.cloner;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
@@ -41,12 +41,12 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.concurrent.ConcurrentMap;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.cloner.DeepPlanningClone;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.common.ConcurrentMemoization;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.DeepPlanningClone;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.common.ConcurrentMemoization;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

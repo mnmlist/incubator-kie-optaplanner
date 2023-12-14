@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
-import static org.optaplanner.examples.common.persistence.XSSFColorUtil.getXSSFColor;
+import static com.sankuai.optaplanner.examples.common.persistence.XSSFColorUtil.getXSSFColor;
 
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
@@ -47,18 +47,18 @@ import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.ScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public abstract class AbstractXlsxSolutionFileIO<Solution_> implements SolutionFileIO<Solution_> {
 

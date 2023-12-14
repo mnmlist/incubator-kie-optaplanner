@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.swingui;
+package com.sankuai.optaplanner.examples.tsp.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -36,11 +36,11 @@ import javax.swing.JViewport;
 import javax.swing.Scrollable;
 import javax.swing.SwingConstants;
 
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class TspListPanel extends JPanel implements Scrollable {
 

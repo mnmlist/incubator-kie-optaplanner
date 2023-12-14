@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui;
+package com.sankuai.optaplanner.examples.common.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -58,13 +58,13 @@ import javax.swing.SwingWorker;
 import javax.swing.filechooser.FileFilter;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.business.SolutionBusiness;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.business.SolutionBusiness;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

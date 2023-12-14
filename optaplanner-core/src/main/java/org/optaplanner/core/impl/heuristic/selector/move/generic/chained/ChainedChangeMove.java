@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

@@ -7,10 +7,10 @@
   <inheritedSolverBenchmark>
     <solver>
       <!--<environmentMode>FAST_ASSERT</environmentMode>-->
-      <solutionClass>org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
-      <entityClass>org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
 
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/vehiclerouting/solver/vehicleRoutingConstraints.drl</scoreDrl>
@@ -18,7 +18,7 @@
       </scoreDirectorFactory>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingFileIO</solutionFileIOClass>
       <inputSolutionFile>data/vehiclerouting/import/vrpweb/basic/air/A-n32-k5.vrp</inputSolutionFile>
     </problemBenchmarks>
   </inheritedSolverBenchmark>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver;
+package com.sankuai.optaplanner.core.config.solver;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -40,28 +40,28 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
-import org.optaplanner.core.config.phase.NoChangePhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.random.RandomType;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
-import org.optaplanner.core.impl.io.jaxb.SolverConfigIO;
-import org.optaplanner.core.impl.solver.random.RandomFactory;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.NoChangePhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.random.RandomType;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.io.jaxb.SolverConfigIO;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomFactory;
 
 /**
  * To read it from XML, use {@link #createFromXmlResource(String)}.

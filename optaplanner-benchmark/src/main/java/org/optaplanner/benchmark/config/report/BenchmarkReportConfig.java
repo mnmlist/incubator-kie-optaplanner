@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config.report;
+package com.sankuai.optaplanner.benchmark.config.report;
 
 import java.util.Comparator;
 import java.util.Locale;
@@ -23,12 +23,12 @@ import java.util.function.Consumer;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import org.optaplanner.benchmark.config.ranking.SolverRankingType;
-import org.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.io.jaxb.adapter.JaxbLocaleAdapter;
+import com.sankuai.optaplanner.benchmark.config.ranking.SolverRankingType;
+import com.sankuai.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.io.jaxb.adapter.JaxbLocaleAdapter;
 
 @XmlType(propOrder = {
         "locale",

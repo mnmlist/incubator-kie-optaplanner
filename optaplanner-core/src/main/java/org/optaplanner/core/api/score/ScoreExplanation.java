@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score;
+package com.sankuai.optaplanner.core.api.score;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
 
 /**
  * Build by {@link ScoreManager#explainScore(Object)} to hold {@link ConstraintMatchTotal}s and {@link Indictment}s

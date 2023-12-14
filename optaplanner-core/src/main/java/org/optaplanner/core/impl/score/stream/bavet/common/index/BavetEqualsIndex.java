@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.common.index;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.common.index;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -23,7 +23,7 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetJoinBridgeTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetJoinBridgeTuple;
 
 public class BavetEqualsIndex<Tuple_ extends BavetJoinBridgeTuple> extends BavetIndex<Tuple_> {
 

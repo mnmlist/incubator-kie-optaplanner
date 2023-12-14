@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.optional.score;
+package com.sankuai.optaplanner.examples.curriculumcourse.optional.score;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.curriculumcourse.domain.Course;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Curriculum;
-import org.optaplanner.examples.curriculumcourse.domain.Day;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
-import org.optaplanner.examples.curriculumcourse.domain.Period;
-import org.optaplanner.examples.curriculumcourse.domain.Room;
-import org.optaplanner.examples.curriculumcourse.domain.Teacher;
-import org.optaplanner.examples.curriculumcourse.domain.Timeslot;
-import org.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
-import org.optaplanner.examples.curriculumcourse.domain.solver.CourseConflict;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Course;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Curriculum;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Day;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Period;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Room;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Teacher;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Timeslot;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.CourseConflict;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public class CurriculumCourseConstraintProviderTest {
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.domain;
+package com.sankuai.optaplanner.examples.conferencescheduling.domain;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
-@ConstraintConfiguration(constraintPackage = "org.optaplanner.examples.conferencescheduling.solver")
+@ConstraintConfiguration(constraintPackage = "com.sankuai.optaplanner.examples.conferencescheduling.solver")
 public class ConferenceConstraintConfiguration extends AbstractPersistable {
 
     public static final String ROOM_UNAVAILABLE_TIMESLOT = "Room unavailable timeslot";

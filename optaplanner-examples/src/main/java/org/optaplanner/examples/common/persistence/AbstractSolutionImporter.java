@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
 import java.io.File;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

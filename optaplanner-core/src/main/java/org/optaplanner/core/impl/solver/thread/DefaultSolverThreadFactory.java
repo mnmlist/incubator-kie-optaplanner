@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.thread;
+package com.sankuai.optaplanner.core.impl.solver.thread;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

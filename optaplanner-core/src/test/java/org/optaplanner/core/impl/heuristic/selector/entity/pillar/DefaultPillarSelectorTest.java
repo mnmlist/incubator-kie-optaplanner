@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.pillar;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Random;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 public class DefaultPillarSelectorTest {
 

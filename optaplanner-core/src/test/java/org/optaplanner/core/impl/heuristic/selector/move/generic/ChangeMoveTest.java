@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.mockRebasingScoreDirector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.mockRebasingScoreDirector;
 
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataOtherValue;
-import org.optaplanner.core.impl.testdata.domain.valuerange.entityproviding.TestdataEntityProvidingEntity;
-import org.optaplanner.core.impl.testdata.domain.valuerange.entityproviding.TestdataEntityProvidingSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataOtherValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.valuerange.entityproviding.TestdataEntityProvidingEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.valuerange.entityproviding.TestdataEntityProvidingSolution;
 
 public class ChangeMoveTest {
 

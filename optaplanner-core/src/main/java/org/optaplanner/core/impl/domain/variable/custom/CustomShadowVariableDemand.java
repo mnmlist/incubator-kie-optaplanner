@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.custom;
+package com.sankuai.optaplanner.core.impl.domain.variable.custom;
 
 import java.util.Objects;
 
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.domain.variable.supply.Demand;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Demand;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * Unlike other {@link Demand}s, a custom demand isn't equalized based on its sources, but based on its target.

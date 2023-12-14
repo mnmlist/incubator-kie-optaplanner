@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
 
 public final class BavetGroupBridgeUniConstraintStream<Solution_, A, NewA, ResultContainer_, NewB>
         extends BavetAbstractUniConstraintStream<Solution_, A> {

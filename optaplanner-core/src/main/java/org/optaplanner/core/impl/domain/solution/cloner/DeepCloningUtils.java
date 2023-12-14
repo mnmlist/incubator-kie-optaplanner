@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.solution.cloner;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -31,10 +31,10 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.core.api.domain.solution.cloner.DeepPlanningClone;
-import org.optaplanner.core.impl.domain.common.ConcurrentMemoization;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.DeepPlanningClone;
+import com.sankuai.optaplanner.core.impl.domain.common.ConcurrentMemoization;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 public final class DeepCloningUtils {
     private final SolutionDescriptor<?> solutionDescriptor;

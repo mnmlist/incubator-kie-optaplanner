@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic;
+package com.sankuai.optaplanner.core.impl.constructionheuristic;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.constructionheuristic.decider.ConstructionHeuristicDecider;
-import org.optaplanner.core.impl.constructionheuristic.placer.EntityPlacer;
-import org.optaplanner.core.impl.constructionheuristic.placer.Placement;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.ConstructionHeuristicDecider;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.EntityPlacer;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.Placement;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 import java.util.HashMap;
 import java.util.Map;

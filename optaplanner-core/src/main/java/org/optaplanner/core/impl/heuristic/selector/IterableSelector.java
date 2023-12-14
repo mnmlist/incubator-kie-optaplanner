@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector;
+package com.sankuai.optaplanner.core.impl.heuristic.selector;
 
 import java.util.Spliterator;
 import java.util.Spliterators;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
 
 public interface IterableSelector<Solution_, T> extends Selector<Solution_>, Iterable<T> {
 

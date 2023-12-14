@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import java.util.Arrays;
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.domain.variable.anchor.AnchorVariableDemand;
-import org.optaplanner.core.impl.domain.variable.anchor.AnchorVariableSupply;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
-import org.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
-import org.optaplanner.core.impl.domain.variable.supply.SupplyManager;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.GenericMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.domain.variable.anchor.AnchorVariableDemand;
+import com.sankuai.optaplanner.core.impl.domain.variable.anchor.AnchorVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableDemand;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.SingletonInverseVariableSupply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.SupplyManager;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.GenericMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class KOptMoveSelector<Solution_> extends GenericMoveSelector<Solution_> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Collections.singletonList;
 import static org.drools.model.DSL.exists;
@@ -38,19 +38,19 @@ import org.drools.model.functions.Function4;
 import org.drools.model.functions.Predicate5;
 import org.drools.model.functions.accumulate.AccumulateFunction;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.PentaPredicate;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.function.ToIntQuadFunction;
-import org.optaplanner.core.api.function.ToLongQuadFunction;
-import org.optaplanner.core.api.score.stream.penta.PentaJoiner;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
-import org.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
-import org.optaplanner.core.impl.score.stream.penta.FilteringPentaJoiner;
-import org.optaplanner.core.impl.score.stream.penta.NonePentaJoiner;
-import org.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
+import com.sankuai.optaplanner.core.api.function.PentaPredicate;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.function.ToIntQuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongQuadFunction;
+import com.sankuai.optaplanner.core.api.score.stream.penta.PentaJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.FilteringPentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.NonePentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
 
 /**
  * Represents the left hand side of a Drools rule, the result of which are four variables.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.entity.pillar;
+package com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar;
 
 import java.util.Comparator;
 

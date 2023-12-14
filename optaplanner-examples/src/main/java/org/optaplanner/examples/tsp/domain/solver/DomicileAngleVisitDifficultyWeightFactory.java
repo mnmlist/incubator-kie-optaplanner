@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain.solver;
+package com.sankuai.optaplanner.examples.tsp.domain.solver;
 
 import static java.util.Comparator.comparingDouble;
 import static java.util.Comparator.comparingLong;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
 
 /**
  * On large datasets, the constructed solution looks like pizza slices.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.valuerange.buildin.temporal;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.temporal;
 
 import java.time.DateTimeException;
 import java.time.temporal.Temporal;
@@ -23,9 +23,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
 
 public class TemporalValueRange<Temporal_ extends Temporal & Comparable<? super Temporal_>>
         extends AbstractCountableValueRange<Temporal_> {

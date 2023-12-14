@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.composite;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.DO_NOT_ASSERT_SIZE;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfMoveSelector;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfNeverEndingMoveSelector;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertEmptyNeverEndingMoveSelector;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.DO_NOT_ASSERT_SIZE;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfMoveSelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfNeverEndingMoveSelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertEmptyNeverEndingMoveSelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.verifyPhaseLifecycle;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.heuristic.move.DummyMove;
-import org.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicRecordingEntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicReplayingEntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
+import com.sankuai.optaplanner.core.impl.heuristic.move.DummyMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.SelectorTestUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicRecordingEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicReplayingEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarEntity;
 
 public class CartesianProductMoveSelectorTest {
 

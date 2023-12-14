@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental;
+package com.sankuai.optaplanner.examples.common.experimental;
 
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -22,14 +22,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.util.Objects;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
-import org.optaplanner.examples.common.experimental.impl.ConsecutiveIntervalDataImpl;
-import org.optaplanner.examples.common.experimental.impl.ConsecutiveSetTree;
-import org.optaplanner.examples.common.experimental.impl.IntervalTree;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
+import com.sankuai.optaplanner.examples.common.experimental.impl.ConsecutiveIntervalDataImpl;
+import com.sankuai.optaplanner.examples.common.experimental.impl.ConsecutiveSetTree;
+import com.sankuai.optaplanner.examples.common.experimental.impl.IntervalTree;
 
 public class ExperimentalConstraintCollectorsTest {
     @Test

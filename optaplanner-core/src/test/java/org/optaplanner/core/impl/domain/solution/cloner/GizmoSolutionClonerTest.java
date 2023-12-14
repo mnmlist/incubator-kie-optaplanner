@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.solution.cloner;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;
@@ -32,18 +32,18 @@ import java.util.Set;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
-import org.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionClonerFactory;
-import org.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionClonerImplementor;
-import org.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionOrEntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionClonerFactory;
+import com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionClonerImplementor;
+import com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo.GizmoSolutionOrEntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
 
 import io.quarkus.gizmo.ClassCreator;
 import io.quarkus.gizmo.ClassOutput;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director;
+package com.sankuai.optaplanner.core.impl.score.director;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -33,24 +33,24 @@ import org.kie.api.KieBase;
 import org.kie.api.conf.KieBaseMutabilityOption;
 import org.kie.internal.builder.conf.PropertySpecificOption;
 import org.kie.internal.utils.KieHelper;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.drools.testgen.TestGenDroolsScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.easy.EasyScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.incremental.IncrementalScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.TestGenDroolsScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.easy.EasyScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.incremental.IncrementalScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 public class ScoreDirectorFactoryFactory<Solution_, Score_ extends Score<Score_>> {
 

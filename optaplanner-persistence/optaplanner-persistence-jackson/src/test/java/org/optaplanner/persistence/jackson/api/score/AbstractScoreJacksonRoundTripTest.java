@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score;
+package com.sankuai.optaplanner.persistence.jackson.api.score;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
 
 import java.io.IOException;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.persistence.jackson.api.AbstractJacksonRoundTripTest;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.persistence.jackson.api.AbstractJacksonRoundTripTest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

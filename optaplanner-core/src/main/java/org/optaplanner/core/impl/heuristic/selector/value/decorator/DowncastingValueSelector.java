@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator;
 
 import java.util.Collections;
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.AbstractValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
 
 public class DowncastingValueSelector<Solution_> extends AbstractValueSelector<Solution_> {
 

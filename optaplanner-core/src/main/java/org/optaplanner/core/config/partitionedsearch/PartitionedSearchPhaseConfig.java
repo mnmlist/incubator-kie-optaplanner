@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.partitionedsearch;
+package com.sankuai.optaplanner.core.config.partitionedsearch;
 
 import java.util.List;
 import java.util.Map;
@@ -25,17 +25,17 @@ import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.phase.NoChangePhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.NoChangePhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
 
 @XmlType(propOrder = {
         "solutionPartitionerClass",

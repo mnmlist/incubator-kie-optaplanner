@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.scope;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.scope;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

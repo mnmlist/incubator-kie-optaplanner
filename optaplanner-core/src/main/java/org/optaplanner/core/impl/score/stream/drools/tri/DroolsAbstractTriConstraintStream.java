@@ -14,38 +14,38 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.tri;
 
 import java.math.BigDecimal;
 import java.util.Objects;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.ToIntTriFunction;
-import org.optaplanner.core.api.function.ToLongTriFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.api.score.stream.quad.QuadJoiner;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.bi.DroolsGroupingBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.common.DroolsAbstractConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.common.RuleBuilder;
-import org.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
-import org.optaplanner.core.impl.score.stream.drools.quad.DroolsAbstractQuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.quad.DroolsGroupingQuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.quad.DroolsJoinQuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsGroupingUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsMappingUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
-import org.optaplanner.core.impl.score.stream.tri.InnerTriConstraintStream;
+import com.sankuai.optaplanner.core.api.function.ToIntTriFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongTriFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.bi.DroolsGroupingBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.DroolsAbstractConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.RuleBuilder;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.quad.DroolsAbstractQuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.quad.DroolsGroupingQuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.quad.DroolsJoinQuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsGroupingUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsMappingUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.InnerTriConstraintStream;
 
 public abstract class DroolsAbstractTriConstraintStream<Solution_, A, B, C>
         extends DroolsAbstractConstraintStream<Solution_> implements InnerTriConstraintStream<A, B, C> {

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.timewindowed;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed;
 
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

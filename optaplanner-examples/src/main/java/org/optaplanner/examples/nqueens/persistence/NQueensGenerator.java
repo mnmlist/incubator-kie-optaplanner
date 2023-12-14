@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.persistence;
+package com.sankuai.optaplanner.examples.nqueens.persistence;
 
 import java.io.File;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nqueens.domain.Column;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
-import org.optaplanner.examples.nqueens.domain.Row;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.Column;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.examples.nqueens.domain.Row;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class NQueensGenerator extends LoggingMain {
 

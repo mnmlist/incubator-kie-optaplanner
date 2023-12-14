@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet;
 
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
 
 public final class BavetConstraintSessionFactory<Solution_, Score_ extends Score<Score_>> {
 

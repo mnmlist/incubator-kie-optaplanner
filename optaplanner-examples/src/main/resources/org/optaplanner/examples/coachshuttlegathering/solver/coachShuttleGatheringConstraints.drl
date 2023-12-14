@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.solver;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScoreHolder;
 
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusHub;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusOrStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.Coach;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
-import org.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocationArc;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusHub;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusOrStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Coach;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocationArc;
 
 global HardSoftLongScoreHolder scoreHolder;
 

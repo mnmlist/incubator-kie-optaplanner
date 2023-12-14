@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.persistence;
+package com.sankuai.optaplanner.examples.examination.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.examination.app.ExaminationApp;
-import org.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.examination.app.ExaminationApp;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
 
 public class ExaminationOpenDataFilesTest extends OpenDataFilesTest<Examination> {
 

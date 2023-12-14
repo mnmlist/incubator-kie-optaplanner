@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.event;
+package com.sankuai.optaplanner.core.impl.solver.event;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * An adapter for {@link SolverLifecycleListener}.

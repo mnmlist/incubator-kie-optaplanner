@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
-  <solutionClass>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
-  <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
+  <solutionClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
 
   <!-- Score configuration -->
   <scoreDirectorFactory>

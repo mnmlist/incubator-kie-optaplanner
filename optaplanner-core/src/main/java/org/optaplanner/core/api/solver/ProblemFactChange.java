@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * A ProblemFactChange represents a change in 1 or more problem facts of a {@link PlanningSolution}.

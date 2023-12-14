@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.pillar;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -29,18 +29,18 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SubPillarType;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelector;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SubPillarType;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * @see PillarSelector

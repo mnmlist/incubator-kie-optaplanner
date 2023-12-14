@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.persistence;
+package com.sankuai.optaplanner.examples.taskassigning.persistence;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -27,21 +27,21 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.generator.StringDataGenerator;
-import org.optaplanner.examples.taskassigning.app.TaskAssigningApp;
-import org.optaplanner.examples.taskassigning.domain.Affinity;
-import org.optaplanner.examples.taskassigning.domain.Customer;
-import org.optaplanner.examples.taskassigning.domain.Employee;
-import org.optaplanner.examples.taskassigning.domain.Priority;
-import org.optaplanner.examples.taskassigning.domain.Skill;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskType;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.generator.StringDataGenerator;
+import com.sankuai.optaplanner.examples.taskassigning.app.TaskAssigningApp;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Affinity;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Customer;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Employee;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Priority;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Skill;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskType;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TaskAssigningGenerator extends LoggingMain {
 

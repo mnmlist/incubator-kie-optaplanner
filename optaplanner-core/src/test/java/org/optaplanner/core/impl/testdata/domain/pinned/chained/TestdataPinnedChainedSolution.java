@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.pinned.chained;
+package com.sankuai.optaplanner.core.impl.testdata.domain.pinned.chained;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
 
 @PlanningSolution
 public class TestdataPinnedChainedSolution extends TestdataObject {

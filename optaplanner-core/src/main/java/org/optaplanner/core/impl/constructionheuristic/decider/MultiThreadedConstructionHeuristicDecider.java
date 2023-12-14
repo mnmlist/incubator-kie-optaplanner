@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.decider;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.decider;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -27,24 +27,24 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForager;
-import org.optaplanner.core.impl.constructionheuristic.placer.Placement;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
-import org.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.thread.ApplyStepOperation;
-import org.optaplanner.core.impl.heuristic.thread.DestroyOperation;
-import org.optaplanner.core.impl.heuristic.thread.MoveEvaluationOperation;
-import org.optaplanner.core.impl.heuristic.thread.MoveThreadOperation;
-import org.optaplanner.core.impl.heuristic.thread.MoveThreadRunner;
-import org.optaplanner.core.impl.heuristic.thread.OrderByMoveIndexBlockingQueue;
-import org.optaplanner.core.impl.heuristic.thread.SetupOperation;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.thread.ThreadUtils;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager.ConstructionHeuristicForager;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.Placement;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicMoveScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicPhaseScope;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.scope.ConstructionHeuristicStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.ApplyStepOperation;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.DestroyOperation;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.MoveEvaluationOperation;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.MoveThreadOperation;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.MoveThreadRunner;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.OrderByMoveIndexBlockingQueue;
+import com.sankuai.optaplanner.core.impl.heuristic.thread.SetupOperation;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.thread.ThreadUtils;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

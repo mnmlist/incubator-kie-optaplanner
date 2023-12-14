@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.phase.custom;
+package com.sankuai.optaplanner.core.impl.phase.custom;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.phase.custom.scope.CustomPhaseScope;
-import org.optaplanner.core.impl.phase.custom.scope.CustomStepScope;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.phase.custom.scope.CustomPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.custom.scope.CustomStepScope;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 /**
  * Default implementation of {@link CustomPhase}.

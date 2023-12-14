@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.solver.move.factory;
+package com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,13 +24,13 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Match;
-import org.optaplanner.examples.travelingtournament.domain.Team;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
-import org.optaplanner.examples.travelingtournament.solver.move.MatchChainRotationsMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Team;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.examples.travelingtournament.solver.move.MatchChainRotationsMove;
 
 public class MatchChainRotationsMoveFactory implements MoveListFactory<TravelingTournament> {
 

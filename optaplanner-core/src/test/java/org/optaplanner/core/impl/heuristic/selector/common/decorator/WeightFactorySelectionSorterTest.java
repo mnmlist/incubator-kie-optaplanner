@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator;
 
 import static org.mockito.Mockito.mock;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfIterator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class WeightFactorySelectionSorterTest {
 

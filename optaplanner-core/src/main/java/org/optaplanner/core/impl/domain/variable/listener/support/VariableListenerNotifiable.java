@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener.support;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener.support;
 
 import java.util.ArrayDeque;
 import java.util.Collection;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
 
 public class VariableListenerNotifiable implements Comparable<VariableListenerNotifiable> {
 

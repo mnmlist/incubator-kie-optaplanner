@@ -5,17 +5,17 @@
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
   <!-- Domain model configuration -->
-  <solutionClass>org.optaplanner.examples.cheaptime.domain.CheapTimeSolution</solutionClass>
-  <entityClass>org.optaplanner.examples.cheaptime.domain.TaskAssignment</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment</entityClass>
 
   <!-- Score configuration -->
   <scoreDirectorFactory>
-    <!--<easyScoreCalculatorClass>org.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->
-    <incrementalScoreCalculatorClass>org.optaplanner.examples.cheaptime.score.CheapTimeIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+    <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->
+    <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeIncrementalScoreCalculator</incrementalScoreCalculatorClass>
     <!--<scoreDrl>org/optaplanner/examples/cheaptime/solver/cheapTimeConstraints.drl</scoreDrl>-->
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
-      <!--<easyScoreCalculatorClass>org.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->
+      <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.optional.score.CheapTimeEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--</assertionScoreDirectorFactory>-->
   </scoreDirectorFactory>
 
@@ -39,7 +39,7 @@
       </changeMoveSelector>
       <swapMoveSelector/>
       <!--<moveIteratorFactory>-->
-        <!--<moveIteratorFactoryClass>org.optaplanner.examples.cheaptime.optional.solver.move.factory.CheapTimePillarSlideMoveIteratorFactory</moveIteratorFactoryClass>-->
+        <!--<moveIteratorFactoryClass>com.sankuai.optaplanner.examples.cheaptime.optional.solver.move.factory.CheapTimePillarSlideMoveIteratorFactory</moveIteratorFactoryClass>-->
       <!--</moveIteratorFactory>-->
     </unionMoveSelector>
     <acceptor>

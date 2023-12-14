@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -23,16 +23,16 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.buildin.collection.ListValueRange;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.collection.ListValueRange;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

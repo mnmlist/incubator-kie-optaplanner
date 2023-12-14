@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config;
+package com.sankuai.optaplanner.benchmark.config;
 
 import java.io.File;
 import java.util.List;
@@ -23,11 +23,11 @@ import java.util.function.Consumer;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.config.statistic.SingleStatisticType;
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.config.statistic.SingleStatisticType;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 @XmlType(propOrder = {
         "solutionFileIOClass",

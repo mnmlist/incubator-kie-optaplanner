@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic.chained;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelectorFactory;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.chained.SubChainSelectorConfig;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.EntityIndependentValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.chained.SubChainSelectorFactory;
 
 public class SubChainChangeMoveSelectorFactory<Solution_>
         extends AbstractMoveSelectorFactory<Solution_, SubChainChangeMoveSelectorConfig> {

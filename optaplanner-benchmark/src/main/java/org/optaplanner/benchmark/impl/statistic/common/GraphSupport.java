@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.common;
+package com.sankuai.optaplanner.benchmark.impl.statistic.common;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

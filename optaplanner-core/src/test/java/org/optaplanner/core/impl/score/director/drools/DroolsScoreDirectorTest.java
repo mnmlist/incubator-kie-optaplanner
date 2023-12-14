@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools;
+package com.sankuai.optaplanner.core.impl.score.director.drools;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
@@ -24,9 +24,9 @@ import static org.mockito.Mockito.withSettings;
 import org.junit.jupiter.api.Test;
 import org.kie.api.runtime.KieSession;
 import org.kie.internal.event.rule.RuleEventManager;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
 
 public class DroolsScoreDirectorTest {
 

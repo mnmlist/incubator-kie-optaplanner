@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental;
+package com.sankuai.optaplanner.examples.common.experimental;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.ToIntFunction;
 
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
-import org.optaplanner.core.impl.score.stream.quad.DefaultQuadConstraintCollector;
-import org.optaplanner.core.impl.score.stream.tri.DefaultTriConstraintCollector;
-import org.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
-import org.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
-import org.optaplanner.examples.common.experimental.impl.ConsecutiveIntervalDataImpl;
-import org.optaplanner.examples.common.experimental.impl.ConsecutiveSetTree;
-import org.optaplanner.examples.common.experimental.impl.IntervalTree;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.DefaultQuadConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.DefaultTriConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
+import com.sankuai.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
+import com.sankuai.optaplanner.examples.common.experimental.impl.ConsecutiveIntervalDataImpl;
+import com.sankuai.optaplanner.examples.common.experimental.impl.ConsecutiveSetTree;
+import com.sankuai.optaplanner.examples.common.experimental.impl.IntervalTree;
 
 /**
  * A collection of experimental constraint collectors

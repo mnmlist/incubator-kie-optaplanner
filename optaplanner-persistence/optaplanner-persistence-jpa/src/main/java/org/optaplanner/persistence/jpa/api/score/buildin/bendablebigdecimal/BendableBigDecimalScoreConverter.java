@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.bendablebigdecimal;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
 
 @Converter
 public class BendableBigDecimalScoreConverter implements AttributeConverter<BendableBigDecimalScore, String> {

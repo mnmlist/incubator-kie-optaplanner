@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.bendable;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.bendable;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
 
 @Converter
 public class BendableScoreConverter implements AttributeConverter<BendableScore, String> {

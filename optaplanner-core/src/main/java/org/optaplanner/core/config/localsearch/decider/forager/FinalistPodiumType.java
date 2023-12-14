@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.localsearch.decider.forager;
+package com.sankuai.optaplanner.core.config.localsearch.decider.forager;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.impl.localsearch.decider.forager.finalist.FinalistPodium;
-import org.optaplanner.core.impl.localsearch.decider.forager.finalist.HighestScoreFinalistPodium;
-import org.optaplanner.core.impl.localsearch.decider.forager.finalist.StrategicOscillationByLevelFinalistPodium;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist.FinalistPodium;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist.HighestScoreFinalistPodium;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist.StrategicOscillationByLevelFinalistPodium;
 
 @XmlEnum
 public enum FinalistPodiumType {

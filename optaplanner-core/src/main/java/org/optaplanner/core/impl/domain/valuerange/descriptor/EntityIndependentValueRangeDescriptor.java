@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

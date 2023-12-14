@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.domain;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.domain;
 
 import java.util.Map;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 public class Airport extends AbstractPersistable implements Comparable<Airport> {
 

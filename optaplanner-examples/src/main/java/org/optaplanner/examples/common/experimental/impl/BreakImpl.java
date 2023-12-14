@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.impl;
+package com.sankuai.optaplanner.examples.common.experimental.impl;
 
-import org.optaplanner.examples.common.experimental.api.Break;
-import org.optaplanner.examples.common.experimental.api.Sequence;
+import com.sankuai.optaplanner.examples.common.experimental.api.Break;
+import com.sankuai.optaplanner.examples.common.experimental.api.Sequence;
 
 class BreakImpl<ValueType_, DifferenceType_ extends Comparable<DifferenceType_>>
         implements Break<ValueType_, DifferenceType_> {

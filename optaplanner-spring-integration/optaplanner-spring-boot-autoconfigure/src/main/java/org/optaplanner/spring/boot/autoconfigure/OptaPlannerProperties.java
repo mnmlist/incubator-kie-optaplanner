@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure;
+package com.sankuai.optaplanner.spring.boot.autoconfigure;
 
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 

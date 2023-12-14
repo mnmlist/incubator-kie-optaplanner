@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.simplelong;
+package com.sankuai.optaplanner.core.impl.score.buildin.simplelong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 public class SimpleLongScoreDefinitionTest {
 

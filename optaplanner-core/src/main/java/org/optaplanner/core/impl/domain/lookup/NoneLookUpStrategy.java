@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.lookup.LookUpStrategyType;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.lookup.LookUpStrategyType;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 public class NoneLookUpStrategy implements LookUpStrategy {
 

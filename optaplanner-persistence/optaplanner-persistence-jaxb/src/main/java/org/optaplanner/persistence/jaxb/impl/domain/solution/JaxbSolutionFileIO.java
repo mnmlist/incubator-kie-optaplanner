@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.jaxb.impl.domain.solution;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,8 +31,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

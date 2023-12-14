@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score;
+package com.sankuai.optaplanner.persistence.jackson.api.score;
 
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 import com.fasterxml.jackson.databind.JsonDeserializer;
 

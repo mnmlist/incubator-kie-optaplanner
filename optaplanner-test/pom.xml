@@ -4,9 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.optaplanner</groupId>
+    <groupId>com.sankuai.optaplanner</groupId>
     <artifactId>optaplanner-parent</artifactId>
-    <version>8.8.0.Final-v1</version>
+    <version>8.8.0.Final-v2</version>
   </parent>
 
   <artifactId>optaplanner-test</artifactId>
@@ -23,17 +23,17 @@
   <url>https://www.optaplanner.org</url>
 
   <properties>
-    <java.module.name>org.optaplanner.test</java.module.name>
+    <java.module.name>com.sankuai.optaplanner.test</java.module.name>
   </properties>
 
   <dependencies>
     <!-- Internal dependencies -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
       <type>test-jar</type>
       <scope>test</scope>

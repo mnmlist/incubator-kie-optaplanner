@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
 import java.util.UUID;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.SolverManagerConfig;
-import org.optaplanner.core.impl.solver.DefaultSolverManager;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverManagerConfig;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverManager;
 
 /**
  * A SolverManager solves multiple planning problems of the same domain,

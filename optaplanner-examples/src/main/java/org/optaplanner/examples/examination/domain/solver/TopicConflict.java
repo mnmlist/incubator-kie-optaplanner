@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain.solver;
+package com.sankuai.optaplanner.examples.examination.domain.solver;
 
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.examination.domain.Topic;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.examination.domain.Topic;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

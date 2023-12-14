@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.solver;
+package com.sankuai.optaplanner.examples.travelingtournament.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
 
-import org.optaplanner.examples.travelingtournament.domain.Match;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Team;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Team;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
 
 global HardSoftScoreHolder scoreHolder;
 

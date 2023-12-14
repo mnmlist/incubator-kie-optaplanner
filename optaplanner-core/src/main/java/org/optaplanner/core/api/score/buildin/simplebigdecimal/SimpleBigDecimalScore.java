@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.simplebigdecimal;
+package com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.AbstractScore;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.AbstractScore;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 /**
  * This {@link Score} is based on 1 level of {@link BigDecimal} constraints.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.constructionheuristic.placer;
+package com.sankuai.optaplanner.core.config.constructionheuristic.placer;
 
 import javax.xml.bind.annotation.XmlSeeAlso;
 
-import org.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
 
 /**
  * General superclass for {@link QueuedEntityPlacerConfig} and {@link PooledEntityPlacerConfig}.

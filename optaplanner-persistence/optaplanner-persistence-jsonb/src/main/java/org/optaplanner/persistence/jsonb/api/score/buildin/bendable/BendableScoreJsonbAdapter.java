@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.bendable;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.bendable;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapter;
 
 /**
  * {@inheritDoc}

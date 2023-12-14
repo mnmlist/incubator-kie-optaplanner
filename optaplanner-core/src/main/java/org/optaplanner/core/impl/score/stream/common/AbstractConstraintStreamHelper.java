@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.common;
+package com.sankuai.optaplanner.core.impl.score.stream.common;
 
 import java.util.Arrays;
 
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
 
 public abstract class AbstractConstraintStreamHelper<Right, JoinedStream, Joiner, Predicate> {
 

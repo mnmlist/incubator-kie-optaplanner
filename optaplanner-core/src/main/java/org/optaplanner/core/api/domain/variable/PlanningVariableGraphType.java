@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.variable;
+package com.sankuai.optaplanner.core.api.domain.variable;
 
 public enum PlanningVariableGraphType {
     /**

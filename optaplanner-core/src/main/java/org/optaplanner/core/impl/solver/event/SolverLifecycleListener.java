@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.event;
+package com.sankuai.optaplanner.core.impl.solver.event;
 
 import java.util.EventListener;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

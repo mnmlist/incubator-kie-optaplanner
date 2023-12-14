@@ -15,6 +15,6 @@
  */
 
 /**
- * Support for a {@link org.optaplanner.core.api.score.Score} with 3 score levels and {@code BigDecimal} score weights.
+ * Support for a {@link com.sankuai.optaplanner.core.api.score.Score} with 3 score levels and {@code BigDecimal} score weights.
  */
-package org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal;

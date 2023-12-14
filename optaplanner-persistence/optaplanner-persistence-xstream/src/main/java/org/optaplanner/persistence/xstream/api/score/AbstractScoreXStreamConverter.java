@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.api.score;
+package com.sankuai.optaplanner.persistence.xstream.api.score;
 
-import org.optaplanner.persistence.xstream.api.score.buildin.bendable.BendableScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal.BendableBigDecimalScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.bendablelong.BendableLongScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoft.HardMediumSoftScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardsoft.HardSoftScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.hardsoftlong.HardSoftLongScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.simple.SimpleScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.simplebigdecimal.SimpleBigDecimalScoreXStreamConverter;
-import org.optaplanner.persistence.xstream.api.score.buildin.simplelong.SimpleLongScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendable.BendableScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal.BendableBigDecimalScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendablelong.BendableLongScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoft.HardMediumSoftScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardsoft.HardSoftScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.hardsoftlong.HardSoftLongScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.simple.SimpleScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.simplebigdecimal.SimpleBigDecimalScoreXStreamConverter;
+import com.sankuai.optaplanner.persistence.xstream.api.score.buildin.simplelong.SimpleLongScoreXStreamConverter;
 
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.converters.Converter;

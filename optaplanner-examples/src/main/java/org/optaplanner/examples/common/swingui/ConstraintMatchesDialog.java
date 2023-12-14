@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui;
+package com.sankuai.optaplanner.examples.common.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -39,10 +39,10 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.examples.common.business.SolutionBusiness;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.examples.common.business.SolutionBusiness;
 
 public class ConstraintMatchesDialog extends JDialog {
 

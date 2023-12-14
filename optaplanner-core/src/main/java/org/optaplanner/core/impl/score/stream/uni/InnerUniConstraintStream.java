@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.uni;
 
 import java.math.BigDecimal;
 import java.util.function.Function;
 import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public interface InnerUniConstraintStream<A> extends UniConstraintStream<A> {
 

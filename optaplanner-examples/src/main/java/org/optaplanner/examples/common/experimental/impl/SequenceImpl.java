@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.impl;
+package com.sankuai.optaplanner.examples.common.experimental.impl;
 
 import java.util.NavigableSet;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import org.optaplanner.examples.common.experimental.api.Sequence;
+import com.sankuai.optaplanner.examples.common.experimental.api.Sequence;
 
 class SequenceImpl<ValueType_, DifferenceType_ extends Comparable<DifferenceType_>>
         implements Sequence<ValueType_, DifferenceType_> {

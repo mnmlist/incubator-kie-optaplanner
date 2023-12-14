@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO;
-import org.optaplanner.examples.cloudbalancing.swingui.CloudBalancingPanel;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.CloudBalancingPanel;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * For an easy example, look at {@link CloudBalancingHelloWorld} instead.

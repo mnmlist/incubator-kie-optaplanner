@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.hardsoftlong;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardsoftlong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
 
 public class HardSoftLongScoreHolderImplTest extends AbstractScoreHolderTest<HardSoftLongScore> {
 

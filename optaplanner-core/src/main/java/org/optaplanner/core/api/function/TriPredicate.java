@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.api.function;
+package com.sankuai.optaplanner.core.api.function;
 
 import java.util.Objects;
 import java.util.function.Predicate;

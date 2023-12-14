@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.exhaustivesearch.scope;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.scope;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.TreeSet;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.AbstractNodeComparatorTest;
-import org.optaplanner.core.impl.exhaustivesearch.node.comparator.ScoreFirstNodeComparator;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.AbstractNodeComparatorTest;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator.ScoreFirstNodeComparator;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class ExhaustiveSearchPhaseScopeTest extends AbstractNodeComparatorTest {
 

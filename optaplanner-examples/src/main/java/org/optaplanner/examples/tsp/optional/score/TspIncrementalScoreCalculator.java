@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.optional.score;
+package com.sankuai.optaplanner.examples.tsp.optional.score;
 
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
 
 public class TspIncrementalScoreCalculator implements IncrementalScoreCalculator<TspSolution, SimpleLongScore> {
 

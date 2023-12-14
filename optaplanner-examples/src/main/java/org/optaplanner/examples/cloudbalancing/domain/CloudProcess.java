@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.domain;
+package com.sankuai.optaplanner.examples.cloudbalancing.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.cloudbalancing.domain.solver.CloudComputerStrengthComparator;
-import org.optaplanner.examples.cloudbalancing.domain.solver.CloudProcessDifficultyComparator;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.solver.CloudComputerStrengthComparator;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.solver.CloudProcessDifficultyComparator;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

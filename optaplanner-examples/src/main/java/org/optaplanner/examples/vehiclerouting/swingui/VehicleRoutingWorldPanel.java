@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.swingui;
+package com.sankuai.optaplanner.examples.vehiclerouting.swingui;
 
 import java.awt.Graphics;
 import java.awt.event.ComponentAdapter;
@@ -25,8 +25,8 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
 
 public class VehicleRoutingWorldPanel extends JPanel {
 

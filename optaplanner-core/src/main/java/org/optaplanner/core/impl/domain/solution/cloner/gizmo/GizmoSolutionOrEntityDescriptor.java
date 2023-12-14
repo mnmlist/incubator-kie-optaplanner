@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.solution.cloner.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -24,9 +24,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
-import org.optaplanner.core.impl.domain.solution.cloner.DeepCloningUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.cloner.DeepCloningUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 public class GizmoSolutionOrEntityDescriptor {
     SolutionDescriptor<?> solutionDescriptor;

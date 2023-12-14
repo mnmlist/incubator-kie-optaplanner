@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.simple;
+package com.sankuai.optaplanner.core.impl.score.buildin.simple;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
 
 public final class SimpleScoreInliner extends ScoreInliner<SimpleScore> {
 

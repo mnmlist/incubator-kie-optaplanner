@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.app;
+package com.sankuai.optaplanner.examples.nurserostering.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO;
-import org.optaplanner.examples.nurserostering.persistence.NurseRosteringExporter;
-import org.optaplanner.examples.nurserostering.persistence.NurseRosteringImporter;
-import org.optaplanner.examples.nurserostering.swingui.NurseRosteringPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosteringExporter;
+import com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosteringImporter;
+import com.sankuai.optaplanner.examples.nurserostering.swingui.NurseRosteringPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class NurseRosteringApp extends CommonApp<NurseRoster> {
 

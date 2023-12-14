@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.app;
+package com.sankuai.optaplanner.examples.curriculumcourse.app;
 
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
-import org.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
+import com.sankuai.optaplanner.examples.common.app.AbstractConstructionHeuristicTest;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
 
 public class CurriculumCourseConstructionHeuristicTest extends AbstractConstructionHeuristicTest<CourseSchedule> {
 

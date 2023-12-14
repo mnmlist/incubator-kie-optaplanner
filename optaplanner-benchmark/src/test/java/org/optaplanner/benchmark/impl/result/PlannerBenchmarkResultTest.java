@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -34,18 +34,18 @@ import java.util.List;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
-import org.optaplanner.benchmark.impl.loader.FileProblemProvider;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.random.RandomType;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
+import com.sankuai.optaplanner.benchmark.impl.loader.FileProblemProvider;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.random.RandomType;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
 
 public class PlannerBenchmarkResultTest {
 

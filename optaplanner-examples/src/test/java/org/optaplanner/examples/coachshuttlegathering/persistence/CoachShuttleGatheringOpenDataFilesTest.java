@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.persistence;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.persistence;
 
-import org.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.app.CoachShuttleGatheringApp;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
 
 public class CoachShuttleGatheringOpenDataFilesTest extends OpenDataFilesTest<CoachShuttleGatheringSolution> {
 

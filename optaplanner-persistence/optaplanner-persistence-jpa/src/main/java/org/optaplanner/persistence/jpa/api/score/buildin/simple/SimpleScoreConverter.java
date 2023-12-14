@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.simple;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
 
 @Converter
 public class SimpleScoreConverter implements AttributeConverter<SimpleScore, String> {

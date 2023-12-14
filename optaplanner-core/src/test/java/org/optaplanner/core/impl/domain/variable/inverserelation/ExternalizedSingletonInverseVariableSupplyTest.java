@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.inverserelation;
+package com.sankuai.optaplanner.core.impl.domain.variable.inverserelation;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -23,11 +23,11 @@ import static org.mockito.Mockito.when;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
 
 public class ExternalizedSingletonInverseVariableSupplyTest {
 

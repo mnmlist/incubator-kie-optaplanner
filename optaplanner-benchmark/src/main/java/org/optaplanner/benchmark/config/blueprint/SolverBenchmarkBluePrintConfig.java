@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config.blueprint;
+package com.sankuai.optaplanner.benchmark.config.blueprint;
 
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
 
 @XmlType(propOrder = {
         "solverBenchmarkBluePrintType"

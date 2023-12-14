@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.naturalOrder;
@@ -23,7 +23,7 @@ import static java.util.Comparator.reverseOrder;
 
 import java.util.Comparator;
 
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
 
 public class SubSingleBenchmarkRankBasedComparator implements Comparator<SubSingleBenchmarkResult> {
 

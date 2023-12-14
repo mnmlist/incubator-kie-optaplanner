@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.xsd;
+package com.sankuai.optaplanner.benchmark.impl.xsd;
 
-import static org.optaplanner.benchmark.config.PlannerBenchmarkConfig.SOLVER_NAMESPACE_PREFIX;
+import static com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig.SOLVER_NAMESPACE_PREFIX;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,7 +37,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin;
+package com.sankuai.optaplanner.core.impl.score.buildin;
 
 import java.util.Arrays;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraint;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraint;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public abstract class AbstractScoreInlinerTest<Solution_, Score_ extends Score<Score_>> {
 

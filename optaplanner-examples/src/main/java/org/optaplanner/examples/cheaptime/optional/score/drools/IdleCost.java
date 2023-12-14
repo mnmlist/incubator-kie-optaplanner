@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.optional.score.drools;
+package com.sankuai.optaplanner.examples.cheaptime.optional.score.drools;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -22,7 +22,7 @@ import static java.util.Comparator.comparingLong;
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
 
 public class IdleCost implements Comparable<IdleCost> {
 

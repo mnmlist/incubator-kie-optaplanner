@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.hardsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.hardsoftbigdecimal;
 
 import java.math.BigDecimal;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

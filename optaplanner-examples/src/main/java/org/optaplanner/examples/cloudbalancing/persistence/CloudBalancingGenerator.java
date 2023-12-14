@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.persistence;
+package com.sankuai.optaplanner.examples.cloudbalancing.persistence;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -22,15 +22,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import org.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class CloudBalancingGenerator extends LoggingMain {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.simplebigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.simplebigdecimal;
 
 import java.math.BigDecimal;
 
@@ -24,8 +24,8 @@ import javax.persistence.Entity;
 import org.hibernate.annotations.Columns;
 import org.hibernate.annotations.TypeDef;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
-import org.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
 
 public class SimpleBigDecimalScoreHibernateTypeTest extends AbstractScoreJpaTest {
 

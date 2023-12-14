@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.persistence;
+package com.sankuai.optaplanner.examples.examination.persistence;
 
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.examination.app.ExaminationApp;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.examination.app.ExaminationApp;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
 
 public class ExaminationExporter extends AbstractTxtSolutionExporter<Examination> {
 

@@ -95,19 +95,19 @@
       <affinityMap class="linked-hash-map" id="26">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -121,19 +121,19 @@
       <affinityMap class="linked-hash-map" id="29">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -147,19 +147,19 @@
       <affinityMap class="linked-hash-map" id="32">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -173,19 +173,19 @@
       <affinityMap class="linked-hash-map" id="35">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -200,19 +200,19 @@
       <affinityMap class="linked-hash-map" id="38">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -226,19 +226,19 @@
       <affinityMap class="linked-hash-map" id="41">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>HIGH</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>HIGH</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -253,19 +253,19 @@
       <affinityMap class="linked-hash-map" id="44">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>
@@ -280,19 +280,19 @@
       <affinityMap class="linked-hash-map" id="47">
         <entry>
           <TaCustomer reference="19"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="20"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>MEDIUM</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="21"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>NONE</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>NONE</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
         <entry>
           <TaCustomer reference="22"/>
-          <org.optaplanner.examples.taskassigning.domain.Affinity>LOW</org.optaplanner.examples.taskassigning.domain.Affinity>
+          <com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>LOW</com.sankuai.optaplanner.examples.taskassigning.domain.Affinity>
         </entry>
       </affinityMap>
     </TaEmployee>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.move.factory;
+package com.sankuai.optaplanner.core.config.heuristic.selector.move.factory;
 
 import java.util.Map;
 import java.util.function.Consumer;
@@ -22,10 +22,10 @@ import java.util.function.Consumer;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
+import com.sankuai.optaplanner.core.impl.io.jaxb.adapter.JaxbCustomPropertiesAdapter;
 
 @XmlType(propOrder = {
         "moveIteratorFactoryClass",

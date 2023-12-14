@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.incremental;
+package com.sankuai.optaplanner.core.impl.score.director.incremental;
 
 import java.util.function.Supplier;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirectorFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.ScoreDirectorFactory;
 
 /**
  * Incremental implementation of {@link ScoreDirectorFactory}.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.event;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.event;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
-import org.optaplanner.core.impl.solver.event.SolverLifecycleListener;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
+import com.sankuai.optaplanner.core.impl.solver.event.SolverLifecycleListener;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

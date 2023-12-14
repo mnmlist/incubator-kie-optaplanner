@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.solver.move.factory;
+package com.sankuai.optaplanner.examples.investment.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
-import org.optaplanner.examples.investment.domain.AssetClassAllocation;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
-import org.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
-import org.optaplanner.examples.investment.solver.move.InvestmentQuantityTransferMove;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.examples.investment.domain.AssetClassAllocation;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
+import com.sankuai.optaplanner.examples.investment.solver.move.InvestmentQuantityTransferMove;
 
 public class InvestmentBiQuantityTransferMoveIteratorFactory
         implements MoveIteratorFactory<InvestmentSolution, Move<InvestmentSolution>> {

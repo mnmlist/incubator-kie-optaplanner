@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.supply;
+package com.sankuai.optaplanner.core.impl.domain.variable.supply;
 
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * A subsystem submits a demand for a {@link Supply}.

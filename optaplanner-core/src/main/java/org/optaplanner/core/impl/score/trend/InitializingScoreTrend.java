@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.trend;
+package com.sankuai.optaplanner.core.impl.score.trend;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
 
 /**
  * Bounds the possible {@link Score}s for a {@link PlanningSolution} as more and more variables are initialized

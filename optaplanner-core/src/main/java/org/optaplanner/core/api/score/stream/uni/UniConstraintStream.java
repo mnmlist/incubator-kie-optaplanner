@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream.uni;
+package com.sankuai.optaplanner.core.api.score.stream.uni;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -27,20 +27,20 @@ import java.util.function.ToLongFunction;
 import java.util.stream.Stream;
 
 import org.apache.commons.lang3.ObjectUtils;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintStream;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.impl.score.stream.bi.NoneBiJoiner;
-import org.optaplanner.core.impl.score.stream.uni.UniConstraintStreamHelper;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.NoneBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.uni.UniConstraintStreamHelper;
 
 /**
  * A {@link ConstraintStream} that matches one fact.

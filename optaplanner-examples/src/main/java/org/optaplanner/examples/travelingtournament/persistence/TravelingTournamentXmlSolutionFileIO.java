@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.persistence;
+package com.sankuai.optaplanner.examples.travelingtournament.persistence;
 
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TravelingTournamentXmlSolutionFileIO extends XStreamSolutionFileIO<TravelingTournament> {
 

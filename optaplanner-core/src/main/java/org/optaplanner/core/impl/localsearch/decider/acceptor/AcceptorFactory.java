@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -23,21 +23,21 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
-import org.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
-import org.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.greatdeluge.GreatDelugeAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.hillclimbing.HillClimbingAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.lateacceptance.LateAcceptanceAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing.SimulatedAnnealingAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.EntityTabuAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.MoveTabuAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.ValueTabuAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.EntityRatioTabuSizeStrategy;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.FixedTabuSizeStrategy;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.ValueRatioTabuSizeStrategy;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.greatdeluge.GreatDelugeAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.hillclimbing.HillClimbingAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.lateacceptance.LateAcceptanceAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing.SimulatedAnnealingAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.EntityTabuAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.MoveTabuAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.ValueTabuAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.EntityRatioTabuSizeStrategy;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.FixedTabuSizeStrategy;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.ValueRatioTabuSizeStrategy;
 
 public class AcceptorFactory<Solution_> {
 

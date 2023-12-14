@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.domain;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
 
 @PlanningEntity
 public interface BusOrStop {

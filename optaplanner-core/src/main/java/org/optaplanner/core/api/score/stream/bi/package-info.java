@@ -15,6 +15,6 @@
  */
 
 /**
- * The {@link org.optaplanner.core.api.score.stream.ConstraintStream} API for bi-tuples.
+ * The {@link com.sankuai.optaplanner.core.api.score.stream.ConstraintStream} API for bi-tuples.
  */
-package org.optaplanner.core.api.score.stream.bi;
+package com.sankuai.optaplanner.core.api.score.stream.bi;

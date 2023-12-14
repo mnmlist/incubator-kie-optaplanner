@@ -29,8 +29,8 @@
   <solverBenchmark>
     <name>Entity Tabu Search</name>
     <solver>
-      <solutionClass>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
-      <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
+      <solutionClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/core/api/solver/testdataConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
@@ -48,7 +48,7 @@
       </localSearch>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
       <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
       <inputSolutionFile>nonExistingDataset1.xml</inputSolutionFile>
       <inputSolutionFile>nonExistingDataset2.xml</inputSolutionFile>
@@ -59,8 +59,8 @@
   <solverBenchmark>
     <name>Late Acceptance</name>
     <solver>
-      <solutionClass>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
-      <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
+      <solutionClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/core/api/solver/testdataConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
@@ -77,7 +77,7 @@
       </localSearch>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>nonExistingDataset4.xml</inputSolutionFile>
     </problemBenchmarks>
     <subSingleCount>2</subSingleCount>

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.solver;
+package com.sankuai.optaplanner.examples.taskassigning.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
 
-import org.optaplanner.examples.taskassigning.domain.Affinity;
-import org.optaplanner.examples.taskassigning.domain.Customer;
-import org.optaplanner.examples.taskassigning.domain.Employee;
-import org.optaplanner.examples.taskassigning.domain.Skill;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskType
-import org.optaplanner.examples.taskassigning.domain.Priority;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Affinity;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Customer;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Employee;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Skill;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskType
+import com.sankuai.optaplanner.examples.taskassigning.domain.Priority;
 
 global BendableScoreHolder scoreHolder;
 

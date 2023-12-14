@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.persistence;
+package com.sankuai.optaplanner.examples.rocktour.persistence;
 
-import static org.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.extractRandomElement;
-import static org.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.generateRandomIntFromThresholds;
+import static com.sankuai.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.extractRandomElement;
+import static com.sankuai.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.generateRandomIntFromThresholds;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -32,17 +32,17 @@ import java.util.NavigableSet;
 import java.util.Random;
 import java.util.TreeSet;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.generator.LocationDataGenerator;
-import org.optaplanner.examples.rocktour.app.RockTourApp;
-import org.optaplanner.examples.rocktour.domain.RockBus;
-import org.optaplanner.examples.rocktour.domain.RockLocation;
-import org.optaplanner.examples.rocktour.domain.RockShow;
-import org.optaplanner.examples.rocktour.domain.RockTourConstraintConfiguration;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.generator.LocationDataGenerator;
+import com.sankuai.optaplanner.examples.rocktour.app.RockTourApp;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockBus;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockLocation;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockShow;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourConstraintConfiguration;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class RockTourGenerator extends LoggingMain {
 

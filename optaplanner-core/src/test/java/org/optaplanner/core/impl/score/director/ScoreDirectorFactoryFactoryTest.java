@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director;
+package com.sankuai.optaplanner.core.impl.score.director;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -23,23 +23,23 @@ import java.io.File;
 import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.score.director.easy.EasyScoreDirector;
-import org.optaplanner.core.impl.score.director.incremental.IncrementalScoreDirector;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.score.director.easy.EasyScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.incremental.IncrementalScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 class ScoreDirectorFactoryFactoryTest {
 

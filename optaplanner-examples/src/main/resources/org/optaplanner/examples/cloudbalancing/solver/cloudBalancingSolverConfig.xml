@@ -5,19 +5,19 @@
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
   <!-- Domain model configuration -->
-  <solutionClass>org.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
-  <entityClass>org.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
 
   <!-- Score configuration -->
   <scoreDirectorFactory>
-    <!--<easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>-->
-    <!--<easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>-->
-    <!--<constraintProviderClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>-->
-    <!--<incrementalScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
+    <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>-->
+    <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>-->
+    <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
     <scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
     <!--<assertionScoreDirectorFactory>-->
-      <!--<easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>-->
+      <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>-->
     <!--</assertionScoreDirectorFactory>-->
   </scoreDirectorFactory>
 
@@ -47,7 +47,7 @@
 
   <!-- Alternative power tweaked optimization algorithms configuration -->
   <!--<partitionedSearch>-->
-    <!--<solutionPartitionerClass>org.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>-->
+    <!--<solutionPartitionerClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>-->
     <!--<solutionPartitionerCustomProperties>-->
       <!--<partCount>4</partCount>-->
       <!--<minimumProcessListSize>300</minimumProcessListSize>-->

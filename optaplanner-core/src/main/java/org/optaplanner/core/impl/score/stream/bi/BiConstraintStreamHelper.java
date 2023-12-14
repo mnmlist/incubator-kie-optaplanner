@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bi;
 
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
-import org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
-import org.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
 
 public final class BiConstraintStreamHelper<A, B, C>
         extends AbstractConstraintStreamHelper<C, TriConstraintStream<A, B, C>, TriJoiner<A, B, C>, TriPredicate<A, B, C>> {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.score.drools;
+package com.sankuai.optaplanner.examples.nurserostering.score.drools;
 
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
 
 public class EmployeeWorkSequence implements Comparable<EmployeeWorkSequence> {
 

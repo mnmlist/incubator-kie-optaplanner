@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener.support;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener.support;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -23,19 +23,19 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.listener.SourcedVariableListener;
-import org.optaplanner.core.impl.domain.variable.supply.Demand;
-import org.optaplanner.core.impl.domain.variable.supply.Supply;
-import org.optaplanner.core.impl.domain.variable.supply.SupplyManager;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.listener.SourcedVariableListener;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Demand;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Supply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.SupplyManager;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

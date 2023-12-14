@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic;
+package com.sankuai.optaplanner.core.impl.constructionheuristic;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class DefaultConstructionHeuristicPhaseTest {
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.domain.solver;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusHub;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusOrStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusHub;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusOrStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
 
 /**
  * On large datasets, the constructed solution looks like pizza slices.

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.timewindowed.solver;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.solver;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Standstill;
-import org.optaplanner.examples.vehiclerouting.domain.Vehicle;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Vehicle;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
 
 // TODO When this class is added only for TimeWindowedCustomer, use TimeWindowedCustomer instead of Customer
 public class ArrivalTimeUpdatingVariableListener implements VariableListener<VehicleRoutingSolution, Customer> {

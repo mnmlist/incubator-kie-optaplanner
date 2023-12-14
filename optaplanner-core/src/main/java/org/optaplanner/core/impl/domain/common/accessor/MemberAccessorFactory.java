@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.common.accessor;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -23,10 +23,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberAccessorFactory;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberAccessorFactory;
 
 public class MemberAccessorFactory {
 

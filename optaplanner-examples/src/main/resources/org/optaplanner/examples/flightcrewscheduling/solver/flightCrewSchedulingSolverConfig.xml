@@ -4,12 +4,12 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution</solutionClass>
-  <entityClass>org.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment</entityClass>
-  <entityClass>org.optaplanner.examples.flightcrewscheduling.domain.Employee</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment</entityClass>
+  <entityClass>com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Employee</entityClass>
 
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.flightcrewscheduling.optional.score.FlightCrewSchedulingConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.flightcrewscheduling.optional.score.FlightCrewSchedulingConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/flightcrewscheduling/solver/flightCrewSchedulingConstraints.drl</scoreDrl>
   </scoreDirectorFactory>
 

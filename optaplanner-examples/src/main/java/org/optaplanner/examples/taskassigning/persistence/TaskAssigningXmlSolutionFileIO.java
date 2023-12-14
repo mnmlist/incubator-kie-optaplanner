@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.persistence;
+package com.sankuai.optaplanner.examples.taskassigning.persistence;
 
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TaskAssigningXmlSolutionFileIO extends XStreamSolutionFileIO<TaskAssigningSolution> {
 

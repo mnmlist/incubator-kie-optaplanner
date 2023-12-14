@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.app;
+package com.sankuai.optaplanner.examples.nurserostering.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
 
 public class NurseRosteringPerformanceTest extends SolverPerformanceTest<NurseRoster> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain;
+package com.sankuai.optaplanner.examples.nurserostering.domain;
 
 import java.time.DayOfWeek;
 import java.util.EnumSet;

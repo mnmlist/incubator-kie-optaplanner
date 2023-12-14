@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.nearby;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 class NearbyDistanceMatrixTest {
 

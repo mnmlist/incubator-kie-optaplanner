@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.solver;
+package com.sankuai.optaplanner.examples.cheaptime.solver;
     dialect "java"
 
 import java.util.List;
 import java.util.ArrayList;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
 
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.MachineCapacity;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
-import org.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
-import org.optaplanner.examples.cheaptime.optional.score.drools.IdleCost;
-import org.optaplanner.examples.cheaptime.optional.score.drools.PeriodWrapper;
-import org.optaplanner.examples.cheaptime.optional.score.drools.MachinePeriodPart;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.MachineCapacity;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
+import com.sankuai.optaplanner.examples.cheaptime.optional.score.drools.IdleCost;
+import com.sankuai.optaplanner.examples.cheaptime.optional.score.drools.PeriodWrapper;
+import com.sankuai.optaplanner.examples.cheaptime.optional.score.drools.MachinePeriodPart;
 
 global HardMediumSoftLongScoreHolder scoreHolder;
 

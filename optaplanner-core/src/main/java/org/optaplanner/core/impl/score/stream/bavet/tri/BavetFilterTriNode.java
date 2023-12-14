@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.tri;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
 
 public final class BavetFilterTriNode<A, B, C> extends BavetAbstractTriNode<A, B, C> {
 

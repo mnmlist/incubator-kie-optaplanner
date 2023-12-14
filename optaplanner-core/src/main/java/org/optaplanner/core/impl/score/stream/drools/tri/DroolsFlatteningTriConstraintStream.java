@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.tri;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
 
 public final class DroolsFlatteningTriConstraintStream<Solution_, A, B, NewC>
         extends DroolsAbstractTriConstraintStream<Solution_, A, B, NewC> {

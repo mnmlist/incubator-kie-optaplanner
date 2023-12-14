@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.app;
+package com.sankuai.optaplanner.examples.projectjobscheduling.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
-import org.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingImporter;
-import org.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingXmlSolutionFileIO;
-import org.optaplanner.examples.projectjobscheduling.swingui.ProjectJobSchedulingPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingImporter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.persistence.ProjectJobSchedulingXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.projectjobscheduling.swingui.ProjectJobSchedulingPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class ProjectJobSchedulingApp extends CommonApp<Schedule> {
 

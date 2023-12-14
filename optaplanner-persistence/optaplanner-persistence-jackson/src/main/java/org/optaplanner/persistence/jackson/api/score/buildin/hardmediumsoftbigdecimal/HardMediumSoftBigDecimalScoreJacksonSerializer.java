@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoftbigdecimal;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonSerializer;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonSerializer;
 
 /**
  * {@inheritDoc}

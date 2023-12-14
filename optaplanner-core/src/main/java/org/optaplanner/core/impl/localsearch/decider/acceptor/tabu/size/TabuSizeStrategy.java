@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size;
 
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 
 public interface TabuSizeStrategy<Solution_> {
 

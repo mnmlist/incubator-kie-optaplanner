@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
 
 /**
  * Drools and Bavet sessions have vastly different interfaces and therefore the assertion generation is generalized

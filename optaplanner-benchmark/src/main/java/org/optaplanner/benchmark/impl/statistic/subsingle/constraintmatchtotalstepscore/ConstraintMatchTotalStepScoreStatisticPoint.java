@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalstepscore;
+package com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.constraintmatchtotalstepscore;
 
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public class ConstraintMatchTotalStepScoreStatisticPoint extends StatisticPoint {
 

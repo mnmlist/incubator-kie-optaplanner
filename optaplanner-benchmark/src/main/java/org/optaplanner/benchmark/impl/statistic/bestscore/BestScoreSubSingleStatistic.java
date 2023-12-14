@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.bestscore;
+package com.sankuai.optaplanner.benchmark.impl.statistic.bestscore;
 
 import java.util.List;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
-import org.optaplanner.core.api.solver.event.SolverEventListener;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
+import com.sankuai.optaplanner.core.api.solver.event.SolverEventListener;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 public class BestScoreSubSingleStatistic<Solution_>
         extends ProblemBasedSubSingleStatistic<Solution_, BestScoreStatisticPoint> {

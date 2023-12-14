@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange;
+package com.sankuai.optaplanner.core.impl.domain.valuerange;
 
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
 
 /**
  * Abstract superclass for {@link ValueRange} that is not a {@link CountableValueRange}).

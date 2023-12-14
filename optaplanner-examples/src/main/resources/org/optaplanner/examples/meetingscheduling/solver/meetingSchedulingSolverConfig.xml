@@ -4,11 +4,11 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule</solutionClass>
-  <entityClass>org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment</entityClass>
 
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.meetingscheduling.optional.score.MeetingSchedulingConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.meetingscheduling.optional.score.MeetingSchedulingConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/meetingscheduling/solver/meetingSchedulingConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
       <!--<scoreDrl>org/optaplanner/examples/meetingscheduling/solver/meetingSchedulingConstraints.drl</scoreDrl>-->

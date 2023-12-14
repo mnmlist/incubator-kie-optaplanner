@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain;
+package com.sankuai.optaplanner.examples.rocktour.domain;
 
 public enum RockTimeOfDay {
     EARLY,

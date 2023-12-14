@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.composite;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,12 +22,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.move.NoChangeMove;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.move.NoChangeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
 
 /**
  * A {@link CompositeMoveSelector} that Cartesian products 2 or more {@link MoveSelector}s.

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.composite;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.composite;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.mockito.Mockito.mock;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllElementsOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertElementsOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllElementsOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertElementsOfIterator;
 
 import java.util.Random;
 

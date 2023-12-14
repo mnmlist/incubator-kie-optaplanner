@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardmediumsoftbigdecimal;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.score.definition.AbstractScoreDefinition;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.score.definition.AbstractScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 public class HardMediumSoftBigDecimalScoreDefinition extends AbstractScoreDefinition<HardMediumSoftBigDecimalScore> {
 

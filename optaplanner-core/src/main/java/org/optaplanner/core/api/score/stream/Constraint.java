@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
 
 /**
  * This represents a single constraint in the {@link ConstraintStream} API

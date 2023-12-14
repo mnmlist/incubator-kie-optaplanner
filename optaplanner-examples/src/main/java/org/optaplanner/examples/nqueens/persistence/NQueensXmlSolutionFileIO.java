@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.persistence;
+package com.sankuai.optaplanner.examples.nqueens.persistence;
 
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class NQueensXmlSolutionFileIO extends XStreamSolutionFileIO<NQueens> {
 

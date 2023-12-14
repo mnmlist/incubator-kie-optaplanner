@@ -1,4 +1,4 @@
-package org.optaplanner.testgen;
+package com.sankuai.optaplanner.testgen;
 
 import java.io.File;
 import org.drools.modelcompiler.ExecutableModelProject;
@@ -8,10 +8,10 @@ import org.kie.api.KieServices;
 import org.kie.api.builder.KieFileSystem;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.api.score.holder.ScoreHolder;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.api.score.holder.ScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 public class TestGenWriterOutput {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import java.util.Comparator;
 
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 public class TotalScoreSingleBenchmarkRankingComparator implements Comparator<SingleBenchmarkResult> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static org.drools.model.PatternDSL.rule;
 
@@ -29,10 +29,10 @@ import org.drools.model.Drools;
 import org.drools.model.RuleItemBuilder;
 import org.drools.model.view.ViewItem;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
 
 /**
  * Used when building a consequence to a rule.

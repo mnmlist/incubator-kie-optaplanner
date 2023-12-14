@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score;
+package com.sankuai.optaplanner.core.impl.score;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
 
 public class DummySimpleScoreEasyScoreCalculator<Solution_> implements EasyScoreCalculator<Solution_, SimpleScore> {
 

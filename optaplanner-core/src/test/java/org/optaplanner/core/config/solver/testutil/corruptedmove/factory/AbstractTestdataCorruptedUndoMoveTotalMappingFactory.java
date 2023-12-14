@@ -1,16 +1,16 @@
-package org.optaplanner.core.config.solver.testutil.corruptedmove.factory;
+package com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.config.solver.testutil.corruptedmove.AbstractTestdataMove;
-import org.optaplanner.core.config.solver.testutil.corruptedmove.TestdataCorruptedEntityUndoMove;
-import org.optaplanner.core.config.solver.testutil.corruptedmove.TestdataCorruptedUndoMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.AbstractTestdataMove;
+import com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.TestdataCorruptedEntityUndoMove;
+import com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.TestdataCorruptedUndoMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 public class AbstractTestdataCorruptedUndoMoveTotalMappingFactory implements MoveListFactory<TestdataSolution> {
 

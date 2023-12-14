@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
@@ -43,8 +43,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.lookup.LookUpStrategyType;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.lookup.LookUpStrategyType;
 
 public class LookUpStrategyImmutableTest {
 

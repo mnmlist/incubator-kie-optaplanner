@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.drools;
+package com.sankuai.optaplanner.core.impl.score.director.drools;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -26,14 +26,14 @@ import org.kie.api.definition.KiePackage;
 import org.kie.api.definition.rule.Global;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintConfigurationDescriptor;
-import org.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintWeightDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirectorFactory;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintConfigurationDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintWeightDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.ScoreDirectorFactory;
 
 /**
  * Drools implementation of {@link ScoreDirectorFactory}.

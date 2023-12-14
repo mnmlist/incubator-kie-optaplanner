@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.optional.solver.solution.initializer;
+package com.sankuai.optaplanner.examples.vehiclerouting.optional.solver.solution.initializer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,14 +23,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Standstill;
-import org.optaplanner.examples.vehiclerouting.domain.Vehicle;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Vehicle;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

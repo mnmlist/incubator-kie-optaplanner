@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch;
+package com.sankuai.optaplanner.core.impl.localsearch;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.lateacceptance.LateAcceptanceAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing.SimulatedAnnealingAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.AbstractTabuAcceptor;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.phase.Phase;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.lateacceptance.LateAcceptanceAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.simulatedannealing.SimulatedAnnealingAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.AbstractTabuAcceptor;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.phase.Phase;
 
 /**
  * A {@link LocalSearchPhase} is a {@link Phase} which uses a Local Search algorithm,

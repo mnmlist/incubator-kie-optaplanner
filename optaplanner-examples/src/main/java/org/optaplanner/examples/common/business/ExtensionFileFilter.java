@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.business;
+package com.sankuai.optaplanner.examples.common.business;
 
 import java.io.File;
 import java.io.FileFilter;

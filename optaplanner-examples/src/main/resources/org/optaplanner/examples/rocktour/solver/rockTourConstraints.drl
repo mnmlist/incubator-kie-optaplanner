@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.solver;
+package com.sankuai.optaplanner.examples.rocktour.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScoreHolder;
 
-import org.optaplanner.examples.rocktour.domain.RockBus;
-import org.optaplanner.examples.rocktour.domain.RockShow;
-import org.optaplanner.examples.rocktour.domain.RockStandstill;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockBus;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockShow;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockStandstill;
 
 global HardMediumSoftLongScoreHolder scoreHolder;
 

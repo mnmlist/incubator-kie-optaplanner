@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.entity.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.entity.descriptor;
 
-import static org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD;
-import static org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD_WITH_SETTER;
-import static org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_READ_METHOD;
+import static com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD;
+import static com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_GETTER_METHOD_WITH_SETTER;
+import static com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory.MemberAccessorType.FIELD_OR_READ_METHOD;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
@@ -31,36 +31,36 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Predicate;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.entity.PlanningPin;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.domain.variable.AnchorShadowVariable;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
-import org.optaplanner.core.impl.domain.policy.DescriptorPolicy;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.anchor.AnchorShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.custom.CustomShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.inverserelation.InverseRelationShadowVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.CompositeSelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.entity.decorator.PinEntityFilter;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningPin;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.domain.variable.AnchorShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessorFactory;
+import com.sankuai.optaplanner.core.impl.domain.policy.DescriptorPolicy;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.anchor.AnchorShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.custom.CustomShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.inverserelation.InverseRelationShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.CompositeSelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.decorator.PinEntityFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

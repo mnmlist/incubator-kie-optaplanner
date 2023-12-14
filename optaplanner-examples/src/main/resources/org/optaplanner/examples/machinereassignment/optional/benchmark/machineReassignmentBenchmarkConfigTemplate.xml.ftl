@@ -6,7 +6,7 @@
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
       <!--<inputSolutionFile>data/machinereassignment/import/model_a1_1.txt</inputSolutionFile>-->
       <!--<inputSolutionFile>data/machinereassignment/import/model_a1_2.txt</inputSolutionFile>-->
       <!--<inputSolutionFile>data/machinereassignment/import/model_a1_3.txt</inputSolutionFile>-->
@@ -32,11 +32,11 @@
 
     <solver>
       <!--<environmentMode>FAST_ASSERT</environmentMode>-->
-      <solutionClass>org.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
-      <entityClass>org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
 
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
         <!--<scoreDrl>org/optaplanner/examples/machinereassignment/solver/machineReassignmentConstraints.drl</scoreDrl>-->
       </scoreDirectorFactory>
       <termination>
@@ -49,7 +49,7 @@
     <name>original</name>
     <solver>
       <customPhase>
-        <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+        <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
       </customPhase>
     </solver>
   </solverBenchmark>
@@ -59,7 +59,7 @@
     <name>entityTabu${entityTabuSize}-mas${acceptedCountLimit}</name>
     <solver>
       <customPhase>
-        <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+        <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
       </customPhase>
       <localSearch>
         <unionMoveSelector>
@@ -82,7 +82,7 @@
         <name>simulatedAnnealing${simulatedAnnealingStartingTemperature}soft</name>
         <solver>
             <customPhase>
-                <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+                <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
             </customPhase>
             <localSearch>
                 <unionMoveSelector>
@@ -104,7 +104,7 @@
     <name>lateAcceptance${lateAcceptanceSize}</name>
     <solver>
       <customPhase>
-        <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+        <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
       </customPhase>
       <localSearch>
         <unionMoveSelector>

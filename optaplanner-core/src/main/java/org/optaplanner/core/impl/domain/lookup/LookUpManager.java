@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * @see PlanningId

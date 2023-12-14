@@ -6,15 +6,15 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
-      <entityClass>org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
       <scoreDirectorFactory>
       </scoreDirectorFactory>
       <termination>
         <minutesSpentLimit>5</minutesSpentLimit>
       </termination>
       <customPhase>
-        <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+        <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
       </customPhase>
       <localSearch>
         <unionMoveSelector>
@@ -30,7 +30,7 @@
       </localSearch>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
       <inputSolutionFile>data/machinereassignment/import/model_a1_1.txt</inputSolutionFile>
       <inputSolutionFile>data/machinereassignment/import/model_a1_2.txt</inputSolutionFile>
       <inputSolutionFile>data/machinereassignment/import/model_a1_3.txt</inputSolutionFile>
@@ -48,7 +48,7 @@
     <name>TS with Incremental Java</name>
     <solver>
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>

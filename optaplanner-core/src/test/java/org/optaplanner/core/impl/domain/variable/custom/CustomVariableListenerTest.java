@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.custom;
+package com.sankuai.optaplanner.core.impl.domain.variable.custom;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
@@ -22,21 +22,21 @@ import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.shadow.cyclic.TestdataSevenNonCyclicShadowedSolution;
-import org.optaplanner.core.impl.testdata.domain.shadow.cyclic.invalid.TestdataCyclicReferencedShadowedSolution;
-import org.optaplanner.core.impl.testdata.domain.shadow.cyclic.invalid.TestdataCyclicShadowedSolution;
-import org.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedChildEntity;
-import org.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedParentEntity;
-import org.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedSolution;
-import org.optaplanner.core.impl.testdata.domain.shadow.manytomany.TestdataManyToManyShadowedEntity;
-import org.optaplanner.core.impl.testdata.domain.shadow.manytomany.TestdataManyToManyShadowedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.cyclic.TestdataSevenNonCyclicShadowedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.cyclic.invalid.TestdataCyclicReferencedShadowedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.cyclic.invalid.TestdataCyclicShadowedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedChildEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedParentEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.extended.TestdataExtendedShadowedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.manytomany.TestdataManyToManyShadowedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.shadow.manytomany.TestdataManyToManyShadowedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class CustomVariableListenerTest {
 

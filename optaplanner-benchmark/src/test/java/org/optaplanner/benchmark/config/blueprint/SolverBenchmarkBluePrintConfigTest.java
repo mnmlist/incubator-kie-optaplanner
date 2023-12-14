@@ -1,4 +1,4 @@
-package org.optaplanner.benchmark.config.blueprint;
+package com.sankuai.optaplanner.benchmark.config.blueprint;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 

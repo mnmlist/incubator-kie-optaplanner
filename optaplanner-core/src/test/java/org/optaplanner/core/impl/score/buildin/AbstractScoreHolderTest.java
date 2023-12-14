@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin;
+package com.sankuai.optaplanner.core.impl.score.buildin;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
@@ -33,10 +33,10 @@ import org.drools.core.common.AgendaItemImpl;
 import org.junit.jupiter.api.Test;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.impl.score.holder.AbstractScoreHolder;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.impl.score.holder.AbstractScoreHolder;
 
 public abstract class AbstractScoreHolderTest<Score_ extends Score<Score_>> {
 

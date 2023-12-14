@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener.support;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener.support;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.ShadowVariableDescriptor;
 
 public class VariableListenerNotification {
 

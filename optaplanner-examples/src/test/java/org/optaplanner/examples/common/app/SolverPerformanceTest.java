@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
@@ -30,20 +30,20 @@ import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
-import org.optaplanner.examples.common.TestSystemProperties;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.examples.common.TestSystemProperties;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * Runs an example {@link Solver}.

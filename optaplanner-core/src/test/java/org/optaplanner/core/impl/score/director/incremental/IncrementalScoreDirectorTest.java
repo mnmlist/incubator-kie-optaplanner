@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.incremental;
+package com.sankuai.optaplanner.core.impl.score.director.incremental;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
@@ -29,14 +29,14 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
 
 public class IncrementalScoreDirectorTest {
 

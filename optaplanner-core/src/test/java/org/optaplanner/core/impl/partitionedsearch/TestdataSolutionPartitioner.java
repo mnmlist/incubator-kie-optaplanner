@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.partitionedsearch;
+package com.sankuai.optaplanner.core.impl.partitionedsearch;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class TestdataSolutionPartitioner implements SolutionPartitioner<TestdataSolution> {
 

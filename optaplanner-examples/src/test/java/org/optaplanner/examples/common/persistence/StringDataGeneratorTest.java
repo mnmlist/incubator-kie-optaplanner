@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.common.persistence.generator.StringDataGenerator;
+import com.sankuai.optaplanner.examples.common.persistence.generator.StringDataGenerator;
 
 public class StringDataGeneratorTest {
 

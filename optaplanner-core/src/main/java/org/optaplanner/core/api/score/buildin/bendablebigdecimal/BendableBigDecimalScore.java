@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -22,9 +22,9 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.api.score.AbstractBendableScore;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.AbstractBendableScore;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendable.BendableScoreDefinition;
 
 /**
  * This {@link Score} is based on n levels of {@link BigDecimal} constraints.

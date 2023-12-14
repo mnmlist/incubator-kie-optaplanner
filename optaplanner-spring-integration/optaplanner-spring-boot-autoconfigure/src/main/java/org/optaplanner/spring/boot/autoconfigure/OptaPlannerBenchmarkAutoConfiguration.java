@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure;
+package com.sankuai.optaplanner.spring.boot.autoconfigure;
 
 import java.io.File;
 
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
 import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

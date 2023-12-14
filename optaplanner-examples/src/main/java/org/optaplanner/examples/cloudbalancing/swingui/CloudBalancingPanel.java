@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.swingui;
+package com.sankuai.optaplanner.examples.cloudbalancing.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -34,16 +34,16 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.AddComputerProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteComputerProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteProcessProblemFactChange;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.AddComputerProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteComputerProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteProcessProblemFactChange;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
 
 public class CloudBalancingPanel extends SolutionPanel<CloudBalance> {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic;
+package com.sankuai.optaplanner.core.impl.constructionheuristic;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.phase.Phase;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.phase.Phase;
 
 /**
  * A {@link ConstructionHeuristicPhase} is a {@link Phase} which uses a construction heuristic algorithm,

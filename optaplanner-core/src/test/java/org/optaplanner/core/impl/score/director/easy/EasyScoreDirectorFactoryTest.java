@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.easy;
+package com.sankuai.optaplanner.core.impl.score.director.easy;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.any;
@@ -24,10 +24,10 @@ import static org.mockito.Mockito.when;
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class EasyScoreDirectorFactoryTest {
 

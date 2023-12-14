@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver.testutil;
+package com.sankuai.optaplanner.core.config.solver.testutil;
 
 import java.util.concurrent.ThreadFactory;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.tracking;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.tracking;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

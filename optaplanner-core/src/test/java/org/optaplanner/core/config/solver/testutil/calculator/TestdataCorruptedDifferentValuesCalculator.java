@@ -1,4 +1,4 @@
-package org.optaplanner.core.config.solver.testutil.calculator;
+package com.sankuai.optaplanner.core.config.solver.testutil.calculator;
 
 public class TestdataCorruptedDifferentValuesCalculator extends AbstractTestdataDifferentValuesCalculator {
 

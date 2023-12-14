@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
 
 final class BavetSessionBasedAssertionBuilder<Solution_, Score_ extends Score<Score_>>
         implements SessionBasedAssertionBuilder<Solution_, Score_> {

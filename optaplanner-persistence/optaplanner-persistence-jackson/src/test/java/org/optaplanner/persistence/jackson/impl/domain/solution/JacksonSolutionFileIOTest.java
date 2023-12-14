@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.jackson.impl.domain.solution;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.io.File;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataEntity;
-import org.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataSolution;
-import org.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataValue;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataEntity;
+import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataSolution;
+import com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain.JacksonTestdataValue;
 
 public class JacksonSolutionFileIOTest {
 

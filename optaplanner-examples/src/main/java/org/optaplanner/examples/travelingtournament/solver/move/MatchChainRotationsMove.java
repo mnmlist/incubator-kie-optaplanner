@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.solver.move;
+package com.sankuai.optaplanner.examples.travelingtournament.solver.move;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -23,11 +23,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Match;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.AbstractMove;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
 
 public class MatchChainRotationsMove extends AbstractMove<TravelingTournament> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.bendablebigdecimal;
 
 import java.math.BigDecimal;
 
@@ -22,8 +22,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
 
 public class BendableBigDecimalScoreJaxbAdapterTest extends AbstractScoreJaxbAdapterTest {
 

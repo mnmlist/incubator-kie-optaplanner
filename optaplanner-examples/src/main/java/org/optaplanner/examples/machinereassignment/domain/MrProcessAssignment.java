@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.domain;
+package com.sankuai.optaplanner.examples.machinereassignment.domain;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.machinereassignment.domain.solver.MrProcessAssignmentDifficultyComparator;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.solver.MrProcessAssignmentDifficultyComparator;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

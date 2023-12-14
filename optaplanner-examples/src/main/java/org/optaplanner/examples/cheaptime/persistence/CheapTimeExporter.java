@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.persistence;
+package com.sankuai.optaplanner.examples.cheaptime.persistence;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,14 +22,14 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.examples.cheaptime.app.CheapTimeApp;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.cheaptime.app.CheapTimeApp;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
 
 public class CheapTimeExporter extends AbstractTxtSolutionExporter<CheapTimeSolution> {
 

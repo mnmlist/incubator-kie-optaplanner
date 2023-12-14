@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.movecountperstep;
+package com.sankuai.optaplanner.benchmark.impl.statistic.movecountperstep;
 
 public class MoveCountPerStepMeasurement {
 

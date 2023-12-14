@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoft;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoft;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonRoundTripTest;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

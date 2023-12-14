@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import java.util.function.BiFunction;
 
 import org.drools.model.Global;
 import org.drools.model.Rule;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraint;
 
 @FunctionalInterface
 public interface RuleBuilder<Solution_>

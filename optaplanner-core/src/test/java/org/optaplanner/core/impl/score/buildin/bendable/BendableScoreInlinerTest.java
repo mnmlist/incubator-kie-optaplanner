@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.bendable;
+package com.sankuai.optaplanner.core.impl.score.buildin.bendable;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataBendableScoreSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataBendableScoreSolution;
 
 public class BendableScoreInlinerTest
         extends AbstractScoreInlinerTest<TestdataBendableScoreSolution, BendableScore> {

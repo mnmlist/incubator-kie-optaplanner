@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.swingui;
+package com.sankuai.optaplanner.examples.vehiclerouting.swingui;
 
 import java.awt.BorderLayout;
 import java.util.Random;
 
 import javax.swing.JTabbedPane;
 
-import org.optaplanner.core.impl.solver.random.RandomUtils;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
 
 public class VehicleRoutingPanel extends SolutionPanel<VehicleRoutingSolution> {
 

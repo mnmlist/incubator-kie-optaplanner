@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.persistence;
+package com.sankuai.optaplanner.examples.machinereassignment.persistence;
 
 import java.io.File;
 import java.util.function.Predicate;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.machinereassignment.app.MachineReassignmentApp;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
 
 public class MachineReassignmentImporterTest extends ImportDataFilesTest<MachineReassignment> {
 

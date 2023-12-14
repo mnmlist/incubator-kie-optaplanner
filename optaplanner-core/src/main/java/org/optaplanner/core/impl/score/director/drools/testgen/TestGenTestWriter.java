@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -28,13 +28,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-import org.optaplanner.core.api.score.holder.ScoreHolder;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreException;
+import com.sankuai.optaplanner.core.api.score.holder.ScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -69,7 +69,7 @@ class TestGenTestWriter {
     }
 
     private void printInit() {
-        sb.append("package org.optaplanner.testgen;\n\n");
+        sb.append("package com.sankuai.optaplanner.testgen;\n\n");
         List<String> imports = new ArrayList<>();
         imports.add("org.junit.jupiter.api.Test");
         imports.add("org.drools.modelcompiler.ExecutableModelProject");

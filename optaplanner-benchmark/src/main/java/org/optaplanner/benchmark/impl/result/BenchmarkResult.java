@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public interface BenchmarkResult {
 

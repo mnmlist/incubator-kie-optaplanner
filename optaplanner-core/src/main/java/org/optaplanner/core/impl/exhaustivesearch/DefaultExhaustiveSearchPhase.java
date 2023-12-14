@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,21 +23,21 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchLayer;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
-import org.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchLayer;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 /**
  * Default implementation of {@link ExhaustiveSearchPhase}.

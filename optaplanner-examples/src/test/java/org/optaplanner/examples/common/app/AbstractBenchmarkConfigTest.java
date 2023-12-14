@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
@@ -22,13 +22,13 @@ import java.util.stream.Stream;
 
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.impl.DefaultPlannerBenchmark;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.impl.DefaultPlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 
 public abstract class AbstractBenchmarkConfigTest {
 

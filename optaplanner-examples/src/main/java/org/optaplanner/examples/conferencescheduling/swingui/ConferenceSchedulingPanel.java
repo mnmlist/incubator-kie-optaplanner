@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.swingui;
+package com.sankuai.optaplanner.examples.conferencescheduling.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -27,10 +27,10 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class ConferenceSchedulingPanel extends SolutionPanel<ConferenceSolution> {
 

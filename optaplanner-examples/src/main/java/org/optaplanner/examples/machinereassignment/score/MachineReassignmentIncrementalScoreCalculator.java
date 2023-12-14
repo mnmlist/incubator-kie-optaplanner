@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.score;
+package com.sankuai.optaplanner.examples.machinereassignment.score;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,28 +23,28 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
-import org.optaplanner.examples.machinereassignment.domain.MachineReassignment;
-import org.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
-import org.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
-import org.optaplanner.examples.machinereassignment.domain.MrLocation;
-import org.optaplanner.examples.machinereassignment.domain.MrMachine;
-import org.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
-import org.optaplanner.examples.machinereassignment.domain.MrNeighborhood;
-import org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
-import org.optaplanner.examples.machinereassignment.domain.MrResource;
-import org.optaplanner.examples.machinereassignment.domain.MrService;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrBalancePenalty;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrGlobalPenaltyInfo;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrLocation;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachine;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrMachineCapacity;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrNeighborhood;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrResource;
+import com.sankuai.optaplanner.examples.machinereassignment.domain.MrService;
 
 public class MachineReassignmentIncrementalScoreCalculator
         implements ConstraintMatchAwareIncrementalScoreCalculator<MachineReassignment, HardSoftLongScore>,
         IncrementalScoreCalculator<MachineReassignment, HardSoftLongScore> {
 
-    protected static final String CONSTRAINT_PACKAGE = "org.optaplanner.examples.machinereassignment.solver";
+    protected static final String CONSTRAINT_PACKAGE = "com.sankuai.optaplanner.examples.machinereassignment.solver";
 
     private MachineReassignment machineReassignment;
     private MrGlobalPenaltyInfo globalPenaltyInfo;

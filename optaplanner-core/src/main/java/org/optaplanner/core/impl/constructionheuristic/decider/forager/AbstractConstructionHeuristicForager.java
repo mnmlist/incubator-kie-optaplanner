@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.decider.forager;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager;
 
-import org.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.event.ConstructionHeuristicPhaseLifecycleListenerAdapter;
 
 public abstract class AbstractConstructionHeuristicForager<Solution_>
         extends ConstructionHeuristicPhaseLifecycleListenerAdapter<Solution_>

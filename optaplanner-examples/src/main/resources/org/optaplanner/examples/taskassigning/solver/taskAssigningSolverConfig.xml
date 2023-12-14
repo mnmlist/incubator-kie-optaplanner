@@ -4,12 +4,12 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution</solutionClass>
-  <entityClass>org.optaplanner.examples.taskassigning.domain.TaskOrEmployee</entityClass>
-  <entityClass>org.optaplanner.examples.taskassigning.domain.Task</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee</entityClass>
+  <entityClass>com.sankuai.optaplanner.examples.taskassigning.domain.Task</entityClass>
 
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.taskassigning.optional.score.TaskAssigningConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/taskassigning/solver/taskAssigningConstraints.drl</scoreDrl>
   </scoreDirectorFactory>
 

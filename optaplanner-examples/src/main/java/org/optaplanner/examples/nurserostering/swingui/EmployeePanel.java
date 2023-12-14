@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.swingui;
+package com.sankuai.optaplanner.examples.nurserostering.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -35,15 +35,15 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.Shift;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
-import org.optaplanner.examples.nurserostering.domain.ShiftType;
-import org.optaplanner.examples.nurserostering.domain.WeekendDefinition;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Shift;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.WeekendDefinition;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class EmployeePanel extends JPanel {
 

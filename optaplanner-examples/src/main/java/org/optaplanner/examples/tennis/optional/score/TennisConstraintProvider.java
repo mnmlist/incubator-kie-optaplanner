@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.optional.score;
+package com.sankuai.optaplanner.examples.tennis.optional.score;
 
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.lessThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.lessThan;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -25,18 +25,18 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
-import org.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
-import org.optaplanner.examples.tennis.domain.TeamAssignment;
-import org.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.DefaultBiConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.uni.DefaultUniConstraintCollector;
+import com.sankuai.optaplanner.examples.tennis.domain.TeamAssignment;
+import com.sankuai.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
 
 public final class TennisConstraintProvider implements ConstraintProvider {
 
-    private static final String CONSTRAINT_PACKAGE = "org.optaplanner.examples.tennis.solver";
+    private static final String CONSTRAINT_PACKAGE = "com.sankuai.optaplanner.examples.tennis.solver";
 
     private static <A> DefaultUniConstraintCollector<A, ?, LoadBalanceData> loadBalance(
             Function<A, Object> groupKey) {

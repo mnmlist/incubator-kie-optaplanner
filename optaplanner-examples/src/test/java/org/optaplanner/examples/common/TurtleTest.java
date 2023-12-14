@@ -1,4 +1,4 @@
-package org.optaplanner.examples.common;
+package com.sankuai.optaplanner.examples.common;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

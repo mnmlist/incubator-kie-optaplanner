@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -27,7 +27,7 @@ import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.JDOMException;
 import org.jdom.input.SAXBuilder;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

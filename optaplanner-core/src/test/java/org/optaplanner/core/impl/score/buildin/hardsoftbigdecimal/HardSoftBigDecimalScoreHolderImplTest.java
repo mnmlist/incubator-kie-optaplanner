@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.hardsoftbigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardsoftbigdecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -23,8 +23,8 @@ import java.math.BigDecimal;
 import org.junit.jupiter.api.Test;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreHolderTest;
 
 public class HardSoftBigDecimalScoreHolderImplTest extends AbstractScoreHolderTest<HardSoftBigDecimalScore> {
 

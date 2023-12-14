@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.solver;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
 
 /**
  * On large datasets, the constructed solution looks like a zebra crossing.

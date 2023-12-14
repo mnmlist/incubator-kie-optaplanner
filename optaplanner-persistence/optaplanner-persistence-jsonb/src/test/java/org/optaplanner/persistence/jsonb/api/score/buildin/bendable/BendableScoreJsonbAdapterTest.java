@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.bendable;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.bendable;
 
 import javax.json.bind.annotation.JsonbTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
 
 public class BendableScoreJsonbAdapterTest extends AbstractScoreJsonbAdapterTest {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.bendablelong;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.bendablelong;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
 
 @Converter
 public class BendableLongScoreConverter implements AttributeConverter<BendableLongScore, String> {

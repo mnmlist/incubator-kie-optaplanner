@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score;
+package com.sankuai.optaplanner.persistence.jaxb.api.score;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 /**
  * JAXB binding support for a {@link Score} type.

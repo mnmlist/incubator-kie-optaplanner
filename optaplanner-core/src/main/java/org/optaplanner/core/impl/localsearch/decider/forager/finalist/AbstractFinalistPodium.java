@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.forager.finalist;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListenerAdapter;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

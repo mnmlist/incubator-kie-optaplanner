@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.swing.impl;
+package com.sankuai.optaplanner.swing.impl;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;

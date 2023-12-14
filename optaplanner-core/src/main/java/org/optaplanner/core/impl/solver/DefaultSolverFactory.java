@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver;
+package com.sankuai.optaplanner.core.impl.solver;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -22,32 +22,32 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.random.RandomType;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.phase.Phase;
-import org.optaplanner.core.impl.phase.PhaseFactory;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirectorFactoryFactory;
-import org.optaplanner.core.impl.solver.random.DefaultRandomFactory;
-import org.optaplanner.core.impl.solver.random.RandomFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecallerFactory;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.BasicPlumbingTermination;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.termination.TerminationFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.random.RandomType;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.phase.Phase;
+import com.sankuai.optaplanner.core.impl.phase.PhaseFactory;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.ScoreDirectorFactoryFactory;
+import com.sankuai.optaplanner.core.impl.solver.random.DefaultRandomFactory;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecallerFactory;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.BasicPlumbingTermination;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.termination.TerminationFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

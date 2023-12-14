@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.nearby;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
-import org.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionConfig;
-import org.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionDistributionType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionDistributionType;
 
 public class NearbyRandomFactory {
 

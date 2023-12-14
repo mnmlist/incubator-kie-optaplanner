@@ -1,10 +1,10 @@
-package org.optaplanner.persistence.jackson.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.jackson.impl.domain.solution;
 
 import java.io.File;
 import java.io.IOException;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

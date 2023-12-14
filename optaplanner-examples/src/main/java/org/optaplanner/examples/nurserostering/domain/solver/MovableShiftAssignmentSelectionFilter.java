@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.solver;
+package com.sankuai.optaplanner.examples.nurserostering.domain.solver;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
 
 public class MovableShiftAssignmentSelectionFilter implements SelectionFilter<NurseRoster, ShiftAssignment> {
 

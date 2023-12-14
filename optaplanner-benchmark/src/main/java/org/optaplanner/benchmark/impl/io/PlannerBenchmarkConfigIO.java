@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.io;
+package com.sankuai.optaplanner.benchmark.impl.io;
 
 import java.io.Reader;
 import java.io.Writer;
 
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.io.jaxb.ElementNamespaceOverride;
-import org.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
-import org.optaplanner.core.impl.io.jaxb.JaxbIO;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.io.jaxb.ElementNamespaceOverride;
+import com.sankuai.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
+import com.sankuai.optaplanner.core.impl.io.jaxb.JaxbIO;
 import org.w3c.dom.Document;
 
 public class PlannerBenchmarkConfigIO implements JaxbIO<PlannerBenchmarkConfig> {

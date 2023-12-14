@@ -1,8 +1,8 @@
 @javax.xml.bind.annotation.XmlSchema(
         namespace = SolverConfig.XML_NAMESPACE,
         elementFormDefault = XmlNsForm.QUALIFIED)
-package org.optaplanner.core.api.domain.common;
+package com.sankuai.optaplanner.core.api.domain.common;
 
 import javax.xml.bind.annotation.XmlNsForm;
 
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;

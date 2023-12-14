@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.persistence;
+package com.sankuai.optaplanner.examples.travelingtournament.persistence;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
 
 public class TravelingTournamentImporterTest extends ImportDataFilesTest<TravelingTournament> {
 

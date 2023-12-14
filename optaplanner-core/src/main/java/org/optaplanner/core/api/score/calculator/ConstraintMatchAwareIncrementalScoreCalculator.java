@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.calculator;
+package com.sankuai.optaplanner.core.api.score.calculator;
 
 import java.util.Collection;
 import java.util.Map;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreExplanation;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreExplanation;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
 
 /**
  * Allows a {@link IncrementalScoreCalculator} to report {@link ConstraintMatchTotal}s

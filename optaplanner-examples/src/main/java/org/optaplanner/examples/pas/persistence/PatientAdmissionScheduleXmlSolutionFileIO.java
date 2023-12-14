@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.persistence;
+package com.sankuai.optaplanner.examples.pas.persistence;
 
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class PatientAdmissionScheduleXmlSolutionFileIO extends XStreamSolutionFileIO<PatientAdmissionSchedule> {
 

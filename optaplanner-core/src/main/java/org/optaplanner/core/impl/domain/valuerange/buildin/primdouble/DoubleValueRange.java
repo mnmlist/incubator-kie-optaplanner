@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.primdouble;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primdouble;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractUncountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractUncountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
 
 public class DoubleValueRange extends AbstractUncountableValueRange<Double> {
 

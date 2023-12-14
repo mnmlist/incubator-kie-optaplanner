@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.uni;
 
 import java.util.function.BiPredicate;
 
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
 
 public final class UniConstraintStreamHelper<A, B>
         extends AbstractConstraintStreamHelper<B, BiConstraintStream<A, B>, BiJoiner<A, B>, BiPredicate<A, B>> {

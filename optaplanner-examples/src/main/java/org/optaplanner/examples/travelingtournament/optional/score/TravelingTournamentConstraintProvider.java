@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.optional.score;
+package com.sankuai.optaplanner.examples.travelingtournament.optional.score;
 
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
 
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
 
 public final class TravelingTournamentConstraintProvider implements ConstraintProvider {
 

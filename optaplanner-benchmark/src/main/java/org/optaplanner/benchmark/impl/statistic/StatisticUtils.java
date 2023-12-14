@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic;
+package com.sankuai.optaplanner.benchmark.impl.statistic;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.List;
 import java.util.Locale;
 
-import org.optaplanner.benchmark.impl.result.BenchmarkResult;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.ScoreUtils;
+import com.sankuai.optaplanner.benchmark.impl.result.BenchmarkResult;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.ScoreUtils;
 
 public class StatisticUtils {
 

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.swingui;
+package com.sankuai.optaplanner.examples.investment.swingui;
 
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_1;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_2;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_3;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_4;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_5;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW_GROUP1;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.TRAILING_HEADER_ROW;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_1;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_2;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_3;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_4;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_EXTRA_PROPERTY_5;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW_GROUP1;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.TRAILING_HEADER_ROW;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -43,17 +43,17 @@ import javax.swing.SwingConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
-import org.optaplanner.examples.investment.domain.AssetClass;
-import org.optaplanner.examples.investment.domain.AssetClassAllocation;
-import org.optaplanner.examples.investment.domain.InvestmentParametrization;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
-import org.optaplanner.examples.investment.domain.Region;
-import org.optaplanner.examples.investment.domain.Sector;
-import org.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
+import com.sankuai.optaplanner.examples.investment.domain.AssetClass;
+import com.sankuai.optaplanner.examples.investment.domain.AssetClassAllocation;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentParametrization;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.examples.investment.domain.Region;
+import com.sankuai.optaplanner.examples.investment.domain.Sector;
+import com.sankuai.optaplanner.examples.investment.domain.util.InvestmentNumericUtil;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class InvestmentPanel extends SolutionPanel<InvestmentSolution> {
 

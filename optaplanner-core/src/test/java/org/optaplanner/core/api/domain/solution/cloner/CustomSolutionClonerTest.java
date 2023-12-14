@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.api.domain.solution.cloner;
+package com.sankuai.optaplanner.core.api.domain.solution.cloner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataCorrectlyClonedSolution;
-import org.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataEntitiesNotClonedSolution;
-import org.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataScoreNotClonedSolution;
-import org.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataScoreNotEqualSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataCorrectlyClonedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataEntitiesNotClonedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataScoreNotClonedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.customcloner.TestdataScoreNotEqualSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class CustomSolutionClonerTest {
 

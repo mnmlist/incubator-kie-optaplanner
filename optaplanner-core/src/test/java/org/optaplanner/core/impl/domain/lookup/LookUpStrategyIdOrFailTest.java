@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -23,14 +23,14 @@ import java.util.Collections;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.lookup.LookUpStrategyType;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectEnum;
-import org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectIntegerId;
-import org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectMultipleIds;
-import org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectNoId;
-import org.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectPrimitiveIntId;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.lookup.LookUpStrategyType;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectEnum;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectIntegerId;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectMultipleIds;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectNoId;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.lookup.TestdataObjectPrimitiveIntId;
 
 public class LookUpStrategyIdOrFailTest {
 

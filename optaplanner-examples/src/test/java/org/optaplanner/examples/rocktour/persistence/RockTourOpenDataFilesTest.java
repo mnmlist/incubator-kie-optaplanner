@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.persistence;
+package com.sankuai.optaplanner.examples.rocktour.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.rocktour.app.RockTourApp;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.rocktour.app.RockTourApp;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
 
 public class RockTourOpenDataFilesTest extends OpenDataFilesTest<RockTourSolution> {
 

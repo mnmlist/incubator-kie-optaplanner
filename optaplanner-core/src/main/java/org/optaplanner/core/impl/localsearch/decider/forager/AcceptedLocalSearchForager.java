@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.forager;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.forager;
 
 import java.util.List;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
-import org.optaplanner.core.impl.localsearch.decider.forager.finalist.FinalistPodium;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist.FinalistPodium;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * A {@link LocalSearchForager} which forages accepted moves and ignores unaccepted moves.

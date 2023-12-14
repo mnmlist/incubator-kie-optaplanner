@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common;
+package com.sankuai.optaplanner.examples.common;
 
 public final class TestSystemProperties {
 

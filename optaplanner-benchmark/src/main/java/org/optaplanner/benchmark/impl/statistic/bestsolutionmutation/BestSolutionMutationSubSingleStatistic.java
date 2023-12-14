@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
+package com.sankuai.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
 
 import java.util.List;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
-import org.optaplanner.core.api.solver.event.SolverEventListener;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.solution.mutation.MutationCounter;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
+import com.sankuai.optaplanner.core.api.solver.event.SolverEventListener;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.mutation.MutationCounter;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
 
 public class BestSolutionMutationSubSingleStatistic<Solution_>
         extends ProblemBasedSubSingleStatistic<Solution_, BestSolutionMutationStatisticPoint> {

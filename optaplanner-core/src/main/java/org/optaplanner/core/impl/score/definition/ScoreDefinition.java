@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.definition;
+package com.sankuai.optaplanner.core.impl.score.definition;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.score.ScoreUtils;
-import org.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
-import org.optaplanner.core.impl.score.holder.AbstractScoreHolder;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.score.ScoreUtils;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.holder.AbstractScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 /**
  * A ScoreDefinition knows how to compare {@link Score}s and what the perfect maximum/minimum {@link Score} is.

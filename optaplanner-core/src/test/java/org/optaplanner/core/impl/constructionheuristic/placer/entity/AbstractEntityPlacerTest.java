@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.placer.entity;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.placer.entity;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.constructionheuristic.placer.Placement;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.placer.Placement;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMove;
 
 public abstract class AbstractEntityPlacerTest {
 

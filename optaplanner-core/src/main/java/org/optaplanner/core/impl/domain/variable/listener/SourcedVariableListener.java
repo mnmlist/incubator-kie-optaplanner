@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.listener;
+package com.sankuai.optaplanner.core.impl.domain.variable.listener;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.domain.variable.supply.Supply;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Supply;
 
 /**
  * Used to externalize data for a {@link Supply} from the domain model itself.

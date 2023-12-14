@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.node.comparator;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
 
 /**
  * Investigate deeper nodes first.

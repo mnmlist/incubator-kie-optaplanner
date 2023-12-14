@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score;
+package com.sankuai.optaplanner.test.impl.score;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
-import org.optaplanner.test.impl.score.buildin.hardsoft.HardSoftScoreVerifier;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.test.impl.score.buildin.hardsoft.HardSoftScoreVerifier;
 
 /**
  * Used in unit tests to assert that 1 particular solution has a specific weight for a specific constraint.

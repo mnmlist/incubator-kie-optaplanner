@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import static java.util.Objects.requireNonNull;
 
@@ -26,15 +26,15 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.DefaultScoreExplanation;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraint;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
-import org.optaplanner.test.api.score.stream.SingleConstraintAssertion;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.impl.score.DefaultScoreExplanation;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraint;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.test.api.score.stream.SingleConstraintAssertion;
 
 public final class DefaultSingleConstraintAssertion<Solution_, Score_ extends Score<Score_>>
         implements SingleConstraintAssertion {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.optional.solver.move.factory;
+package com.sankuai.optaplanner.examples.cheaptime.optional.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,13 +23,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.optional.solver.move.CheapTimePillarSlideMove;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.optional.solver.move.CheapTimePillarSlideMove;
 
 public class CheapTimePillarSlideMoveIteratorFactory
         implements MoveIteratorFactory<CheapTimeSolution, CheapTimePillarSlideMove> {

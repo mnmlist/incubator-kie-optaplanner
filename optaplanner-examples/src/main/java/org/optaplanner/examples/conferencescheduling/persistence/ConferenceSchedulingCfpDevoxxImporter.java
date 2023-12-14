@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.persistence;
+package com.sankuai.optaplanner.examples.conferencescheduling.persistence;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -39,13 +39,13 @@ import javax.json.JsonReader;
 import javax.json.JsonValue;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.domain.Room;
-import org.optaplanner.examples.conferencescheduling.domain.Speaker;
-import org.optaplanner.examples.conferencescheduling.domain.Talk;
-import org.optaplanner.examples.conferencescheduling.domain.TalkType;
-import org.optaplanner.examples.conferencescheduling.domain.Timeslot;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.TalkType;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

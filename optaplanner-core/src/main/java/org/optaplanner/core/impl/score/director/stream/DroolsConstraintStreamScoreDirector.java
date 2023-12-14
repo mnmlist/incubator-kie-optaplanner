@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.stream;
+package com.sankuai.optaplanner.core.impl.score.director.stream;
 
 import java.util.Collection;
 import java.util.Map;
 
 import org.kie.api.runtime.KieSession;
 import org.kie.api.runtime.rule.FactHandle;
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.score.director.AbstractScoreDirector;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.AbstractScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
 
 /**
  * FP streams implementation of {@link ScoreDirector}, which only recalculates the {@link Score}

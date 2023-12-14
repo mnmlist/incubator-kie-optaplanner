@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.nearby;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby;
 
 import java.util.Arrays;
 import java.util.HashMap;

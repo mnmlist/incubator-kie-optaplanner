@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.util;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.util;
 
 import java.util.Iterator;
 

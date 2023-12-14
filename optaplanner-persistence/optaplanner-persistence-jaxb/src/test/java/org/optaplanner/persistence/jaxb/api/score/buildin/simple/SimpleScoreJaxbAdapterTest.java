@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.simple;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
 
 public class SimpleScoreJaxbAdapterTest extends AbstractScoreJaxbAdapterTest {
 

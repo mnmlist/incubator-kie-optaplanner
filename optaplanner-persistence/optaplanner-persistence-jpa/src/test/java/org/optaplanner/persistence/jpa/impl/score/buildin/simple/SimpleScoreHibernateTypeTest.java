@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.simple;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,8 +22,8 @@ import javax.persistence.Entity;
 import org.hibernate.annotations.Columns;
 import org.hibernate.annotations.TypeDef;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
 
 public class SimpleScoreHibernateTypeTest extends AbstractScoreJpaTest {
 

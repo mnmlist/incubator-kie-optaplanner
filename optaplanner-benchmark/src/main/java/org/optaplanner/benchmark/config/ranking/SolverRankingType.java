@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config.ranking;
+package com.sankuai.optaplanner.benchmark.config.ranking;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
-import org.optaplanner.benchmark.impl.ranking.WorstScoreSolverRankingComparator;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.ranking.WorstScoreSolverRankingComparator;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 @XmlEnum
 public enum SolverRankingType {

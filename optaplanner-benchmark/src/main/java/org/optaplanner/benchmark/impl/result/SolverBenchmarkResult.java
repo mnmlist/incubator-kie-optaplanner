@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.StringWriter;
 import java.util.ArrayList;
@@ -27,16 +27,16 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.ReportHelper;
-import org.optaplanner.benchmark.impl.statistic.StatisticUtils;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.ReportHelper;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticUtils;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 
 /**
  * Represents 1 {@link Solver} configuration benchmarked on multiple problem instances (data sets).

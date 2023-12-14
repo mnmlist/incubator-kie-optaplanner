@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.forager.finalist;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.forager.finalist;
 
 import java.util.List;
 
-import org.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
 
 /**
  * A podium gathers the finalists (the {@link LocalSearchMoveScope}s which might win) and picks the winner.

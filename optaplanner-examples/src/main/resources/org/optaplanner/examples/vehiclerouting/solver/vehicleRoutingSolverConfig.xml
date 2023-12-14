@@ -5,18 +5,18 @@
     <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
     <moveThreadCount>10</moveThreadCount>
 
-    <solutionClass>org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
-    <entityClass>org.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
-    <entityClass>org.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
-    <entityClass>org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
+    <solutionClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution</solutionClass>
+    <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill</entityClass>
+    <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer</entityClass>
+    <entityClass>com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer</entityClass>
 
     <scoreDirectorFactory>
-        <!--<easyScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass>-->
-        <!--<constraintProviderClass>org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingConstraintProvider</constraintProviderClass>-->
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass>-->
+        <!--<constraintProviderClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingConstraintProvider</constraintProviderClass>-->
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
 <!--        <scoreDrl>org/optaplanner/examples/vehiclerouting/solver/vehicleRoutingConstraints.drl</scoreDrl>-->
         <!--<assertionScoreDirectorFactory>-->
-        <!--<easyScoreCalculatorClass>org.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass>-->
+        <!--<easyScoreCalculatorClass>com.sankuai.optaplanner.examples.vehiclerouting.optional.score.VehicleRoutingEasyScoreCalculator</easyScoreCalculatorClass>-->
         <!--</assertionScoreDirectorFactory>-->
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
     </scoreDirectorFactory>

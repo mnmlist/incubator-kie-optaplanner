@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl;
+package com.sankuai.optaplanner.benchmark.impl;
 
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
 
 public class SolverBenchmarkFactoryTest {
 

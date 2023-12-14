@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.optional.benchmark;
+package com.sankuai.optaplanner.examples.vehiclerouting.optional.benchmark;
 
-import org.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
-import org.optaplanner.examples.common.app.CommonBenchmarkApp;
+import com.sankuai.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
+import com.sankuai.optaplanner.examples.common.app.CommonBenchmarkApp;
 
 public class VehicleRoutingBenchmarkConfigTest extends AbstractBenchmarkConfigTest {
 

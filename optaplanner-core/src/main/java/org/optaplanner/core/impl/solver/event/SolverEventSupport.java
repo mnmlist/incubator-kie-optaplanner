@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.event;
+package com.sankuai.optaplanner.core.impl.solver.event;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
-import org.optaplanner.core.api.solver.event.SolverEventListener;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.event.BestSolutionChangedEvent;
+import com.sankuai.optaplanner.core.api.solver.event.SolverEventListener;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 /**
  * Internal API.

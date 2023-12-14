@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.pattern;
+package com.sankuai.optaplanner.examples.nurserostering.domain.pattern;
 
 import java.time.DayOfWeek;
 
-import org.optaplanner.examples.nurserostering.domain.ShiftType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftType;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

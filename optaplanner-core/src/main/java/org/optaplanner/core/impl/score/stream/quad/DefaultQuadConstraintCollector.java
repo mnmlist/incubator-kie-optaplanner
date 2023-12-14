@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.quad;
 
 import java.util.Collections;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import org.optaplanner.core.api.function.PentaFunction;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.function.PentaFunction;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
 
 public final class DefaultQuadConstraintCollector<A, B, C, D, ResultContainer_, Result_>
         implements QuadConstraintCollector<A, B, C, D, ResultContainer_, Result_> {

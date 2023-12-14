@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain;
+package com.sankuai.optaplanner.examples.tsp.domain;
 
-import org.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
 
 public interface Standstill {
 

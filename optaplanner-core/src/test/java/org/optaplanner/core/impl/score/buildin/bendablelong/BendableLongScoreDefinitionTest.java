@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.bendablelong;
+package com.sankuai.optaplanner.core.impl.score.buildin.bendablelong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 public class BendableLongScoreDefinitionTest {
 

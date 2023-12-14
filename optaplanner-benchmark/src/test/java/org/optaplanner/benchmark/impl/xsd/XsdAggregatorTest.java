@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.xsd;
+package com.sankuai.optaplanner.benchmark.impl.xsd;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -30,8 +30,8 @@ import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.core.impl.io.jaxb.GenericJaxbIO;
 import org.xml.sax.SAXException;
 
 class XsdAggregatorTest {

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.EntityIndependentValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.EntityIndependentValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * This is the common {@link ValueSelector} implementation.

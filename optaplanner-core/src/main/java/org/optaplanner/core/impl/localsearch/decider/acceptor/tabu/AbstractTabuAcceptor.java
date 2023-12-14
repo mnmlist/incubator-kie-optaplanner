@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.tabu;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu;
 
 import java.util.ArrayDeque;
 import java.util.Collection;
@@ -23,12 +23,12 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.TabuSizeStrategy;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.AbstractAcceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu.size.TabuSizeStrategy;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 
 /**
  * Abstract superclass for all Tabu Acceptors.

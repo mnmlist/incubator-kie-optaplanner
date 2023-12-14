@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic;
+package com.sankuai.optaplanner.core.impl.heuristic;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadFactory;
 
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.mimic.EntityMimicRecorder;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.mimic.ValueMimicRecorder;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
-import org.optaplanner.core.impl.solver.thread.DefaultSolverThreadFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic.EntityMimicRecorder;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.mimic.ValueMimicRecorder;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.impl.solver.thread.DefaultSolverThreadFactory;
 
 public class HeuristicConfigPolicy<Solution_> {
 

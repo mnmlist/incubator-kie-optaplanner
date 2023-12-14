@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.value.chained;
+package com.sankuai.optaplanner.core.config.heuristic.selector.value.chained;
 
 import java.util.function.Consumer;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.heuristic.selector.SelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.heuristic.selector.SelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 @XmlType(propOrder = {
         "valueSelectorConfig",

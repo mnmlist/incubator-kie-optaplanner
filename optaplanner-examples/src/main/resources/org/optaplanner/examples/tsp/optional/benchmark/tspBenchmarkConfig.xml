@@ -6,11 +6,11 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.tsp.domain.TspSolution</solutionClass>
-      <entityClass>org.optaplanner.examples.tsp.domain.Visit</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.tsp.domain.TspSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.tsp.domain.Visit</entityClass>
 
       <scoreDirectorFactory>
-        <!--<incrementalScoreCalculatorClass>org.optaplanner.examples.tsp.optional.score.TspIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
+        <!--<incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.tsp.optional.score.TspIncrementalScoreCalculator</incrementalScoreCalculatorClass>-->
         <scoreDrl>org/optaplanner/examples/tsp/solver/tspConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
@@ -20,7 +20,7 @@
       </termination>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.tsp.persistence.TspFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.tsp.persistence.TspFileIO</solutionFileIOClass>
       <inputSolutionFile>data/tsp/import/other/air/europe40.tsp</inputSolutionFile>
       <inputSolutionFile>data/tsp/import/cook/air/dj38.tsp</inputSolutionFile>
       <inputSolutionFile>data/tsp/import/cook/air/lu980.tsp</inputSolutionFile>
@@ -85,7 +85,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector1"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>
@@ -95,7 +95,7 @@
             <secondaryEntitySelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector2"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </secondaryEntitySelector>
@@ -105,7 +105,7 @@
             <valueSelector>
               <nearbySelection>
                 <originEntitySelector mimicSelectorRef="entitySelector3"/>
-                <nearbyDistanceMeterClass>org.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
+                <nearbyDistanceMeterClass>com.sankuai.optaplanner.examples.tsp.domain.solver.nearby.VisitNearbyDistanceMeter</nearbyDistanceMeterClass>
                 <parabolicDistributionSizeMaximum>40</parabolicDistributionSizeMaximum>
               </nearbySelection>
             </valueSelector>

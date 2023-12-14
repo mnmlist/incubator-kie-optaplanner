@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.bendablelong;
+package com.sankuai.optaplanner.core.api.score.buildin.bendablelong;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.AbstractBendableScore;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.buildin.bendablelong.BendableLongScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.AbstractBendableScore;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.buildin.bendablelong.BendableLongScoreDefinition;
 
 /**
  * This {@link Score} is based on n levels of long constraints.

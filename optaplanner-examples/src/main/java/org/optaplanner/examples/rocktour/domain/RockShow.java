@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain;
+package com.sankuai.optaplanner.examples.rocktour.domain;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 
 import java.time.LocalDate;
 import java.util.NavigableSet;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.AnchorShadowVariable;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.rocktour.domain.solver.RockShowVariableListener;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.AnchorShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.rocktour.domain.solver.RockShowVariableListener;
 
 @PlanningEntity
 public class RockShow extends AbstractPersistable implements RockStandstill {

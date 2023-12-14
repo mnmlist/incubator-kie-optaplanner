@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.shadow.inverserelation;
+package com.sankuai.optaplanner.core.impl.testdata.domain.shadow.inverserelation;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 @PlanningEntity
 public class TestdataInverseRelationValue extends TestdataObject {

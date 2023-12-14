@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.io.jaxb;
+package com.sankuai.optaplanner.core.impl.io.jaxb;
 
 import java.io.Reader;
 import java.io.Writer;
 
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 import org.w3c.dom.Document;
 
 public class SolverConfigIO implements JaxbIO<SolverConfig> {

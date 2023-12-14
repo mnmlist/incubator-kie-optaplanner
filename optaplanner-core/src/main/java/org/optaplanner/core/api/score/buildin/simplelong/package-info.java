@@ -15,6 +15,6 @@
  */
 
 /**
- * Support for a {@link org.optaplanner.core.api.score.Score} with 1 score level and {@code long} score weights.
+ * Support for a {@link com.sankuai.optaplanner.core.api.score.Score} with 1 score level and {@code long} score weights.
  */
-package org.optaplanner.core.api.score.buildin.simplelong;
+package com.sankuai.optaplanner.core.api.score.buildin.simplelong;

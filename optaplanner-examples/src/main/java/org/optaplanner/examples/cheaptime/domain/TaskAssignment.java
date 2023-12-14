@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.domain;
+package com.sankuai.optaplanner.examples.cheaptime.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.cheaptime.domain.solver.TaskAssignmentDifficultyComparator;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeFactory;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.cheaptime.domain.solver.TaskAssignmentDifficultyComparator;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

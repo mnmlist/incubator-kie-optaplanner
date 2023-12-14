@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.thread;
+package com.sankuai.optaplanner.core.impl.heuristic.thread;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 public class OrderByMoveIndexBlockingQueue<Solution_> {
 

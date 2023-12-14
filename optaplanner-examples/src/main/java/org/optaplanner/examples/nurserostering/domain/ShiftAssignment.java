@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain;
+package com.sankuai.optaplanner.examples.nurserostering.domain;
 
 import java.time.DayOfWeek;
 import java.util.Comparator;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
-import org.optaplanner.examples.nurserostering.domain.solver.EmployeeStrengthComparator;
-import org.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentDifficultyComparator;
-import org.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentPinningFilter;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.solver.EmployeeStrengthComparator;
+import com.sankuai.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentDifficultyComparator;
+import com.sankuai.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentPinningFilter;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

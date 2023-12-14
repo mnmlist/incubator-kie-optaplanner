@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic;
+package com.sankuai.optaplanner.benchmark.impl.statistic;
 
 import java.util.ArrayList;
 import java.util.List;

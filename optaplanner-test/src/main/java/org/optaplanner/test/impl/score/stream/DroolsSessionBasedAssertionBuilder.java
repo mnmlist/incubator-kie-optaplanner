@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,17 +25,17 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintSessionFactory;
 
 final class DroolsSessionBasedAssertionBuilder<Solution_, Score_ extends Score<Score_>>
         implements SessionBasedAssertionBuilder<Solution_, Score_> {

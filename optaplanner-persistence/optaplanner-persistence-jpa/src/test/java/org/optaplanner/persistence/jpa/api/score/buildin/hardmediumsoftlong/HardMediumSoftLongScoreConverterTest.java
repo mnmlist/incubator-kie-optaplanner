@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftlong;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftlong;
 
 import javax.persistence.Convert;
 import javax.persistence.Entity;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.persistence.jpa.impl.AbstractScoreJpaTest;
 
 public class HardMediumSoftLongScoreConverterTest extends AbstractScoreJpaTest {
 

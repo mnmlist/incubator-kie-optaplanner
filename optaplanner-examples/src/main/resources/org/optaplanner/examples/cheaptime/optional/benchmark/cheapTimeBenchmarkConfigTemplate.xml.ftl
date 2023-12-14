@@ -5,7 +5,7 @@
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.cheaptime.persistence.CheapTimeSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.cheaptime.persistence.CheapTimeSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/cheaptime/import/instance00</inputSolutionFile>
       <inputSolutionFile>data/cheaptime/import/instance01</inputSolutionFile>
       <inputSolutionFile>data/cheaptime/import/instance02</inputSolutionFile>
@@ -59,10 +59,10 @@
     </problemBenchmarks>
 
     <solver>
-      <solutionClass>org.optaplanner.examples.cheaptime.domain.CheapTimeSolution</solutionClass>
-      <entityClass>org.optaplanner.examples.cheaptime.domain.TaskAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment</entityClass>
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.cheaptime.score.CheapTimeIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeIncrementalScoreCalculator</incrementalScoreCalculatorClass>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
       <termination>

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.hardmediumsoftbigdecimal;
 
 import java.io.IOException;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonDeserializer;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonDeserializer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;

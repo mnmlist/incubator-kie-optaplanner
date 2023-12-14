@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.persistence;
+package com.sankuai.optaplanner.examples.cheaptime.persistence;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -26,18 +26,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
-import org.optaplanner.examples.cheaptime.app.CheapTimeApp;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.MachineCapacity;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.Resource;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
-import org.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.cheaptime.app.CheapTimeApp;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.MachineCapacity;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Resource;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.examples.cheaptime.score.CheapTimeCostCalculator;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
 
 public class CheapTimeImporter extends AbstractTxtSolutionImporter<CheapTimeSolution> {
 

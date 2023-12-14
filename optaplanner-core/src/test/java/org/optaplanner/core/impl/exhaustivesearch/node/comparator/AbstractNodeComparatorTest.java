@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.node.comparator;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.node.comparator;
 
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 import static org.mockito.Mockito.mock;
@@ -22,8 +22,8 @@ import static org.mockito.Mockito.when;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
 
 public abstract class AbstractNodeComparatorTest {
 

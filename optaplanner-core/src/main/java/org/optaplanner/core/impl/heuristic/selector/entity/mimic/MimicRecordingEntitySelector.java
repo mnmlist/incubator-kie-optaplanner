@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.mimic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionListIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionListIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
 
 public class MimicRecordingEntitySelector<Solution_> extends AbstractEntitySelector<Solution_>
         implements EntityMimicRecorder<Solution_> {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui.timetable;
+package com.sankuai.optaplanner.examples.common.swingui.timetable;
 
 import java.awt.Dimension;
 import java.awt.Rectangle;
@@ -26,7 +26,7 @@ import javax.swing.JPanel;
 import javax.swing.JViewport;
 import javax.swing.Scrollable;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
 
 public class TimeTablePanel<XObject, YObject> extends JPanel implements Scrollable {
 

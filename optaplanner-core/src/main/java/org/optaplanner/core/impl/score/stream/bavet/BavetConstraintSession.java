@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -25,18 +25,18 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniNode;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniTuple;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetNodeBuildPolicy;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniTuple;
 
 public final class BavetConstraintSession<Solution_, Score_ extends Score<Score_>> {
 

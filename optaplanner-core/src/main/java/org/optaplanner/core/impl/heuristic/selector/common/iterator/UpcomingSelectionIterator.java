@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.iterator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.Selector;
-import org.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicReplayingEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.Selector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic.MimicReplayingEntitySelector;
 
 /**
  * IMPORTANT: The constructor of any subclass of this abstract class, should never call any of its child

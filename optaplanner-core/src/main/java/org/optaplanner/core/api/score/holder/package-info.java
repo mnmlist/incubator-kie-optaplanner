@@ -15,9 +15,9 @@
  */
 
 /**
- * In Drools DRL, a {@link org.optaplanner.core.api.score.holder.ScoreHolder} keeps track of the
- * {@link org.optaplanner.core.api.score.Score}.
+ * In Drools DRL, a {@link com.sankuai.optaplanner.core.api.score.holder.ScoreHolder} keeps track of the
+ * {@link com.sankuai.optaplanner.core.api.score.Score}.
  * <p>
- * Only used by Drools {@link org.optaplanner.core.api.score.Score} calculation.
+ * Only used by Drools {@link com.sankuai.optaplanner.core.api.score.Score} calculation.
  */
-package org.optaplanner.core.api.score.holder;
+package com.sankuai.optaplanner.core.api.score.holder;

@@ -8,8 +8,8 @@
     </encoder>
   </appender>
 
-  <!-- To override the info log level from the command line, use the VM option "-Dlogback.level.org.optaplanner=trace" -->
-  <logger name="org.optaplanner" level="${logback.level.org.optaplanner:-info}"/>
+  <!-- To override the info log level from the command line, use the VM option "-Dlogback.level.com.sankuai.optaplanner=trace" -->
+  <logger name="com.sankuai.optaplanner" level="${logback.level.com.sankuai.optaplanner:-info}"/>
   <!--<logger name="com.thoughtworks.xstream" level="info"/>-->
 
   <root level="warn">

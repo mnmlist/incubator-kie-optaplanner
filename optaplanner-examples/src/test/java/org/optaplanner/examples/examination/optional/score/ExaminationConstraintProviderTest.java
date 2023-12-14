@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.optional.score;
+package com.sankuai.optaplanner.examples.examination.optional.score;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
-import org.optaplanner.examples.examination.domain.LeadingExam;
-import org.optaplanner.examples.examination.domain.Period;
-import org.optaplanner.examples.examination.domain.PeriodPenalty;
-import org.optaplanner.examples.examination.domain.PeriodPenaltyType;
-import org.optaplanner.examples.examination.domain.Room;
-import org.optaplanner.examples.examination.domain.RoomPenalty;
-import org.optaplanner.examples.examination.domain.RoomPenaltyType;
-import org.optaplanner.examples.examination.domain.Student;
-import org.optaplanner.examples.examination.domain.Topic;
-import org.optaplanner.examples.examination.domain.solver.TopicConflict;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
+import com.sankuai.optaplanner.examples.examination.domain.LeadingExam;
+import com.sankuai.optaplanner.examples.examination.domain.Period;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.Room;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.Student;
+import com.sankuai.optaplanner.examples.examination.domain.Topic;
+import com.sankuai.optaplanner.examples.examination.domain.solver.TopicConflict;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public class ExaminationConstraintProviderTest {
     private final ConstraintVerifier<ExaminationConstraintProvider, Examination> constraintVerifier = ConstraintVerifier

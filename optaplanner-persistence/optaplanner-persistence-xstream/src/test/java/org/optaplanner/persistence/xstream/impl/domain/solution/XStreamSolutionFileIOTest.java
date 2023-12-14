@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.xstream.impl.domain.solution;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.io.File;
 import java.util.Arrays;
@@ -27,10 +27,10 @@ import java.util.stream.Collectors;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataEntity;
-import org.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataSolution;
-import org.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataValue;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataEntity;
+import com.sankuai.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.testdata.domain.XStreamTestdataValue;
 
 public class XStreamSolutionFileIOTest {
 

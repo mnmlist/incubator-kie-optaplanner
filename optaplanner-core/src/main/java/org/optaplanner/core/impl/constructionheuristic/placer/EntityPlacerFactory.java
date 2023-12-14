@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.placer;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.placer;
 
-import org.optaplanner.core.config.constructionheuristic.placer.EntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.PooledEntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
-import org.optaplanner.core.config.constructionheuristic.placer.QueuedValuePlacerConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.EntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.PooledEntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.QueuedEntityPlacerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.placer.QueuedValuePlacerConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
 
 public interface EntityPlacerFactory<Solution_> {
 

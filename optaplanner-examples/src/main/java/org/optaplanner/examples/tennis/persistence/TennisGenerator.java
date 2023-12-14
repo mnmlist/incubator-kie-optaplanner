@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.persistence;
+package com.sankuai.optaplanner.examples.tennis.persistence;
 
 import java.io.File;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.tennis.app.TennisApp;
-import org.optaplanner.examples.tennis.domain.Day;
-import org.optaplanner.examples.tennis.domain.Team;
-import org.optaplanner.examples.tennis.domain.TeamAssignment;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
-import org.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.tennis.app.TennisApp;
+import com.sankuai.optaplanner.examples.tennis.domain.Day;
+import com.sankuai.optaplanner.examples.tennis.domain.Team;
+import com.sankuai.optaplanner.examples.tennis.domain.TeamAssignment;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TennisGenerator extends LoggingMain {
 

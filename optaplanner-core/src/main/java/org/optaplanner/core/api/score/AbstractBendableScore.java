@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score;
+package com.sankuai.optaplanner.core.api.score;
 
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
 
 /**
  * Abstract superclass for bendable {@link Score} types.

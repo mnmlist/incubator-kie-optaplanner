@@ -1,7 +1,7 @@
-package org.optaplanner.examples.coachshuttlegathering.domain.solver;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.domain.solver;
 
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
 
 public class ShuttlePassengerCountTotalUpdatingVariableListener extends BusPassengerCountTotalUpdatingVariableListener {
 

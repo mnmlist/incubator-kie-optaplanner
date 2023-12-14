@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.scorecalculationspeed;
+package com.sankuai.optaplanner.benchmark.impl.statistic.scorecalculationspeed;
 
 import java.util.List;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.solver.AbstractSolver;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemBasedSubSingleStatistic;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.solver.AbstractSolver;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public class ScoreCalculationSpeedSubSingleStatistic<Solution_>
         extends ProblemBasedSubSingleStatistic<Solution_, ScoreCalculationSpeedStatisticPoint> {

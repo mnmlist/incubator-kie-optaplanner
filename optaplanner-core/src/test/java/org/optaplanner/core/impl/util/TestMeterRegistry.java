@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.util;
+package com.sankuai.optaplanner.core.impl.util;
 
 import java.util.HashMap;
 import java.util.Map;

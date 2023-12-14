@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.thread;
+package com.sankuai.optaplanner.core.impl.solver.thread;
 
-import org.optaplanner.core.impl.partitionedsearch.PartitionedSearchPhase;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.PartitionedSearchPhase;
 
 public enum ChildThreadType {
     /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Arrays.asList;
 
@@ -24,9 +24,9 @@ import java.util.Objects;
 import org.drools.model.DSL;
 import org.drools.model.Variable;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.ToIntQuadFunction;
-import org.optaplanner.core.api.function.ToLongQuadFunction;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToIntQuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongQuadFunction;
 
 final class QuadRuleContext<A, B, C, D> extends AbstractRuleContext {
 

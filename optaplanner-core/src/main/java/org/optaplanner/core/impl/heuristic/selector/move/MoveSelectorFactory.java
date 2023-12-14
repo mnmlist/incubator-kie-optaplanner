@@ -14,36 +14,36 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.KOptMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.move.composite.CartesianProductMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactoryFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactoryFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.PillarChangeMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.PillarSwapMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.SwapMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.chained.KOptMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveIteratorFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.PillarSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.KOptMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite.CartesianProductMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactoryFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactoryFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.ChangeMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.PillarChangeMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.PillarSwapMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.SwapMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained.KOptMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained.SubChainChangeMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained.SubChainSwapMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic.chained.TailChainSwapMoveSelectorFactory;
 
 public interface MoveSelectorFactory<Solution_> {
 

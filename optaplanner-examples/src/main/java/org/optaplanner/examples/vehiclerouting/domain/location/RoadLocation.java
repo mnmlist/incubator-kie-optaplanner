@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.location;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.location;
 
 import java.util.Map;
 

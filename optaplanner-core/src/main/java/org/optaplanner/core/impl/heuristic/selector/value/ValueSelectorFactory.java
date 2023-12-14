@@ -14,51 +14,51 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionConfig;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.EntityIndependentValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandom;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandomFactory;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.CachingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.DowncastingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.EntityDependentSortingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.FilteringValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.InitializedValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.ProbabilityValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.ReinitializeVariableValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.SelectedCountLimitValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.ShufflingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.SortingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.mimic.MimicRecordingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.mimic.MimicReplayingValueSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.mimic.ValueMimicRecorder;
-import org.optaplanner.core.impl.heuristic.selector.value.nearby.NearEntityNearbyValueSelector;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.nearby.NearbySelectionConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.EntityIndependentValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandom;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandomFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.CachingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.DowncastingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.EntityDependentSortingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.FilteringValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.InitializedValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.ProbabilityValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.ReinitializeVariableValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.SelectedCountLimitValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.ShufflingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.SortingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.mimic.MimicRecordingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.mimic.MimicReplayingValueSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.mimic.ValueMimicRecorder;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.nearby.NearEntityNearbyValueSelector;
 
 public class ValueSelectorFactory<Solution_>
         extends AbstractSelectorFactory<Solution_, ValueSelectorConfig> {

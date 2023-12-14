@@ -4,12 +4,12 @@
   <warmUpSecondsSpentLimit>0</warmUpSecondsSpentLimit>
   <solverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.persistence.common.api.domain.solution.RigidTestdataSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.persistence.common.api.domain.solution.RigidTestdataSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>target/test/benchmarkTest/input.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
-      <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
+      <solutionClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/core/api/solver/testdataConstraints.drl</scoreDrl>
       </scoreDirectorFactory>

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.director;
+package com.sankuai.optaplanner.core.api.score.director;
 
-import org.optaplanner.core.api.domain.lookup.LookUpStrategyType;
-import org.optaplanner.core.api.domain.lookup.PlanningId;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.domain.lookup.LookUpStrategyType;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 /**
  * The ScoreDirector holds the {@link PlanningSolution working solution}

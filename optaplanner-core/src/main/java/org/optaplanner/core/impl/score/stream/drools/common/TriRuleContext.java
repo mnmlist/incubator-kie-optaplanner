@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Arrays.asList;
 
@@ -24,9 +24,9 @@ import java.util.Objects;
 import org.drools.model.DSL;
 import org.drools.model.Variable;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.ToIntTriFunction;
-import org.optaplanner.core.api.function.ToLongTriFunction;
-import org.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.ToIntTriFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongTriFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
 
 final class TriRuleContext<A, B, C> extends AbstractRuleContext {
 

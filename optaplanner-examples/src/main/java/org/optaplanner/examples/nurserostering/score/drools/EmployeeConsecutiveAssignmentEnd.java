@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.score.drools;
+package com.sankuai.optaplanner.examples.nurserostering.score.drools;
 
 import java.time.DayOfWeek;
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
-import org.optaplanner.examples.nurserostering.domain.WeekendDefinition;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.nurserostering.domain.WeekendDefinition;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
 
 public class EmployeeConsecutiveAssignmentEnd implements Comparable<EmployeeConsecutiveAssignmentEnd> {
 

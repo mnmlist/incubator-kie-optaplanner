@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.io.jaxb;
+package com.sankuai.optaplanner.core.impl.io.jaxb;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -54,7 +54,7 @@ import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.bendable;
+package com.sankuai.optaplanner.core.impl.score.buildin.bendable;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -23,12 +23,12 @@ import java.util.Map;
 
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
-import org.optaplanner.core.impl.score.holder.AbstractScoreHolder;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.holder.AbstractScoreHolder;
 
 /**
  * @see BendableScore

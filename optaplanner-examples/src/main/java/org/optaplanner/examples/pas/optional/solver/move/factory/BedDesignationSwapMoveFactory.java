@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.optional.solver.move.factory;
+package com.sankuai.optaplanner.examples.pas.optional.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.optional.solver.move.BedDesignationSwapMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.optional.solver.move.BedDesignationSwapMove;
 
 public class BedDesignationSwapMoveFactory implements MoveListFactory<PatientAdmissionSchedule> {
 

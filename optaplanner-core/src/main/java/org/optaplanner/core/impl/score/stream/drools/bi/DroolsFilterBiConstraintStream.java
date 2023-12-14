@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.bi;
 
 import java.util.function.BiPredicate;
 
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
 
 public final class DroolsFilterBiConstraintStream<Solution_, A, B>
         extends DroolsAbstractBiConstraintStream<Solution_, A, B> {

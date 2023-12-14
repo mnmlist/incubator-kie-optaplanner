@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.swingui;
+package com.sankuai.optaplanner.examples.nqueens.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -33,12 +33,12 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
-import org.optaplanner.examples.nqueens.domain.Row;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.examples.nqueens.domain.Row;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class NQueensPanel extends SolutionPanel<NQueens> {
 

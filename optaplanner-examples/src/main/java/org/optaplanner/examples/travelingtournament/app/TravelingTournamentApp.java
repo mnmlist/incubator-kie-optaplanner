@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.app;
+package com.sankuai.optaplanner.examples.travelingtournament.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
-import org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentExporter;
-import org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentImporter;
-import org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO;
-import org.optaplanner.examples.travelingtournament.swingui.TravelingTournamentPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentExporter;
+import com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentImporter;
+import com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.travelingtournament.swingui.TravelingTournamentPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * WARNING: This is an old, complex, tailored example. You're probably better off with one of the other examples.

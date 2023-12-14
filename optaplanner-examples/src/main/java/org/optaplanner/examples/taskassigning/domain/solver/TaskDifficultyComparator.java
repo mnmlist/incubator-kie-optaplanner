@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain.solver;
+package com.sankuai.optaplanner.examples.taskassigning.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
 
 public class TaskDifficultyComparator implements Comparator<Task> {
 

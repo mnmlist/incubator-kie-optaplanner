@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.persistence;
+package com.sankuai.optaplanner.examples.curriculumcourse.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
 
 public class CurriculumCourseOpenDataFilesTest extends OpenDataFilesTest<CourseSchedule> {
 

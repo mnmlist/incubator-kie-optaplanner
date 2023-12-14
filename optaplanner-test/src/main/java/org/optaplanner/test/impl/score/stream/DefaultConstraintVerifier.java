@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import static java.util.Objects.requireNonNull;
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
@@ -23,16 +23,16 @@ import java.util.function.BiFunction;
 
 import org.apache.commons.lang3.BooleanUtils;
 import org.drools.core.base.CoreComponentsBuilder;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public final class DefaultConstraintVerifier<ConstraintProvider_ extends ConstraintProvider, Solution_, Score_ extends Score<Score_>>
         implements ConstraintVerifier<ConstraintProvider_, Solution_> {

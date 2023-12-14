@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.score.lavish;
+package com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 public class TestdataLavishExtra extends TestdataObject {
 

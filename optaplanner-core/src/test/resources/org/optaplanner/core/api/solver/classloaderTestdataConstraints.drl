@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.solver;
+package com.sankuai.optaplanner.examples.cloudbalancing.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScoreHolder;
 
 // Using these imports statements doesn't work because the className still differs from class.getName()
-//import divertThroughClassLoader.org.optaplanner.core.impl.testdata.domain.TestdataValue;
-//import divertThroughClassLoader.org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
+//import divertThroughClassLoader.com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+//import divertThroughClassLoader.com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
 
 global SimpleScoreHolder scoreHolder;
 

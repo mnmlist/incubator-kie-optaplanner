@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.variable.descriptor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,28 +23,28 @@ import java.util.Comparator;
 import java.util.List;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.policy.DescriptorPolicy;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.CompositeValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.FromEntityPropertyValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.FromSolutionPropertyValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.entity.decorator.NullValueReinitializeVariableEntityFilter;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.MovableChainedTrailingValueFilter;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.MemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.policy.DescriptorPolicy;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.CompositeValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.FromEntityPropertyValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.FromSolutionPropertyValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.decorator.NullValueReinitializeVariableEntityFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.MovableChainedTrailingValueFilter;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

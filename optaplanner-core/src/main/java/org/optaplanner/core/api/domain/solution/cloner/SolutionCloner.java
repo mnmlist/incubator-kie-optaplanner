@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.solution.cloner;
+package com.sankuai.optaplanner.core.api.domain.solution.cloner;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * Clones a {@link PlanningSolution} during planning.

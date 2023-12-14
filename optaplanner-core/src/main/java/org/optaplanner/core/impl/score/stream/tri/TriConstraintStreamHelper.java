@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.api.score.stream.quad.QuadJoiner;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
-import org.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
-import org.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraintStreamHelper;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.FilteringQuadJoiner;
 
 public final class TriConstraintStreamHelper<A, B, C, D>
         extends

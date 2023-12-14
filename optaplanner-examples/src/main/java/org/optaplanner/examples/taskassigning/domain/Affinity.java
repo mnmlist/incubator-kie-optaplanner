@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain;
+package com.sankuai.optaplanner.examples.taskassigning.domain;
 
 public enum Affinity {
     NONE(4),

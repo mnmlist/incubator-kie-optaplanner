@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.fact;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -28,8 +28,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
-import org.optaplanner.core.impl.domain.common.accessor.ReflectionBeanPropertyMemberAccessor;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.ReflectionBeanPropertyMemberAccessor;
 
 public class TestGenValueFact implements TestGenFact {
 

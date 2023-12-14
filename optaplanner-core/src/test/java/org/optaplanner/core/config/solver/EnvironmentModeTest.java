@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver;
+package com.sankuai.optaplanner.core.config.solver;
 
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
@@ -30,32 +30,32 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.config.solver.testutil.calculator.TestdataCorruptedDifferentValuesCalculator;
-import org.optaplanner.core.config.solver.testutil.calculator.TestdataDifferentValuesCalculator;
-import org.optaplanner.core.config.solver.testutil.corruptedmove.factory.TestdataCorruptedEntityUndoMoveFactory;
-import org.optaplanner.core.config.solver.testutil.corruptedmove.factory.TestdataCorruptedUndoMoveFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.DefaultSolver;
-import org.optaplanner.core.impl.solver.random.RandomFactory;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.factory.MoveListFactoryConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.config.solver.testutil.calculator.TestdataCorruptedDifferentValuesCalculator;
+import com.sankuai.optaplanner.core.config.solver.testutil.calculator.TestdataDifferentValuesCalculator;
+import com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.factory.TestdataCorruptedEntityUndoMoveFactory;
+import com.sankuai.optaplanner.core.config.solver.testutil.corruptedmove.factory.TestdataCorruptedUndoMoveFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomFactory;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class EnvironmentModeTest {
 

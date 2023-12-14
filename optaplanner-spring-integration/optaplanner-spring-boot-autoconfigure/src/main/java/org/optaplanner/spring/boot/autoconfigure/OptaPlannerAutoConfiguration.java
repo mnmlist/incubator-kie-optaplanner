@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure;
+package com.sankuai.optaplanner.spring.boot.autoconfigure;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,26 +23,26 @@ import java.util.Set;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.ConstraintStreamImplType;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.api.solver.SolverManager;
-import org.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.SolverManagerConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.persistence.jackson.api.OptaPlannerJacksonModule;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
-import org.optaplanner.test.api.score.stream.MultiConstraintVerification;
-import org.optaplanner.test.api.score.stream.SingleConstraintVerification;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStreamImplType;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.api.solver.SolverManager;
+import com.sankuai.optaplanner.core.config.score.director.ScoreDirectorFactoryConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverManagerConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.persistence.jackson.api.OptaPlannerJacksonModule;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.api.score.stream.MultiConstraintVerification;
+import com.sankuai.optaplanner.test.api.score.stream.SingleConstraintVerification;
 import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
 import org.springframework.boot.autoconfigure.AutoConfigurationPackages;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.persistence;
+package com.sankuai.optaplanner.examples.nurserostering.persistence;
 
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class NurseRosterXmlSolutionFileIO extends XStreamSolutionFileIO<NurseRoster> {
 

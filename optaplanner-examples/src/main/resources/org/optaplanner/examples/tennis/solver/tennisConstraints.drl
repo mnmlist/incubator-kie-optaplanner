@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.solver;
+package com.sankuai.optaplanner.examples.tennis.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScoreHolder;
 
-import org.optaplanner.examples.tennis.domain.Team;
-import org.optaplanner.examples.tennis.domain.Day;
-import org.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
-import org.optaplanner.examples.tennis.domain.TeamAssignment;
+import com.sankuai.optaplanner.examples.tennis.domain.Team;
+import com.sankuai.optaplanner.examples.tennis.domain.Day;
+import com.sankuai.optaplanner.examples.tennis.domain.UnavailabilityPenalty;
+import com.sankuai.optaplanner.examples.tennis.domain.TeamAssignment;
 
 import org.apache.commons.lang3.tuple.Pair;
-import accumulate org.optaplanner.examples.common.solver.drools.functions.LoadBalanceByCountAccumulateFunction loadBalanceByCount;
-import accumulate org.optaplanner.examples.common.solver.drools.functions.LoadBalanceAccumulateFunction loadBalance;
+import accumulate com.sankuai.optaplanner.examples.common.solver.drools.functions.LoadBalanceByCountAccumulateFunction loadBalanceByCount;
+import accumulate com.sankuai.optaplanner.examples.common.solver.drools.functions.LoadBalanceAccumulateFunction loadBalance;
 
 global HardMediumSoftScoreHolder scoreHolder;
 

@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.optional.score;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.optional.score;
 
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countBi;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countBi;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.Coach;
-import org.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
-import org.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Coach;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Shuttle;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
 
 public class CoachShuttleGatheringConstraintProvider implements ConstraintProvider {
-    static final String CONSTRAINT_PACKAGE = "org.optaplanner.examples.coachshuttlegathering.solver";
+    static final String CONSTRAINT_PACKAGE = "com.sankuai.optaplanner.examples.coachshuttlegathering.solver";
 
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {

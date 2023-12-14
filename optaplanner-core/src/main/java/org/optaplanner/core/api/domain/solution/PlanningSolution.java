@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.solution;
+package com.sankuai.optaplanner.core.api.domain.solution;
 
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
@@ -22,10 +22,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import org.optaplanner.core.api.domain.autodiscover.AutoDiscoverMemberType;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfigurationProvider;
-import org.optaplanner.core.api.domain.lookup.LookUpStrategyType;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.api.domain.autodiscover.AutoDiscoverMemberType;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfigurationProvider;
+import com.sankuai.optaplanner.core.api.domain.lookup.LookUpStrategyType;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
 
 /**
  * Specifies that the class is a planning solution.

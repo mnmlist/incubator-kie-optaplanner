@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.decorator;
 
 import java.util.Iterator;
 import java.util.ListIterator;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.value.decorator.CachingValueSelector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.decorator.CachingValueSelector;
 
 /**
  * A {@link EntitySelector} that caches the result of its child {@link EntitySelector}.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.persistence;
+package com.sankuai.optaplanner.examples.nqueens.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
 
 public class NQueensOpenDataFilesTest extends OpenDataFilesTest<NQueens> {
 

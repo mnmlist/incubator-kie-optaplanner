@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.hardsoftlong;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardsoftlong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataHardSoftLongScoreSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataHardSoftLongScoreSolution;
 
 public class HardSoftLongScoreInlinerTest
         extends AbstractScoreInlinerTest<TestdataHardSoftLongScoreSolution, HardSoftLongScore> {

@@ -78,7 +78,7 @@ If you choose Maven, your `pom.xml` file has the following content:
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.optaplanner</groupId>
+            <groupId>com.sankuai.optaplanner</groupId>
             <artifactId>optaplanner-spring-boot-starter</artifactId>
         </dependency>
 
@@ -98,7 +98,7 @@ If you choose Maven, your `pom.xml` file has the following content:
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.optaplanner</groupId>
+                <groupId>com.sankuai.optaplanner</groupId>
                 <artifactId>optaplanner-spring-boot-starter</artifactId>
                 <version>{project-version}</version>
             </dependency>
@@ -139,7 +139,7 @@ repositories {
 
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web"
-    implementation "org.optaplanner:optaplanner-spring-boot-starter:{project-version}"
+    implementation "com.sankuai.optaplanner:optaplanner-spring-boot-starter:{project-version}"
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude group: "org.junit.vintage", module: "junit-vintage-engine"
     }
@@ -300,8 +300,8 @@ Create the `src/main/java/com/example/domain/Lesson.java` class:
 ----
 package com.example.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
 public class Lesson {
@@ -464,11 +464,11 @@ It uses OptaPlanner's ConstraintStream API which is inspired by Java 8 Streams a
 package com.example.solver;
 
 import com.example.domain.Lesson;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
 
 public class TimeTableConstraintProvider implements ConstraintProvider {
 
@@ -548,12 +548,12 @@ package com.example.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 @PlanningSolution
 public class TimeTable {
@@ -669,8 +669,8 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 import com.example.domain.TimeTable;
-import org.optaplanner.core.api.solver.SolverJob;
-import org.optaplanner.core.api.solver.SolverManager;
+import com.sankuai.optaplanner.core.api.solver.SolverJob;
+import com.sankuai.optaplanner.core.api.solver.SolverManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -881,7 +881,7 @@ This avoids hard coding a solver time, because the unit test might run on arbitr
 This approach ensures that the test runs long enough to find a feasible solution, even on slow machines.
 But it does not run a millisecond longer than it strictly must, even on fast machines.
 
-Additionally, if you use a `ConstraintProvider` and have `org.optaplanner:optaplanner-test` as a test dependency, you can test per constraint using a
+Additionally, if you use a `ConstraintProvider` and have `com.sankuai.optaplanner:optaplanner-test` as a test dependency, you can test per constraint using a
 `ConstraintVerifier`.
 
 Create the `src/test/java/com/example/solver/TimeTableConstraintProviderTest.java` class:
@@ -897,7 +897,7 @@ import com.example.domain.Room;
 import com.example.domain.TimeTable;
 import com.example.domain.Timeslot;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -945,7 +945,7 @@ change the logging in the `application.properties` file or with a `-D` system pr
 ====
 [source,properties]
 ----
-logging.level.org.optaplanner=debug
+logging.level.com.sankuai.optaplanner=debug
 ----
 ====
 
@@ -985,9 +985,9 @@ package com.example.rest;
 
 import com.example.domain.TimeTable;
 import com.example.persistence.TimeTableRepository;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.api.solver.SolverManager;
-import org.optaplanner.core.api.solver.SolverStatus;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.api.solver.SolverManager;
+import com.sankuai.optaplanner.core.api.solver.SolverStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -1061,7 +1061,7 @@ import com.example.domain.Lesson;
 import com.example.domain.TimeTable;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.core.api.solver.SolverStatus;
+import com.sankuai.optaplanner.core.api.solver.SolverStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 

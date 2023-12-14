@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.extended;
+package com.sankuai.optaplanner.core.impl.testdata.domain.extended;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class TestdataUnannotatedExtendedSolution extends TestdataSolution {
 

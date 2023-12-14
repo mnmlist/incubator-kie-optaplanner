@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.stream;
+package com.sankuai.optaplanner.test.impl.score.stream;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
-import org.optaplanner.test.api.score.stream.SingleConstraintVerification;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.stream.AbstractConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.test.api.score.stream.SingleConstraintVerification;
 
 public final class DefaultSingleConstraintVerification<Solution_, Score_ extends Score<Score_>>
         implements SingleConstraintVerification<Solution_> {

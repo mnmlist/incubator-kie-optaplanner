@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.multivar;
+package com.sankuai.optaplanner.core.impl.testdata.domain.multivar;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 public class TestdataOtherValue extends TestdataObject {
 

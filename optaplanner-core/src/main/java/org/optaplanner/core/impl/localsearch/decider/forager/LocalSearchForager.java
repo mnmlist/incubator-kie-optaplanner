@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.forager;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.forager;
 
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 
 /**
  * Collects the moves and picks the next step from those for the {@link LocalSearchDecider}.

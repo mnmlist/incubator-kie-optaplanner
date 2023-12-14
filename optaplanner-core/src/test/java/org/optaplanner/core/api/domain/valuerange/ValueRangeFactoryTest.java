@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.valuerange;
+package com.sankuai.optaplanner.core.api.domain.valuerange;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.testdata.domain.valuerange.TestdataValueRangeEntity;
-import org.optaplanner.core.impl.testdata.domain.valuerange.TestdataValueRangeSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.testdata.domain.valuerange.TestdataValueRangeEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.valuerange.TestdataValueRangeSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class ValueRangeFactoryTest {
 

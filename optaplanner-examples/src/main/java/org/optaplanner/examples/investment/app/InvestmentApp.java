@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.app;
+package com.sankuai.optaplanner.examples.investment.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
-import org.optaplanner.examples.investment.persistence.InvestmentImporter;
-import org.optaplanner.examples.investment.persistence.InvestmentXmlSolutionFileIO;
-import org.optaplanner.examples.investment.swingui.InvestmentPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.examples.investment.persistence.InvestmentImporter;
+import com.sankuai.optaplanner.examples.investment.persistence.InvestmentXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.investment.swingui.InvestmentPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class InvestmentApp extends CommonApp<InvestmentSolution> {
 

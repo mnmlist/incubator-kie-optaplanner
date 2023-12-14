@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.tri;
 
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.TriLeftHandSide;
 
 public final class DroolsFilterTriConstraintStream<Solution_, A, B, C>
         extends DroolsAbstractTriConstraintStream<Solution_, A, B, C> {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor.tabu;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.tabu;
 
 import java.util.Collection;
 
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
 
 public class EntityTabuAcceptor<Solution_> extends AbstractTabuAcceptor<Solution_> {
 

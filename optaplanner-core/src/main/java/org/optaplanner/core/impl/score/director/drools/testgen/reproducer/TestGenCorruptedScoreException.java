@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.reproducer;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer;
 
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public class TestGenCorruptedScoreException extends RuntimeException {
 

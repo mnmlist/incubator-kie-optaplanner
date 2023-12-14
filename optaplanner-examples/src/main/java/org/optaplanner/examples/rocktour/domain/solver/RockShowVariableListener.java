@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain.solver;
+package com.sankuai.optaplanner.examples.rocktour.domain.solver;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.rocktour.domain.RockShow;
-import org.optaplanner.examples.rocktour.domain.RockStandstill;
-import org.optaplanner.examples.rocktour.domain.RockTimeOfDay;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockShow;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockStandstill;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTimeOfDay;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
 
 public class RockShowVariableListener implements VariableListener<RockTourSolution, RockShow> {
 

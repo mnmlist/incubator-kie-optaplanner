@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity;
 
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelector;
 
 /**
  * Abstract superclass for {@link EntitySelector}.

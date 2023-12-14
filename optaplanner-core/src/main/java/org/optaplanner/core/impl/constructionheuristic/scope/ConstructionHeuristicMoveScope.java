@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.scope;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.scope;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.phase.scope.AbstractMoveScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractMoveScope;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

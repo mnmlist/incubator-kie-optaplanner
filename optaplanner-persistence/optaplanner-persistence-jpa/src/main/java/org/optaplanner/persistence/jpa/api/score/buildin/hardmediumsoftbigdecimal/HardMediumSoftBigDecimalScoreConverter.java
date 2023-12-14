@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftbigdecimal;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
 
 @Converter
 public class HardMediumSoftBigDecimalScoreConverter implements AttributeConverter<HardMediumSoftBigDecimalScore, String> {

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.solver;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScoreHolder;
 
-import org.optaplanner.examples.flightcrewscheduling.domain.Airport;
-import org.optaplanner.examples.flightcrewscheduling.domain.Employee;
-import org.optaplanner.examples.flightcrewscheduling.domain.Flight;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
-import org.optaplanner.examples.flightcrewscheduling.domain.Skill;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Airport;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Employee;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Flight;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Skill;
 
-import accumulate org.optaplanner.examples.common.solver.drools.functions.LoadBalanceByCountAccumulateFunction loadBalanceByCount;
-import accumulate org.optaplanner.examples.common.solver.drools.functions.LoadBalanceAccumulateFunction loadBalance;
+import accumulate com.sankuai.optaplanner.examples.common.solver.drools.functions.LoadBalanceByCountAccumulateFunction loadBalanceByCount;
+import accumulate com.sankuai.optaplanner.examples.common.solver.drools.functions.LoadBalanceAccumulateFunction loadBalance;
 
 global HardSoftLongScoreHolder scoreHolder;
 

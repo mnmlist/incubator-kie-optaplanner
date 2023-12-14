@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypestepscore;
+package com.sankuai.optaplanner.benchmark.impl.statistic.subsingle.pickedmovetypestepscore;
 
 import java.io.File;
 import java.text.NumberFormat;
@@ -34,21 +34,21 @@ import org.jfree.chart.renderer.xy.XYItemRenderer;
 import org.jfree.chart.renderer.xy.YIntervalRenderer;
 import org.jfree.data.xy.XYIntervalSeries;
 import org.jfree.data.xy.XYIntervalSeriesCollection;
-import org.optaplanner.benchmark.config.statistic.SingleStatisticType;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.ScoreUtils;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.solver.AbstractSolver;
+import com.sankuai.optaplanner.benchmark.config.statistic.SingleStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchStepScope;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.ScoreUtils;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.solver.AbstractSolver;
 
 public class PickedMoveTypeStepScoreDiffSubSingleStatistic<Solution_>
         extends PureSubSingleStatistic<Solution_, PickedMoveTypeStepScoreDiffStatisticPoint> {

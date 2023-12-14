@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.app;
+package com.sankuai.optaplanner.examples.curriculumcourse.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseExporter;
-import org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseImporter;
-import org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO;
-import org.optaplanner.examples.curriculumcourse.swingui.CurriculumCoursePanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseExporter;
+import com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseImporter;
+import com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.curriculumcourse.swingui.CurriculumCoursePanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class CurriculumCourseApp extends CommonApp<CourseSchedule> {
 

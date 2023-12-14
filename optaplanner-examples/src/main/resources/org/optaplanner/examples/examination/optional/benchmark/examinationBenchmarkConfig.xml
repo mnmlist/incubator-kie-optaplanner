@@ -6,10 +6,10 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.examination.domain.Examination</solutionClass>
-      <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
-      <entityClass>org.optaplanner.examples.examination.domain.LeadingExam</entityClass>
-      <entityClass>org.optaplanner.examples.examination.domain.FollowingExam</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.examination.domain.Examination</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.FollowingExam</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
@@ -20,7 +20,7 @@
       </termination>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/examination/unsolved/exam_comp_set1.xml</inputSolutionFile>
       <inputSolutionFile>data/examination/unsolved/exam_comp_set2.xml</inputSolutionFile>
       <inputSolutionFile>data/examination/unsolved/exam_comp_set3.xml</inputSolutionFile>
@@ -48,14 +48,14 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
           </entitySelector>
           <cartesianProductMoveSelector>
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
               </valueSelector>
             </changeMoveSelector>
@@ -76,7 +76,7 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SORTED</selectionOrder>
             <sorterManner>DECREASING_DIFFICULTY</sorterManner>
@@ -85,7 +85,7 @@
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
               </valueSelector>
             </changeMoveSelector>
@@ -106,7 +106,7 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SORTED</selectionOrder>
             <sorterManner>DECREASING_DIFFICULTY</sorterManner>
@@ -115,7 +115,7 @@
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
                 <!--<selectionOrder>SORTED</selectionOrder>-->
                 <!--<sorterManner>INCREASING_STRENGTH</sorterManner>-->
@@ -140,7 +140,7 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SORTED</selectionOrder>
             <sorterManner>DECREASING_DIFFICULTY</sorterManner>
@@ -149,7 +149,7 @@
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
                 <!--<selectionOrder>SORTED</selectionOrder>-->
                 <!--<sorterManner>INCREASING_STRENGTH</sorterManner>-->
@@ -171,20 +171,20 @@
           <cartesianProductMoveSelector>
             <changeMoveSelector>
               <entitySelector id="cartesianProductEntitySelector">
-                <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+                <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
               </entitySelector>
               <valueSelector variableName="room"/>
             </changeMoveSelector>
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="cartesianProductEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
               </valueSelector>
             </changeMoveSelector>
           </cartesianProductMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <entityClass>org.optaplanner.examples.examination.domain.LeadingExam</entityClass>
+              <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
             </entitySelector>
           </swapMoveSelector>
         </unionMoveSelector>
@@ -203,7 +203,7 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SORTED</selectionOrder>
             <sorterManner>DECREASING_DIFFICULTY</sorterManner>
@@ -212,7 +212,7 @@
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
                 <!--<selectionOrder>SORTED</selectionOrder>-->
                 <!--<sorterManner>INCREASING_STRENGTH</sorterManner>-->
@@ -234,20 +234,20 @@
           <cartesianProductMoveSelector>
             <changeMoveSelector>
               <entitySelector id="cartesianProductEntitySelector">
-                <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+                <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
               </entitySelector>
               <valueSelector variableName="room"/>
             </changeMoveSelector>
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="cartesianProductEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
               </valueSelector>
             </changeMoveSelector>
           </cartesianProductMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <entityClass>org.optaplanner.examples.examination.domain.LeadingExam</entityClass>
+              <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
             </entitySelector>
           </swapMoveSelector>
         </unionMoveSelector>

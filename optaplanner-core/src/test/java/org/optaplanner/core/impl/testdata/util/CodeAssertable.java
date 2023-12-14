@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.util;
+package com.sankuai.optaplanner.core.impl.testdata.util;
 
 public interface CodeAssertable {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence.generator;
+package com.sankuai.optaplanner.examples.common.persistence.generator;
 
 import static java.util.Arrays.asList;
 import static java.util.Collections.unmodifiableList;

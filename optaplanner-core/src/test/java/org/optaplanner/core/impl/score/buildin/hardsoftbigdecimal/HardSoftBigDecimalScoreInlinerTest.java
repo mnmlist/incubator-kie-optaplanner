@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.hardsoftbigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.hardsoftbigdecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -22,13 +22,13 @@ import java.math.BigDecimal;
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
-import org.optaplanner.core.impl.score.inliner.JustificationsSupplier;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.testdata.domain.score.TestdataHardSoftBigDecimalScoreSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.buildin.AbstractScoreInlinerTest;
+import com.sankuai.optaplanner.core.impl.score.inliner.JustificationsSupplier;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.TestdataHardSoftBigDecimalScoreSolution;
 
 public class HardSoftBigDecimalScoreInlinerTest
         extends AbstractScoreInlinerTest<TestdataHardSoftBigDecimalScoreSolution, HardSoftBigDecimalScore> {

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.descriptor.ValueRangeDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
 
 /**
  * This is the common {@link ValueSelector} implementation.

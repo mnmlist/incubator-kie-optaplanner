@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.optional.benchmark;
+package com.sankuai.optaplanner.examples.cloudbalancing.optional.benchmark;
 
 import java.util.Arrays;
 import java.util.List;
 
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.impl.aggregator.swingui.BenchmarkAggregatorFrame;
-import org.optaplanner.examples.cloudbalancing.app.CloudBalancingHelloWorld;
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.BenchmarkAggregatorFrame;
+import com.sankuai.optaplanner.examples.cloudbalancing.app.CloudBalancingHelloWorld;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
 
 /**
  * @see CloudBalancingHelloWorld

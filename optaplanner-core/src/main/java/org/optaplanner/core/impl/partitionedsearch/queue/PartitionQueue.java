@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.partitionedsearch.queue;
+package com.sankuai.optaplanner.core.impl.partitionedsearch.queue;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -25,9 +25,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
-import org.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.UpcomingSelectionIterator;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

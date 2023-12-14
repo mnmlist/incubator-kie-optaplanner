@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic;
+package com.sankuai.optaplanner.benchmark.impl.statistic;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -35,12 +35,12 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlTransient;
 
-import org.optaplanner.benchmark.impl.report.ReportHelper;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.impl.report.ReportHelper;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

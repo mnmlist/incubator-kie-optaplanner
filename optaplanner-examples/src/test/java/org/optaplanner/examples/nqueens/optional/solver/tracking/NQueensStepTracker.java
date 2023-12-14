@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.tracking;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.tracking;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleListenerAdapter;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
 
 public class NQueensStepTracker extends PhaseLifecycleListenerAdapter<NQueens> {
 

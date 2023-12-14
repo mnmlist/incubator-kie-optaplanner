@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver;
+package com.sankuai.optaplanner.core.impl.solver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 
 class DefaultSolverFactoryTest {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.optional.app;
+package com.sankuai.optaplanner.examples.cheaptime.optional.app;
 
-import org.optaplanner.examples.cheaptime.optional.benchmark.CheapTimeBenchmarkApp;
-import org.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
-import org.optaplanner.examples.common.app.CommonBenchmarkApp;
+import com.sankuai.optaplanner.examples.cheaptime.optional.benchmark.CheapTimeBenchmarkApp;
+import com.sankuai.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
+import com.sankuai.optaplanner.examples.common.app.CommonBenchmarkApp;
 
 public class CheapTimeBenchmarkConfigTest extends AbstractBenchmarkConfigTest {
 

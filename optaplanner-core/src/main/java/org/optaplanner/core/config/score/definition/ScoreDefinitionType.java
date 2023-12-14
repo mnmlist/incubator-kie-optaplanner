@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.score.definition;
+package com.sankuai.optaplanner.core.config.score.definition;
 
 import javax.xml.bind.annotation.XmlEnum;
 

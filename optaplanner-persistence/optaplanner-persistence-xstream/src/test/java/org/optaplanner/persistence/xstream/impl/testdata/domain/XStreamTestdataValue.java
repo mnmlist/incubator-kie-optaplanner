@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.impl.testdata.domain;
+package com.sankuai.optaplanner.persistence.xstream.impl.testdata.domain;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

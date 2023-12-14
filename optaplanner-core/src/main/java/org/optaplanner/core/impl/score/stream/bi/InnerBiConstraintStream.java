@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bi;
 
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.MIXED;
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.PENALTY;
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.REWARD;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.MIXED;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.PENALTY;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.REWARD;
 
 import java.math.BigDecimal;
 import java.util.function.BiFunction;
 import java.util.function.ToIntBiFunction;
 import java.util.function.ToLongBiFunction;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public interface InnerBiConstraintStream<A, B> extends BiConstraintStream<A, B> {
 

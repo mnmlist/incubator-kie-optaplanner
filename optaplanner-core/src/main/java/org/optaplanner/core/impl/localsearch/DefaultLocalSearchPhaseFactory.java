@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch;
+package com.sankuai.optaplanner.core.impl.localsearch;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
@@ -22,32 +22,32 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.concurrent.ThreadFactory;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchType;
-import org.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
-import org.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelectorFactory;
-import org.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
-import org.optaplanner.core.impl.localsearch.decider.MultiThreadedLocalSearchDecider;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
-import org.optaplanner.core.impl.localsearch.decider.acceptor.AcceptorFactory;
-import org.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
-import org.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForagerFactory;
-import org.optaplanner.core.impl.phase.AbstractPhaseFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.UnionMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.ChangeMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.AcceptorType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.LocalSearchAcceptorConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.LocalSearchDecider;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.MultiThreadedLocalSearchDecider;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.Acceptor;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor.AcceptorFactory;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForagerFactory;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhaseFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
 
 public class DefaultLocalSearchPhaseFactory<Solution_>
         extends AbstractPhaseFactory<Solution_, LocalSearchPhaseConfig> {

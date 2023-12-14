@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain;
+package com.sankuai.optaplanner.examples.rocktour.domain;
 
 import java.time.LocalDate;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
 
 @PlanningEntity
 public interface RockStandstill {

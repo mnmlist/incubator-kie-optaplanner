@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.tracking;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.tracking;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -26,16 +26,16 @@ import java.util.List;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
-import org.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.solver.DefaultSolver;
-import org.optaplanner.examples.nqueens.app.NQueensApp;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.persistence.NQueensGenerator;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySorterManner;
+import com.sankuai.optaplanner.core.config.heuristic.selector.value.ValueSorterManner;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolver;
+import com.sankuai.optaplanner.examples.nqueens.app.NQueensApp;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.persistence.NQueensGenerator;
 
 public class NQueensConstructionHeuristicTrackingTest extends NQueensAbstractTrackingTest {
 

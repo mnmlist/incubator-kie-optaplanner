@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.stream;
+package com.sankuai.optaplanner.core.impl.score.director.stream;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirectorFactory;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.AbstractScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.ScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
 
 /**
  * FP streams implementation of {@link ScoreDirectorFactory}.

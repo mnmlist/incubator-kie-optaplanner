@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
 import java.util.List;
 
-import org.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
 
 public abstract class AbstractSolverRankingComparatorTest {
 

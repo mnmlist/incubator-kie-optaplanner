@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
+package com.sankuai.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
 
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
 
 public class BestSolutionMutationStatisticPoint extends StatisticPoint {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.placer;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.placer;
 
-import org.optaplanner.core.impl.phase.event.PhaseLifecycleSupport;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.phase.event.PhaseLifecycleSupport;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

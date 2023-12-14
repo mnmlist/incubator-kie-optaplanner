@@ -42,7 +42,7 @@ Simplest configuration:
 [source,xml,options="nowrap"]
 ----
   <partitionedSearch>
-    <solutionPartitionerClass>org.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
+    <solutionPartitionerClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
   </partitionedSearch>
 ----
 
@@ -55,7 +55,7 @@ Advanced configuration:
 ----
   <partitionedSearch>
     ...
-    <solutionPartitionerClass>org.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
+    <solutionPartitionerClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
     <runnablePartThreadLimit>4</runnablePartThreadLimit>
 
     <constructionHeuristic>...</constructionHeuristic>
@@ -109,7 +109,7 @@ To use a custom `SolutionPartitioner`, configure one on the Partitioned Search p
 [source,xml,options="nowrap"]
 ----
   <partitionedSearch>
-    <solutionPartitionerClass>org.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
+    <solutionPartitionerClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.partitioner.CloudBalancePartitioner</solutionPartitionerClass>
   </partitionedSearch>
 ----
 

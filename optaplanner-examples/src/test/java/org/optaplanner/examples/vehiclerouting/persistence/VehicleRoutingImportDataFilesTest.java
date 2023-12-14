@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.persistence;
+package com.sankuai.optaplanner.examples.vehiclerouting.persistence;
 
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.ImportDataFilesTest;
-import org.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.ImportDataFilesTest;
+import com.sankuai.optaplanner.examples.vehiclerouting.app.VehicleRoutingApp;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
 
 public class VehicleRoutingImportDataFilesTest extends ImportDataFilesTest<VehicleRoutingSolution> {
 

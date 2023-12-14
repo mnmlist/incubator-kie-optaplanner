@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.constructionheuristic.decider.forager;
+package com.sankuai.optaplanner.core.impl.constructionheuristic.decider.forager;
 
-import org.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicForagerConfig;
-import org.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicPickEarlyType;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicForagerConfig;
+import com.sankuai.optaplanner.core.config.constructionheuristic.decider.forager.ConstructionHeuristicPickEarlyType;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
 
 public class ConstructionHeuristicForagerFactory<Solution_> {
 

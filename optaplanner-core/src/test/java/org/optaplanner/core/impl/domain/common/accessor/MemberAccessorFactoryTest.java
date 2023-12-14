@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.common.accessor;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -23,13 +23,13 @@ import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.api.domain.solution.ProblemFactProperty;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberAccessorFactory;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataVisibilityModifierSolution;
-import org.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactProperty;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberAccessorFactory;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataVisibilityModifierSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
 
 public class MemberAccessorFactoryTest {
 

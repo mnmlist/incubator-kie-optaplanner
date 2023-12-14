@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Collections.singletonList;
 import static org.drools.model.DSL.exists;
@@ -40,13 +40,13 @@ import org.drools.model.functions.Function1;
 import org.drools.model.functions.Predicate2;
 import org.drools.model.functions.accumulate.AccumulateFunction;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
-import org.optaplanner.core.impl.score.stream.bi.NoneBiJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.FilteringBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.NoneBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
 
 /**
  * Represents the left-hand side of a Drools rule, the result of which is a single variable.

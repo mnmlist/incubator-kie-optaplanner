@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.app;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.UnsolvedDirSolveAllTurtleTest;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
 
 public class FlightCrewSchedulingSolveAllTurtleTest extends UnsolvedDirSolveAllTurtleTest<FlightCrewSolution> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.persistence;
+package com.sankuai.optaplanner.examples.pas.persistence;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -23,14 +23,14 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.Comparator;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
-import org.optaplanner.examples.pas.domain.AdmissionPart;
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.Patient;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
+import com.sankuai.optaplanner.examples.pas.domain.AdmissionPart;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.Patient;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
 
 public class PatientAdmissionScheduleExporter extends AbstractTxtSolutionExporter<PatientAdmissionSchedule> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain;
+package com.sankuai.optaplanner.examples.examination.domain;
 
 public enum PeriodPenaltyType {
     EXAM_COINCIDENCE, // TODO rename to coincidence?

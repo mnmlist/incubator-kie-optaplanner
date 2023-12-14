@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.bi;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetGroupTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetGroupTuple;
 
 public final class BavetGroupBiTuple<GroupKey_, ResultContainer_, Result_> extends BavetAbstractBiTuple<GroupKey_, Result_>
         implements BavetGroupTuple {

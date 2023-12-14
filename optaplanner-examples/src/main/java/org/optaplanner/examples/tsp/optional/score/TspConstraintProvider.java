@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.optional.score;
+package com.sankuai.optaplanner.examples.tsp.optional.score;
 
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
 
 public final class TspConstraintProvider implements ConstraintProvider {
 

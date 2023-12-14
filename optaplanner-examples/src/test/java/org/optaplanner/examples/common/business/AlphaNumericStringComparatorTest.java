@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.business;
+package com.sankuai.optaplanner.examples.common.business;
 
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 

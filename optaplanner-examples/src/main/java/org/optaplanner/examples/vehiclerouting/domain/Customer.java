@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.AnchorShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.solver.DepotAngleCustomerDifficultyWeightFactory;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.AnchorShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.DepotAngleCustomerDifficultyWeightFactory;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamInclude;

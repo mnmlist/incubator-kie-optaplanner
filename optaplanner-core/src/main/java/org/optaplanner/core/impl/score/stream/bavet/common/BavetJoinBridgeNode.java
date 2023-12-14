@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.common;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.common;
 
 public interface BavetJoinBridgeNode extends BavetNode {
 

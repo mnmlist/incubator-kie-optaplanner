@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing;
+package com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
 
 /**
  * Determines what increment the counter of Step Counting Hill Climbing.

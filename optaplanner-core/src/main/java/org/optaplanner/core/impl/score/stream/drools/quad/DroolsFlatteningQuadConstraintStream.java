@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.quad;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.QuadLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.QuadLeftHandSide;
 
 public final class DroolsFlatteningQuadConstraintStream<Solution_, A, B, C, NewD>
         extends DroolsAbstractQuadConstraintStream<Solution_, A, B, C, NewD> {

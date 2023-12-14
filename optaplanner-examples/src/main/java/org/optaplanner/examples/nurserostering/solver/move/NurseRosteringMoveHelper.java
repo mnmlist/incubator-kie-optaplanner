@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.solver.move;
+package com.sankuai.optaplanner.examples.nurserostering.solver.move;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
 
 public class NurseRosteringMoveHelper {
 

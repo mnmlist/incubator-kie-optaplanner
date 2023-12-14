@@ -4,11 +4,11 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
-  <entityClass>org.optaplanner.examples.travelingtournament.domain.Match</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.travelingtournament.domain.Match</entityClass>
 
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.travelingtournament.optional.score.TravelingTournamentConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.travelingtournament.optional.score.TravelingTournamentConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
     <!--<scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>-->
@@ -25,12 +25,12 @@
       <swapMoveSelector>
         <cacheType>PHASE</cacheType>
         <selectionOrder>SHUFFLED</selectionOrder> <!-- TODO with no acceptedCountLimit this should be ORIGINAL -->
-        <filterClass>org.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
+        <filterClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
       </swapMoveSelector>
       <moveListFactory>
         <cacheType>STEP</cacheType>
         <selectionOrder>SHUFFLED</selectionOrder> <!-- TODO with no acceptedCountLimit this should be ORIGINAL -->
-        <moveListFactoryClass>org.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
+        <moveListFactoryClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
       </moveListFactory>
     </unionMoveSelector>
     <acceptor>

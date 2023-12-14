@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.mimic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic;
 
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
 
 public class MimicReplayingEntitySelector<Solution_> extends AbstractEntitySelector<Solution_> {
 

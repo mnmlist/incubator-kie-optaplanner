@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
@@ -24,12 +24,12 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
-import org.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
-import org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.penta.AbstractPentaJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
 
 public class JoinersTest {
 

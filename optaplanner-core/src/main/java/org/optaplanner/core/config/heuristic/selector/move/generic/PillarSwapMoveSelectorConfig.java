@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.config.heuristic.selector.move.generic;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -23,8 +23,8 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 @XmlType(propOrder = {
         "secondaryPillarSelectorConfig",

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.batchscheduling.domain.solver;
+package com.sankuai.optaplanner.examples.batchscheduling.domain.solver;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.batchscheduling.domain.Allocation;
-import org.optaplanner.examples.batchscheduling.domain.BatchSchedule;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.BatchSchedule;
 
 public class PredecessorsDoneDateUpdatingVariableListener implements VariableListener<BatchSchedule, Allocation> {
 

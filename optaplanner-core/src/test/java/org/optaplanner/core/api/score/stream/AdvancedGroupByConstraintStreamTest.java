@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.*;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asMap;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSet;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.*;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asMap;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSet;
 
 import java.util.Objects;
 import java.util.Set;
@@ -30,11 +30,11 @@ import java.util.stream.Stream;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.junit.jupiter.api.TestTemplate;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
 
 public class AdvancedGroupByConstraintStreamTest extends AbstractConstraintStreamTest {
 

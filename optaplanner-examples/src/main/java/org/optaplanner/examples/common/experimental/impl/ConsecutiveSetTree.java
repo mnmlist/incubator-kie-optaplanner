@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.impl;
+package com.sankuai.optaplanner.examples.common.experimental.impl;
 
 import java.util.Comparator;
 import java.util.IdentityHashMap;
@@ -26,9 +26,9 @@ import java.util.TreeSet;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import org.optaplanner.examples.common.experimental.api.Break;
-import org.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
-import org.optaplanner.examples.common.experimental.api.Sequence;
+import com.sankuai.optaplanner.examples.common.experimental.api.Break;
+import com.sankuai.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
+import com.sankuai.optaplanner.examples.common.experimental.api.Sequence;
 
 /**
  * A ConsecutiveSetTree determine what value are consecutive. A sequence x1,x2,x3,...,xn

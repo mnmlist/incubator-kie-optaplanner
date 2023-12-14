@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common;
 
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public interface SelectionCacheLifecycleListener<Solution_> {
 

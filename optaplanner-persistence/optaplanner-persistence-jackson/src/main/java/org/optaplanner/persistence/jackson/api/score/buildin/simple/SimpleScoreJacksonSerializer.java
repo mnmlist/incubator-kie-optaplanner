@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jackson.api.score.buildin.simple;
 
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonSerializer;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jackson.api.score.AbstractScoreJacksonSerializer;
 
 /**
  * {@inheritDoc}

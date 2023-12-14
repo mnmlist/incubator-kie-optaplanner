@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.tri;
 
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.inliner.UndoScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
 
 public final class BavetScoringTriNode<A, B, C> extends BavetAbstractTriNode<A, B, C> implements BavetScoringNode {
 

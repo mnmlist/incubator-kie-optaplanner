@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.composite;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.composite;
 
 import java.util.Iterator;
 import java.util.List;
@@ -24,11 +24,11 @@ import java.util.Spliterators;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import org.optaplanner.core.api.domain.valuerange.CountableValueRange;
-import org.optaplanner.core.api.domain.valuerange.ValueRange;
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.core.api.domain.valuerange.CountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
 
 public class CompositeCountableValueRange<T> extends AbstractCountableValueRange<T> {
 

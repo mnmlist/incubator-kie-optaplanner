@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -35,27 +35,27 @@ import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlIDREF;
 import javax.xml.bind.annotation.XmlTransient;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.config.statistic.SingleStatisticType;
-import org.optaplanner.benchmark.impl.loader.FileProblemProvider;
-import org.optaplanner.benchmark.impl.loader.InstanceProblemProvider;
-import org.optaplanner.benchmark.impl.loader.ProblemProvider;
-import org.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
-import org.optaplanner.benchmark.impl.ranking.TotalScoreSingleBenchmarkRankingComparator;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.ReportHelper;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.bestscore.BestScoreProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.bestsolutionmutation.BestSolutionMutationProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.memoryuse.MemoryUseProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.movecountperstep.MoveCountPerStepProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.scorecalculationspeed.ScoreCalculationSpeedProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.stepscore.StepScoreProblemStatistic;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.config.statistic.SingleStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.loader.FileProblemProvider;
+import com.sankuai.optaplanner.benchmark.impl.loader.InstanceProblemProvider;
+import com.sankuai.optaplanner.benchmark.impl.loader.ProblemProvider;
+import com.sankuai.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalScoreSingleBenchmarkRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.ReportHelper;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.bestscore.BestScoreProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.bestsolutionmutation.BestSolutionMutationProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.memoryuse.MemoryUseProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.movecountperstep.MoveCountPerStepProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.scorecalculationspeed.ScoreCalculationSpeedProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.stepscore.StepScoreProblemStatistic;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -474,7 +474,7 @@ public class ProblemBenchmarkResult<Solution_> {
     }
 
     /**
-     * Used by {@link org.optaplanner.benchmark.impl.ProblemBenchmarksFactory#buildProblemBenchmarkList}.
+     * Used by {@link com.sankuai.optaplanner.benchmark.impl.ProblemBenchmarksFactory#buildProblemBenchmarkList}.
      *
      * @param o sometimes null
      * @return true if equal

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain.location;
+package com.sankuai.optaplanner.examples.tsp.domain.location;
 
 import java.util.Map;
 

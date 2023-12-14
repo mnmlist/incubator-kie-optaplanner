@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config.report;
+package com.sankuai.optaplanner.benchmark.config.report;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Locale;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.benchmark.config.ranking.SolverRankingType;
-import org.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
+import com.sankuai.optaplanner.benchmark.config.ranking.SolverRankingType;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
 
 public class BenchmarkReportConfigTest {
 

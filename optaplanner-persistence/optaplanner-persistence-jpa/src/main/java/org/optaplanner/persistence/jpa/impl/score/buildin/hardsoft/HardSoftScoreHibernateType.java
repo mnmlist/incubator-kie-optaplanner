@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.hardsoft;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.hardsoft;
 
 import org.hibernate.type.StandardBasicTypes;
-import org.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
-import org.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
+import com.sankuai.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
 
 /**
  * {@inheritDoc}

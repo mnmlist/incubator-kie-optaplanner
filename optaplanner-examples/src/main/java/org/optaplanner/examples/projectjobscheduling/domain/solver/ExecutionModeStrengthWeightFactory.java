@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain.solver;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver;
 
 import static java.util.Comparator.comparingDouble;
 import static java.util.Comparator.comparingLong;
@@ -23,11 +23,11 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
-import org.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
 
 public class ExecutionModeStrengthWeightFactory implements SelectionSorterWeightFactory<Schedule, ExecutionMode> {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.api.score.stream;
+package com.sankuai.optaplanner.test.api.score.stream;
 
 import java.math.BigDecimal;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
 
 public interface SingleConstraintAssertion {
 

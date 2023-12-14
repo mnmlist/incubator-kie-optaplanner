@@ -7,8 +7,8 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
-      <entityClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
@@ -20,7 +20,7 @@
       </constructionHeuristic>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nurserostering/unsolved/sprint01.xml</inputSolutionFile>
       <inputSolutionFile>data/nurserostering/unsolved/sprint02.xml</inputSolutionFile>
       <!--<inputSolutionFile>data/nurserostering/unsolved/sprint03.xml</inputSolutionFile>-->
@@ -65,16 +65,16 @@
         <unionMoveSelector>
           <moveListFactory>
             <cacheType>STEP</cacheType>
-            <moveListFactoryClass>org.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
+            <moveListFactoryClass>com.sankuai.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
           </moveListFactory>
           <changeMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </changeMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </swapMoveSelector>
         </unionMoveSelector>
@@ -94,19 +94,19 @@
         <unionMoveSelector>
           <changeMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </changeMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </swapMoveSelector>
           <pillarChangeMoveSelector>
             <subPillarType>SEQUENCE</subPillarType>
             <pillarSelector>
               <entitySelector>
-                <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
               </entitySelector>
             </pillarSelector>
           </pillarChangeMoveSelector>
@@ -114,7 +114,7 @@
             <subPillarType>SEQUENCE</subPillarType>
             <pillarSelector>
               <entitySelector>
-                <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
               </entitySelector>
             </pillarSelector>
           </pillarSwapMoveSelector>

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.phase.custom;
+package com.sankuai.optaplanner.core.impl.phase.custom;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * Makes no changes.

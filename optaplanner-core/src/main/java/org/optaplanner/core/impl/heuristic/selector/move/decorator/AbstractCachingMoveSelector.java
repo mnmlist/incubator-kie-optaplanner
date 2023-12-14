@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
-import org.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleBridge;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.SelectionCacheLifecycleListener;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
 
 public abstract class AbstractCachingMoveSelector<Solution_> extends AbstractMoveSelector<Solution_>
         implements SelectionCacheLifecycleListener<Solution_> {

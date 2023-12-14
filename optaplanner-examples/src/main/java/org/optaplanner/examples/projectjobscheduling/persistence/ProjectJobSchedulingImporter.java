@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.persistence;
+package com.sankuai.optaplanner.examples.projectjobscheduling.persistence;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -32,19 +32,19 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.projectjobscheduling.app.ProjectJobSchedulingApp;
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
-import org.optaplanner.examples.projectjobscheduling.domain.Job;
-import org.optaplanner.examples.projectjobscheduling.domain.JobType;
-import org.optaplanner.examples.projectjobscheduling.domain.Project;
-import org.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.GlobalResource;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.LocalResource;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.app.ProjectJobSchedulingApp;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Job;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.JobType;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Project;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.GlobalResource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.LocalResource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
 
 public class ProjectJobSchedulingImporter extends AbstractTxtSolutionImporter<Schedule> {
 

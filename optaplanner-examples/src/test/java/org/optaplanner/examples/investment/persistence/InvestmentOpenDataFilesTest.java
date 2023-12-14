@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.persistence;
+package com.sankuai.optaplanner.examples.investment.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.investment.app.InvestmentApp;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.investment.app.InvestmentApp;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
 
 public class InvestmentOpenDataFilesTest extends OpenDataFilesTest<InvestmentSolution> {
 

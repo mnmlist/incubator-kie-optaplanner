@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.assertj.core.api.Assertions.fail;
-import static org.optaplanner.core.api.solver.SolverStatus.NOT_SOLVING;
-import static org.optaplanner.core.api.solver.SolverStatus.SOLVING_ACTIVE;
-import static org.optaplanner.core.api.solver.SolverStatus.SOLVING_SCHEDULED;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertSolutionInitialized;
+import static com.sankuai.optaplanner.core.api.solver.SolverStatus.NOT_SOLVING;
+import static com.sankuai.optaplanner.core.api.solver.SolverStatus.SOLVING_ACTIVE;
+import static com.sankuai.optaplanner.core.api.solver.SolverStatus.SOLVING_SCHEDULED;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertSolutionInitialized;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,18 +43,18 @@ import java.util.stream.IntStream;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.SolverManagerConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverManagerConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class SolverManagerTest {
 

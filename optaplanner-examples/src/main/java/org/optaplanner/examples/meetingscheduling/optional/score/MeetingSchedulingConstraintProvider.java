@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.optional.score;
+package com.sankuai.optaplanner.examples.meetingscheduling.optional.score;
 
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
-import static org.optaplanner.core.api.score.stream.Joiners.greaterThan;
-import static org.optaplanner.core.api.score.stream.Joiners.lessThan;
-import static org.optaplanner.core.api.score.stream.Joiners.overlapping;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.greaterThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.lessThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.overlapping;
 
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.meetingscheduling.domain.Attendance;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
-import org.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.Room;
-import org.optaplanner.examples.meetingscheduling.domain.TimeGrain;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Attendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
 
 public class MeetingSchedulingConstraintProvider implements ConstraintProvider {
 

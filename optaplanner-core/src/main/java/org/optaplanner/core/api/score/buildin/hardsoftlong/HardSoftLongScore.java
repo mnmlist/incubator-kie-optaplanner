@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.hardsoftlong;
+package com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.AbstractScore;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.AbstractScore;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 /**
  * This {@link Score} is based on 2 levels of long constraints: hard and soft.

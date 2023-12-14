@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.api;
+package com.sankuai.optaplanner.examples.common.experimental.api;
 
 /**
  * A Break is a gap between two consecutive values. For instance,

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintConfigurationDescriptor;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetAbstractUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.domain.constraintweight.descriptor.ConstraintConfigurationDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetAbstractUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniConstraintStream;
 
 public final class BavetConstraintFactory<Solution_> extends InnerConstraintFactory<Solution_> {
 

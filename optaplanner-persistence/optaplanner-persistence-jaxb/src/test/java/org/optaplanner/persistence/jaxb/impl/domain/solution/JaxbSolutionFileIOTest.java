@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.impl.domain.solution;
+package com.sankuai.optaplanner.persistence.jaxb.impl.domain.solution;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.io.File;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataEntity;
-import org.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataSolution;
-import org.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataValue;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataEntity;
+import com.sankuai.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataSolution;
+import com.sankuai.optaplanner.persistence.jaxb.impl.testdata.domain.JaxbTestdataValue;
 
 public class JaxbSolutionFileIOTest {
 

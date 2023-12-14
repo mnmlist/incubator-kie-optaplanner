@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.swingui;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -28,14 +28,14 @@ import java.util.List;
 import javax.swing.JPanel;
 
 import org.apache.commons.lang3.StringUtils;
-import org.optaplanner.examples.coachshuttlegathering.domain.Bus;
-import org.optaplanner.examples.coachshuttlegathering.domain.BusStop;
-import org.optaplanner.examples.coachshuttlegathering.domain.Coach;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
-import org.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
-import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Bus;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.BusStop;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.Coach;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.StopOrHub;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.location.RoadLocation;
+import com.sankuai.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class CoachShuttleGatheringWorldPanel extends JPanel {
 

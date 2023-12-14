@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config;
+package com.sankuai.optaplanner.benchmark.config;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -31,10 +31,10 @@ import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.optaplanner.benchmark.impl.io.PlannerBenchmarkConfigIO;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.benchmark.impl.io.PlannerBenchmarkConfigIO;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 class PlannerBenchmarkConfigTest {
 
@@ -80,11 +80,11 @@ class PlannerBenchmarkConfigTest {
                 + "    <name>Entity Tabu Search</name>\n"
                 + "    <solver>\n"
                 // Intentionally wrong to simulate a typo.
-                + "      <solutionKlazz>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionKlazz>\n"
-                + "      <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>\n"
+                + "      <solutionKlazz>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionKlazz>\n"
+                + "      <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>\n"
                 + "    </solver>\n"
                 + "    <problemBenchmarks>\n"
-                + "      <solutionFileIOClass>org.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>\n"
+                + "      <solutionFileIOClass>com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>\n"
                 + "      <inputSolutionFile>nonExistingDataset1.xml</inputSolutionFile>\n"
                 + "    </problemBenchmarks>\n"
                 + "  </solverBenchmark>\n"

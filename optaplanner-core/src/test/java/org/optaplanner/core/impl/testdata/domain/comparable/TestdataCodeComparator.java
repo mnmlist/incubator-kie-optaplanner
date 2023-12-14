@@ -1,8 +1,8 @@
-package org.optaplanner.core.impl.testdata.domain.comparable;
+package com.sankuai.optaplanner.core.impl.testdata.domain.comparable;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 public class TestdataCodeComparator implements Comparator<TestdataObject> {
 

@@ -1,4 +1,4 @@
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import java.util.Arrays;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.batchscheduling.swingui;
+package com.sankuai.optaplanner.examples.batchscheduling.swingui;
 
 import java.awt.BorderLayout;
 import java.text.SimpleDateFormat;
@@ -26,13 +26,13 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 
-import org.optaplanner.examples.batchscheduling.domain.Allocation;
-import org.optaplanner.examples.batchscheduling.domain.AllocationPath;
-import org.optaplanner.examples.batchscheduling.domain.Batch;
-import org.optaplanner.examples.batchscheduling.domain.BatchSchedule;
-import org.optaplanner.examples.batchscheduling.domain.RoutePath;
-import org.optaplanner.examples.batchscheduling.domain.Segment;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.AllocationPath;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Batch;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.BatchSchedule;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.RoutePath;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Segment;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
 
 public class BatchSchedulingPanel extends SolutionPanel<BatchSchedule> {
     private static final long serialVersionUID = 1L;

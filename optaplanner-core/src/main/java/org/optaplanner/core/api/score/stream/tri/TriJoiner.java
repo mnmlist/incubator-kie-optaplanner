@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream.tri;
+package com.sankuai.optaplanner.core.api.score.stream.tri;
 
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
 
 /**
  * Created with {@link Joiners}.

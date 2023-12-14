@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.common.accessor;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor;
 
 import java.lang.annotation.Annotation;
 import java.lang.invoke.CallSite;
@@ -27,7 +27,7 @@ import java.lang.reflect.Type;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
 
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
 
 /**
  * A {@link MemberAccessor} based on a getter and optionally a setter.

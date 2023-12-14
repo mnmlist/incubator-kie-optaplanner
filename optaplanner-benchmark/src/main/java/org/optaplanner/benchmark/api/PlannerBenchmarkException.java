@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.api;
+package com.sankuai.optaplanner.benchmark.api;
 
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
 
 /**
  * If at least one of the {@link SingleBenchmarkResult}s of a {@link PlannerBenchmark} fail,

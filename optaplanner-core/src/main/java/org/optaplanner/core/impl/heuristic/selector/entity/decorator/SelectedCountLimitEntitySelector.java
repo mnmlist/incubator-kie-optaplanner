@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.decorator;
 
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.AbstractEntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
 
 public class SelectedCountLimitEntitySelector<Solution_> extends AbstractEntitySelector<Solution_> {
 

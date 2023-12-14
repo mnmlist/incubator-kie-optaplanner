@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
 
 /**
  * Abstract superclass for every generic {@link MoveSelector}.

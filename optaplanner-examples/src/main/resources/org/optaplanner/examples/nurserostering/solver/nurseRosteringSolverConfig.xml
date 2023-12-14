@@ -4,12 +4,12 @@
   <!--<environmentMode>FULL_ASSERT</environmentMode>--><!-- To slowly prove there are no bugs in this code -->
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
-  <solutionClass>org.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
-  <entityClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
 
   <scoreDirectorFactory>
     <scoreDrl>org/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
-    <!--<constraintProviderClass>org.optaplanner.examples.nurserostering.optional.score.NurseRosteringConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.nurserostering.optional.score.NurseRosteringConstraintProvider</constraintProviderClass>-->
   </scoreDirectorFactory>
 
   <termination>
@@ -22,23 +22,23 @@
     <unionMoveSelector>
       <moveListFactory>
         <cacheType>STEP</cacheType>
-        <moveListFactoryClass>org.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
+        <moveListFactoryClass>com.sankuai.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
       </moveListFactory>
       <changeMoveSelector>
         <entitySelector>
-          <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+          <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
         </entitySelector>
       </changeMoveSelector>
       <swapMoveSelector>
         <entitySelector>
-          <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+          <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
         </entitySelector>
       </swapMoveSelector>
       <pillarChangeMoveSelector>
         <subPillarType>SEQUENCE</subPillarType>
         <pillarSelector>
           <entitySelector>
-            <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+            <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
           </entitySelector>
         </pillarSelector>
       </pillarChangeMoveSelector>
@@ -46,7 +46,7 @@
         <subPillarType>SEQUENCE</subPillarType>
         <pillarSelector>
           <entitySelector>
-            <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+            <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
           </entitySelector>
         </pillarSelector>
       </pillarSwapMoveSelector>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.aggregator;
+package com.sankuai.optaplanner.benchmark.impl.aggregator;
 
 import java.io.File;
 import java.time.OffsetDateTime;
@@ -22,13 +22,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

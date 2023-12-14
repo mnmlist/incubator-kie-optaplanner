@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.common;
+package com.sankuai.optaplanner.core.impl.score.stream.common;
 
 import java.math.BigDecimal;
 import java.util.function.BooleanSupplier;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
 
 public abstract class AbstractConstraint<Solution_, ConstraintFactory extends InnerConstraintFactory<Solution_>>
         implements Constraint {

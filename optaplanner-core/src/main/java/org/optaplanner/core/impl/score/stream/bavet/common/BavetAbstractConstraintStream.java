@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.common;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.common;
 
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraint;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.AbstractConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraint;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public abstract class BavetAbstractConstraintStream<Solution_> extends AbstractConstraintStream<Solution_> {
 

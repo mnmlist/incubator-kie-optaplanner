@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.domain;
+package com.sankuai.optaplanner.examples.common.domain;
 
-import org.optaplanner.core.api.domain.lookup.PlanningId;
+import com.sankuai.optaplanner.core.api.domain.lookup.PlanningId;
 
 public abstract class AbstractPersistable {
 

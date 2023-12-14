@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.lookup;
+package com.sankuai.optaplanner.core.impl.domain.lookup;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
 
 import java.util.Comparator;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntityGroup;
 
 public class ClassAndPlanningIdComparatorTest {
 

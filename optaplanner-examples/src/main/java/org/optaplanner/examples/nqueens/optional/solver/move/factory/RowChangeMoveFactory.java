@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.move.factory;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
-import org.optaplanner.examples.nqueens.domain.Row;
-import org.optaplanner.examples.nqueens.optional.solver.move.RowChangeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.examples.nqueens.domain.Row;
+import com.sankuai.optaplanner.examples.nqueens.optional.solver.move.RowChangeMove;
 
 public class RowChangeMoveFactory implements MoveListFactory<NQueens> {
 

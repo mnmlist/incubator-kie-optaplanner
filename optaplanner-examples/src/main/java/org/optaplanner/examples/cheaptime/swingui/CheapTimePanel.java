@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.swingui;
+package com.sankuai.optaplanner.examples.cheaptime.swingui;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.nullsFirst;
@@ -47,15 +47,15 @@ import org.jfree.data.time.ohlc.OHLCSeries;
 import org.jfree.data.time.ohlc.OHLCSeriesCollection;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.MachineCapacity;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.MachineCapacity;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class CheapTimePanel extends SolutionPanel<CheapTimeSolution> {
 

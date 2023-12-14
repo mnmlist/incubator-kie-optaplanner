@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.coachshuttlegathering.app;
+package com.sankuai.optaplanner.examples.coachshuttlegathering.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.coachshuttlegathering.domain.CoachShuttleGatheringSolution;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
 
 public class CoachShuttleGatheringPerformanceTest extends SolverPerformanceTest<CoachShuttleGatheringSolution> {
 

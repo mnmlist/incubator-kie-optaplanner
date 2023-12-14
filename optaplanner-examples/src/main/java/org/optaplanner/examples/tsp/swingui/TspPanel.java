@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.swingui;
+package com.sankuai.optaplanner.examples.tsp.swingui;
 
 import java.awt.BorderLayout;
 
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
-import org.optaplanner.examples.tsp.domain.location.AirLocation;
-import org.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.examples.tsp.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
 
 public class TspPanel extends SolutionPanel<TspSolution> {
 

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.reproducer;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer;
 
 import java.util.Objects;
 
-import org.optaplanner.core.impl.score.director.drools.testgen.TestGenDroolsScoreDirector;
-import org.optaplanner.core.impl.score.director.drools.testgen.TestGenKieSessionJournal;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.TestGenDroolsScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.TestGenKieSessionJournal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

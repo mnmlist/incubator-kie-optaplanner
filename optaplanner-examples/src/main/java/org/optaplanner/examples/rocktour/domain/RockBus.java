@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain;
+package com.sankuai.optaplanner.examples.rocktour.domain;
 
 import java.time.LocalDate;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 public class RockBus extends AbstractPersistable implements RockStandstill {
 

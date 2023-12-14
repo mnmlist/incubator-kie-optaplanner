@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure;
+package com.sankuai.optaplanner.spring.boot.autoconfigure;
 
-import org.optaplanner.core.api.domain.common.DomainAccessType;
-import org.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.api.domain.common.DomainAccessType;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
 import org.springframework.boot.context.properties.NestedConfigurationProperty;
 
 public class SolverProperties {

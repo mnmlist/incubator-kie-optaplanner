@@ -14,11 +14,11 @@
   <solverBenchmark>
     <name>Entity Tabu Search</name>
     <solver>
-      <solutionClass>org.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
-      <entityClass>org.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
+      <solutionClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution</solutionClass>
+      <entityClass>com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity</entityClass>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfigTest$TestdataSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>nonExistingDataset1.xml</inputSolutionFile>
     </problemBenchmarks>
   </solverBenchmark>

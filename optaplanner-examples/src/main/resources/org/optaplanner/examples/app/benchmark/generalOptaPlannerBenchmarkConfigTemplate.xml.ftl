@@ -15,13 +15,13 @@
   <solverBenchmark>
     <name>Cloud Balancing Late Acceptance ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/cloudbalancing/unsolved/200computers-600processes.xml</inputSolutionFile>
       <inputSolutionFile>data/cloudbalancing/unsolved/800computers-2400processes.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
-      <entityClass>org.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingConstraints.drl</scoreDrl>
@@ -47,19 +47,19 @@
   <solverBenchmark>
     <name>Machine Reassignment Tabu Search ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
       <inputSolutionFile>data/machinereassignment/import/model_b_1.txt</inputSolutionFile>
       <inputSolutionFile>data/machinereassignment/import/model_b_10.txt</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
-      <entityClass>org.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MachineReassignment</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.machinereassignment.domain.MrProcessAssignment</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.machinereassignment.score.MachineReassignmentIncrementalScoreCalculator</incrementalScoreCalculatorClass>
       </scoreDirectorFactory>
       <customPhase>
-        <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+        <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
       </customPhase>
       <localSearch>
         <unionMoveSelector>
@@ -78,13 +78,13 @@
   <solverBenchmark>
     <name>Course Scheduling Late Acceptance ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/curriculumcourse/unsolved/comp07.xml</inputSolutionFile>
       <inputSolutionFile>data/curriculumcourse/unsolved/comp08.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
-      <entityClass>org.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
@@ -96,7 +96,7 @@
         <unionMoveSelector>
           <changeMoveSelector/>
           <swapMoveSelector>
-            <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
+            <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
           </swapMoveSelector>
         </unionMoveSelector>
         <acceptor>
@@ -111,15 +111,15 @@
   <solverBenchmark>
     <name>Examination Tabu Search ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.examination.persistence.ExaminationXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/examination/unsolved/exam_comp_set2.xml</inputSolutionFile>
       <inputSolutionFile>data/examination/unsolved/exam_comp_set3.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.examination.domain.Examination</solutionClass>
-      <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
-      <entityClass>org.optaplanner.examples.examination.domain.LeadingExam</entityClass>
-      <entityClass>org.optaplanner.examples.examination.domain.FollowingExam</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.examination.domain.Examination</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
+      <entityClass>com.sankuai.optaplanner.examples.examination.domain.FollowingExam</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/examination/solver/examinationConstraints.drl</scoreDrl>
@@ -127,7 +127,7 @@
       <constructionHeuristic>
         <queuedEntityPlacer>
           <entitySelector id="placerEntitySelector">
-            <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+            <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SORTED</selectionOrder>
             <sorterManner>DECREASING_DIFFICULTY</sorterManner>
@@ -136,7 +136,7 @@
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="placerEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
                 <cacheType>PHASE</cacheType>
                 <!--<selectionOrder>SORTED</selectionOrder>-->
                 <!--<sorterManner>INCREASING_STRENGTH</sorterManner>-->
@@ -158,20 +158,20 @@
           <cartesianProductMoveSelector>
             <changeMoveSelector>
               <entitySelector id="cartesianProductEntitySelector">
-                <entityClass>org.optaplanner.examples.examination.domain.Exam</entityClass>
+                <entityClass>com.sankuai.optaplanner.examples.examination.domain.Exam</entityClass>
               </entitySelector>
               <valueSelector variableName="room"/>
             </changeMoveSelector>
             <changeMoveSelector>
               <entitySelector mimicSelectorRef="cartesianProductEntitySelector"/>
               <valueSelector variableName="period">
-                <downcastEntityClass>org.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
+                <downcastEntityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</downcastEntityClass>
               </valueSelector>
             </changeMoveSelector>
           </cartesianProductMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <entityClass>org.optaplanner.examples.examination.domain.LeadingExam</entityClass>
+              <entityClass>com.sankuai.optaplanner.examples.examination.domain.LeadingExam</entityClass>
             </entitySelector>
           </swapMoveSelector>
         </unionMoveSelector>
@@ -187,13 +187,13 @@
   <solverBenchmark>
     <name>Nurse Rostering Tabu Search ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nurserostering.persistence.NurseRosterXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nurserostering/unsolved/medium01.xml</inputSolutionFile>
       <inputSolutionFile>data/nurserostering/unsolved/medium_hint01.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
-      <entityClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/nurserostering/solver/nurseRosteringConstraints.drl</scoreDrl>
@@ -205,23 +205,23 @@
         <unionMoveSelector>
           <moveListFactory>
             <cacheType>STEP</cacheType>
-            <moveListFactoryClass>org.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
+            <moveListFactoryClass>com.sankuai.optaplanner.examples.nurserostering.solver.move.factory.ShiftAssignmentPillarPartSwapMoveFactory</moveListFactoryClass>
           </moveListFactory>
           <changeMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </changeMoveSelector>
           <swapMoveSelector>
             <entitySelector>
-              <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+              <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
             </entitySelector>
           </swapMoveSelector>
           <pillarChangeMoveSelector>
             <subPillarType>SEQUENCE</subPillarType>
             <pillarSelector>
               <entitySelector>
-                <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
               </entitySelector>
             </pillarSelector>
           </pillarChangeMoveSelector>
@@ -229,7 +229,7 @@
             <subPillarType>SEQUENCE</subPillarType>
             <pillarSelector>
               <entitySelector>
-                <filterClass>org.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.nurserostering.domain.solver.MovableShiftAssignmentSelectionFilter</filterClass>
               </entitySelector>
             </pillarSelector>
           </pillarSwapMoveSelector>
@@ -246,12 +246,12 @@
   <solverBenchmark>
     <name>TravelingTournament Tabu Search ${randomType}</name>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/travelingtournament/unsolved/1-nl14.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
-      <entityClass>org.optaplanner.examples.travelingtournament.domain.Match</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.travelingtournament.domain.Match</entityClass>
       <randomType>${randomType}</randomType>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
@@ -261,12 +261,12 @@
           <swapMoveSelector>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SHUFFLED</selectionOrder>
-            <filterClass>org.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
+            <filterClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
           </swapMoveSelector>
           <moveListFactory>
             <cacheType>STEP</cacheType>
             <selectionOrder>SHUFFLED</selectionOrder>
-            <moveListFactoryClass>org.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
+            <moveListFactoryClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
           </moveListFactory>
         </unionMoveSelector>
         <acceptor>

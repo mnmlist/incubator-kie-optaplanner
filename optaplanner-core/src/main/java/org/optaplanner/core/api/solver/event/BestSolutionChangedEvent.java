@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver.event;
+package com.sankuai.optaplanner.core.api.solver.event;
 
 import java.util.EventObject;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.core.api.solver.Solver;
 
 /**
  * Delivered when the {@link PlanningSolution best solution} changes during solving.

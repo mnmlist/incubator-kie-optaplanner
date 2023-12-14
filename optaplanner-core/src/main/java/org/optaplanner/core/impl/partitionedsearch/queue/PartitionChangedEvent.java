@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.partitionedsearch.queue;
+package com.sankuai.optaplanner.core.impl.partitionedsearch.queue;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

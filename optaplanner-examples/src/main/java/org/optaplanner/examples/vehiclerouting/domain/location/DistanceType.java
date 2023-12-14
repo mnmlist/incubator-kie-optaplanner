@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.location;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.location;
 
-import org.optaplanner.examples.vehiclerouting.domain.location.segmented.HubSegmentLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.segmented.RoadSegmentLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented.HubSegmentLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented.RoadSegmentLocation;
 
 public enum DistanceType {
     /**

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api.score;
+package com.sankuai.optaplanner.persistence.jackson.api.score;
 
 import java.io.IOException;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.persistence.jackson.api.OptaPlannerJacksonModule;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.persistence.jackson.api.OptaPlannerJacksonModule;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.BeanProperty;

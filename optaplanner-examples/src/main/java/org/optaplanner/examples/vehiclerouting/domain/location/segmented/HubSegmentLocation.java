@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.location.segmented;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.location.segmented;
 
 import java.util.Map;
 
-import org.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

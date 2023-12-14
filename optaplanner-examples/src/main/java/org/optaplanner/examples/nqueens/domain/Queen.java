@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.domain;
+package com.sankuai.optaplanner.examples.nqueens.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.nqueens.domain.solution.QueenDifficultyWeightFactory;
-import org.optaplanner.examples.nqueens.domain.solution.RowStrengthWeightFactory;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.nqueens.domain.solution.QueenDifficultyWeightFactory;
+import com.sankuai.optaplanner.examples.nqueens.domain.solution.RowStrengthWeightFactory;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.partitionedsearch;
+package com.sankuai.optaplanner.core.impl.partitionedsearch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,28 +25,28 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.partitionedsearch.event.PartitionedSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
-import org.optaplanner.core.impl.partitionedsearch.queue.PartitionQueue;
-import org.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
-import org.optaplanner.core.impl.partitionedsearch.scope.PartitionedSearchPhaseScope;
-import org.optaplanner.core.impl.partitionedsearch.scope.PartitionedSearchStepScope;
-import org.optaplanner.core.impl.phase.AbstractPhase;
-import org.optaplanner.core.impl.phase.Phase;
-import org.optaplanner.core.impl.phase.PhaseFactory;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecallerFactory;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.solver.termination.ChildThreadPlumbingTermination;
-import org.optaplanner.core.impl.solver.termination.OrCompositeTermination;
-import org.optaplanner.core.impl.solver.termination.Termination;
-import org.optaplanner.core.impl.solver.thread.ChildThreadType;
-import org.optaplanner.core.impl.solver.thread.ThreadUtils;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.event.PartitionedSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.queue.PartitionQueue;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.scope.PartitionChangeMove;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.scope.PartitionedSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.scope.PartitionedSearchStepScope;
+import com.sankuai.optaplanner.core.impl.phase.AbstractPhase;
+import com.sankuai.optaplanner.core.impl.phase.Phase;
+import com.sankuai.optaplanner.core.impl.phase.PhaseFactory;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecallerFactory;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.solver.termination.ChildThreadPlumbingTermination;
+import com.sankuai.optaplanner.core.impl.solver.termination.OrCompositeTermination;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.impl.solver.thread.ChildThreadType;
+import com.sankuai.optaplanner.core.impl.solver.thread.ThreadUtils;
 
 /**
  * Default implementation of {@link PartitionedSearchPhase}.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.drools.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.bi;
 
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -23,28 +23,28 @@ import java.util.function.Function;
 import java.util.function.ToIntBiFunction;
 import java.util.function.ToLongBiFunction;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintStream;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintStream;
-import org.optaplanner.core.impl.score.stream.bi.InnerBiConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
-import org.optaplanner.core.impl.score.stream.drools.common.DroolsAbstractConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.common.RuleBuilder;
-import org.optaplanner.core.impl.score.stream.drools.quad.DroolsGroupingQuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.tri.DroolsAbstractTriConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.tri.DroolsGroupingTriConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.tri.DroolsJoinTriConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsGroupingUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsMappingUniConstraintStream;
-import org.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.InnerBiConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.DroolsAbstractConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.RuleBuilder;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.quad.DroolsGroupingQuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.tri.DroolsAbstractTriConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.tri.DroolsGroupingTriConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.tri.DroolsJoinTriConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsGroupingUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsMappingUniConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
 
 public abstract class DroolsAbstractBiConstraintStream<Solution_, A, B>
         extends DroolsAbstractConstraintStream<Solution_>

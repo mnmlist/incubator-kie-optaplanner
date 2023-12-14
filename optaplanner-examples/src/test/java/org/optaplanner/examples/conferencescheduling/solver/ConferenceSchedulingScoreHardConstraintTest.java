@@ -1,17 +1,17 @@
-package org.optaplanner.examples.conferencescheduling.solver;
+package com.sankuai.optaplanner.examples.conferencescheduling.solver;
 
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.ROOM_CONFLICT;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.ROOM_UNAVAILABLE_TIMESLOT;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_CONFLICT;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_PROHIBITED_ROOM_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_PROHIBITED_TIMESLOT_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_REQUIRED_ROOM_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_REQUIRED_TIMESLOT_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_UNAVAILABLE_TIMESLOT;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_PROHIBITED_ROOM_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_PROHIBITED_TIMESLOT_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_REQUIRED_ROOM_TAGS;
-import static org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_REQUIRED_TIMESLOT_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.ROOM_CONFLICT;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.ROOM_UNAVAILABLE_TIMESLOT;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_CONFLICT;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_PROHIBITED_ROOM_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_PROHIBITED_TIMESLOT_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_REQUIRED_ROOM_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_REQUIRED_TIMESLOT_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.SPEAKER_UNAVAILABLE_TIMESLOT;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_PROHIBITED_ROOM_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_PROHIBITED_TIMESLOT_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_REQUIRED_ROOM_TAGS;
+import static com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration.TALK_REQUIRED_TIMESLOT_TAGS;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -20,16 +20,16 @@ import java.util.HashSet;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.domain.Room;
-import org.optaplanner.examples.conferencescheduling.domain.Speaker;
-import org.optaplanner.examples.conferencescheduling.domain.Talk;
-import org.optaplanner.examples.conferencescheduling.domain.TalkType;
-import org.optaplanner.examples.conferencescheduling.domain.Timeslot;
-import org.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.examples.conferencescheduling.app.ConferenceSchedulingApp;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceConstraintConfiguration;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Room;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Speaker;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Talk;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.TalkType;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.Timeslot;
+import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 
 // TODO https://issues.redhat.com/browse/PLANNER-1335
 @Disabled("Temporarily disabled until ScoreVerifier.assertPenalty() exists to avoid unneeded refactor")

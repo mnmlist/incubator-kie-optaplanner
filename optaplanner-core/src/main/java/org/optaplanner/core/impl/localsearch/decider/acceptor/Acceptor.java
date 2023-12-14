@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.acceptor;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.acceptor;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
-import org.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
-import org.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.localsearch.decider.forager.LocalSearchForager;
+import com.sankuai.optaplanner.core.impl.localsearch.event.LocalSearchPhaseLifecycleListener;
+import com.sankuai.optaplanner.core.impl.localsearch.scope.LocalSearchMoveScope;
 
 /**
  * An Acceptor accepts or rejects a selected {@link Move}.

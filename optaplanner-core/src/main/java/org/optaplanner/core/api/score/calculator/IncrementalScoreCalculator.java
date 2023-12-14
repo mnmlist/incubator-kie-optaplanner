@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.calculator;
+package com.sankuai.optaplanner.core.api.score.calculator;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 /**
  * Used for incremental java {@link Score} calculation.

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.collection;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.collection;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.CachedListRandomIterator;
 
 public class ListValueRange<T> extends AbstractCountableValueRange<T> {
 

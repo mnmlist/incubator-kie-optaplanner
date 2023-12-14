@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.benchmark.impl.aggregator.swingui;
+package com.sankuai.optaplanner.benchmark.impl.aggregator.swingui;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

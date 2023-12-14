@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal;
+package com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendablebigdecimal;
 
 import java.math.BigDecimal;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
-import org.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablebigdecimal.BendableBigDecimalScore;
+import com.sankuai.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
 
 import com.thoughtworks.xstream.annotations.XStreamConverter;
 

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.ranking;
+package com.sankuai.optaplanner.benchmark.impl.ranking;
 
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCompareToOrder;
 
 import java.util.Comparator;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.score.buildin.simple.SimpleScoreDefinition;
 
 public class ResilientScoreComparatorTest {
 

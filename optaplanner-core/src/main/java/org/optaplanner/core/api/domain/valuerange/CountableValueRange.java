@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.valuerange;
+package com.sankuai.optaplanner.core.api.domain.valuerange;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
 
 /**
  * A {@link ValueRange} that is ending. Therefore, it has a discrete (as in non-continuous) range.

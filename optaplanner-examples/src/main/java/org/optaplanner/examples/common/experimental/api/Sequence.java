@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.api;
+package com.sankuai.optaplanner.examples.common.experimental.api;
 
 /**
  * A Sequence is a series of consecutive values. For instance,

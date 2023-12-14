@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.api.score.stream;
+package com.sankuai.optaplanner.test.api.score.stream;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdEntity;
-import org.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdSolution;
-import org.optaplanner.test.api.score.stream.testdata.TestdataConstraintProvider;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.planningid.TestdataStringPlanningIdSolution;
+import com.sankuai.optaplanner.test.api.score.stream.testdata.TestdataConstraintProvider;
 
 public class SingleConstraintAssertionTest {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.domain.util;
+package com.sankuai.optaplanner.examples.investment.domain.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

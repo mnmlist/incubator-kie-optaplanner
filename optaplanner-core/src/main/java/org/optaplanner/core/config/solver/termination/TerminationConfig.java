@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver.termination;
+package com.sankuai.optaplanner.core.config.solver.termination;
 
 import java.time.Duration;
 import java.util.List;
@@ -24,10 +24,10 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.io.jaxb.adapter.JaxbDurationAdapter;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.io.jaxb.adapter.JaxbDurationAdapter;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 @XmlType(propOrder = {
         "terminationClass",

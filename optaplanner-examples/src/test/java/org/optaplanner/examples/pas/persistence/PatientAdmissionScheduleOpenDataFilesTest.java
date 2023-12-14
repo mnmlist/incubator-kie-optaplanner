@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.persistence;
+package com.sankuai.optaplanner.examples.pas.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
 
 public class PatientAdmissionScheduleOpenDataFilesTest extends OpenDataFilesTest<PatientAdmissionSchedule> {
 

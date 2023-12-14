@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.localsearch.decider.forager;
+package com.sankuai.optaplanner.core.impl.localsearch.decider.forager;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
-import org.optaplanner.core.config.localsearch.decider.forager.FinalistPodiumType;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
-import org.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.FinalistPodiumType;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchForagerConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.forager.LocalSearchPickEarlyType;
 
 public class LocalSearchForagerFactory<Solution_> {
 

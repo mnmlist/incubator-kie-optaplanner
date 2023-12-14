@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.supply;
+package com.sankuai.optaplanner.core.impl.domain.variable.supply;
 
 /**
  * Supplies something for 1 or multiple subsystems.

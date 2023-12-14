@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
 
 @PlanningEntity
 public interface Standstill {

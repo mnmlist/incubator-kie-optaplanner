@@ -1,4 +1,4 @@
-package org.optaplanner.core.impl.domain.solution.cloner.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner.gizmo;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -27,10 +27,10 @@ import java.util.TreeSet;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
-import org.optaplanner.core.impl.domain.solution.cloner.DeepCloningUtils;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo.GizmoMemberDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.solution.cloner.DeepCloningUtils;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
 
 import io.quarkus.gizmo.AssignableResultHandle;
 import io.quarkus.gizmo.BranchResult;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.api.domain.common;
+package com.sankuai.optaplanner.core.api.domain.common;
 
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
 
 /**
  * Determines how members (fields and methods) of the domain (for example the {@link PlanningVariable planner variable})

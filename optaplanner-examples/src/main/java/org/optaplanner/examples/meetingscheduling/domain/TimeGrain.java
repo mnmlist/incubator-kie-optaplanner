@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.domain;
+package com.sankuai.optaplanner.examples.meetingscheduling.domain;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
 
 public class TimeGrain extends AbstractPersistable implements Labeled {
 

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.primint;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.primint;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
 
 public class IntValueRange extends AbstractCountableValueRange<Integer> {
 

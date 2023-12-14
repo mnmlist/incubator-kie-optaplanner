@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.domain.solver;
+package com.sankuai.optaplanner.examples.cloudbalancing.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
 
 public class CloudProcessDifficultyComparator implements Comparator<CloudProcess> {
 

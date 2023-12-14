@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.bestscore;
+package com.sankuai.optaplanner.benchmark.impl.statistic.bestscore;
 
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public class BestScoreStatisticPoint extends StatisticPoint {
 

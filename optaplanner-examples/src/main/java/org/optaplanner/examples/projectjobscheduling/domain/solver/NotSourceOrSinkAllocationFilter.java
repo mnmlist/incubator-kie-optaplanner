@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain.solver;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain.solver;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.JobType;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.JobType;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
 
 public class NotSourceOrSinkAllocationFilter implements PinningFilter<Schedule, Allocation> {
 

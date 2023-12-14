@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
+package com.sankuai.optaplanner.benchmark.impl.statistic.bestsolutionmutation;
 
 import java.awt.BasicStroke;
 import java.io.File;
@@ -31,14 +31,14 @@ import org.jfree.chart.renderer.xy.XYItemRenderer;
 import org.jfree.chart.renderer.xy.YIntervalRenderer;
 import org.jfree.data.xy.XYIntervalSeries;
 import org.jfree.data.xy.XYIntervalSeriesCollection;
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
 
 public class BestSolutionMutationProblemStatistic extends ProblemStatistic {
 

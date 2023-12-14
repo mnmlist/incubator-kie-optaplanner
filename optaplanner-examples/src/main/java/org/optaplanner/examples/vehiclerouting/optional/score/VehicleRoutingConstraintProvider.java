@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.optional.score;
+package com.sankuai.optaplanner.examples.vehiclerouting.optional.score;
 
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.sum;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
 
 public class VehicleRoutingConstraintProvider implements ConstraintProvider {
 

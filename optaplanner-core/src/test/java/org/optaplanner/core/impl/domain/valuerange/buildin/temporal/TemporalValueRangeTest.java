@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.domain.valuerange.buildin.temporal;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.temporal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -22,8 +22,8 @@ import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllElementsOfIterator;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertElementsOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllElementsOfIterator;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertElementsOfIterator;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

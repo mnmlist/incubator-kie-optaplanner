@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.measurement;
+package com.sankuai.optaplanner.benchmark.impl.measurement;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
 import static org.assertj.core.data.Offset.offset;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
 
 public class ScoreDifferencePercentageTest {
 

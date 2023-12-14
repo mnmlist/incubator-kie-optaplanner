@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.util;
+package com.sankuai.optaplanner.core.config.util;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -30,7 +30,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
 
 public class ConfigUtilsTest {
 

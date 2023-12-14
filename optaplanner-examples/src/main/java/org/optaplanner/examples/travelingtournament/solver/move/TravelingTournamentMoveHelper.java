@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.solver.move;
+package com.sankuai.optaplanner.examples.travelingtournament.solver.move;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Match;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
 
 public class TravelingTournamentMoveHelper {
 

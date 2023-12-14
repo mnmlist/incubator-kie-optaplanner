@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.score;
+package com.sankuai.optaplanner.examples.machinereassignment.score;
 
 public interface MrConstraints {
 

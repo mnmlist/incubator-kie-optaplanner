@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.xstream.api.score.buildin.bendablelong;
+package com.sankuai.optaplanner.persistence.xstream.api.score.buildin.bendablelong;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
-import org.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.persistence.xstream.api.score.AbstractScoreXStreamConverterTest;
 
 import com.thoughtworks.xstream.annotations.XStreamConverter;
 

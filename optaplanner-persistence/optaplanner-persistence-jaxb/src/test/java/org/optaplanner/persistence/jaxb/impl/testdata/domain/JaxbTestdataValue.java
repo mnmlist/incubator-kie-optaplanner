@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.impl.testdata.domain;
+package com.sankuai.optaplanner.persistence.jaxb.impl.testdata.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

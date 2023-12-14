@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.io.jaxb;
+package com.sankuai.optaplanner.core.impl.io.jaxb;
 
 public class ElementNamespaceOverride {
 

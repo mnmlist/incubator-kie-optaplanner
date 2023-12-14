@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;
 
 import java.time.Duration;
 import java.util.UUID;
@@ -22,7 +22,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * Represents a {@link PlanningSolution problem} that has been submitted to solve on the {@link SolverManager}.

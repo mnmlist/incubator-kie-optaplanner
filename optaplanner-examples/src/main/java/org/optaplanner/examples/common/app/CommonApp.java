@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import java.awt.Component;
 import java.io.File;
@@ -24,17 +24,17 @@ import java.util.function.BiConsumer;
 
 import javax.swing.WindowConstants;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.solver.DefaultSolverFactory;
-import org.optaplanner.examples.common.business.SolutionBusiness;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.swing.impl.SwingUncaughtExceptionHandler;
-import org.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.impl.solver.DefaultSolverFactory;
+import com.sankuai.optaplanner.examples.common.business.SolutionBusiness;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.SolverAndPersistenceFrame;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.swing.impl.SwingUncaughtExceptionHandler;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation
@@ -45,7 +45,7 @@ public abstract class CommonApp<Solution_> extends LoggingMain {
      * The path to the data directory, preferably with unix slashes for portability.
      * For example: -D{@value #DATA_DIR_SYSTEM_PROPERTY}=sources/data/
      */
-    public static final String DATA_DIR_SYSTEM_PROPERTY = "org.optaplanner.examples.dataDir";
+    public static final String DATA_DIR_SYSTEM_PROPERTY = "com.sankuai.optaplanner.examples.dataDir";
 
     public static File determineDataDir(String dataDirName) {
         String dataDirPath = System.getProperty(DATA_DIR_SYSTEM_PROPERTY, "data/");

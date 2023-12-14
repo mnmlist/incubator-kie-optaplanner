@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl;
+package com.sankuai.optaplanner.persistence.jpa.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -37,7 +37,7 @@ import javax.transaction.TransactionManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.kie.test.util.db.PersistenceUtil;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public abstract class AbstractScoreJpaTest {
 
@@ -47,7 +47,7 @@ public abstract class AbstractScoreJpaTest {
 
     @BeforeEach
     public void setUp() throws Exception {
-        context = PersistenceUtil.setupWithPoolingDataSource("org.optaplanner.persistence.jpa.test");
+        context = PersistenceUtil.setupWithPoolingDataSource("com.sankuai.optaplanner.persistence.jpa.test");
         entityManagerFactory = (EntityManagerFactory) context.get(PersistenceUtil.ENTITY_MANAGER_FACTORY);
         transactionManager = InitialContext.doLookup("java:comp/TransactionManager");
     }

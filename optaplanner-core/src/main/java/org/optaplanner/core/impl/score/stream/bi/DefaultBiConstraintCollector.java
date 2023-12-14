@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bi;
 
 import java.util.Collections;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
 
 public final class DefaultBiConstraintCollector<A, B, ResultContainer_, Result_>
         implements BiConstraintCollector<A, B, ResultContainer_, Result_> {

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.persistence;
+package com.sankuai.optaplanner.examples.nurserostering.persistence;
 
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 
 import org.jdom.Element;
-import org.optaplanner.examples.common.persistence.AbstractXmlSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.nurserostering.app.NurseRosteringApp;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.Shift;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractXmlSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.nurserostering.app.NurseRosteringApp;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Shift;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
 
 public class NurseRosteringExporter extends AbstractXmlSolutionExporter<NurseRoster> {
 

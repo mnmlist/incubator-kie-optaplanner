@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.valuerange;
+package com.sankuai.optaplanner.core.api.domain.valuerange;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -22,12 +22,12 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.AbstractUncountableValueRange;
-import org.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractUncountableValueRange;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.value.ValueSelector;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
 
 /**
  * A ValueRange is a set of a values for a {@link PlanningVariable}.

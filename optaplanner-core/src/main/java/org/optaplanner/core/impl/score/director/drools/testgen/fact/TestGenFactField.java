@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.fact;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
-import org.optaplanner.core.impl.domain.common.ReflectionHelper;
+import com.sankuai.optaplanner.core.impl.domain.common.ReflectionHelper;
 
 public class TestGenFactField implements Comparable<TestGenFactField> {
 

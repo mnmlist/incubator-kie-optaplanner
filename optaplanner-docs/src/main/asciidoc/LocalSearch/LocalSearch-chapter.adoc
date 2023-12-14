@@ -57,7 +57,7 @@ As shown above, Local Search solves the four queens problem by starting with the
 . _D0 to D2_
 . _A0 to A1_
 
-Turn on `debug` logging for the category `org.optaplanner` to show those steps in the log:
+Turn on `debug` logging for the category `com.sankuai.optaplanner` to show those steps in the log:
 
 [source,options="nowrap"]
 ----

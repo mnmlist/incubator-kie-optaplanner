@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.extended.thirdparty;
+package com.sankuai.optaplanner.core.impl.testdata.domain.extended.thirdparty;
 
 import java.util.List;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
 
 /**
  * This POJO does not depend on OptaPlanner:

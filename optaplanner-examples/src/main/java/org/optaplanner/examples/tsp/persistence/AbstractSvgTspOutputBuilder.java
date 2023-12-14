@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.examples.tsp.persistence;
+package com.sankuai.optaplanner.examples.tsp.persistence;
 
 import java.io.IOException;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.domain.Visit;
-import org.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
 
 /**
  * Common base for the SVG exporters with some helpers

@@ -265,7 +265,7 @@ Advanced configuration:
 ----
     <pillarChangeMoveSelector>
       <subPillarType>SEQUENCE</subPillarType>
-      <subPillarSequenceComparatorClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
+      <subPillarSequenceComparatorClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
       ... <!-- Normal selector properties -->
       <pillarSelector>
         <entitySelector>
@@ -308,7 +308,7 @@ Advanced configuration:
 ----
     <pillarSwapMoveSelector>
       <subPillarType>SEQUENCE</subPillarType>
-      <subPillarSequenceComparatorClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
+      <subPillarSequenceComparatorClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
       ... <!-- Normal selector properties -->
       <pillarSelector>
         <entitySelector>
@@ -384,7 +384,7 @@ An advanced configuration looks like this:
     <pillar...MoveSelector>
       ...
       <subPillarType>SEQUENCE</subPillarType>
-      <subPillarSequenceComparatorClass>org.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
+      <subPillarSequenceComparatorClass>com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignmentComparator</subPillarSequenceComparatorClass>
       <pillarSelector>
         ...
         <minimumSubPillarSize>1</minimumSubPillarSize>
@@ -607,7 +607,7 @@ To give each individual `Move` the same selection chance (as opposed to each ``M
 [source,xml,options="nowrap"]
 ----
     <unionMoveSelector>
-      <selectorProbabilityWeightFactoryClass>org.optaplanner.core.impl.heuristic.selector.common.decorator.FairSelectorProbabilityWeightFactory</selectorProbabilityWeightFactoryClass>
+      <selectorProbabilityWeightFactoryClass>com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.FairSelectorProbabilityWeightFactory</selectorProbabilityWeightFactoryClass>
       <changeMoveSelector/>
       <swapMoveSelector/>
     </unionMoveSelector>
@@ -674,7 +674,7 @@ Advanced configuration:
 ----
       <entitySelector>
         ... <!-- Normal selector properties -->
-        <entityClass>org.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
+        <entityClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
       </entitySelector>
 ----
 
@@ -962,7 +962,7 @@ Configure the `filterClass` on every targeted `moveSelector` (potentially both i
 [source,xml,options="nowrap"]
 ----
     <swapMoveSelector>
-      <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
+      <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
     </swapMoveSelector>
 ----
 
@@ -990,7 +990,7 @@ Configure the `filterClass` on every targeted `entitySelector` (potentially both
 ----
     <changeMoveSelector>
       <entitySelector>
-        <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.LongLectureSelectionFilter</filterClass>
+        <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.LongLectureSelectionFilter</filterClass>
       </entitySelector>
     </changeMoveSelector>
 ----
@@ -1020,7 +1020,7 @@ Configure the `filterClass` on every targeted `valueSelector` (potentially both 
 ----
     <changeMoveSelector>
       <valueSelector>
-        <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.LongPeriodSelectionFilter</filterClass>
+        <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.LongPeriodSelectionFilter</filterClass>
       </valueSelector>
     </changeMoveSelector>
 ----
@@ -1695,7 +1695,7 @@ Simple configuration (which can be nested in a `unionMoveSelector` just like any
 [source,xml,options="nowrap"]
 ----
     <moveListFactory>
-      <moveListFactoryClass>org.optaplanner.examples.cloudbalancing.optional.solver.move.CloudComputerChangeMoveFactory</moveListFactoryClass>
+      <moveListFactoryClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.solver.move.CloudComputerChangeMoveFactory</moveListFactoryClass>
     </moveListFactory>
 ----
 
@@ -1705,7 +1705,7 @@ Advanced configuration:
 ----
     <moveListFactory>
       ... <!-- Normal moveSelector properties -->
-      <moveListFactoryClass>org.optaplanner.examples.cloudbalancing.optional.solver.move.CloudComputerChangeMoveFactory</moveListFactoryClass>
+      <moveListFactoryClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.solver.move.CloudComputerChangeMoveFactory</moveListFactoryClass>
       <moveListFactoryCustomProperties>
         ...<!-- Custom properties -->
       </moveListFactoryCustomProperties>

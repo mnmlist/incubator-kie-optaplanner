@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.bendable;
+package com.sankuai.optaplanner.core.impl.score.buildin.bendable;
 
 import java.util.Arrays;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
-import org.optaplanner.core.impl.score.definition.AbstractBendableScoreDefinition;
-import org.optaplanner.core.impl.score.trend.InitializingScoreTrend;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.config.score.trend.InitializingScoreTrendLevel;
+import com.sankuai.optaplanner.core.impl.score.definition.AbstractBendableScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.trend.InitializingScoreTrend;
 
 public class BendableScoreDefinition extends AbstractBendableScoreDefinition<BendableScore> {
 

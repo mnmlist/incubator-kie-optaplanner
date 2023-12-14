@@ -6,15 +6,15 @@
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.travelingtournament.persistence.TravelingTournamentXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/travelingtournament/unsolved/1-nl14.xml</inputSolutionFile>
     </problemBenchmarks>
   </inheritedSolverBenchmark>
 
   <solverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
-      <entityClass>org.optaplanner.examples.travelingtournament.domain.Match</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.travelingtournament.domain.Match</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/travelingtournament/solver/travelingTournamentConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
@@ -26,12 +26,12 @@
           <swapMoveSelector>
             <cacheType>PHASE</cacheType>
             <selectionOrder>SHUFFLED</selectionOrder>
-            <filterClass>org.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
+            <filterClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.InverseMatchSwapMoveFilter</filterClass>
           </swapMoveSelector>
           <moveListFactory>
             <cacheType>STEP</cacheType>
             <selectionOrder>SHUFFLED</selectionOrder>
-            <moveListFactoryClass>org.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
+            <moveListFactoryClass>com.sankuai.optaplanner.examples.travelingtournament.solver.move.factory.MatchChainRotationsMoveFactory</moveListFactoryClass>
           </moveListFactory>
         </unionMoveSelector>
         <acceptor>

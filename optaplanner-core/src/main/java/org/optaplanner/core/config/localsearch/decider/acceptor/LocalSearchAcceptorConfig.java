@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.localsearch.decider.acceptor;
+package com.sankuai.optaplanner.core.config.localsearch.decider.acceptor;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -22,9 +22,9 @@ import java.util.function.Consumer;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.localsearch.decider.acceptor.stepcountinghillclimbing.StepCountingHillClimbingType;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 @XmlType(propOrder = {
         "acceptorTypeList",

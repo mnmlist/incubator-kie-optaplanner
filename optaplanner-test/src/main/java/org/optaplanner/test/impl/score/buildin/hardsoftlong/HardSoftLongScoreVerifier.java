@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.impl.score.buildin.hardsoftlong;
+package com.sankuai.optaplanner.test.impl.score.buildin.hardsoftlong;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.ConstraintStream;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
-import org.optaplanner.test.impl.score.AbstractScoreVerifier;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStream;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.test.impl.score.AbstractScoreVerifier;
 
 /**
  * To assert the constraints of a {@link SolverFactory}

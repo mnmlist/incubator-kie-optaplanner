@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.test.api.score.stream;
+package com.sankuai.optaplanner.test.api.score.stream;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
 
 public interface MultiConstraintAssertion {
 

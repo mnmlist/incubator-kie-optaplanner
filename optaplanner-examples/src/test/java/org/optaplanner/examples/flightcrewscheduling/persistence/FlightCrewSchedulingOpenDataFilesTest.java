@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.persistence;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
 
 public class FlightCrewSchedulingOpenDataFilesTest extends OpenDataFilesTest<FlightCrewSolution> {
 

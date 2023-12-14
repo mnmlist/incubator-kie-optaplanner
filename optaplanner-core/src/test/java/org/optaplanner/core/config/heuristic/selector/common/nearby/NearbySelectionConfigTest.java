@@ -1,21 +1,21 @@
-package org.optaplanner.core.config.heuristic.selector.common.nearby;
+package com.sankuai.optaplanner.core.config.heuristic.selector.common.nearby;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
-import static org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType.JUST_IN_TIME;
-import static org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType.STEP;
-import static org.optaplanner.core.config.heuristic.selector.common.SelectionOrder.ORIGINAL;
-import static org.optaplanner.core.config.heuristic.selector.common.SelectionOrder.SORTED;
+import static com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType.JUST_IN_TIME;
+import static com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType.STEP;
+import static com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder.ORIGINAL;
+import static com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder.SORTED;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.BetaDistributionNearbyRandom;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.BlockDistributionNearbyRandom;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.LinearDistributionNearbyRandom;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandomFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.ParabolicDistributionNearbyRandom;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.BetaDistributionNearbyRandom;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.BlockDistributionNearbyRandom;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.LinearDistributionNearbyRandom;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyRandomFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.ParabolicDistributionNearbyRandom;
 
 public class NearbySelectionConfigTest {
 

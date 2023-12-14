@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.hardmediumsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.hardmediumsoftbigdecimal;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftbigdecimal.HardMediumSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
 
 /**
  * {@inheritDoc}

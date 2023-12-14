@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.bi;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
 
 public final class BavetFilterBiTuple<A, B> extends BavetAbstractBiTuple<A, B> {
 

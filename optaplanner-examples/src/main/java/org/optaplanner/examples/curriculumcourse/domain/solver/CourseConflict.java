@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.domain.solver;
+package com.sankuai.optaplanner.examples.curriculumcourse.domain.solver;
 
 import java.util.Comparator;
 import java.util.Objects;
 
-import org.optaplanner.examples.curriculumcourse.domain.Course;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Course;
 
 /**
  * Calculated during initialization, not modified during score calculation.

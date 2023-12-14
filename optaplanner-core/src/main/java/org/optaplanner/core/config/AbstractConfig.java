@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config;
+package com.sankuai.optaplanner.core.config;
 
 import java.util.function.Consumer;
 

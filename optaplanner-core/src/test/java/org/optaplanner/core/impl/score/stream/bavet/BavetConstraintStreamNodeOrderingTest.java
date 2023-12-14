@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,25 +26,25 @@ import java.util.function.Function;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirector;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBridgeBiNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetNode;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
-import org.optaplanner.core.impl.score.stream.bavet.tri.BavetScoringTriNode;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetAbstractUniNode;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFilterUniNode;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniNode;
-import org.optaplanner.core.impl.score.stream.bavet.uni.BavetJoinBridgeUniNode;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValueGroup;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBridgeBiNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetScoringNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.tri.BavetScoringTriNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetAbstractUniNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFilterUniNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetFromUniNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.uni.BavetJoinBridgeUniNode;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishValueGroup;
 
 public class BavetConstraintStreamNodeOrderingTest {
 

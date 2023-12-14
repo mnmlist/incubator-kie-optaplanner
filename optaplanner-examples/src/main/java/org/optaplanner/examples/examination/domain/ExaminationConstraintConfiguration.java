@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain;
+package com.sankuai.optaplanner.examples.examination.domain;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 
@@ -29,7 +29,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
  * <p>
  * Each {@link Examination} has only 1 instance of this class.
  */
-@ConstraintConfiguration(constraintPackage = "org.optaplanner.examples.examination.solver")
+@ConstraintConfiguration(constraintPackage = "com.sankuai.optaplanner.examples.examination.solver")
 @XStreamAlias("ExaminationConstraintConfiguration")
 public class ExaminationConstraintConfiguration extends AbstractPersistable {
     // Hard constraints

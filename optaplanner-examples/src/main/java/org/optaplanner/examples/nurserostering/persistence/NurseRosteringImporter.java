@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.persistence;
+package com.sankuai.optaplanner.examples.nurserostering.persistence;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 
@@ -33,35 +33,35 @@ import org.apache.commons.lang3.tuple.Pair;
 import org.jdom.DataConversionException;
 import org.jdom.Element;
 import org.jdom.JDOMException;
-import org.optaplanner.examples.common.persistence.AbstractXmlSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.nurserostering.app.NurseRosteringApp;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
-import org.optaplanner.examples.nurserostering.domain.Shift;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
-import org.optaplanner.examples.nurserostering.domain.ShiftType;
-import org.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
-import org.optaplanner.examples.nurserostering.domain.Skill;
-import org.optaplanner.examples.nurserostering.domain.SkillProficiency;
-import org.optaplanner.examples.nurserostering.domain.WeekendDefinition;
-import org.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
-import org.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
-import org.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.Pattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.WorkBeforeFreeSequencePattern;
-import org.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractXmlSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.nurserostering.app.NurseRosteringApp;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Shift;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Skill;
+import com.sankuai.optaplanner.examples.nurserostering.domain.SkillProficiency;
+import com.sankuai.optaplanner.examples.nurserostering.domain.WeekendDefinition;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.Pattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.WorkBeforeFreeSequencePattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
 
 public class NurseRosteringImporter extends AbstractXmlSolutionImporter<NurseRoster> {
 

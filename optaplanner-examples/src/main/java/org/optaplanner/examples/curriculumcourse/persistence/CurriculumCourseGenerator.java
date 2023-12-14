@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.persistence;
+package com.sankuai.optaplanner.examples.curriculumcourse.persistence;
 
-import static org.optaplanner.examples.common.persistence.AbstractSolutionImporter.getFlooredPossibleSolutionSize;
+import static com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter.getFlooredPossibleSolutionSize;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -29,22 +29,22 @@ import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.generator.StringDataGenerator;
-import org.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
-import org.optaplanner.examples.curriculumcourse.domain.Course;
-import org.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
-import org.optaplanner.examples.curriculumcourse.domain.Curriculum;
-import org.optaplanner.examples.curriculumcourse.domain.Day;
-import org.optaplanner.examples.curriculumcourse.domain.Lecture;
-import org.optaplanner.examples.curriculumcourse.domain.Period;
-import org.optaplanner.examples.curriculumcourse.domain.Room;
-import org.optaplanner.examples.curriculumcourse.domain.Teacher;
-import org.optaplanner.examples.curriculumcourse.domain.Timeslot;
-import org.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.generator.StringDataGenerator;
+import com.sankuai.optaplanner.examples.curriculumcourse.app.CurriculumCourseApp;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Course;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Curriculum;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Day;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Period;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Room;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Teacher;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.Timeslot;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.UnavailablePeriodPenalty;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class CurriculumCourseGenerator extends LoggingMain {
 

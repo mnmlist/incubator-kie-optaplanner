@@ -22,4 +22,4 @@
  * <a href="https://www.optaplanner.org/download/upgradeRecipe/">the upgrade recipe</a>
  * will clearly document those cases.
  */
-package org.optaplanner.benchmark.api;
+package com.sankuai.optaplanner.benchmark.api;

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.swingui;
+package com.sankuai.optaplanner.examples.pas.swingui;
 
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP1;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP2;
-import static org.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP1;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderColumnKey.HEADER_COLUMN_GROUP2;
+import static com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel.HeaderRowKey.HEADER_ROW;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -41,23 +41,23 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
-import org.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
-import org.optaplanner.examples.pas.domain.AdmissionPart;
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.Department;
-import org.optaplanner.examples.pas.domain.Gender;
-import org.optaplanner.examples.pas.domain.GenderLimitation;
-import org.optaplanner.examples.pas.domain.Night;
-import org.optaplanner.examples.pas.domain.Patient;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.domain.RequiredPatientEquipment;
-import org.optaplanner.examples.pas.domain.Room;
-import org.optaplanner.examples.pas.domain.RoomEquipment;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.common.swingui.components.LabeledComboBoxRenderer;
+import com.sankuai.optaplanner.examples.common.swingui.timetable.TimeTablePanel;
+import com.sankuai.optaplanner.examples.pas.domain.AdmissionPart;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.Department;
+import com.sankuai.optaplanner.examples.pas.domain.Gender;
+import com.sankuai.optaplanner.examples.pas.domain.GenderLimitation;
+import com.sankuai.optaplanner.examples.pas.domain.Night;
+import com.sankuai.optaplanner.examples.pas.domain.Patient;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.domain.RequiredPatientEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.Room;
+import com.sankuai.optaplanner.examples.pas.domain.RoomEquipment;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class PatientAdmissionSchedulePanel extends SolutionPanel<PatientAdmissionSchedule> {
 

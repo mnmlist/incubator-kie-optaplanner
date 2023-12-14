@@ -5,12 +5,12 @@
   <!--<moveThreadCount>AUTO</moveThreadCount>--><!-- To solve faster by saturating multiple CPU cores -->
 
   <!-- Domain model configuration -->
-  <solutionClass>org.optaplanner.examples.tennis.domain.TennisSolution</solutionClass>
-  <entityClass>org.optaplanner.examples.tennis.domain.TeamAssignment</entityClass>
+  <solutionClass>com.sankuai.optaplanner.examples.tennis.domain.TennisSolution</solutionClass>
+  <entityClass>com.sankuai.optaplanner.examples.tennis.domain.TeamAssignment</entityClass>
 
   <!-- Score configuration -->
   <scoreDirectorFactory>
-    <!--<constraintProviderClass>org.optaplanner.examples.tennis.optional.score.TennisConstraintProvider</constraintProviderClass>-->
+    <!--<constraintProviderClass>com.sankuai.optaplanner.examples.tennis.optional.score.TennisConstraintProvider</constraintProviderClass>-->
     <scoreDrl>org/optaplanner/examples/tennis/solver/tennisConstraints.drl</scoreDrl>
     <!--<assertionScoreDirectorFactory>-->
       <!--<scoreDrl>org/optaplanner/examples/tennis/solver/tennisConstraints.drl</scoreDrl>-->

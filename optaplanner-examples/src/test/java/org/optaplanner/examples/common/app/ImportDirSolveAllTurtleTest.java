@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.examples.common.business.ProblemFileComparator;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.examples.common.business.ProblemFileComparator;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

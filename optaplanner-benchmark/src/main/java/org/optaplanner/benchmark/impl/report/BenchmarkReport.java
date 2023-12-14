@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.report;
+package com.sankuai.optaplanner.benchmark.impl.report;
 
 import static java.lang.Double.isFinite;
 
@@ -59,18 +59,18 @@ import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 import org.jfree.data.xy.XYDataItem;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.ProblemStatistic;
-import org.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
-import org.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.core.impl.score.ScoreUtils;
+import com.sankuai.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.ProblemStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.PureSubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
+import com.sankuai.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.impl.score.ScoreUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -343,7 +343,7 @@ public class BenchmarkReport {
         }
         String loggingLevelOptaPlannerCore = plannerBenchmarkResult.getLoggingLevelOptaPlannerCore();
         if (loggingLevelOptaPlannerCore != null && loggingLevelOptaPlannerCore.equals("trace")) {
-            warningList.add("The loggingLevel (" + loggingLevelOptaPlannerCore + ") of org.optaplanner.core is high."
+            warningList.add("The loggingLevel (" + loggingLevelOptaPlannerCore + ") of com.sankuai.optaplanner.core is high."
                     + " This decreases performance."
                     + " Maybe set the loggingLevel to debug or lower.");
         }

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.cli;
+package com.sankuai.optaplanner.benchmark.impl.cli;
 
 import java.io.File;
 
-import org.optaplanner.benchmark.api.PlannerBenchmark;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmark;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
 
 /**
  * Run this class from the command line interface

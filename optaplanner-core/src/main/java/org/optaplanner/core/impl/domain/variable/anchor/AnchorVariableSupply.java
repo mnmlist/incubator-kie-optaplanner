@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.anchor;
+package com.sankuai.optaplanner.core.impl.domain.variable.anchor;
 
-import org.optaplanner.core.impl.domain.variable.supply.Supply;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Supply;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 /**
  * Only supported for chained variables.

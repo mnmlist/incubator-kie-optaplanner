@@ -15,6 +15,6 @@
  */
 
 /**
- * {@link org.optaplanner.core.api.solver.Solver}, {@link org.optaplanner.core.api.solver.SolverFactory}, ...
+ * {@link com.sankuai.optaplanner.core.api.solver.Solver}, {@link com.sankuai.optaplanner.core.api.solver.SolverFactory}, ...
  */
-package org.optaplanner.core.api.solver;
+package com.sankuai.optaplanner.core.api.solver;

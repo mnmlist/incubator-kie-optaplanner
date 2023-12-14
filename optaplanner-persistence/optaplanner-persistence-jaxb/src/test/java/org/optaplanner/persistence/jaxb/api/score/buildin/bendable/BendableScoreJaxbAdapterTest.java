@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.bendable;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.bendable;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapterTest;
 
 public class BendableScoreJaxbAdapterTest extends AbstractScoreJaxbAdapterTest {
 

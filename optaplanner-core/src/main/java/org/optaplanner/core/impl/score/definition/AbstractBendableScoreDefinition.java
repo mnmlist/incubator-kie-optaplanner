@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.definition;
+package com.sankuai.optaplanner.core.impl.score.definition;
 
-import org.optaplanner.core.api.score.AbstractBendableScore;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.AbstractBendableScore;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public abstract class AbstractBendableScoreDefinition<Score_ extends Score<Score_>> extends AbstractScoreDefinition<Score_>
         implements ScoreDefinition<Score_> {

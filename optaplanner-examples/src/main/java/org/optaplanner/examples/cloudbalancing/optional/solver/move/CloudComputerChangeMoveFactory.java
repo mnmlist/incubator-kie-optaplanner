@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.optional.solver.move;
+package com.sankuai.optaplanner.examples.cloudbalancing.optional.solver.move;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
 
 public class CloudComputerChangeMoveFactory implements MoveListFactory<CloudBalance> {
 

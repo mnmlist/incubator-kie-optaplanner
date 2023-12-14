@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.quad;
 
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.MIXED;
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.PENALTY;
-import static org.optaplanner.core.impl.score.stream.common.ScoreImpactType.REWARD;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.MIXED;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.PENALTY;
+import static com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType.REWARD;
 
 import java.math.BigDecimal;
 
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.ToIntQuadFunction;
-import org.optaplanner.core.api.function.ToLongQuadFunction;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToIntQuadFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongQuadFunction;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public interface InnerQuadConstraintStream<A, B, C, D> extends QuadConstraintStream<A, B, C, D> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver.termination;
+package com.sankuai.optaplanner.core.config.solver.termination;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

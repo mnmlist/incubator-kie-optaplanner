@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure;
+package com.sankuai.optaplanner.spring.boot.autoconfigure;
 
 import java.time.Duration;
 

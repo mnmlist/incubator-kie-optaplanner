@@ -4,9 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.optaplanner</groupId>
+    <groupId>com.sankuai.optaplanner</groupId>
     <artifactId>optaplanner-spring-integration</artifactId>
-    <version>8.8.0.Final-v1</version>
+    <version>8.8.0.Final-v2</version>
   </parent>
 
   <artifactId>optaplanner-spring-boot-autoconfigure</artifactId>
@@ -22,33 +22,33 @@
   <url>https://www.optaplanner.org</url>
 
   <properties>
-    <java.module.name>org.optaplanner.spring.boot.autoconfigure</java.module.name>
+    <java.module.name>com.sankuai.optaplanner.spring.boot.autoconfigure</java.module.name>
   </properties>
 
   <dependencies>
     <!-- Internal dependencies -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
       <optional>true</optional>
     </dependency>
 
     <!-- Need this so we can @Autowire ConstraintVerifier -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-test</artifactId>
       <optional>true</optional>
     </dependency>
 
     <!-- Need this so we can @Autowire Benchmark -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-benchmark</artifactId>
       <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-jackson</artifactId>
       <optional>true</optional>
     </dependency>

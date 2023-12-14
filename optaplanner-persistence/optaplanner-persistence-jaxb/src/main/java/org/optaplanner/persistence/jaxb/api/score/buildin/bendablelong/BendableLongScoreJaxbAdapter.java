@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score.buildin.bendablelong;
+package com.sankuai.optaplanner.persistence.jaxb.api.score.buildin.bendablelong;
 
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
-import org.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.persistence.jaxb.api.score.AbstractScoreJaxbAdapter;
 
 /**
  * {@inheritDoc}

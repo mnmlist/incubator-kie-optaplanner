@@ -22,8 +22,8 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
-      <entityClass>org.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess</entityClass>
       <scoreDirectorFactory>
         <initializingScoreTrend>ONLY_DOWN/ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
@@ -32,7 +32,7 @@
       </termination>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalanceXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/cloudbalancing/unsolved/100computers-300processes.xml</inputSolutionFile>
       <inputSolutionFile>data/cloudbalancing/unsolved/200computers-600processes.xml</inputSolutionFile>
       <inputSolutionFile>data/cloudbalancing/unsolved/400computers-1200processes.xml</inputSolutionFile>
@@ -44,7 +44,7 @@
     <name>Easy java (basic)</name>
     <solver>
       <scoreDirectorFactory>
-        <easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>
+        <easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>
@@ -52,7 +52,7 @@
     <name>Easy java (advanced)</name>
     <solver>
       <scoreDirectorFactory>
-        <easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>
+        <easyScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingMapBasedEasyScoreCalculator</easyScoreCalculatorClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>
@@ -60,7 +60,7 @@
     <name>Incremental java</name>
     <solver>
       <scoreDirectorFactory>
-        <incrementalScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
+        <incrementalScoreCalculatorClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingIncrementalScoreCalculator</incrementalScoreCalculatorClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>
@@ -68,7 +68,7 @@
     <name>ConstraintStreams (Drools)</name>
     <solver>
       <scoreDirectorFactory>
-        <constraintProviderClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>
+        <constraintProviderClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>
@@ -78,7 +78,7 @@
     <solver>
       <scoreDirectorFactory>
         <constraintStreamImplType>BAVET</constraintStreamImplType>
-        <constraintProviderClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>
+        <constraintProviderClass>com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>
       </scoreDirectorFactory>
     </solver>
   </solverBenchmark>

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain.solver;
+package com.sankuai.optaplanner.examples.taskassigning.domain.solver;
 
 import java.util.Objects;
 
-import org.optaplanner.core.api.domain.variable.VariableListener;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
+import com.sankuai.optaplanner.core.api.domain.variable.VariableListener;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskOrEmployee;
 
 public class StartTimeUpdatingVariableListener implements VariableListener<TaskAssigningSolution, Task> {
 

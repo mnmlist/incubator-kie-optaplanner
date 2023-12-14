@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
@@ -22,20 +22,20 @@ import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.multientity.TestdataHerdEntity;
-import org.optaplanner.core.impl.testdata.domain.multientity.TestdataLeadEntity;
-import org.optaplanner.core.impl.testdata.domain.multientity.TestdataMultiEntitySolution;
-import org.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SwapMoveSelectorConfig;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactoryTest;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite.UnionMoveSelector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multientity.TestdataHerdEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multientity.TestdataLeadEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multientity.TestdataMultiEntitySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.multivar.TestdataMultiVarSolution;
 
 class SwapMoveSelectorFactoryTest extends AbstractSelectorFactoryTest {
 

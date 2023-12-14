@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jaxb.api.score;
+package com.sankuai.optaplanner.persistence.jaxb.api.score;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
@@ -29,7 +29,7 @@ import javax.xml.bind.Unmarshaller;
 
 import org.eclipse.persistence.jaxb.MarshallerProperties;
 import org.eclipse.persistence.jaxb.UnmarshallerProperties;
-import org.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.Score;
 
 public abstract class AbstractScoreJaxbAdapterTest {
 

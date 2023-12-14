@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.report;
+package com.sankuai.optaplanner.benchmark.impl.report;
 
 import org.apache.commons.lang3.StringUtils;
 

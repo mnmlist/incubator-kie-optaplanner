@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.value;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.value;
 
-import org.optaplanner.core.impl.heuristic.selector.IterableSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.IterableSelector;
 
 /**
  * @see FromSolutionPropertyValueSelector

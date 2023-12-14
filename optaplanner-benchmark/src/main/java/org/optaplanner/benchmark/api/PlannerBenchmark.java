@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.api;
+package com.sankuai.optaplanner.benchmark.api;
 
 import java.io.File;
 

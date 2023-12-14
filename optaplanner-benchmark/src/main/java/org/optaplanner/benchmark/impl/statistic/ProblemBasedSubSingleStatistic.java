@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic;
+package com.sankuai.optaplanner.benchmark.impl.statistic;
 
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.result.SubSingleBenchmarkResult;
 
 public abstract class ProblemBasedSubSingleStatistic<Solution_, StatisticPoint_ extends StatisticPoint>
         extends SubSingleStatistic<Solution_, StatisticPoint_> {

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.domain.solver.nearby;
+package com.sankuai.optaplanner.examples.tsp.domain.solver.nearby;
 
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
-import org.optaplanner.examples.tsp.domain.Standstill;
-import org.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
+import com.sankuai.optaplanner.examples.tsp.domain.Standstill;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
 
 public class VisitNearbyDistanceMeter implements NearbyDistanceMeter<Visit, Standstill> {
 

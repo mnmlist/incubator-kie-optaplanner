@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.app;
+package com.sankuai.optaplanner.examples.conferencescheduling.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
-import org.optaplanner.examples.conferencescheduling.swingui.ConferenceCFPImportAction;
-import org.optaplanner.examples.conferencescheduling.swingui.ConferenceSchedulingPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingXlsxFileIO;
+import com.sankuai.optaplanner.examples.conferencescheduling.swingui.ConferenceCFPImportAction;
+import com.sankuai.optaplanner.examples.conferencescheduling.swingui.ConferenceSchedulingPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class ConferenceSchedulingApp extends CommonApp<ConferenceSolution> {
 

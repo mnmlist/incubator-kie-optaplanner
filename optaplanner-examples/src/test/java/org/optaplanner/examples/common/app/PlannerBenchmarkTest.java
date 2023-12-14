@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import java.io.File;
 import java.util.Collections;
 
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.benchmark.config.SolverBenchmarkConfig;
-import org.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintConfig;
-import org.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintType;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.solver.termination.TerminationConfig;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.SolverBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintConfig;
+import com.sankuai.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintType;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.termination.TerminationConfig;
 
 /**
  * Runs an example solver.

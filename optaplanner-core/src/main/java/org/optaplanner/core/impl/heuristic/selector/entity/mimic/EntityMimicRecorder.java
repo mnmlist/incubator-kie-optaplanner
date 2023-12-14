@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.mimic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.mimic;
 
 import java.util.Iterator;
 
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
 
 public interface EntityMimicRecorder<Solution_> {
 

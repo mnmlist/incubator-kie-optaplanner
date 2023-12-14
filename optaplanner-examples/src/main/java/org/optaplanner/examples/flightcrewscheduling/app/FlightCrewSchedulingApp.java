@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.app;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
-import org.optaplanner.examples.flightcrewscheduling.persistence.FlightCrewSchedulingXlsxFileIO;
-import org.optaplanner.examples.flightcrewscheduling.swingui.FlightCrewSchedulingPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.persistence.FlightCrewSchedulingXlsxFileIO;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.swingui.FlightCrewSchedulingPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class FlightCrewSchedulingApp extends CommonApp<FlightCrewSolution> {
 

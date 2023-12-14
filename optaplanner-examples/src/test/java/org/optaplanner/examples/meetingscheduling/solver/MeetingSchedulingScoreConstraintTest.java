@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.solver;
+package com.sankuai.optaplanner.examples.meetingscheduling.solver;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
-import org.optaplanner.examples.meetingscheduling.domain.Attendance;
-import org.optaplanner.examples.meetingscheduling.domain.Day;
-import org.optaplanner.examples.meetingscheduling.domain.Meeting;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
-import org.optaplanner.examples.meetingscheduling.domain.Person;
-import org.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.Room;
-import org.optaplanner.examples.meetingscheduling.domain.TimeGrain;
-import org.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.examples.meetingscheduling.app.MeetingSchedulingApp;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Attendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Day;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Meeting;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingConstraintConfiguration;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Person;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
+import com.sankuai.optaplanner.test.impl.score.buildin.hardmediumsoft.HardMediumSoftScoreVerifier;
 
 public class MeetingSchedulingScoreConstraintTest {
 

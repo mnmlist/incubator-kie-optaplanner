@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.aggregator.swingui;
+package com.sankuai.optaplanner.benchmark.impl.aggregator.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -63,20 +63,20 @@ import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreePath;
 
 import org.apache.commons.lang3.StringUtils;
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.PlannerBenchmarkConfig;
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
-import org.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus;
-import org.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
-import org.optaplanner.benchmark.impl.result.BenchmarkResultIO;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
-import org.optaplanner.swing.impl.SwingUncaughtExceptionHandler;
-import org.optaplanner.swing.impl.SwingUtils;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.PlannerBenchmarkConfig;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.BenchmarkAggregator;
+import com.sankuai.optaplanner.benchmark.impl.aggregator.swingui.MixedCheckBox.MixedCheckBoxStatus;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReportFactory;
+import com.sankuai.optaplanner.benchmark.impl.result.BenchmarkResultIO;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.ProblemBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SingleBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.statistic.common.MillisecondsSpentNumberFormat;
+import com.sankuai.optaplanner.swing.impl.SwingUncaughtExceptionHandler;
+import com.sankuai.optaplanner.swing.impl.SwingUtils;
 
 public class BenchmarkAggregatorFrame extends JFrame {
 

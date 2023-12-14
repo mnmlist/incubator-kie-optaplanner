@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen.fact;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -26,10 +26,10 @@ import java.util.HashSet;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertyEntity;
-import org.optaplanner.core.impl.testdata.domain.testgen.TestdataGetterSetterTypeMismatch;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertyEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.testgen.TestdataGetterSetterTypeMismatch;
 
 public class TestGenValueFactTest {
 

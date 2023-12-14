@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.domain.lookup;
+package com.sankuai.optaplanner.core.api.domain.lookup;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * Determines how {@link ScoreDirector#lookUpWorkingObject(Object)} maps

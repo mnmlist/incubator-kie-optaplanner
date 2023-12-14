@@ -15,6 +15,6 @@
  */
 
 /**
- * Support for a {@link org.optaplanner.core.api.score.Score} with 2 score levels and {@code int} score weights.
+ * Support for a {@link com.sankuai.optaplanner.core.api.score.Score} with 2 score levels and {@code int} score weights.
  */
-package org.optaplanner.core.api.score.buildin.hardsoft;
+package com.sankuai.optaplanner.core.api.score.buildin.hardsoft;

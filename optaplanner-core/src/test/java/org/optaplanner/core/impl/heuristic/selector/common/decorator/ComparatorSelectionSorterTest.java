@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,8 +24,8 @@ import java.util.Comparator;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class ComparatorSelectionSorterTest {
 

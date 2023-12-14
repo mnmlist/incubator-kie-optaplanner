@@ -14,45 +14,45 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.solver;
+package com.sankuai.optaplanner.examples.nurserostering.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
 
 import java.time.DayOfWeek;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
-import org.optaplanner.examples.nurserostering.domain.Shift;
-import org.optaplanner.examples.nurserostering.domain.ShiftDate;
-import org.optaplanner.examples.nurserostering.domain.ShiftType;
-import org.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
-import org.optaplanner.examples.nurserostering.domain.Skill;
-import org.optaplanner.examples.nurserostering.domain.SkillProficiency;
-import org.optaplanner.examples.nurserostering.domain.WeekendDefinition;
-import org.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.Pattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
-import org.optaplanner.examples.nurserostering.domain.pattern.WorkBeforeFreeSequencePattern;
-import org.optaplanner.examples.nurserostering.domain.contract.Contract;
-import org.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
-import org.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
-import org.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
-import org.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
-import org.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveWeekendAssignmentEnd;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveWeekendAssignmentStart;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeFreeSequence;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeWeekendSequence;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeWorkSequence;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRosterParametrization;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Shift;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftDate;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftTypeSkillRequirement;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Skill;
+import com.sankuai.optaplanner.examples.nurserostering.domain.SkillProficiency;
+import com.sankuai.optaplanner.examples.nurserostering.domain.WeekendDefinition;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.FreeBefore2DaysWithAWorkDayPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.Pattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType2DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.ShiftType3DaysPattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.pattern.WorkBeforeFreeSequencePattern;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.Contract;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.BooleanContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.ContractLineType;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.MinMaxContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.contract.PatternContractLine;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.DayOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOffRequest;
+import com.sankuai.optaplanner.examples.nurserostering.domain.request.ShiftOnRequest;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentEnd;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveAssignmentStart;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveWeekendAssignmentEnd;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeConsecutiveWeekendAssignmentStart;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeFreeSequence;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeWeekendSequence;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeWorkSequence;
 
 global HardSoftScoreHolder scoreHolder;
 

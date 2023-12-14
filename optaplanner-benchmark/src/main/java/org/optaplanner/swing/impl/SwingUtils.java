@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.optaplanner.swing.impl;
+package com.sankuai.optaplanner.swing.impl;
 
-import static org.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_1;
-import static org.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_2;
-import static org.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_3;
-import static org.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_4;
-import static org.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_6;
-import static org.optaplanner.swing.impl.TangoColorFactory.BUTTER_1;
-import static org.optaplanner.swing.impl.TangoColorFactory.BUTTER_2;
-import static org.optaplanner.swing.impl.TangoColorFactory.CHAMELEON_1;
-import static org.optaplanner.swing.impl.TangoColorFactory.ORANGE_2;
-import static org.optaplanner.swing.impl.TangoColorFactory.SCARLET_2;
-import static org.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_1;
-import static org.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_2;
-import static org.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_3;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_1;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_2;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_3;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_4;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ALUMINIUM_6;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.BUTTER_1;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.BUTTER_2;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.CHAMELEON_1;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.ORANGE_2;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.SCARLET_2;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_1;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_2;
+import static com.sankuai.optaplanner.swing.impl.TangoColorFactory.SKY_BLUE_3;
 
 import java.awt.Color;
 import java.awt.Insets;

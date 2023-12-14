@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.testdata.util;
+package com.sankuai.optaplanner.core.impl.testdata.util;
 
 import java.util.ArrayList;
 import java.util.Collection;

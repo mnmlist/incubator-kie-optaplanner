@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.persistence;
+package com.sankuai.optaplanner.examples.vehiclerouting.persistence;
 
 import java.io.File;
 
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class VehicleRoutingFileIO implements SolutionFileIO<VehicleRoutingSolution> {
 

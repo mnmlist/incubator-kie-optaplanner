@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.domain;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.domain;
 
 import java.time.LocalDate;
 import java.util.Set;
 import java.util.SortedSet;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 @PlanningEntity
 public class Employee extends AbstractPersistable {

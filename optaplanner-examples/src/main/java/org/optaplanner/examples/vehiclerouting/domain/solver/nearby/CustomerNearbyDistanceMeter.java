@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.domain.solver.nearby;
+package com.sankuai.optaplanner.examples.vehiclerouting.domain.solver.nearby;
 
-import org.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Standstill;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.nearby.NearbyDistanceMeter;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill;
 
 public class CustomerNearbyDistanceMeter implements NearbyDistanceMeter<Customer, Standstill> {
 

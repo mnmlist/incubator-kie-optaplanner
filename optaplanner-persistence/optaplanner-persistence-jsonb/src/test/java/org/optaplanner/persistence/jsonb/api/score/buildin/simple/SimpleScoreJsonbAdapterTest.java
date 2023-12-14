@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.simple;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.simple;
 
 import javax.json.bind.annotation.JsonbTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
 
 public class SimpleScoreJsonbAdapterTest extends AbstractScoreJsonbAdapterTest {
 

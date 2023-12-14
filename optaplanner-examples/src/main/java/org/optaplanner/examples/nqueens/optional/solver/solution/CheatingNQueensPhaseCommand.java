@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional.solver.solution;
+package com.sankuai.optaplanner.examples.nqueens.optional.solver.solution;
 
 import java.util.List;
 
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
-import org.optaplanner.examples.nqueens.domain.Row;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.phase.custom.CustomPhaseCommand;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.examples.nqueens.domain.Row;
 
 /**
  * Because N Queens is not NP-complete or NP-hard, it can be cheated.

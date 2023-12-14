@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity.pillar;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
 import java.util.Comparator;
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
-import org.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
-import org.optaplanner.core.config.heuristic.selector.move.generic.SubPillarType;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.EntitySelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.PillarSelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.entity.pillar.SubPillarConfigPolicy;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.generic.SubPillarType;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelectorFactory;
 
 public class PillarSelectorFactory<Solution_>
         extends AbstractSelectorFactory<Solution_, PillarSelectorConfig> {

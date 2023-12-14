@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.valuerange.buildin.bigdecimal;
+package com.sankuai.optaplanner.core.impl.domain.valuerange.buildin.bigdecimal;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -22,9 +22,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
-import org.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
-import org.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
-import org.optaplanner.core.impl.solver.random.RandomUtils;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.AbstractCountableValueRange;
+import com.sankuai.optaplanner.core.impl.domain.valuerange.util.ValueRangeIterator;
+import com.sankuai.optaplanner.core.impl.solver.random.RandomUtils;
 
 public class BigDecimalValueRange extends AbstractCountableValueRange<BigDecimal> {
 

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.persistence;
+package com.sankuai.optaplanner.examples.cheaptime.persistence;
 
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class CheapTimeXmlSolutionFileIO extends XStreamSolutionFileIO<CheapTimeSolution> {
 

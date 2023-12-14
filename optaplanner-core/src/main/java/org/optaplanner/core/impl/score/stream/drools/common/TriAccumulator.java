@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import java.util.Objects;
 
@@ -23,8 +23,8 @@ import org.drools.core.common.InternalFactHandle;
 import org.drools.core.rule.Declaration;
 import org.drools.core.spi.Tuple;
 import org.drools.model.Variable;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
 
 final class TriAccumulator<A, B, C, ResultContainer_, Result_> extends AbstractAccumulator<ResultContainer_, Result_> {
 

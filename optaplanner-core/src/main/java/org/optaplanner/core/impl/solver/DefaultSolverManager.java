@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver;
+package com.sankuai.optaplanner.core.impl.solver;
 
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -26,13 +26,13 @@ import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.api.solver.SolverJob;
-import org.optaplanner.core.api.solver.SolverManager;
-import org.optaplanner.core.api.solver.SolverStatus;
-import org.optaplanner.core.config.solver.SolverManagerConfig;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.api.solver.SolverJob;
+import com.sankuai.optaplanner.core.api.solver.SolverManager;
+import com.sankuai.optaplanner.core.api.solver.SolverStatus;
+import com.sankuai.optaplanner.core.config.solver.SolverManagerConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

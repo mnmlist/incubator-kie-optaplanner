@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.drools.bi;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.bi;
 
-import org.optaplanner.core.api.score.stream.bi.BiJoiner;
-import org.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
-import org.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
-import org.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsConstraintFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.common.BiLeftHandSide;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.uni.DroolsAbstractUniConstraintStream;
 
 public final class DroolsJoinBiConstraintStream<Solution_, A, B>
         extends DroolsAbstractBiConstraintStream<Solution_, A, B> {

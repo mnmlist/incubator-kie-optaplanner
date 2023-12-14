@@ -1,4 +1,4 @@
-package org.optaplanner.core.impl.domain.common.accessor.gizmo;
+package com.sankuai.optaplanner.core.impl.domain.common.accessor.gizmo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatCode;
@@ -8,10 +8,10 @@ import java.util.function.Consumer;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.gizmo.GizmoTestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataVisibilityModifierSolution;
-import org.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.gizmo.GizmoTestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataVisibilityModifierSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
 
 import io.quarkus.gizmo.FieldDescriptor;
 import io.quarkus.gizmo.MethodDescriptor;

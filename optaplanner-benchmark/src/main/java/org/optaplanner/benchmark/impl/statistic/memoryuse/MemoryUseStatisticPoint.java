@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.statistic.memoryuse;
+package com.sankuai.optaplanner.benchmark.impl.statistic.memoryuse;
 
-import org.optaplanner.benchmark.impl.statistic.StatisticPoint;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticPoint;
 
 public class MemoryUseStatisticPoint extends StatisticPoint {
 

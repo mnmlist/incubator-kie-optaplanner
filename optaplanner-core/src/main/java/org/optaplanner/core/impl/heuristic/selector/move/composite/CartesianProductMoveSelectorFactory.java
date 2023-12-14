@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.composite;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.composite;
 
 import static org.apache.commons.lang3.ObjectUtils.defaultIfNull;
 
 import java.util.List;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.composite.CartesianProductMoveSelectorConfig;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
 
 public class CartesianProductMoveSelectorFactory<Solution_>
         extends AbstractCompositeMoveSelectorFactory<Solution_, CartesianProductMoveSelectorConfig> {

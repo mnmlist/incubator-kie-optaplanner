@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.persistence;
+package com.sankuai.optaplanner.examples.taskassigning.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.taskassigning.app.TaskAssigningApp;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.taskassigning.app.TaskAssigningApp;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
 
 public class TaskAssigningOpenDataFilesTest extends OpenDataFilesTest<TaskAssigningSolution> {
 

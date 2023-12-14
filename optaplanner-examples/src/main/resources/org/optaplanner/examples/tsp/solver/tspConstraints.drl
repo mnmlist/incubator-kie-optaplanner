@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.solver;
+package com.sankuai.optaplanner.examples.tsp.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.simplelong.SimpleLongScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.simplelong.SimpleLongScoreHolder;
 
-import org.optaplanner.examples.tsp.domain.location.Location;
-import org.optaplanner.examples.tsp.domain.Domicile;
-import org.optaplanner.examples.tsp.domain.Visit;
-import org.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.domain.location.Location;
+import com.sankuai.optaplanner.examples.tsp.domain.Domicile;
+import com.sankuai.optaplanner.examples.tsp.domain.Visit;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
 
 global SimpleLongScoreHolder scoreHolder;
 

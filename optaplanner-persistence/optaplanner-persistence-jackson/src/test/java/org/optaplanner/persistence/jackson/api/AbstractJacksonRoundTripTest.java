@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.api;
+package com.sankuai.optaplanner.persistence.jackson.api;
 
 import java.io.IOException;
 

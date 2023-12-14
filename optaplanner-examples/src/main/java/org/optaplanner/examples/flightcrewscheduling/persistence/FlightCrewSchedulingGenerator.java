@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.persistence;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.persistence;
 
 import static java.time.temporal.ChronoUnit.DAYS;
-import static org.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.extractRandomElement;
+import static com.sankuai.optaplanner.examples.common.persistence.generator.ProbabilisticDataGenerator.extractRandomElement;
 
 import java.io.File;
 import java.math.BigInteger;
@@ -35,20 +35,20 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.app.LoggingMain;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.common.persistence.generator.LocationDataGenerator;
-import org.optaplanner.examples.common.persistence.generator.StringDataGenerator;
-import org.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
-import org.optaplanner.examples.flightcrewscheduling.domain.Airport;
-import org.optaplanner.examples.flightcrewscheduling.domain.Employee;
-import org.optaplanner.examples.flightcrewscheduling.domain.Flight;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
-import org.optaplanner.examples.flightcrewscheduling.domain.Skill;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.app.LoggingMain;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.generator.LocationDataGenerator;
+import com.sankuai.optaplanner.examples.common.persistence.generator.StringDataGenerator;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Airport;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Employee;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Flight;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Skill;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class FlightCrewSchedulingGenerator extends LoggingMain {
 

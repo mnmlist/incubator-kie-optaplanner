@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.score;
+package com.sankuai.optaplanner.examples.cheaptime.score;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,25 +23,25 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
-import org.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
-import org.optaplanner.examples.cheaptime.domain.Machine;
-import org.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
-import org.optaplanner.examples.cheaptime.domain.Resource;
-import org.optaplanner.examples.cheaptime.domain.Task;
-import org.optaplanner.examples.cheaptime.domain.TaskAssignment;
-import org.optaplanner.examples.cheaptime.domain.TaskRequirement;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.ConstraintMatchAwareIncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
+import com.sankuai.optaplanner.examples.cheaptime.domain.CheapTimeSolution;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Machine;
+import com.sankuai.optaplanner.examples.cheaptime.domain.PeriodPowerPrice;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Resource;
+import com.sankuai.optaplanner.examples.cheaptime.domain.Task;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskAssignment;
+import com.sankuai.optaplanner.examples.cheaptime.domain.TaskRequirement;
 
 public class CheapTimeIncrementalScoreCalculator
         implements ConstraintMatchAwareIncrementalScoreCalculator<CheapTimeSolution, HardMediumSoftLongScore>,
         IncrementalScoreCalculator<CheapTimeSolution, HardMediumSoftLongScore> {
 
-    protected static final String CONSTRAINT_PACKAGE = "org.optaplanner.examples.cheaptime.solver";
+    protected static final String CONSTRAINT_PACKAGE = "com.sankuai.optaplanner.examples.cheaptime.solver";
 
     private CheapTimeSolution cheapTimeSolution;
 

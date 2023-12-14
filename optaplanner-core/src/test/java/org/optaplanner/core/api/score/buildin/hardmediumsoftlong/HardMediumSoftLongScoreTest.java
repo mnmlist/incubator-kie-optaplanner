@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.buildin.hardmediumsoftlong;
+package com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.AbstractScoreTest;
-import org.optaplanner.core.impl.testdata.util.PlannerAssert;
+import com.sankuai.optaplanner.core.api.score.buildin.AbstractScoreTest;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert;
 
 public class HardMediumSoftLongScoreTest extends AbstractScoreTest {
 

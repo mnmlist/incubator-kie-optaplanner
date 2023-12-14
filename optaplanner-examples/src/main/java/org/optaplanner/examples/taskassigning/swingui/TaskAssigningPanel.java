@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.swingui;
+package com.sankuai.optaplanner.examples.taskassigning.swingui;
 
-import static org.optaplanner.examples.taskassigning.persistence.TaskAssigningGenerator.BASE_DURATION_AVERAGE;
+import static com.sankuai.optaplanner.examples.taskassigning.persistence.TaskAssigningGenerator.BASE_DURATION_AVERAGE;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -34,12 +34,12 @@ import javax.swing.JToggleButton;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.Timer;
 
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.taskassigning.domain.Customer;
-import org.optaplanner.examples.taskassigning.domain.Priority;
-import org.optaplanner.examples.taskassigning.domain.Task;
-import org.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
-import org.optaplanner.examples.taskassigning.domain.TaskType;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Customer;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Priority;
+import com.sankuai.optaplanner.examples.taskassigning.domain.Task;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskAssigningSolution;
+import com.sankuai.optaplanner.examples.taskassigning.domain.TaskType;
 
 public class TaskAssigningPanel extends SolutionPanel<TaskAssigningSolution> {
 

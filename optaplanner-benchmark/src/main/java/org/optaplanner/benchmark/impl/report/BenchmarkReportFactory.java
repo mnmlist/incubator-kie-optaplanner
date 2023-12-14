@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.report;
+package com.sankuai.optaplanner.benchmark.impl.report;
 
 import java.time.ZoneId;
 import java.util.Comparator;
 
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
-import org.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
-import org.optaplanner.benchmark.impl.ranking.WorstScoreSolverRankingComparator;
-import org.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
-import org.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.ranking.SolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalRankSolverRankingWeightFactory;
+import com.sankuai.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.ranking.WorstScoreSolverRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.result.PlannerBenchmarkResult;
+import com.sankuai.optaplanner.benchmark.impl.result.SolverBenchmarkResult;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 public class BenchmarkReportFactory {
 

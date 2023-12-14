@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config;
+package com.sankuai.optaplanner.benchmark.config;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,12 +38,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.benchmark.api.PlannerBenchmarkFactory;
-import org.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintConfig;
-import org.optaplanner.benchmark.config.report.BenchmarkReportConfig;
-import org.optaplanner.benchmark.impl.io.PlannerBenchmarkConfigIO;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
+import com.sankuai.optaplanner.benchmark.api.PlannerBenchmarkFactory;
+import com.sankuai.optaplanner.benchmark.config.blueprint.SolverBenchmarkBluePrintConfig;
+import com.sankuai.optaplanner.benchmark.config.report.BenchmarkReportConfig;
+import com.sankuai.optaplanner.benchmark.impl.io.PlannerBenchmarkConfigIO;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.io.OptaPlannerXmlSerializationException;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

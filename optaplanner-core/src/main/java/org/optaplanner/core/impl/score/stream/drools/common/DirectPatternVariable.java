@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static org.drools.model.PatternDSL.betaIndexedBy;
 import static org.drools.model.PatternDSL.pattern;
@@ -39,14 +39,14 @@ import org.drools.model.functions.Predicate2;
 import org.drools.model.functions.Predicate3;
 import org.drools.model.functions.Predicate4;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
-import org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.impl.score.stream.bi.AbstractBiJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.quad.AbstractQuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
 
 /**
  * Represents a single variable with all of its patterns in the left hand side of a Drools rule.

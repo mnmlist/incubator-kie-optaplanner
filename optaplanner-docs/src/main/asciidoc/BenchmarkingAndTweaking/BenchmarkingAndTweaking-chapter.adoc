@@ -36,7 +36,7 @@ If you use Maven, add a dependency in your `pom.xml` file:
 [source,xml,options="nowrap"]
 ----
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-benchmark</artifactId>
     </dependency>
 ----
@@ -215,7 +215,7 @@ and use it in the benchmark configuration:
 [source,xml,options="nowrap"]
 ----
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nqueens/unsolved/32queens.xml</inputSolutionFile>
       ...
     </problemBenchmarks>
@@ -278,7 +278,7 @@ Then use it in the benchmark configuration like so:
 [source,xml,options="nowrap"]
 ----
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nqueens.persistence.NQueensJsonSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nqueens.persistence.NQueensJsonSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nqueens/unsolved/32queens.json</inputSolutionFile>
       ...
     </problemBenchmarks>
@@ -292,7 +292,7 @@ Implement your own `SolutionFileIO` implementation and configure it with the `so
 [source,xml,options="nowrap"]
 ----
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.machinereassignment.persistence.MachineReassignmentFileIO</solutionFileIOClass>
       <inputSolutionFile>data/machinereassignment/import/model_a1_1.txt</inputSolutionFile>
       ...
     </problemBenchmarks>
@@ -374,13 +374,13 @@ To quickly configure and run a benchmark for typical solver configs, use a `solv
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nqueens/unsolved/32queens.xml</inputSolutionFile>
       <inputSolutionFile>data/nqueens/unsolved/64queens.xml</inputSolutionFile>
     </problemBenchmarks>
     <solver>
-      <solutionClass>org.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
-      <entityClass>org.optaplanner.examples.nqueens.domain.Queen</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>

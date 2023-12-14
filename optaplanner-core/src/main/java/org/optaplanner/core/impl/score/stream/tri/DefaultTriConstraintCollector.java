@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
 import java.util.Collections;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
 
 public final class DefaultTriConstraintCollector<A, B, C, ResultContainer_, Result_>
         implements TriConstraintCollector<A, B, C, ResultContainer_, Result_> {

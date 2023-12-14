@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
-import org.optaplanner.examples.cloudbalancing.optional.benchmark.CloudBalancingBenchmarkApp;
-import org.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
-import org.optaplanner.examples.common.app.CommonBenchmarkApp;
+import com.sankuai.optaplanner.examples.cloudbalancing.optional.benchmark.CloudBalancingBenchmarkApp;
+import com.sankuai.optaplanner.examples.common.app.AbstractBenchmarkConfigTest;
+import com.sankuai.optaplanner.examples.common.app.CommonBenchmarkApp;
 
 public class CloudBalancingBenchmarkConfigTest extends AbstractBenchmarkConfigTest {
 

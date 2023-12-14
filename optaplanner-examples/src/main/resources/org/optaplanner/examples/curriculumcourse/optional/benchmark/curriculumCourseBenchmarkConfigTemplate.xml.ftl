@@ -5,7 +5,7 @@
 
   <inheritedSolverBenchmark>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.curriculumcourse.persistence.CurriculumCourseXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/curriculumcourse/unsolved/comp01.xml</inputSolutionFile>
       <inputSolutionFile>data/curriculumcourse/unsolved/comp02.xml</inputSolutionFile>
       <inputSolutionFile>data/curriculumcourse/unsolved/comp03.xml</inputSolutionFile>
@@ -23,8 +23,8 @@
     </problemBenchmarks>
 
     <solver>
-      <solutionClass>org.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
-      <entityClass>org.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.CourseSchedule</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.curriculumcourse.domain.Lecture</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/curriculumcourse/solver/curriculumCourseConstraints.drl</scoreDrl>
       </scoreDirectorFactory>
@@ -46,7 +46,7 @@
             <unionMoveSelector>
               <changeMoveSelector/>
               <swapMoveSelector>
-                <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
               </swapMoveSelector>
             </unionMoveSelector>
             <acceptor>
@@ -69,7 +69,7 @@
             <unionMoveSelector>
               <changeMoveSelector/>
               <swapMoveSelector>
-                <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
               </swapMoveSelector>
             </unionMoveSelector>
             <acceptor>
@@ -92,7 +92,7 @@
             <unionMoveSelector>
               <changeMoveSelector/>
               <swapMoveSelector>
-                <filterClass>org.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
+                <filterClass>com.sankuai.optaplanner.examples.curriculumcourse.solver.move.DifferentCourseSwapMoveFilter</filterClass>
               </swapMoveSelector>
             </unionMoveSelector>
             <acceptor>

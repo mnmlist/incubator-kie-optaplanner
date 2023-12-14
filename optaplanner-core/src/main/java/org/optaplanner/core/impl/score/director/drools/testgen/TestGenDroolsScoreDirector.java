@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import java.io.File;
 import java.util.ArrayDeque;
@@ -23,18 +23,18 @@ import java.util.List;
 import java.util.Map;
 
 import org.kie.api.runtime.KieSession;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.holder.ScoreHolder;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreException;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreReproducer;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedVariableListenerReproducer;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenDroolsExceptionReproducer;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.holder.ScoreHolder;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.VariableDescriptor;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreException;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedScoreReproducer;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenCorruptedVariableListenerReproducer;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenDroolsExceptionReproducer;
 
 public class TestGenDroolsScoreDirector<Solution_, Score_ extends Score<Score_>>
         extends DroolsScoreDirector<Solution_, Score_> {

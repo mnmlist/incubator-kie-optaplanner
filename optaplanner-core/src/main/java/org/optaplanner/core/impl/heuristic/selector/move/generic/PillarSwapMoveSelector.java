@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.generic;
 
 import java.util.Iterator;
 import java.util.List;
 
-import org.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.AbstractOriginalSwapIterator;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.AbstractRandomSwapIterator;
-import org.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
+import com.sankuai.optaplanner.core.impl.domain.variable.descriptor.GenuineVariableDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.AbstractOriginalSwapIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.AbstractRandomSwapIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.pillar.PillarSelector;
 
 public class PillarSwapMoveSelector<Solution_> extends GenericMoveSelector<Solution_> {
 

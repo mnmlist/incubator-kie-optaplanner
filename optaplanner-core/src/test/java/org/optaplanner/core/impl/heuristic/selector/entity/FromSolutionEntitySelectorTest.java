@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.entity;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.entity;
 
 import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfEntitySelector;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfNeverEndingOfEntitySelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertAllCodesOfEntitySelector;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCodesOfNeverEndingOfEntitySelector;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
-import org.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
-import org.optaplanner.core.impl.phase.scope.AbstractStepScope;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.solver.scope.SolverScope;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.impl.domain.entity.descriptor.EntityDescriptor;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractPhaseScope;
+import com.sankuai.optaplanner.core.impl.phase.scope.AbstractStepScope;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.solver.scope.SolverScope;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 public class FromSolutionEntitySelectorTest {
 

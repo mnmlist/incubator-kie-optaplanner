@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.definition;
+package com.sankuai.optaplanner.core.impl.score.definition;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
 
 /**
  * Abstract superclass for {@link ScoreDefinition}.

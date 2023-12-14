@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.travelingtournament.persistence;
+package com.sankuai.optaplanner.examples.travelingtournament.persistence;
 
 import java.io.IOException;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
-import org.optaplanner.examples.travelingtournament.domain.Day;
-import org.optaplanner.examples.travelingtournament.domain.Match;
-import org.optaplanner.examples.travelingtournament.domain.Team;
-import org.optaplanner.examples.travelingtournament.domain.TravelingTournament;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.travelingtournament.app.TravelingTournamentApp;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Day;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Match;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.Team;
+import com.sankuai.optaplanner.examples.travelingtournament.domain.TravelingTournament;
 
 public class TravelingTournamentExporter extends AbstractTxtSolutionExporter<TravelingTournament> {
 

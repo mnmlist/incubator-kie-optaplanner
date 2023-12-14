@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.persistence;
+package com.sankuai.optaplanner.examples.examination.persistence;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -37,23 +37,23 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.examination.app.ExaminationApp;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
-import org.optaplanner.examples.examination.domain.FollowingExam;
-import org.optaplanner.examples.examination.domain.LeadingExam;
-import org.optaplanner.examples.examination.domain.Period;
-import org.optaplanner.examples.examination.domain.PeriodPenalty;
-import org.optaplanner.examples.examination.domain.PeriodPenaltyType;
-import org.optaplanner.examples.examination.domain.Room;
-import org.optaplanner.examples.examination.domain.RoomPenalty;
-import org.optaplanner.examples.examination.domain.RoomPenaltyType;
-import org.optaplanner.examples.examination.domain.Student;
-import org.optaplanner.examples.examination.domain.Topic;
-import org.optaplanner.examples.examination.domain.solver.TopicConflict;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.examination.app.ExaminationApp;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
+import com.sankuai.optaplanner.examples.examination.domain.FollowingExam;
+import com.sankuai.optaplanner.examples.examination.domain.LeadingExam;
+import com.sankuai.optaplanner.examples.examination.domain.Period;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.Room;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenalty;
+import com.sankuai.optaplanner.examples.examination.domain.RoomPenaltyType;
+import com.sankuai.optaplanner.examples.examination.domain.Student;
+import com.sankuai.optaplanner.examples.examination.domain.Topic;
+import com.sankuai.optaplanner.examples.examination.domain.solver.TopicConflict;
 
 public class ExaminationImporter extends AbstractTxtSolutionImporter<Examination> {
 

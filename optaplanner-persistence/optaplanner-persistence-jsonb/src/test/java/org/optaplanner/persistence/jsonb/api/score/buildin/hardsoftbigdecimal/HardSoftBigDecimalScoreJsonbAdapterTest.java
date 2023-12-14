@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api.score.buildin.hardsoftbigdecimal;
+package com.sankuai.optaplanner.persistence.jsonb.api.score.buildin.hardsoftbigdecimal;
 
 import java.math.BigDecimal;
 
 import javax.json.bind.annotation.JsonbTypeAdapter;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
-import org.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftbigdecimal.HardSoftBigDecimalScore;
+import com.sankuai.optaplanner.persistence.jsonb.api.score.AbstractScoreJsonbAdapterTest;
 
 public class HardSoftBigDecimalScoreJsonbAdapterTest extends AbstractScoreJsonbAdapterTest {
 

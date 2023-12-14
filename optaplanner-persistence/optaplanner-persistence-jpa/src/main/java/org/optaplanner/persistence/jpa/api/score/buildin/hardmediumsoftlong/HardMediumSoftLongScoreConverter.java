@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftlong;
+package com.sankuai.optaplanner.persistence.jpa.api.score.buildin.hardmediumsoftlong;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
 
 @Converter
 public class HardMediumSoftLongScoreConverter implements AttributeConverter<HardMediumSoftLongScore, String> {

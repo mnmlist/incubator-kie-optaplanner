@@ -17,4 +17,4 @@
 /**
  * Planning cloning support.
  */
-package org.optaplanner.core.api.domain.solution.cloner;
+package com.sankuai.optaplanner.core.api.domain.solution.cloner;

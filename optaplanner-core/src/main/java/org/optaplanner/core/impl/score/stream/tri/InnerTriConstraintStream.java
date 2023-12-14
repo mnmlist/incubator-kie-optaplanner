@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.stream.tri;
+package com.sankuai.optaplanner.core.impl.score.stream.tri;
 
 import java.math.BigDecimal;
 
-import org.optaplanner.core.api.function.ToIntTriFunction;
-import org.optaplanner.core.api.function.ToLongTriFunction;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintStream;
-import org.optaplanner.core.impl.score.stream.common.ScoreImpactType;
+import com.sankuai.optaplanner.core.api.function.ToIntTriFunction;
+import com.sankuai.optaplanner.core.api.function.ToLongTriFunction;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintStream;
+import com.sankuai.optaplanner.core.impl.score.stream.common.ScoreImpactType;
 
 public interface InnerTriConstraintStream<A, B, C> extends TriConstraintStream<A, B, C> {
 

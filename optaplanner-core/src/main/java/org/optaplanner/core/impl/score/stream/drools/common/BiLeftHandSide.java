@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import static java.util.Collections.singletonList;
 import static org.drools.model.DSL.exists;
@@ -42,14 +42,14 @@ import org.drools.model.functions.Function2;
 import org.drools.model.functions.Predicate3;
 import org.drools.model.functions.accumulate.AccumulateFunction;
 import org.drools.model.view.ViewItem;
-import org.optaplanner.core.api.function.TriPredicate;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
-import org.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
-import org.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
-import org.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
-import org.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
+import com.sankuai.optaplanner.core.api.function.TriPredicate;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.impl.score.stream.drools.DroolsVariableFactory;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.AbstractTriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.FilteringTriJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.tri.NoneTriJoiner;
 
 /**
  * Represents the left hand side of a Drools rule, the result of which are two variables.

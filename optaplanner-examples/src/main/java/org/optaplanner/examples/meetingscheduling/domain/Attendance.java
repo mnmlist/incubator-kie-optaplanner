@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.domain;
+package com.sankuai.optaplanner.examples.meetingscheduling.domain;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 public abstract class Attendance extends AbstractPersistable {
 

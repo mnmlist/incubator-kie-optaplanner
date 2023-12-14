@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.domain.solver;
+package com.sankuai.optaplanner.examples.examination.domain.solver;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.examples.examination.domain.Exam;
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.LeadingExam;
-import org.optaplanner.examples.examination.domain.PeriodPenalty;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.examples.examination.domain.Exam;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.LeadingExam;
+import com.sankuai.optaplanner.examples.examination.domain.PeriodPenalty;
 
 public class ExamDifficultyWeightFactory implements SelectionSorterWeightFactory<Examination, Exam> {
 

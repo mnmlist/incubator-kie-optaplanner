@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
-import org.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.iterator.SelectionIterator;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.AbstractMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.MoveSelector;
 
 public class SelectedCountLimitMoveSelector<Solution_> extends AbstractMoveSelector<Solution_> {
 

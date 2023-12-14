@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.quad;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public final class CompositeQuadJoiner<A, B, C, D> extends AbstractQuadJoiner<A, B, C, D> {
 

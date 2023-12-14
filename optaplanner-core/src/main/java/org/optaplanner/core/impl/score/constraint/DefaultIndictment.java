@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.constraint;
+package com.sankuai.optaplanner.core.impl.score.constraint;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
 
 public final class DefaultIndictment<Score_ extends Score<Score_>> implements Indictment<Score_> {
 

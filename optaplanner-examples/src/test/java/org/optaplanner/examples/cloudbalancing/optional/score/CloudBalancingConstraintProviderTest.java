@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.optional.score;
+package com.sankuai.optaplanner.examples.cloudbalancing.optional.score;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public class CloudBalancingConstraintProviderTest {
 

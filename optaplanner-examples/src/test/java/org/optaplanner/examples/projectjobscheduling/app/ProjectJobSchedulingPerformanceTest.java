@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.app;
+package com.sankuai.optaplanner.examples.projectjobscheduling.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
 
 public class ProjectJobSchedulingPerformanceTest extends SolverPerformanceTest<Schedule> {
 

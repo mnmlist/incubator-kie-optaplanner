@@ -1,21 +1,21 @@
-package org.optaplanner.examples.investment.optional.score;
+package com.sankuai.optaplanner.examples.investment.optional.score;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.core.api.score.stream.Joiners;
-import org.optaplanner.examples.investment.domain.AssetClassAllocation;
-import org.optaplanner.examples.investment.domain.InvestmentParametrization;
-import org.optaplanner.examples.investment.domain.Region;
-import org.optaplanner.examples.investment.domain.Sector;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.core.api.score.stream.Joiners;
+import com.sankuai.optaplanner.examples.investment.domain.AssetClassAllocation;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentParametrization;
+import com.sankuai.optaplanner.examples.investment.domain.Region;
+import com.sankuai.optaplanner.examples.investment.domain.Sector;
 
 public class InvestmentConstraintProvider implements ConstraintProvider {
 
-    private static final String CONSTRAINT_PACKAGE = "org.optaplanner.examples.investment.solver";
+    private static final String CONSTRAINT_PACKAGE = "com.sankuai.optaplanner.examples.investment.solver";
 
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {

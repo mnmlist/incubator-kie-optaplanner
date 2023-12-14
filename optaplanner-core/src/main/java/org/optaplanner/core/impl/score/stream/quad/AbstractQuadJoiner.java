@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.quad;
+package com.sankuai.optaplanner.core.impl.score.stream.quad;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.QuadPredicate;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.quad.QuadJoiner;
-import org.optaplanner.core.impl.score.stream.common.AbstractJoiner;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.api.function.QuadPredicate;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.AbstractJoiner;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public abstract class AbstractQuadJoiner<A, B, C, D> extends AbstractJoiner implements QuadJoiner<A, B, C, D> {
 

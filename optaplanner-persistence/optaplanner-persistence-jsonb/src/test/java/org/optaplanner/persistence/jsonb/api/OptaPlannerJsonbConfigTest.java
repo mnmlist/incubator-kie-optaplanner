@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jsonb.api;
+package com.sankuai.optaplanner.persistence.jsonb.api;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -23,8 +23,8 @@ import javax.json.bind.JsonbBuilder;
 import javax.json.bind.JsonbConfig;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.bendable.BendableScore;
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 public class OptaPlannerJsonbConfigTest extends AbstractJsonbJsonAdapterTest {
 

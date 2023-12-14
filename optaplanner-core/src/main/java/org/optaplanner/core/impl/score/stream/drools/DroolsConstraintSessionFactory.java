@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools;
+package com.sankuai.optaplanner.core.impl.score.stream.drools;
 
 import static org.drools.model.DSL.globalOf;
 
@@ -41,14 +41,14 @@ import org.kie.api.runtime.KieSessionConfiguration;
 import org.kie.api.runtime.conf.DirectFiringOption;
 import org.kie.internal.builder.conf.PropertySpecificOption;
 import org.kie.internal.event.rule.RuleEventManager;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.definition.ScoreDefinition;
-import org.optaplanner.core.impl.score.director.drools.OptaPlannerRuleEventListener;
-import org.optaplanner.core.impl.score.inliner.ScoreInliner;
-import org.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
-import org.optaplanner.core.impl.score.stream.InnerConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.definition.ScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.director.drools.OptaPlannerRuleEventListener;
+import com.sankuai.optaplanner.core.impl.score.inliner.ScoreInliner;
+import com.sankuai.optaplanner.core.impl.score.inliner.WeightedScoreImpacter;
+import com.sankuai.optaplanner.core.impl.score.stream.InnerConstraintFactory;
 
 public final class DroolsConstraintSessionFactory<Solution_, Score_ extends Score<Score_>> {
 

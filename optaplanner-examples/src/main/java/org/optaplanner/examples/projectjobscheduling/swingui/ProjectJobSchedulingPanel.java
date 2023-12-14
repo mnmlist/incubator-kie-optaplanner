@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.swingui;
+package com.sankuai.optaplanner.examples.projectjobscheduling.swingui;
 
 import java.awt.BasicStroke;
 import java.awt.BorderLayout;
@@ -30,10 +30,10 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.YIntervalRenderer;
 import org.jfree.data.xy.YIntervalSeries;
 import org.jfree.data.xy.YIntervalSeriesCollection;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.Project;
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Project;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
 
 public class ProjectJobSchedulingPanel extends SolutionPanel<Schedule> {
 

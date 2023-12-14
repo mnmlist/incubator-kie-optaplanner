@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.move;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.move;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
-import org.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
-import org.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
-import org.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.FilteringMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.ProbabilityMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.SelectedCountLimitMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.ShufflingMoveSelector;
-import org.optaplanner.core.impl.heuristic.selector.move.decorator.SortingMoveSelector;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionCacheType;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.SelectionOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.common.decorator.SelectionSorterOrder;
+import com.sankuai.optaplanner.core.config.heuristic.selector.move.MoveSelectorConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.AbstractSelectorFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.ComparatorSelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionProbabilityWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionSorterWeightFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.WeightFactorySelectionSorter;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.CachingMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.FilteringMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.ProbabilityMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.SelectedCountLimitMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.ShufflingMoveSelector;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.decorator.SortingMoveSelector;
 
 public abstract class AbstractMoveSelectorFactory<Solution_, MoveSelectorConfig_ extends MoveSelectorConfig<MoveSelectorConfig_>>
         extends AbstractSelectorFactory<Solution_, MoveSelectorConfig_> implements MoveSelectorFactory<Solution_> {

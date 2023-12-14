@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.meetingscheduling.solver;
+package com.sankuai.optaplanner.examples.meetingscheduling.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScoreHolder;
 
-import org.optaplanner.examples.meetingscheduling.domain.Attendance;
-import org.optaplanner.examples.meetingscheduling.domain.Meeting;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
-import org.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
-import org.optaplanner.examples.meetingscheduling.domain.Person;
-import org.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
-import org.optaplanner.examples.meetingscheduling.domain.Room;
-import org.optaplanner.examples.meetingscheduling.domain.TimeGrain;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Attendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Meeting;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingAssignment;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.MeetingSchedule;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Person;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.PreferredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.RequiredAttendance;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.Room;
+import com.sankuai.optaplanner.examples.meetingscheduling.domain.TimeGrain;
 
 global HardMediumSoftScoreHolder scoreHolder;
 

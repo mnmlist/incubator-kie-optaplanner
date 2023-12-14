@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.domain;
+package com.sankuai.optaplanner.examples.rocktour.domain;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
-import org.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
-import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfiguration;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintWeight;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
-@ConstraintConfiguration(constraintPackage = "org.optaplanner.examples.rocktour.solver")
+@ConstraintConfiguration(constraintPackage = "com.sankuai.optaplanner.examples.rocktour.solver")
 public class RockTourConstraintConfiguration extends AbstractPersistable {
 
     public static final String EARLY_LATE_BREAK_DRIVING_SECONDS = "Early late break driving seconds budget";

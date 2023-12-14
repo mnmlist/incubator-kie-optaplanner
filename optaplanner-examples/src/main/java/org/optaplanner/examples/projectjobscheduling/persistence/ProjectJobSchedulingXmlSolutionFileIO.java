@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.persistence;
+package com.sankuai.optaplanner.examples.projectjobscheduling.persistence;
 
-import org.optaplanner.examples.projectjobscheduling.domain.Schedule;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Schedule;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class ProjectJobSchedulingXmlSolutionFileIO extends XStreamSolutionFileIO<Schedule> {
 

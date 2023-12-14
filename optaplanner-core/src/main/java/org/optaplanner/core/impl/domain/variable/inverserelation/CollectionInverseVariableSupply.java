@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.variable.inverserelation;
+package com.sankuai.optaplanner.core.impl.domain.variable.inverserelation;
 
 import java.util.Collection;
 
-import org.optaplanner.core.impl.domain.variable.supply.Supply;
+import com.sankuai.optaplanner.core.impl.domain.variable.supply.Supply;
 
 public interface CollectionInverseVariableSupply extends Supply {
 

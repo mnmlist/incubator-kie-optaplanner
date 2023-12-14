@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.app;
+package com.sankuai.optaplanner.examples.common.app;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.DynamicContainer.dynamicContainer;
@@ -26,11 +26,11 @@ import java.util.stream.Stream;
 import org.junit.jupiter.api.DynamicContainer;
 import org.junit.jupiter.api.TestFactory;
 import org.junit.jupiter.api.Timeout;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.ScoreManager;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.ScoreManager;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

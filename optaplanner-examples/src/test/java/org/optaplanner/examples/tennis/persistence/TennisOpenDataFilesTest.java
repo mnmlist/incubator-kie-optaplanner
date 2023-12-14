@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.persistence;
+package com.sankuai.optaplanner.examples.tennis.persistence;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.OpenDataFilesTest;
-import org.optaplanner.examples.tennis.app.TennisApp;
-import org.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.OpenDataFilesTest;
+import com.sankuai.optaplanner.examples.tennis.app.TennisApp;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
 
 public class TennisOpenDataFilesTest extends OpenDataFilesTest<TennisSolution> {
 

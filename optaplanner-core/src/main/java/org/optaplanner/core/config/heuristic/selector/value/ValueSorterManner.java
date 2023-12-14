@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.value;
+package com.sankuai.optaplanner.core.config.heuristic.selector.value;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
 
 /**
  * The manner of sorting a values for a {@link PlanningVariable}.

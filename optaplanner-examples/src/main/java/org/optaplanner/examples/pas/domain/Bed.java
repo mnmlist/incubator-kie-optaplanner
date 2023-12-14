@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.domain;
+package com.sankuai.optaplanner.examples.pas.domain;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

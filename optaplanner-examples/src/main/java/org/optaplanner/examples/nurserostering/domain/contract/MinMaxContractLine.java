@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.contract;
+package com.sankuai.optaplanner.examples.nurserostering.domain.contract;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

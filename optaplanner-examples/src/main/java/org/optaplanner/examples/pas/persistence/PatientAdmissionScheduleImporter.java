@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.persistence;
+package com.sankuai.optaplanner.examples.pas.persistence;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingLong;
@@ -28,26 +28,26 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
-import org.optaplanner.examples.common.persistence.SolutionConverter;
-import org.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
-import org.optaplanner.examples.pas.domain.AdmissionPart;
-import org.optaplanner.examples.pas.domain.Bed;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.Department;
-import org.optaplanner.examples.pas.domain.DepartmentSpecialism;
-import org.optaplanner.examples.pas.domain.Equipment;
-import org.optaplanner.examples.pas.domain.Gender;
-import org.optaplanner.examples.pas.domain.GenderLimitation;
-import org.optaplanner.examples.pas.domain.Night;
-import org.optaplanner.examples.pas.domain.Patient;
-import org.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
-import org.optaplanner.examples.pas.domain.PreferredPatientEquipment;
-import org.optaplanner.examples.pas.domain.RequiredPatientEquipment;
-import org.optaplanner.examples.pas.domain.Room;
-import org.optaplanner.examples.pas.domain.RoomEquipment;
-import org.optaplanner.examples.pas.domain.RoomSpecialism;
-import org.optaplanner.examples.pas.domain.Specialism;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractTxtSolutionImporter;
+import com.sankuai.optaplanner.examples.common.persistence.SolutionConverter;
+import com.sankuai.optaplanner.examples.pas.app.PatientAdmissionScheduleApp;
+import com.sankuai.optaplanner.examples.pas.domain.AdmissionPart;
+import com.sankuai.optaplanner.examples.pas.domain.Bed;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.Department;
+import com.sankuai.optaplanner.examples.pas.domain.DepartmentSpecialism;
+import com.sankuai.optaplanner.examples.pas.domain.Equipment;
+import com.sankuai.optaplanner.examples.pas.domain.Gender;
+import com.sankuai.optaplanner.examples.pas.domain.GenderLimitation;
+import com.sankuai.optaplanner.examples.pas.domain.Night;
+import com.sankuai.optaplanner.examples.pas.domain.Patient;
+import com.sankuai.optaplanner.examples.pas.domain.PatientAdmissionSchedule;
+import com.sankuai.optaplanner.examples.pas.domain.PreferredPatientEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.RequiredPatientEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.Room;
+import com.sankuai.optaplanner.examples.pas.domain.RoomEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.RoomSpecialism;
+import com.sankuai.optaplanner.examples.pas.domain.Specialism;
 
 public class PatientAdmissionScheduleImporter extends AbstractTxtSolutionImporter<PatientAdmissionSchedule> {
 

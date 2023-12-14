@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.optional.partitioner;
+package com.sankuai.optaplanner.examples.cloudbalancing.optional.partitioner;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,11 +22,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.partitioner.SolutionPartitioner;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
 
 public class CloudBalancePartitioner implements SolutionPartitioner<CloudBalance> {
 

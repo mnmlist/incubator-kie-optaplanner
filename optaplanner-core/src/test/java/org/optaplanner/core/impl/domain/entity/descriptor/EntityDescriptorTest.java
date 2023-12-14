@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.entity.descriptor;
+package com.sankuai.optaplanner.core.impl.domain.entity.descriptor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
-import org.optaplanner.core.impl.testdata.domain.pinned.extended.TestdataExtendedPinnedEntity;
-import org.optaplanner.core.impl.testdata.domain.pinned.extended.TestdataExtendedPinnedSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator.SelectionFilter;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.extended.TestdataExtendedPinnedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.extended.TestdataExtendedPinnedSolution;
 
 public class EntityDescriptorTest {
 

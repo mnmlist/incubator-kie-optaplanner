@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.app;
+package com.sankuai.optaplanner.examples.conferencescheduling.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
-import org.optaplanner.examples.common.app.SolverPerformanceTest;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.examples.common.app.SolverPerformanceTest;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
 
 public class ConferenceSchedulingPerformanceTest extends SolverPerformanceTest<ConferenceSolution> {
 

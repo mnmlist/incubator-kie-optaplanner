@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure.normal.domain;
+package com.sankuai.optaplanner.spring.boot.autoconfigure.normal.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
 public class TestdataSpringEntity {

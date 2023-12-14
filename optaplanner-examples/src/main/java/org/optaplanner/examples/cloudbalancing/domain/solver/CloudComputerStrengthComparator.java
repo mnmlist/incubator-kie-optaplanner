@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.domain.solver;
+package com.sankuai.optaplanner.examples.cloudbalancing.domain.solver;
 
 import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingInt;
@@ -22,7 +22,7 @@ import static java.util.Comparator.comparingInt;
 import java.util.Collections;
 import java.util.Comparator;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
 
 public class CloudComputerStrengthComparator implements Comparator<CloudComputer> {
 

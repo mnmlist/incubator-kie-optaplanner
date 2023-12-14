@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.optional.score;
+package com.sankuai.optaplanner.examples.vehiclerouting.optional.score;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Depot;
-import org.optaplanner.examples.vehiclerouting.domain.Standstill;
-import org.optaplanner.examples.vehiclerouting.domain.Vehicle;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
-import org.optaplanner.test.api.score.stream.ConstraintVerifier;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Depot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Standstill;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Vehicle;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.test.api.score.stream.ConstraintVerifier;
 
 public class VehicleRoutingConstraintProviderTest {
 

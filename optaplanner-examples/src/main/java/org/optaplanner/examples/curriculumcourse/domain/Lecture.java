@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.curriculumcourse.domain;
+package com.sankuai.optaplanner.examples.curriculumcourse.domain;
 
 import java.util.Set;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.entity.PlanningPin;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.curriculumcourse.domain.solver.LectureDifficultyWeightFactory;
-import org.optaplanner.examples.curriculumcourse.domain.solver.PeriodStrengthWeightFactory;
-import org.optaplanner.examples.curriculumcourse.domain.solver.RoomStrengthWeightFactory;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningPin;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.LectureDifficultyWeightFactory;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.PeriodStrengthWeightFactory;
+import com.sankuai.optaplanner.examples.curriculumcourse.domain.solver.RoomStrengthWeightFactory;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

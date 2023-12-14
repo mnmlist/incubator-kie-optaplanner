@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.examination.swingui;
+package com.sankuai.optaplanner.examples.examination.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -31,8 +31,8 @@ import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 
-import org.optaplanner.examples.examination.domain.Examination;
-import org.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
+import com.sankuai.optaplanner.examples.examination.domain.Examination;
+import com.sankuai.optaplanner.examples.examination.domain.ExaminationConstraintConfiguration;
 
 public class ExaminationConstraintConfigurationDialog extends JDialog {
 

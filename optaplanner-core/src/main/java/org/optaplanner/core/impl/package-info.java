@@ -21,4 +21,4 @@
  * (including hotfix releases). All relevant changes are documented in
  * <a href="https://www.optaplanner.org/download/upgradeRecipe/">the upgrade recipe</a>.
  */
-package org.optaplanner.core.impl;
+package com.sankuai.optaplanner.core.impl;

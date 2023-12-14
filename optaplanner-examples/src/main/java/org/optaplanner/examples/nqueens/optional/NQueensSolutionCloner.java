@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nqueens.optional;
+package com.sankuai.optaplanner.examples.nqueens.optional;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.examples.nqueens.domain.NQueens;
-import org.optaplanner.examples.nqueens.domain.Queen;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.examples.nqueens.domain.NQueens;
+import com.sankuai.optaplanner.examples.nqueens.domain.Queen;
 
 public class NQueensSolutionCloner implements SolutionCloner<NQueens> {
 

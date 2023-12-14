@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.config;
+package com.sankuai.optaplanner.benchmark.config;
 
 import java.util.function.Consumer;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 @XmlType(propOrder = {
         "name",

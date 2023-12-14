@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.conferencescheduling.swingui;
+package com.sankuai.optaplanner.examples.conferencescheduling.swingui;
 
 import java.awt.BorderLayout;
 import java.awt.event.WindowAdapter;
@@ -35,11 +35,11 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingWorker;
 import javax.swing.WindowConstants;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.business.SolutionBusiness;
-import org.optaplanner.examples.common.swingui.SolutionPanel;
-import org.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
-import org.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingCfpDevoxxImporter;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.business.SolutionBusiness;
+import com.sankuai.optaplanner.examples.common.swingui.SolutionPanel;
+import com.sankuai.optaplanner.examples.conferencescheduling.domain.ConferenceSolution;
+import com.sankuai.optaplanner.examples.conferencescheduling.persistence.ConferenceSchedulingCfpDevoxxImporter;
 
 public class ConferenceCFPImportAction implements CommonApp.ExtraAction<ConferenceSolution> {
 

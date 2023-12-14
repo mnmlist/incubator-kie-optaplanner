@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.phase;
+package com.sankuai.optaplanner.core.impl.phase;
 
-import org.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
-import org.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
-import org.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
-import org.optaplanner.core.config.phase.NoChangePhaseConfig;
-import org.optaplanner.core.config.phase.PhaseConfig;
-import org.optaplanner.core.config.phase.custom.CustomPhaseConfig;
-import org.optaplanner.core.impl.constructionheuristic.DefaultConstructionHeuristicPhaseFactory;
-import org.optaplanner.core.impl.exhaustivesearch.DefaultExhaustiveSearchPhaseFactory;
-import org.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
-import org.optaplanner.core.impl.localsearch.DefaultLocalSearchPhaseFactory;
-import org.optaplanner.core.impl.partitionedsearch.DefaultPartitionedSearchPhaseFactory;
-import org.optaplanner.core.impl.phase.custom.DefaultCustomPhaseFactory;
-import org.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
-import org.optaplanner.core.impl.solver.termination.Termination;
+import com.sankuai.optaplanner.core.config.constructionheuristic.ConstructionHeuristicPhaseConfig;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.localsearch.LocalSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.partitionedsearch.PartitionedSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.NoChangePhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.PhaseConfig;
+import com.sankuai.optaplanner.core.config.phase.custom.CustomPhaseConfig;
+import com.sankuai.optaplanner.core.impl.constructionheuristic.DefaultConstructionHeuristicPhaseFactory;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.DefaultExhaustiveSearchPhaseFactory;
+import com.sankuai.optaplanner.core.impl.heuristic.HeuristicConfigPolicy;
+import com.sankuai.optaplanner.core.impl.localsearch.DefaultLocalSearchPhaseFactory;
+import com.sankuai.optaplanner.core.impl.partitionedsearch.DefaultPartitionedSearchPhaseFactory;
+import com.sankuai.optaplanner.core.impl.phase.custom.DefaultCustomPhaseFactory;
+import com.sankuai.optaplanner.core.impl.solver.recaller.BestSolutionRecaller;
+import com.sankuai.optaplanner.core.impl.solver.termination.Termination;
 
 public interface PhaseFactory<Solution_> {
 

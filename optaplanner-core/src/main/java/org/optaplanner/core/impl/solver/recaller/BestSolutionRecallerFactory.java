@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.recaller;
+package com.sankuai.optaplanner.core.impl.solver.recaller;
 
-import org.optaplanner.core.config.solver.EnvironmentMode;
+import com.sankuai.optaplanner.core.config.solver.EnvironmentMode;
 
 public class BestSolutionRecallerFactory {
 

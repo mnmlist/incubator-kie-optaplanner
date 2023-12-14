@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.investment.optional.score;
+package com.sankuai.optaplanner.examples.investment.optional.score;
 
 import java.util.Map;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.core.api.score.calculator.EasyScoreCalculator;
-import org.optaplanner.examples.investment.domain.InvestmentSolution;
-import org.optaplanner.examples.investment.domain.Region;
-import org.optaplanner.examples.investment.domain.Sector;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.EasyScoreCalculator;
+import com.sankuai.optaplanner.examples.investment.domain.InvestmentSolution;
+import com.sankuai.optaplanner.examples.investment.domain.Region;
+import com.sankuai.optaplanner.examples.investment.domain.Sector;
 
 public class InvestmentEasyScoreCalculator implements EasyScoreCalculator<InvestmentSolution, HardSoftLongScore> {
 

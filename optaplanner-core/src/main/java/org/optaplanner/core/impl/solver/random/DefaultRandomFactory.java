@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.solver.random;
+package com.sankuai.optaplanner.core.impl.solver.random;
 
 import java.util.Random;
 
@@ -26,7 +26,7 @@ import org.apache.commons.math3.random.Well19937c;
 import org.apache.commons.math3.random.Well44497a;
 import org.apache.commons.math3.random.Well44497b;
 import org.apache.commons.math3.random.Well512a;
-import org.optaplanner.core.config.solver.random.RandomType;
+import com.sankuai.optaplanner.core.config.solver.random.RandomType;
 
 public class DefaultRandomFactory implements RandomFactory {
 

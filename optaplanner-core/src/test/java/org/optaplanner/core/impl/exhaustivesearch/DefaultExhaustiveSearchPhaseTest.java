@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.any;
@@ -22,31 +22,31 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.util.Arrays;
 import java.util.Collections;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchLayer;
-import org.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
-import org.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
-import org.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
-import org.optaplanner.core.impl.testdata.util.PlannerTestUtils;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.config.exhaustivesearch.ExhaustiveSearchPhaseConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.decider.ExhaustiveSearchDecider;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchLayer;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.ExhaustiveSearchNode;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchPhaseScope;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.scope.ExhaustiveSearchStepScope;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.entity.EntitySelector;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.pinned.TestdataPinnedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils;
 
 public class DefaultExhaustiveSearchPhaseTest {
 

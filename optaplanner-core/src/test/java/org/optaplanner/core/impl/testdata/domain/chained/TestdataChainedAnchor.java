@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.chained;
+package com.sankuai.optaplanner.core.impl.testdata.domain.chained;
 
-import org.optaplanner.core.impl.testdata.domain.TestdataObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataObject;
 
 public class TestdataChainedAnchor extends TestdataObject implements TestdataChainedObject {
 

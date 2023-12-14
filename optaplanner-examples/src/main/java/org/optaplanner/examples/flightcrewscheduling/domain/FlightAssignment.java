@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.domain;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.domain;
 
 import java.util.Comparator;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
 
 @PlanningEntity
 public class FlightAssignment extends AbstractPersistable implements Comparable<FlightAssignment> {

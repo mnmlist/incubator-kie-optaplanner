@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.domain;
+package com.sankuai.optaplanner.examples.projectjobscheduling.domain;
 
 public enum JobType {
     SOURCE,

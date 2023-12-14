@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.uni;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.uni;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -22,12 +22,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
-import org.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
-import org.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiNode;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.bi.BavetGroupBiTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetAbstractTuple;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.common.BavetTupleState;
 
 public final class BavetGroupBridgeUniNode<A, NewA, ResultContainer_, NewB> extends BavetAbstractUniNode<A> {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
-import static org.optaplanner.core.api.score.constraint.ConstraintMatchTotal.composeConstraintId;
+import static com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal.composeConstraintId;
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,15 +29,15 @@ import java.util.stream.Collectors;
 
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.score.director.InnerScoreDirector;
-import org.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
-import org.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.score.director.InnerScoreDirector;
+import com.sankuai.optaplanner.core.impl.score.director.stream.BavetConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.score.director.stream.DroolsConstraintStreamScoreDirectorFactory;
+import com.sankuai.optaplanner.core.impl.testdata.domain.score.lavish.TestdataLavishSolution;
 
 @ExtendWith(ConstraintStreamTestExtension.class)
 public abstract class AbstractConstraintStreamTest {

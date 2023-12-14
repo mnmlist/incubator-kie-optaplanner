@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.taskassigning.domain;
+package com.sankuai.optaplanner.examples.taskassigning.domain;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.entity.PlanningPin;
-import org.optaplanner.core.api.domain.variable.AnchorShadowVariable;
-import org.optaplanner.core.api.domain.variable.CustomShadowVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
-import org.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
-import org.optaplanner.core.api.domain.variable.PlanningVariableReference;
-import org.optaplanner.examples.common.swingui.components.Labeled;
-import org.optaplanner.examples.taskassigning.domain.solver.StartTimeUpdatingVariableListener;
-import org.optaplanner.examples.taskassigning.domain.solver.TaskDifficultyComparator;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningEntity;
+import com.sankuai.optaplanner.core.api.domain.entity.PlanningPin;
+import com.sankuai.optaplanner.core.api.domain.variable.AnchorShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.CustomShadowVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariable;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableGraphType;
+import com.sankuai.optaplanner.core.api.domain.variable.PlanningVariableReference;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.taskassigning.domain.solver.StartTimeUpdatingVariableListener;
+import com.sankuai.optaplanner.examples.taskassigning.domain.solver.TaskDifficultyComparator;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.app;
+package com.sankuai.optaplanner.examples.vehiclerouting.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
-import org.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingXmlSolutionFileIO;
-import org.optaplanner.examples.vehiclerouting.swingui.VehicleRoutingPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingImporter;
+import com.sankuai.optaplanner.examples.vehiclerouting.persistence.VehicleRoutingXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.vehiclerouting.swingui.VehicleRoutingPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class VehicleRoutingApp extends CommonApp<VehicleRoutingSolution> {
 

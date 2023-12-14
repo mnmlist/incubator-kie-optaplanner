@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.vehiclerouting.swingui;
+package com.sankuai.optaplanner.examples.vehiclerouting.swingui;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -27,19 +27,19 @@ import java.text.NumberFormat;
 
 import javax.swing.ImageIcon;
 
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
-import org.optaplanner.examples.vehiclerouting.domain.Customer;
-import org.optaplanner.examples.vehiclerouting.domain.Depot;
-import org.optaplanner.examples.vehiclerouting.domain.Vehicle;
-import org.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
-import org.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
-import org.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
-import org.optaplanner.examples.vehiclerouting.domain.location.Location;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
-import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
-import org.optaplanner.swing.impl.TangoColorFactory;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Customer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Depot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.Vehicle;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.VehicleRoutingSolution;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.AirLocation;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.DistanceType;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.location.Location;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedCustomer;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
+import com.sankuai.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
+import com.sankuai.optaplanner.swing.impl.TangoColorFactory;
 
 public class VehicleRoutingSolutionPainter {
 

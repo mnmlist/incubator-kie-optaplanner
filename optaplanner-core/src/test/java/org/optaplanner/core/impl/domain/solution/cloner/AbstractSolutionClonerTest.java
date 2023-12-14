@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.domain.solution.cloner;
+package com.sankuai.optaplanner.core.impl.domain.solution.cloner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
-import static org.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerAssert.assertCode;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -34,39 +34,39 @@ import java.util.TreeSet;
 
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
-import org.optaplanner.core.impl.testdata.domain.TestdataValue;
-import org.optaplanner.core.impl.testdata.domain.backlinked.TestdataBacklinkedEntity;
-import org.optaplanner.core.impl.testdata.domain.backlinked.TestdataBacklinkedSolution;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedObject;
-import org.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedObject;
-import org.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
-import org.optaplanner.core.impl.testdata.domain.clone.deepcloning.TestdataDeepCloningEntity;
-import org.optaplanner.core.impl.testdata.domain.clone.deepcloning.TestdataDeepCloningSolution;
-import org.optaplanner.core.impl.testdata.domain.clone.deepcloning.field.TestdataFieldAnnotatedDeepCloningEntity;
-import org.optaplanner.core.impl.testdata.domain.clone.deepcloning.field.TestdataFieldAnnotatedDeepCloningSolution;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedEntity;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedSolution;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertyEntity;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertySolution;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedEntity;
-import org.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedSolution;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
-import org.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
-import org.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataExtendedThirdPartyEntity;
-import org.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataExtendedThirdPartySolution;
-import org.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataThirdPartyEntityPojo;
-import org.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataAccessModifierSolution;
-import org.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
-import org.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.cloner.SolutionCloner;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataValue;
+import com.sankuai.optaplanner.core.impl.testdata.domain.backlinked.TestdataBacklinkedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.backlinked.TestdataBacklinkedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.TestdataChainedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedAnchor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedObject;
+import com.sankuai.optaplanner.core.impl.testdata.domain.chained.shadow.TestdataShadowingChainedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.deepcloning.TestdataDeepCloningEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.deepcloning.TestdataDeepCloningSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.deepcloning.field.TestdataFieldAnnotatedDeepCloningEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.clone.deepcloning.field.TestdataFieldAnnotatedDeepCloningSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataArrayBasedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertyEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataEntityCollectionPropertySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.collection.TestdataSetBasedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.TestdataUnannotatedExtendedSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataExtendedThirdPartyEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataExtendedThirdPartySolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.extended.thirdparty.TestdataThirdPartyEntityPojo;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.accessmodifier.TestdataAccessModifierSolution;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.reflect.field.TestdataFieldAnnotatedSolution;
 
 public abstract class AbstractSolutionClonerTest {
 

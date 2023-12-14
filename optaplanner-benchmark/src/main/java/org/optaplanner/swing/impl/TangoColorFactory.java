@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.swing.impl;
+package com.sankuai.optaplanner.swing.impl;
 
 import static java.util.Arrays.asList;
 import static java.util.Collections.unmodifiableList;

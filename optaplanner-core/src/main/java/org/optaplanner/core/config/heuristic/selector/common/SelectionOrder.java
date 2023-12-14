@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.common;
+package com.sankuai.optaplanner.core.config.heuristic.selector.common;
 
 import javax.xml.bind.annotation.XmlEnum;
 
-import org.optaplanner.core.config.heuristic.selector.SelectorConfig;
+import com.sankuai.optaplanner.core.config.heuristic.selector.SelectorConfig;
 
 /**
  * Defines in which order the elements or a selector are selected.

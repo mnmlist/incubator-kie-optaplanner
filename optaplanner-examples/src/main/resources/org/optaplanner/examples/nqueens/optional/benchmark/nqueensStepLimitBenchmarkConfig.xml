@@ -6,15 +6,15 @@
 
   <inheritedSolverBenchmark>
     <solver>
-      <solutionClass>org.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
-      <entityClass>org.optaplanner.examples.nqueens.domain.Queen</entityClass>
+      <solutionClass>com.sankuai.optaplanner.examples.nqueens.domain.NQueens</solutionClass>
+      <entityClass>com.sankuai.optaplanner.examples.nqueens.domain.Queen</entityClass>
       <scoreDirectorFactory>
         <scoreDrl>org/optaplanner/examples/nqueens/solver/nQueensConstraints.drl</scoreDrl>
         <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
       </scoreDirectorFactory>
     </solver>
     <problemBenchmarks>
-      <solutionFileIOClass>org.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
+      <solutionFileIOClass>com.sankuai.optaplanner.examples.nqueens.persistence.NQueensXmlSolutionFileIO</solutionFileIOClass>
       <inputSolutionFile>data/nqueens/unsolved/256queens.xml</inputSolutionFile>
     </problemBenchmarks>
   </inheritedSolverBenchmark>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.drools.common;
+package com.sankuai.optaplanner.core.impl.score.stream.drools.common;
 
 import java.util.Objects;
 
@@ -23,8 +23,8 @@ import org.drools.core.common.InternalFactHandle;
 import org.drools.core.rule.Declaration;
 import org.drools.core.spi.Tuple;
 import org.drools.model.Variable;
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
 
 final class BiAccumulator<A, B, ResultContainer_, Result_> extends AbstractAccumulator<ResultContainer_, Result_> {
 

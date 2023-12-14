@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.bavet.common;
+package com.sankuai.optaplanner.core.impl.score.stream.bavet.common;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,7 +26,7 @@ import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
+import com.sankuai.optaplanner.core.impl.score.stream.bavet.BavetConstraintSession;
 
 public class BavetNodeBuildPolicy<Solution_> {
 

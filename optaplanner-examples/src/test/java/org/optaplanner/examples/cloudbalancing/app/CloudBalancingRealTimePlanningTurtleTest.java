@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import org.optaplanner.core.api.solver.ProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.AddComputerProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteComputerProblemFactChange;
-import org.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteProcessProblemFactChange;
-import org.optaplanner.examples.common.app.RealTimePlanningTurtleTest;
+import com.sankuai.optaplanner.core.api.solver.ProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.AddComputerProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.AddProcessProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteComputerProblemFactChange;
+import com.sankuai.optaplanner.examples.cloudbalancing.swingui.realtime.DeleteProcessProblemFactChange;
+import com.sankuai.optaplanner.examples.common.app.RealTimePlanningTurtleTest;
 
 public class CloudBalancingRealTimePlanningTurtleTest extends RealTimePlanningTurtleTest<CloudBalance> {
 

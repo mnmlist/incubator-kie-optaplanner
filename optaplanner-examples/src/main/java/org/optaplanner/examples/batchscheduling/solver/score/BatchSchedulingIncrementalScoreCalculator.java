@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.batchscheduling.solver.score;
+package com.sankuai.optaplanner.examples.batchscheduling.solver.score;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -23,15 +23,15 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-import org.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
-import org.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
-import org.optaplanner.examples.batchscheduling.app.BatchSchedulingApp;
-import org.optaplanner.examples.batchscheduling.domain.Allocation;
-import org.optaplanner.examples.batchscheduling.domain.AllocationPath;
-import org.optaplanner.examples.batchscheduling.domain.Batch;
-import org.optaplanner.examples.batchscheduling.domain.BatchSchedule;
-import org.optaplanner.examples.batchscheduling.domain.RoutePath;
-import org.optaplanner.examples.batchscheduling.domain.Segment;
+import com.sankuai.optaplanner.core.api.score.buildin.bendablelong.BendableLongScore;
+import com.sankuai.optaplanner.core.api.score.calculator.IncrementalScoreCalculator;
+import com.sankuai.optaplanner.examples.batchscheduling.app.BatchSchedulingApp;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.AllocationPath;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Batch;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.BatchSchedule;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.RoutePath;
+import com.sankuai.optaplanner.examples.batchscheduling.domain.Segment;
 
 public class BatchSchedulingIncrementalScoreCalculator
         implements IncrementalScoreCalculator<BatchSchedule, BendableLongScore> {

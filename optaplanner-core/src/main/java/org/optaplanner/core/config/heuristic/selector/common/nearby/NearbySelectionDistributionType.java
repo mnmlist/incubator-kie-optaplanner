@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.heuristic.selector.common.nearby;
+package com.sankuai.optaplanner.core.config.heuristic.selector.common.nearby;
 
 import javax.xml.bind.annotation.XmlEnum;
 

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.solver;
+package com.sankuai.optaplanner.examples.cloudbalancing.solver;
 
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.test.impl.score.buildin.hardsoft.HardSoftScoreVerifier;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.examples.cloudbalancing.app.CloudBalancingApp;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.test.impl.score.buildin.hardsoft.HardSoftScoreVerifier;
 
 public class CloudBalancingScoreConstraintTest {
 

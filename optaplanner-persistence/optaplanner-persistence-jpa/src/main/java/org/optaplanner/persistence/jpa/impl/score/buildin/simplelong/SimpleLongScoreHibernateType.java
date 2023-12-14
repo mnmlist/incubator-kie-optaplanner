@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jpa.impl.score.buildin.simplelong;
+package com.sankuai.optaplanner.persistence.jpa.impl.score.buildin.simplelong;
 
 import org.hibernate.type.StandardBasicTypes;
-import org.optaplanner.core.impl.score.buildin.simplelong.SimpleLongScoreDefinition;
-import org.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
+import com.sankuai.optaplanner.core.impl.score.buildin.simplelong.SimpleLongScoreDefinition;
+import com.sankuai.optaplanner.persistence.jpa.impl.score.AbstractScoreHibernateType;
 
 /**
  * {@inheritDoc}

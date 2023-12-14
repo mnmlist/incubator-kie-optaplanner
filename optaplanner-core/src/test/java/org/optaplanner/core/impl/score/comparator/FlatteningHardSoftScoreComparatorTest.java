@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.comparator;
+package com.sankuai.optaplanner.core.impl.score.comparator;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -23,7 +23,7 @@ import java.util.Collection;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
+import com.sankuai.optaplanner.core.impl.score.buildin.hardsoft.HardSoftScoreDefinition;
 
 public class FlatteningHardSoftScoreComparatorTest {
 

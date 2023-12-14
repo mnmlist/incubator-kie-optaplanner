@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
 import java.time.Duration;
 
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.config.solver.SolverConfig;
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.examples.cloudbalancing.optional.benchmark.CloudBalancingBenchmarkHelloWorld;
-import org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider;
-import org.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.api.solver.SolverFactory;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import com.sankuai.optaplanner.examples.cloudbalancing.optional.benchmark.CloudBalancingBenchmarkHelloWorld;
+import com.sankuai.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider;
+import com.sankuai.optaplanner.examples.cloudbalancing.persistence.CloudBalancingGenerator;
 
 /**
  * To benchmark this solver config, run {@link CloudBalancingBenchmarkHelloWorld} instead.

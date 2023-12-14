@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.pas.optional.score;
+package com.sankuai.optaplanner.examples.pas.optional.score;
 
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
-import static org.optaplanner.core.api.score.stream.Joiners.filtering;
-import static org.optaplanner.core.api.score.stream.Joiners.greaterThan;
-import static org.optaplanner.core.api.score.stream.Joiners.lessThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.equal;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.filtering;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.greaterThan;
+import static com.sankuai.optaplanner.core.api.score.stream.Joiners.lessThan;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.api.score.stream.ConstraintFactory;
-import org.optaplanner.core.api.score.stream.ConstraintProvider;
-import org.optaplanner.examples.pas.domain.BedDesignation;
-import org.optaplanner.examples.pas.domain.Department;
-import org.optaplanner.examples.pas.domain.DepartmentSpecialism;
-import org.optaplanner.examples.pas.domain.Gender;
-import org.optaplanner.examples.pas.domain.GenderLimitation;
-import org.optaplanner.examples.pas.domain.PreferredPatientEquipment;
-import org.optaplanner.examples.pas.domain.RequiredPatientEquipment;
-import org.optaplanner.examples.pas.domain.RoomEquipment;
-import org.optaplanner.examples.pas.domain.RoomSpecialism;
+import com.sankuai.optaplanner.core.api.score.buildin.hardmediumsoft.HardMediumSoftScore;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintFactory;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintProvider;
+import com.sankuai.optaplanner.examples.pas.domain.BedDesignation;
+import com.sankuai.optaplanner.examples.pas.domain.Department;
+import com.sankuai.optaplanner.examples.pas.domain.DepartmentSpecialism;
+import com.sankuai.optaplanner.examples.pas.domain.Gender;
+import com.sankuai.optaplanner.examples.pas.domain.GenderLimitation;
+import com.sankuai.optaplanner.examples.pas.domain.PreferredPatientEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.RequiredPatientEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.RoomEquipment;
+import com.sankuai.optaplanner.examples.pas.domain.RoomSpecialism;
 
 /*
  * This is constraints for Hospital Bed Planning

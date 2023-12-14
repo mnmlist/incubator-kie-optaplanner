@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.benchmark.impl.result;
+package com.sankuai.optaplanner.benchmark.impl.result;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -30,17 +30,17 @@ import javax.xml.bind.annotation.XmlID;
 import javax.xml.bind.annotation.XmlTransient;
 
 import org.apache.commons.lang3.StringEscapeUtils;
-import org.optaplanner.benchmark.config.statistic.ProblemStatisticType;
-import org.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
-import org.optaplanner.benchmark.impl.ranking.ScoreSubSingleBenchmarkRankingComparator;
-import org.optaplanner.benchmark.impl.ranking.SubSingleBenchmarkRankBasedComparator;
-import org.optaplanner.benchmark.impl.report.BenchmarkReport;
-import org.optaplanner.benchmark.impl.report.ReportHelper;
-import org.optaplanner.benchmark.impl.statistic.StatisticUtils;
-import org.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.solver.Solver;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.benchmark.config.statistic.ProblemStatisticType;
+import com.sankuai.optaplanner.benchmark.impl.measurement.ScoreDifferencePercentage;
+import com.sankuai.optaplanner.benchmark.impl.ranking.ScoreSubSingleBenchmarkRankingComparator;
+import com.sankuai.optaplanner.benchmark.impl.ranking.SubSingleBenchmarkRankBasedComparator;
+import com.sankuai.optaplanner.benchmark.impl.report.BenchmarkReport;
+import com.sankuai.optaplanner.benchmark.impl.report.ReportHelper;
+import com.sankuai.optaplanner.benchmark.impl.statistic.StatisticUtils;
+import com.sankuai.optaplanner.benchmark.impl.statistic.SubSingleStatistic;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.solver.Solver;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 
 /**
  * Represents 1 benchmark for 1 {@link Solver} configuration for 1 problem instance (data set).

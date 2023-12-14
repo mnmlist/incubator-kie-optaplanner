@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.rocktour.app;
+package com.sankuai.optaplanner.examples.rocktour.app;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.rocktour.domain.RockTourSolution;
-import org.optaplanner.examples.rocktour.persistence.RockTourXlsxFileIO;
-import org.optaplanner.examples.rocktour.swingui.RockTourPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.rocktour.domain.RockTourSolution;
+import com.sankuai.optaplanner.examples.rocktour.persistence.RockTourXlsxFileIO;
+import com.sankuai.optaplanner.examples.rocktour.swingui.RockTourPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class RockTourApp extends CommonApp<RockTourSolution> {
 

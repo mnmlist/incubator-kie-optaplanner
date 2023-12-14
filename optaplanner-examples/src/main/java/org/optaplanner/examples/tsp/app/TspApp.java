@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tsp.app;
+package com.sankuai.optaplanner.examples.tsp.app;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import org.optaplanner.examples.common.app.CommonApp;
-import org.optaplanner.examples.common.persistence.AbstractSolutionExporter;
-import org.optaplanner.examples.common.persistence.AbstractSolutionImporter;
-import org.optaplanner.examples.tsp.domain.TspSolution;
-import org.optaplanner.examples.tsp.persistence.SvgTspLineAndCircleExporter;
-import org.optaplanner.examples.tsp.persistence.SvgTspPathExporter;
-import org.optaplanner.examples.tsp.persistence.TspExporter;
-import org.optaplanner.examples.tsp.persistence.TspImageStipplerImporter;
-import org.optaplanner.examples.tsp.persistence.TspImporter;
-import org.optaplanner.examples.tsp.persistence.TspXmlSolutionFileIO;
-import org.optaplanner.examples.tsp.swingui.TspPanel;
-import org.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionExporter;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractSolutionImporter;
+import com.sankuai.optaplanner.examples.tsp.domain.TspSolution;
+import com.sankuai.optaplanner.examples.tsp.persistence.SvgTspLineAndCircleExporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.SvgTspPathExporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.TspExporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.TspImageStipplerImporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.TspImporter;
+import com.sankuai.optaplanner.examples.tsp.persistence.TspXmlSolutionFileIO;
+import com.sankuai.optaplanner.examples.tsp.swingui.TspPanel;
+import com.sankuai.optaplanner.persistence.common.api.domain.solution.SolutionFileIO;
 
 public class TspApp extends CommonApp<TspSolution> {
 

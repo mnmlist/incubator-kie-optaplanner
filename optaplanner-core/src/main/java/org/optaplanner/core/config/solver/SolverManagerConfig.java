@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.config.solver;
+package com.sankuai.optaplanner.core.config.solver;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.function.Consumer;
 
 import javax.xml.bind.annotation.XmlType;
 
-import org.optaplanner.core.config.AbstractConfig;
-import org.optaplanner.core.config.util.ConfigUtils;
+import com.sankuai.optaplanner.core.config.AbstractConfig;
+import com.sankuai.optaplanner.core.config.util.ConfigUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

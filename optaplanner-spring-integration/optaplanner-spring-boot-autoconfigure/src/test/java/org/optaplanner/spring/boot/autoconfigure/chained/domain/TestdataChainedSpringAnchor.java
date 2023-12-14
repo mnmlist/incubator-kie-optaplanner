@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.spring.boot.autoconfigure.chained.domain;
+package com.sankuai.optaplanner.spring.boot.autoconfigure.chained.domain;
 
 public class TestdataChainedSpringAnchor implements TestdataChainedSpringObject {
 

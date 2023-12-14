@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.drools.testgen.fact;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact;
 
 import java.util.Collections;
 import java.util.Date;

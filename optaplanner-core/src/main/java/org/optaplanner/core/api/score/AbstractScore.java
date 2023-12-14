@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score;
+package com.sankuai.optaplanner.core.api.score;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.function.Predicate;
 
-import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 /**
  * Abstract superclass for {@link Score}.

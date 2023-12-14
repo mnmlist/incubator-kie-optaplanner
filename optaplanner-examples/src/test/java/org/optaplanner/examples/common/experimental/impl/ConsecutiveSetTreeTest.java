@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.experimental.impl;
+package com.sankuai.optaplanner.examples.common.experimental.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -30,9 +30,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.examples.common.experimental.api.Break;
-import org.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
-import org.optaplanner.examples.common.experimental.api.Sequence;
+import com.sankuai.optaplanner.examples.common.experimental.api.Break;
+import com.sankuai.optaplanner.examples.common.experimental.api.ConsecutiveInfo;
+import com.sankuai.optaplanner.examples.common.experimental.api.Sequence;
 
 public class ConsecutiveSetTreeTest {
 

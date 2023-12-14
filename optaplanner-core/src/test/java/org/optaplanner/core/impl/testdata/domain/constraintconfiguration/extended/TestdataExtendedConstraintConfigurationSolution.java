@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended;
+package com.sankuai.optaplanner.core.impl.testdata.domain.constraintconfiguration.extended;
 
-import org.optaplanner.core.api.domain.constraintweight.ConstraintConfigurationProvider;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.core.impl.testdata.domain.TestdataEntity;
-import org.optaplanner.core.impl.testdata.domain.TestdataSolution;
+import com.sankuai.optaplanner.core.api.domain.constraintweight.ConstraintConfigurationProvider;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataEntity;
+import com.sankuai.optaplanner.core.impl.testdata.domain.TestdataSolution;
 
 @PlanningSolution
 public class TestdataExtendedConstraintConfigurationSolution extends TestdataSolution {

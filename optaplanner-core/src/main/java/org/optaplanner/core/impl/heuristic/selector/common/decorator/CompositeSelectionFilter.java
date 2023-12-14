@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.heuristic.selector.common.decorator;
+package com.sankuai.optaplanner.core.impl.heuristic.selector.common.decorator;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
 
 /**
  * Combines several {@link SelectionFilter}s into one.

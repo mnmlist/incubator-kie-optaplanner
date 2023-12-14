@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.domain.contract;
+package com.sankuai.optaplanner.examples.nurserostering.domain.contract;
 
 import java.util.List;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.nurserostering.domain.WeekendDefinition;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.nurserostering.domain.WeekendDefinition;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

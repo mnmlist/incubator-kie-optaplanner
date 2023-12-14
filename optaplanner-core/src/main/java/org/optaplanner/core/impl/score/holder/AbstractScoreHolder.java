@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.holder;
+package com.sankuai.optaplanner.core.impl.score.holder;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -29,15 +29,15 @@ import org.drools.core.spi.Activation;
 import org.kie.api.definition.rule.Rule;
 import org.kie.api.runtime.KieSession;
 import org.kie.api.runtime.rule.RuleContext;
-import org.optaplanner.core.api.score.AbstractScore;
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.holder.ScoreHolder;
-import org.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
-import org.optaplanner.core.impl.score.constraint.DefaultIndictment;
-import org.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
+import com.sankuai.optaplanner.core.api.score.AbstractScore;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.holder.ScoreHolder;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultIndictment;
+import com.sankuai.optaplanner.core.impl.score.director.drools.DroolsScoreDirector;
 
 /**
  * Abstract superclass for {@link ScoreHolder}.

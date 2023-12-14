@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.exhaustivesearch.node;
+package com.sankuai.optaplanner.core.impl.exhaustivesearch.node;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.director.ScoreDirector;
-import org.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
-import org.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.director.ScoreDirector;
+import com.sankuai.optaplanner.core.impl.exhaustivesearch.node.bounder.ScoreBounder;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
 
 public class ExhaustiveSearchNode {
 

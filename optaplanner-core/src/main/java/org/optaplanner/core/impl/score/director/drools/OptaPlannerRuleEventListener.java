@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.director.drools;
+package com.sankuai.optaplanner.core.impl.score.director.drools;
 
 import org.drools.core.common.AgendaItem;
 import org.kie.api.runtime.rule.Match;

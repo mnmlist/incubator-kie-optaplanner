@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.swingui;
+package com.sankuai.optaplanner.examples.common.swingui;
 
 import javax.swing.ImageIcon;
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.common.persistence;
+package com.sankuai.optaplanner.examples.common.persistence;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.io.IOException;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
 
 /**
  * @param <Solution_> the solution type, the class with the {@link PlanningSolution} annotation

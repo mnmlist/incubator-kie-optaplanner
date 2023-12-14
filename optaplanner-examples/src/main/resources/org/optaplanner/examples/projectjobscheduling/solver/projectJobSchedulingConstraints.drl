@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.projectjobscheduling.solver;
+package com.sankuai.optaplanner.examples.projectjobscheduling.solver;
     dialect "java"
 
-import org.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
+import com.sankuai.optaplanner.core.api.score.buildin.bendable.BendableScoreHolder;
 
-import org.optaplanner.examples.projectjobscheduling.domain.Allocation;
-import org.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
-import org.optaplanner.examples.projectjobscheduling.domain.Job;
-import org.optaplanner.examples.projectjobscheduling.domain.JobType;
-import org.optaplanner.examples.projectjobscheduling.domain.Project;
-import org.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
-import org.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.NonrenewableResourceCapacityTracker;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.RenewableResourceCapacityTracker;
-import org.optaplanner.examples.projectjobscheduling.score.capacity.ResourceCapacityTracker;
-import org.optaplanner.examples.projectjobscheduling.optional.score.drools.RenewableResourceUsedDay;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Allocation;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ExecutionMode;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Job;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.JobType;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.Project;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.ResourceRequirement;
+import com.sankuai.optaplanner.examples.projectjobscheduling.domain.resource.Resource;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.NonrenewableResourceCapacityTracker;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.RenewableResourceCapacityTracker;
+import com.sankuai.optaplanner.examples.projectjobscheduling.score.capacity.ResourceCapacityTracker;
+import com.sankuai.optaplanner.examples.projectjobscheduling.optional.score.drools.RenewableResourceUsedDay;
 
 global BendableScoreHolder scoreHolder;
 

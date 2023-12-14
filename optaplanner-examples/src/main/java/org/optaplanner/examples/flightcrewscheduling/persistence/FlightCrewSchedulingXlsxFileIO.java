@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.flightcrewscheduling.persistence;
+package com.sankuai.optaplanner.examples.flightcrewscheduling.persistence;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
-import static org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.EMPLOYEE_UNAVAILABILITY;
-import static org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.FLIGHT_CONFLICT;
-import static org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.LOAD_BALANCE_FLIGHT_DURATION_TOTAL_PER_EMPLOYEE;
-import static org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.REQUIRED_SKILL;
-import static org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.TRANSFER_BETWEEN_TWO_FLIGHTS;
+import static com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.EMPLOYEE_UNAVAILABILITY;
+import static com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.FLIGHT_CONFLICT;
+import static com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.LOAD_BALANCE_FLIGHT_DURATION_TOTAL_PER_EMPLOYEE;
+import static com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.REQUIRED_SKILL;
+import static com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization.TRANSFER_BETWEEN_TWO_FLIGHTS;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -51,16 +51,16 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
-import org.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
-import org.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
-import org.optaplanner.examples.flightcrewscheduling.domain.Airport;
-import org.optaplanner.examples.flightcrewscheduling.domain.Employee;
-import org.optaplanner.examples.flightcrewscheduling.domain.Flight;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
-import org.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
-import org.optaplanner.examples.flightcrewscheduling.domain.Skill;
+import com.sankuai.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
+import com.sankuai.optaplanner.examples.common.persistence.AbstractXlsxSolutionFileIO;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.app.FlightCrewSchedulingApp;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Airport;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Employee;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Flight;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightAssignment;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewParametrization;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.FlightCrewSolution;
+import com.sankuai.optaplanner.examples.flightcrewscheduling.domain.Skill;
 
 public class FlightCrewSchedulingXlsxFileIO extends AbstractXlsxSolutionFileIO<FlightCrewSolution> {
 

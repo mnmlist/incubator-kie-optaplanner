@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.inliner;
+package com.sankuai.optaplanner.core.impl.score.inliner;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -22,13 +22,13 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
-import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.api.score.stream.Constraint;
-import org.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
-import org.optaplanner.core.impl.score.constraint.DefaultIndictment;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.constraint.Indictment;
+import com.sankuai.optaplanner.core.api.score.stream.Constraint;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultConstraintMatchTotal;
+import com.sankuai.optaplanner.core.impl.score.constraint.DefaultIndictment;
 
 public abstract class ScoreInliner<Score_ extends Score<Score_>> {
 

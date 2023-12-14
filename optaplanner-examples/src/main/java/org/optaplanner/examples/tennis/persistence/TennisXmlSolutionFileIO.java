@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.tennis.persistence;
+package com.sankuai.optaplanner.examples.tennis.persistence;
 
-import org.optaplanner.examples.tennis.domain.TennisSolution;
-import org.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
+import com.sankuai.optaplanner.examples.tennis.domain.TennisSolution;
+import com.sankuai.optaplanner.persistence.xstream.impl.domain.solution.XStreamSolutionFileIO;
 
 public class TennisXmlSolutionFileIO extends XStreamSolutionFileIO<TennisSolution> {
 

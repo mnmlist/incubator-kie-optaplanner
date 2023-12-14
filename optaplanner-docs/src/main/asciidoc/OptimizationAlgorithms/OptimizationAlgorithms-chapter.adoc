@@ -768,7 +768,7 @@ Configure the `CustomPhaseCommand` in the solver configuration:
     xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
   ...
   <customPhase>
-    <customPhaseCommandClass>org.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
+    <customPhaseCommandClass>com.sankuai.optaplanner.examples.machinereassignment.solver.solution.initializer.ToOriginalMachineSolutionInitializer</customPhaseCommandClass>
   </customPhase>
   ... <!-- Other phases -->
 </solver>

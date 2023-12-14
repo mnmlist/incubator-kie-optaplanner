@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.io.jaxb.adapter;
+package com.sankuai.optaplanner.core.impl.io.jaxb.adapter;
 
 import java.util.List;
 import java.util.Map;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;
 
 public class JaxbCustomPropertiesAdapter extends XmlAdapter<JaxbCustomPropertiesAdapter.JaxbAdaptedMap, Map<String, String>> {
 

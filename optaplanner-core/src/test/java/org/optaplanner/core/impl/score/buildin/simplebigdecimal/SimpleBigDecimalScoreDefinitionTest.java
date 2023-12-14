@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.buildin.simplebigdecimal;
+package com.sankuai.optaplanner.core.impl.score.buildin.simplebigdecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.math.BigDecimal;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
+import com.sankuai.optaplanner.core.api.score.buildin.simplebigdecimal.SimpleBigDecimalScore;
 
 public class SimpleBigDecimalScoreDefinitionTest {
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cloudbalancing.app;
+package com.sankuai.optaplanner.examples.cloudbalancing.app;
 
 import java.util.stream.Stream;
 
-import org.optaplanner.examples.cloudbalancing.domain.CloudBalance;
-import org.optaplanner.examples.common.app.AbstractExhaustiveSearchTest;
-import org.optaplanner.examples.common.app.CommonApp;
+import com.sankuai.optaplanner.examples.cloudbalancing.domain.CloudBalance;
+import com.sankuai.optaplanner.examples.common.app.AbstractExhaustiveSearchTest;
+import com.sankuai.optaplanner.examples.common.app.CommonApp;
 
 public class CloudBalancingExhaustiveSearchTest extends AbstractExhaustiveSearchTest<CloudBalance> {
 

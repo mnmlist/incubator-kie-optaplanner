@@ -4,9 +4,9 @@
 
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.optaplanner</groupId>
+    <groupId>com.sankuai.optaplanner</groupId>
     <artifactId>optaplanner-parent</artifactId>
-    <version>8.8.0.Final-v1</version>
+    <version>8.8.0.Final-v2</version>
   </parent>
 
   <artifactId>optaplanner-examples</artifactId>
@@ -22,7 +22,7 @@
   <url>https://www.optaplanner.org</url>
 
   <properties>
-    <java.module.name>org.optaplanner.examples</java.module.name>
+    <java.module.name>com.sankuai.optaplanner.examples</java.module.name>
   </properties>
 
     <repositories>
@@ -57,7 +57,7 @@
           <!-- WARNING: This configuration must be run with "mvn exec:java" not "mvn exec:exec". -->
           <!-- It is impossible to write a configuration that is compatible with both exec:java and exec:exec -->
           <configuration>
-            <mainClass>org.optaplanner.examples.app.OptaPlannerExamplesApp</mainClass>
+            <mainClass>com.sankuai.optaplanner.examples.app.OptaPlannerExamplesApp</mainClass>
             <!-- For some reason, Drools cannot find domain classes unless they are specified as a Jar in the classpath -->
             <!-- (By default, exec:java add target/classes, not target/jarfile) -->
             <!-- REMOVE ME when https://issues.redhat.com/browse/KOGITO-3954 is fixed -->
@@ -78,23 +78,23 @@
   <dependencies>
     <!-- Internal dependencies -->
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-common</artifactId>
     </dependency>
     <dependency><!-- Most examples use the XStream integration -->
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-persistence-xstream</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-benchmark</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.optaplanner</groupId>
+      <groupId>com.sankuai.optaplanner</groupId>
       <artifactId>optaplanner-test</artifactId>
       <scope>test</scope>
     </dependency>

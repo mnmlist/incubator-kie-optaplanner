@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.optaplanner.persistence.jackson.impl.testdata.domain;
+package com.sankuai.optaplanner.persistence.jackson.impl.testdata.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
-import org.optaplanner.core.api.score.buildin.simple.SimpleScore;
-import org.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
-import org.optaplanner.persistence.jackson.api.score.buildin.simple.SimpleScoreJacksonDeserializer;
-import org.optaplanner.persistence.jackson.api.score.buildin.simple.SimpleScoreJacksonSerializer;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningScore;
+import com.sankuai.optaplanner.core.api.domain.solution.PlanningSolution;
+import com.sankuai.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
+import com.sankuai.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
+import com.sankuai.optaplanner.core.api.score.buildin.simple.SimpleScore;
+import com.sankuai.optaplanner.core.impl.domain.solution.descriptor.SolutionDescriptor;
+import com.sankuai.optaplanner.persistence.jackson.api.score.buildin.simple.SimpleScoreJacksonDeserializer;
+import com.sankuai.optaplanner.persistence.jackson.api.score.buildin.simple.SimpleScoreJacksonSerializer;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

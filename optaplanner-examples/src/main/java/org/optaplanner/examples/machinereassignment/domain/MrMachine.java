@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.machinereassignment.domain;
+package com.sankuai.optaplanner.examples.machinereassignment.domain;
 
 import java.util.List;
 import java.util.Map;
 
-import org.optaplanner.examples.common.domain.AbstractPersistable;
-import org.optaplanner.examples.common.swingui.components.Labeled;
+import com.sankuai.optaplanner.examples.common.domain.AbstractPersistable;
+import com.sankuai.optaplanner.examples.common.swingui.components.Labeled;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 

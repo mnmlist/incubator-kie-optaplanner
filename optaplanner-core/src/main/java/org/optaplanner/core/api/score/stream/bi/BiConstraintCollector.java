@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream.bi;
+package com.sankuai.optaplanner.core.api.score.stream.bi;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
-import org.optaplanner.core.api.function.TriFunction;
-import org.optaplanner.core.api.score.stream.ConstraintCollectors;
-import org.optaplanner.core.api.score.stream.ConstraintStream;
+import com.sankuai.optaplanner.core.api.function.TriFunction;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors;
+import com.sankuai.optaplanner.core.api.score.stream.ConstraintStream;
 
 /**
  * Usually created with {@link ConstraintCollectors}.

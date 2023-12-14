@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.api.score.stream;
+package com.sankuai.optaplanner.core.api.score.stream;
 
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
@@ -25,15 +25,15 @@ import static java.util.Collections.emptySortedSet;
 import static java.util.Collections.singleton;
 import static java.util.Collections.singletonList;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countLongBi;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countLongQuad;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.countLongTri;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.max;
-import static org.optaplanner.core.api.score.stream.ConstraintCollectors.min;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asMap;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSet;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSortedMap;
-import static org.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSortedSet;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countLongBi;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countLongQuad;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.countLongTri;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.max;
+import static com.sankuai.optaplanner.core.api.score.stream.ConstraintCollectors.min;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asMap;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSet;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSortedMap;
+import static com.sankuai.optaplanner.core.impl.testdata.util.PlannerTestUtils.asSortedSet;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -49,10 +49,10 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import org.junit.jupiter.api.Test;
-import org.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
-import org.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
-import org.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
-import org.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.bi.BiConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.quad.QuadConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.tri.TriConstraintCollector;
+import com.sankuai.optaplanner.core.api.score.stream.uni.UniConstraintCollector;
 
 public class ConstraintCollectorsTest {
 

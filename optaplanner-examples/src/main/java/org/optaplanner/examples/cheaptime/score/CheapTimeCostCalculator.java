@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.cheaptime.score;
+package com.sankuai.optaplanner.examples.cheaptime.score;
 
 import java.math.BigDecimal;
 

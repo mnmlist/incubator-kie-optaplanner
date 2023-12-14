@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.optaplanner.core.impl.score.director.drools.testgen;
+package com.sankuai.optaplanner.core.impl.score.director.drools.testgen;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
-import org.optaplanner.core.impl.score.director.drools.testgen.mutation.TestGenHeadCuttingMutator;
-import org.optaplanner.core.impl.score.director.drools.testgen.mutation.TestGenRemoveRandomBlockMutator;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionInsert;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
-import org.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
-import org.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenOriginalProblemReproducer;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.fact.TestGenFact;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.mutation.TestGenHeadCuttingMutator;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.mutation.TestGenRemoveRandomBlockMutator;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionInsert;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionOperation;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.operation.TestGenKieSessionUpdate;
+import com.sankuai.optaplanner.core.impl.score.director.drools.testgen.reproducer.TestGenOriginalProblemReproducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

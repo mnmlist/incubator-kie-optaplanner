@@ -26,9 +26,9 @@
         xmlns = {
                 @XmlNs(namespaceURI = SolverConfig.XML_NAMESPACE, prefix = PlannerBenchmarkConfig.SOLVER_NAMESPACE_PREFIX)
         })
-package org.optaplanner.benchmark.config;
+package com.sankuai.optaplanner.benchmark.config;
 
 import javax.xml.bind.annotation.XmlNs;
 import javax.xml.bind.annotation.XmlNsForm;
 
-import org.optaplanner.core.config.solver.SolverConfig;
+import com.sankuai.optaplanner.core.config.solver.SolverConfig;

@@ -1,4 +1,4 @@
-package org.optaplanner.core.config.heuristic.selector.move.generic;
+package com.sankuai.optaplanner.core.config.heuristic.selector.move.generic;
 
 import java.util.Comparator;
 

@@ -20,9 +20,9 @@ We release every month. https://www.optaplanner.org/download/releaseNotes/[Read 
 
 OptaPlanner separates its API and implementation:
 
-* **Public API**: All classes in the package namespace *org.optaplanner.core.api* are 100% *backwards compatible* in future releases (especially minor and hotfix releases). In rare circumstances, if the major version number changes, a few specific classes might have a few backwards incompatible changes, but those will be clearly documented in https://www.optaplanner.org/download/upgradeRecipe/[the upgrade recipe].
-* **XML configuration**: The XML solver configuration is backwards compatible for all elements, except for elements that require the use of non public API classes. The XML solver configuration is defined by the classes in the package namespace **org.optaplanner.core.config**.
-* **Implementation classes**: All classes in the package namespace *org.optaplanner.core.impl* are _not_ backwards compatible: they will change in future major or minor releases (but probably not in hotfix releases). https://www.optaplanner.org/download/upgradeRecipe/[The upgrade recipe] describes every such relevant change and on how to quickly deal with it when upgrading to a newer version.
+* **Public API**: All classes in the package namespace *com.sankuai.optaplanner.core.api* are 100% *backwards compatible* in future releases (especially minor and hotfix releases). In rare circumstances, if the major version number changes, a few specific classes might have a few backwards incompatible changes, but those will be clearly documented in https://www.optaplanner.org/download/upgradeRecipe/[the upgrade recipe].
+* **XML configuration**: The XML solver configuration is backwards compatible for all elements, except for elements that require the use of non public API classes. The XML solver configuration is defined by the classes in the package namespace **com.sankuai.optaplanner.core.config**.
+* **Implementation classes**: All classes in the package namespace *com.sankuai.optaplanner.core.impl* are _not_ backwards compatible: they will change in future major or minor releases (but probably not in hotfix releases). https://www.optaplanner.org/download/upgradeRecipe/[The upgrade recipe] describes every such relevant change and on how to quickly deal with it when upgrading to a newer version.
 
 
 [NOTE]

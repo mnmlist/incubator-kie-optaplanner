@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.examples.nurserostering.solver.move.factory;
+package com.sankuai.optaplanner.examples.nurserostering.solver.move.factory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,16 +24,16 @@ import java.util.ListIterator;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import org.optaplanner.core.api.domain.entity.PinningFilter;
-import org.optaplanner.core.impl.heuristic.move.CompositeMove;
-import org.optaplanner.core.impl.heuristic.move.Move;
-import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
-import org.optaplanner.examples.nurserostering.domain.Employee;
-import org.optaplanner.examples.nurserostering.domain.NurseRoster;
-import org.optaplanner.examples.nurserostering.domain.ShiftAssignment;
-import org.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentPinningFilter;
-import org.optaplanner.examples.nurserostering.score.drools.EmployeeWorkSequence;
-import org.optaplanner.examples.nurserostering.solver.move.EmployeeMultipleChangeMove;
+import com.sankuai.optaplanner.core.api.domain.entity.PinningFilter;
+import com.sankuai.optaplanner.core.impl.heuristic.move.CompositeMove;
+import com.sankuai.optaplanner.core.impl.heuristic.move.Move;
+import com.sankuai.optaplanner.core.impl.heuristic.selector.move.factory.MoveListFactory;
+import com.sankuai.optaplanner.examples.nurserostering.domain.Employee;
+import com.sankuai.optaplanner.examples.nurserostering.domain.NurseRoster;
+import com.sankuai.optaplanner.examples.nurserostering.domain.ShiftAssignment;
+import com.sankuai.optaplanner.examples.nurserostering.domain.solver.ShiftAssignmentPinningFilter;
+import com.sankuai.optaplanner.examples.nurserostering.score.drools.EmployeeWorkSequence;
+import com.sankuai.optaplanner.examples.nurserostering.solver.move.EmployeeMultipleChangeMove;
 
 public class ShiftAssignmentPillarPartSwapMoveFactory implements MoveListFactory<NurseRoster> {
 

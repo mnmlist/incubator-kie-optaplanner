@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.stream.penta;
+package com.sankuai.optaplanner.core.impl.score.stream.penta;
 
 import java.util.function.Function;
 
-import org.optaplanner.core.api.function.PentaPredicate;
-import org.optaplanner.core.api.function.QuadFunction;
-import org.optaplanner.core.impl.score.stream.common.JoinerType;
+import com.sankuai.optaplanner.core.api.function.PentaPredicate;
+import com.sankuai.optaplanner.core.api.function.QuadFunction;
+import com.sankuai.optaplanner.core.impl.score.stream.common.JoinerType;
 
 public final class FilteringPentaJoiner<A, B, C, D, E> extends AbstractPentaJoiner<A, B, C, D, E> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.optaplanner.core.impl.score.constraint;
+package com.sankuai.optaplanner.core.impl.score.constraint;
 
 import static java.util.Comparator.comparing;
 import static java.util.Objects.hash;
@@ -25,9 +25,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.optaplanner.core.api.score.Score;
-import org.optaplanner.core.api.score.constraint.ConstraintMatch;
-import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
+import com.sankuai.optaplanner.core.api.score.Score;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatch;
+import com.sankuai.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
 
 public final class DefaultConstraintMatchTotal<Score_ extends Score<Score_>> implements ConstraintMatchTotal<Score_>,
         Comparable<DefaultConstraintMatchTotal<Score_>> {
